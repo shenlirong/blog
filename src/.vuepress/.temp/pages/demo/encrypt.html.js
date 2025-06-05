@@ -1,3 +1,0 @@
-import comp from "C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/src/.vuepress/.temp/pages/demo/encrypt.html.vue"
-const data = JSON.parse("{\"path\":\"/demo/encrypt.html\",\"title\":\"密码加密的文章\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"lock\",\"category\":[\"使用指南\"],\"tag\":[\"加密\"],\"feed\":false,\"seo\":false,\"head\":[]},\"git\":{\"createdTime\":1749114374000,\"updatedTime\":1749114374000,\"contributors\":[{\"name\":\"shenlirong\",\"username\":\"shenlirong\",\"email\":\"shenlirong@inspur.com\",\"commits\":1,\"url\":\"https://github.com/shenlirong\"}]},\"readingTime\":{\"minutes\":0.51,\"words\":154},\"filePathRelative\":\"demo/encrypt.md\"}")
-export { comp, data }
