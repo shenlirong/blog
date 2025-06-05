@@ -4,14 +4,14 @@ layout: Blog
 icon: house
 title: 博客主页
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 你博客的名称
+heroText: reveal的博客
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 人生没有白走的路，每一步都算数
 projects:
   - icon: folder-open
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+    name: 运营平台
+    desc: 跟着课程练习，完成后台管理系统
+    link: http://124.221.38.6/acl/permission
 
   - icon: link
     name: 链接名称
