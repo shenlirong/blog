@@ -1,4 +1,5 @@
-<template><div><h1 id="mapbox-api" tabindex="-1"><a class="header-anchor" href="#mapbox-api"><span>Mapbox API</span></a></h1>
+<template><div><!-- more -->
+<h1 id="mapbox-api" tabindex="-1"><a class="header-anchor" href="#mapbox-api"><span>Mapbox API</span></a></h1>
 <h2 id="点、线、面" tabindex="-1"><a class="header-anchor" href="#点、线、面"><span>点、线、面</span></a></h2>
 <p>添加数据线，收集线数据，type:linestring</p>
 <p>var geojson={<br>

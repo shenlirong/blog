@@ -1,4 +1,5 @@
-<template><div><p>布局包括:</p>
+<template><div><!-- more -->
+<p>布局包括:</p>
 <ul>
 <li><a href="https://theme-hope.vuejs.press/zh/guide/layout/navbar.html" target="_blank" rel="noopener noreferrer">导航栏</a></li>
 <li><a href="https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html" target="_blank" rel="noopener noreferrer">侧边栏</a></li>

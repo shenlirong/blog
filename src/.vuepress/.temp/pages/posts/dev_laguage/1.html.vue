@@ -1,4 +1,5 @@
-<template><div><h1 id="typescript-介绍" tabindex="-1"><a class="header-anchor" href="#typescript-介绍"><span>TypeScript 介绍</span></a></h1>
+<template><div><!-- more -->
+<h1 id="typescript-介绍" tabindex="-1"><a class="header-anchor" href="#typescript-介绍"><span>TypeScript 介绍</span></a></h1>
 <p>1.typescript 是微软开发的一款开源编程语言，支持 ECMAScript 6 标准；<br>
 2.TypeScript 是 JavaScript 的超集，这意味着他支持所有的 JavaScript 语法。并在此之上对 JavaScript 添加了一些扩展，如 class / interface / module 等。这样会大大提升代码的可阅读性。<br>
 3.最新的 Vue 、React 也可以集成 TypeScript</p>
