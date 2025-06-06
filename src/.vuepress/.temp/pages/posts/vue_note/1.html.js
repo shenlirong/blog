@@ -1,16 +1,3 @@
 import comp from "C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/src/.vuepress/.temp/pages/posts/vue_note/1.html.vue"
-const data = JSON.parse("{\"path\":\"/posts/vue_note/1.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"reveal\\\",\\\"url\\\":\\\"https://mister-hope.com\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://mister-hope.github.io/test/posts/vue_note/1.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"reveal\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}]]},\"readingTime\":{\"minutes\":0,\"words\":0},\"filePathRelative\":\"posts/vue_note/1.md\",\"excerpt\":\"\"}")
+const data = JSON.parse("{\"path\":\"/posts/vue_note/1.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2025-06-06T14:08:51.000Z\\\",\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"reveal\\\",\\\"url\\\":\\\"https://mister-hope.com\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://mister-hope.github.io/test/posts/vue_note/1.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"reveal\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2025-06-06T14:08:51.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2025-06-06T14:08:51.000Z\"}]]},\"git\":{\"createdTime\":1749114374000,\"updatedTime\":1749218931000,\"contributors\":[{\"name\":\"shenlirong\",\"username\":\"shenlirong\",\"email\":\"shenlirong@inspur.com\",\"commits\":2,\"url\":\"https://github.com/shenlirong\"}]},\"readingTime\":{\"minutes\":0,\"words\":0},\"filePathRelative\":\"posts/vue_note/1.md\",\"excerpt\":\"\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

@@ -1,16 +1,3 @@
 import comp from "C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/src/.vuepress/.temp/pages/posts/mapbox/1.html.vue"
-const data = JSON.parse("{\"path\":\"/posts/mapbox/1.html\",\"title\":\"Mapbox API\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"pen-to-square\",\"date\":\"2022-01-01T00:00:00.000Z\",\"sticky\":98,\"category\":[\"Mapbox\"],\"tag\":[\"Mapbox\",\"前端开发\"]},\"readingTime\":{\"minutes\":6.76,\"words\":2029},\"filePathRelative\":\"posts/mapbox/1.md\",\"excerpt\":\"\"}")
+const data = JSON.parse("{\"path\":\"/posts/mapbox/1.html\",\"title\":\"Mapbox API\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"pen-to-square\",\"date\":\"2022-01-01T00:00:00.000Z\",\"sticky\":98,\"category\":[\"Mapbox\"],\"tag\":[\"Mapbox\",\"前端开发\"],\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"Mapbox API\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2022-01-01T00:00:00.000Z\\\",\\\"dateModified\\\":\\\"2025-06-06T14:32:18.000Z\\\",\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"reveal\\\",\\\"url\\\":\\\"https://mister-hope.com\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://mister-hope.github.io/test/posts/mapbox/1.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"reveal\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Mapbox API\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2025-06-06T14:32:18.000Z\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"前端开发\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Mapbox\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2022-01-01T00:00:00.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2025-06-06T14:32:18.000Z\"}]]},\"git\":{\"createdTime\":1749218931000,\"updatedTime\":1749220338000,\"contributors\":[{\"name\":\"shenlirong\",\"username\":\"shenlirong\",\"email\":\"shenlirong@inspur.com\",\"commits\":2,\"url\":\"https://github.com/shenlirong\"}]},\"readingTime\":{\"minutes\":6.76,\"words\":2029},\"filePathRelative\":\"posts/mapbox/1.md\",\"excerpt\":\"\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
