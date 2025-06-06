@@ -1,5 +1,6 @@
 ---
 icon: lock
+sticky: -5
 category:
   - 使用指南
 tag:

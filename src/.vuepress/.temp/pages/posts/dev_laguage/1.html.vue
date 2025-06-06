@@ -1,0 +1,101 @@
+<template><div><h1 id="typescript-介绍" tabindex="-1"><a class="header-anchor" href="#typescript-介绍"><span>TypeScript 介绍</span></a></h1>
+<p>1.typescript 是微软开发的一款开源编程语言，支持 ECMAScript 6 标准；<br>
+2.TypeScript 是 JavaScript 的超集，这意味着他支持所有的 JavaScript 语法。并在此之上对 JavaScript 添加了一些扩展，如 class / interface / module 等。这样会大大提升代码的可阅读性。<br>
+3.最新的 Vue 、React 也可以集成 TypeScript</p>
+<h1 id="javascript-与-typescript-的区别" tabindex="-1"><a class="header-anchor" href="#javascript-与-typescript-的区别"><span>JavaScript 与 TypeScript 的区别</span></a></h1>
+<p>TypeScript 是 JavaScript 的超集，扩展了 JavaScript 的语法，因此现有的 JavaScript 代码可与 TypeScript 一起工作无需任何修改，TypeScript 通过类型注解提供编译时的静态类型检查。</p>
+<p>TypeScript 可处理已有的 JavaScript 代码，并只对其中的 TypeScript 代码进行编译。</p>
+<p>学习链接：<a href="https://www.runoob.com/typescript/ts-install.html" target="_blank" rel="noopener noreferrer">https://www.runoob.com/typescript/ts-install.html</a></p>
+<h1 id="typescript-安装" tabindex="-1"><a class="header-anchor" href="#typescript-安装"><span>TypeScript 安装</span></a></h1>
+<p>cnpm install -g typescript //全局安装<br>
+tsc -V 查看版本号</p>
+<p>代码编辑<br>
+Var message:string=&quot;hello world&quot;;<br>
+console.log(message)<br>
+//   注：.ts 作为typescript 文件的扩展名<br>
+然后执行以下命令将 TypeScript 转换为 JavaScript 代码：<br>
+tsc test.ts<br>
+ts 文件浏览器本身 无法解析，需要转换成可以解析的 js 文件，就是 对应的 ts -&gt; js 每次需要这么转，很麻烦，所以希望编辑完 ts 文件，能够自动转换成浏览器可以解析的文件，需要以下操作：<br>
+1.在项目中 需要 tsc --init // 生成 一个tsconfig.json 文件<br>
+2.在vscode 编辑器中，任务-运行任务，监控任务</p>
+<p>在VUE 中  创建项目的时候，选择编辑语言为 typescript ，不用考虑能否编辑，vue 创建的时候，已经处理好<br>
+编辑完文件，自动形成可解析文件</p>
+<h1 id="对象、类、方法" tabindex="-1"><a class="header-anchor" href="#对象、类、方法"><span>对象、类、方法</span></a></h1>
+<p>对象：对象是类的实例<br>
+类：是描述对象的行为和状态的集合<br>
+方法：是类操作的步骤<br>
+TypeScript 面向对象编程实例：<br>
+class site {<br>
+name():void{<br>
+console.log('rundob')<br>
+}<br>
+}<br>
+var obj=new site();<br>
+<a href="http://obj.name" target="_blank" rel="noopener noreferrer">obj.name</a>();<br>
+以上实例定义了一个类 site ，该类有一个方法  name ，该方法输出字符串 rundob<br>
+new 关键字创建类的对象 obj，该对象调用方法 name()</p>
+<h1 id="基础数据类型" tabindex="-1"><a class="header-anchor" href="#基础数据类型"><span>基础数据类型</span></a></h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">数据类型</th>
+<th style="text-align:right">关键字</th>
+<th style="text-align:center">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">任意类型</td>
+<td style="text-align:right">any</td>
+<td style="text-align:center">声明为 any 的变量可以赋予任意类型的值。</td>
+</tr>
+<tr>
+<td style="text-align:left">数字类型</td>
+<td style="text-align:right">number</td>
+<td style="text-align:center">string	一个字符系列，使用单引号（'）或双引号（&quot;）来表示字符串类型。反引号（`）来定义多行文本和内嵌表达式</td>
+</tr>
+<tr>
+<td style="text-align:left">字符串类型</td>
+<td style="text-align:right">string</td>
+<td style="text-align:center">声明为字符串</td>
+</tr>
+<tr>
+<td style="text-align:left">布尔类型</td>
+<td style="text-align:right">boolean</td>
+<td style="text-align:center">boolean	表示逻辑值：true 和 false</td>
+</tr>
+<tr>
+<td style="text-align:left">数组类型</td>
+<td style="text-align:right">Array</td>
+<td style="text-align:center">声明变量为数组</td>
+</tr>
+<tr>
+<td style="text-align:left">枚举</td>
+<td style="text-align:right">enum</td>
+<td style="text-align:center">枚举类型用于定义数值集合</td>
+</tr>
+<tr>
+<td style="text-align:left">void</td>
+<td style="text-align:right">void</td>
+<td style="text-align:center">用于标识方法返回值的类型，表示该方法没有返回值</td>
+</tr>
+<tr>
+<td style="text-align:left">null</td>
+<td style="text-align:right">null</td>
+<td style="text-align:center">表示对象值缺失</td>
+</tr>
+<tr>
+<td style="text-align:left">undefined</td>
+<td style="text-align:right">undefined</td>
+<td style="text-align:center">用于初始化变量为一个未定义的值</td>
+</tr>
+<tr>
+<td style="text-align:left">never</td>
+<td style="text-align:right">never</td>
+<td style="text-align:center">是其它类型（包括 null 和 undefined）的子类型，代表从不会出现的值</td>
+</tr>
+</tbody>
+</table>
+</div></template>
+
+

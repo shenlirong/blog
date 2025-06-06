@@ -1,14 +1,15 @@
 ---
 # 这是文章的标题
 title: 页面配置
+sticky: -2
 # 你可以自定义封面图片
-cover: /assets/images/cover1.jpg
+# cover: /assets/images/cover1.jpg
 # 这是页面的图标
 icon: file
 # 这是侧边栏的顺序
 order: 3
 # 设置作者
-author: Ms.Hope
+author: Ms.reveal
 # 设置写作时间
 date: 2020-01-01
 # 一个页面可以有多个分类
@@ -19,7 +20,7 @@ tag:
   - 页面配置
   - 使用指南
 # 此页面会在文章列表置顶
-sticky: true
+# sticky: false
 # 此页面会出现在星标文章中
 star: true
 # 你可以自定义页脚

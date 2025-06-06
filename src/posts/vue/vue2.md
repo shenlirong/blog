@@ -1,6 +1,8 @@
 ---
 icon: pen-to-square
 date: 2022-01-01
+index: false
+article: false
 # category:
 #   - 苹果
 # tag:

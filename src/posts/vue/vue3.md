@@ -1,6 +1,14 @@
 ---
 icon: pen-to-square
 date: 2022-01-01
+order: 1
+sticky: 100
+category:
+  - 前端开发
+# 一个页面可以有多个标签
+tag:
+  - Vue3
+  - 前端开发
 ---
 
 # Vue3

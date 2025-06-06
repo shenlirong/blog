@@ -2,9 +2,14 @@
 home: true
 layout: Blog
 icon: house
-title: 博客主页
+title: 主页
+# heroText: 我的项目
+# tagline: 一个强大的项目
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: reveal的博客
+# heroImageStyle:
+#   width: 100px
+#   height: 100px
+heroText: reveal
 heroFullScreen: true
 tagline: 人生没有白走的路，每一步都算数
 projects:
@@ -14,29 +19,29 @@ projects:
     link: http://124.221.38.6/acl/permission
 
   - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+    name: Vue3
+    desc: JavaScript 框架
+    link: https://cn.vuejs.org/guide/introduction.html
 
   - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+    name: VuePress Theme Hope
+    desc: 一个具有强大功能的 vuepress 主题
+    link: https://theme-hope.vuejs.press/zh/
 
-  - icon: newspaper
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+  - icon: link
+    name: Element-ui
+    desc: 网站快速成型工具
+    link: https://element-plus.org/zh-CN/component/overview.html
 
-  - icon: user-group
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+  # - icon: user-group
+  #   name: 伙伴名称
+  #   desc: 伙伴详细介绍
+  #   link: https://你的伙伴链接
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
+    name: vuepress-plugin-md-enhance
+    desc: VuePress2 Markdown 增强功能
+    link: https://plugin-md-enhance.vuejs.press/zh/
 
 footer: 自定义你的页脚文字
 ---
