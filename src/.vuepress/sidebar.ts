@@ -5,7 +5,7 @@ export default sidebar({
     "",
     {
       text: "代码笔记",
-      icon: "book",
+      icon: "code",
       prefix: "posts/",
       children: [
          {
@@ -27,13 +27,15 @@ export default sidebar({
           prefix: "dev_laguage/",
           children: [
             { text: "TS与JS相关", icon: "pen-to-square", link: "1" },
+             { text: "es6笔记", icon: "pen-to-square", link: "2" },
           ],
         },
          {
           text: "",
-          prefix: "vue_note/",
+          prefix: "Dom/",
           children: [
-            { text: "Vue学习笔记", icon: "pen-to-square", link: "1" },
+            { text: "Dom简介", icon: "pen-to-square", link: "1" },
+             { text: "前端解决跨域的方法", icon: "pen-to-square", link: "2" },
           ],
         },
         {
@@ -44,6 +46,20 @@ export default sidebar({
           ],
         },
       ],
+    },
+    {
+      text: "reveal的随笔",
+      icon: "newspaper",
+      prefix: "posts/",
+      children: [
+        { 
+          text: "",
+          prefix: "note/",
+          children: [
+             { text: "背影", icon: "pen-to-square", link: "2" },
+          ]
+        },
+      ]
     },
      {
       text: "如何使用",
@@ -58,5 +74,5 @@ export default sidebar({
       icon: "person-chalkboard",
       link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
     },
-  ],
+  ]
 });

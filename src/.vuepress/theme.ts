@@ -5,6 +5,9 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
+  lastUpdated:false,
+  contributors:false,
+  editLink:false,
   hostname: "https://mister-hope.github.io",
   
   author: {
@@ -17,7 +20,6 @@ export default hopeTheme({
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
-  
   // 导航栏
   navbar,
   // navbarLayout:{

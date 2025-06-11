@@ -2,10 +2,10 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
+  // "/demo/",
   {
     text: "代码笔记",
-    icon: "pen-to-square",
+    icon: "code",
     link: "/posts/vue/vue3",
     // children: [
     //   {
@@ -17,6 +17,11 @@ export default navbar([
     //   },
      
     // ],
+  },
+  {
+    text: "reveal的随笔",
+    icon: "newspaper",
+    link: "/posts/note/1"
   },
   {
     text: "V2 文档",
