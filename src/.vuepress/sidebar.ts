@@ -12,14 +12,14 @@ export default sidebar({
     },
       {
       text: "项目",
-      icon: "code",
+      icon: "eraser",
       prefix: "project_sum/",
       link: "project_sum/",
       children: "structure",
     },
     {
       text: "reveal随笔",
-      icon: "code",
+      icon: "book-open",
       prefix: "essay/",
       link: "essay/",
       children: "structure",

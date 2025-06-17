@@ -8,11 +8,11 @@ export default hopeTheme({
   lastUpdated:false,
   contributors:false,
   editLink:false,
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://shenlirong.github.io/test/",
   
   author: {
     name: "reveal",
-    url: "https://mister-hope.com",
+    url: "https://shenlirong.github.io/test/",
   },
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
