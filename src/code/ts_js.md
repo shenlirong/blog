@@ -21,7 +21,6 @@ TypeScript 是 JavaScript 的超集，扩展了 JavaScript 的语法，因此现
 
 TypeScript 可处理已有的 JavaScript 代码，并只对其中的 TypeScript 代码进行编译。
 
-学习链接：https://www.runoob.com/typescript/ts-install.html
 
 # TypeScript 安装
 cnpm install -g typescript //全局安装
@@ -323,7 +322,7 @@ var all=['arr','vol','bmw']
 var fruits=["Banana", "Orange", "Apple", "Mango"];
 document.getelementbyid('demo').innerhtml=fruits.toString(); //结果 ：Banana，Orange，Apple，Mango
 
-// 学习链接：https://www.w3school.com.cn/js/js_array_methods.asp
+
 2.数组方法
 
 (1) slice(startIndex, endIndex) // 从已经存在的数组中返回选定的元素

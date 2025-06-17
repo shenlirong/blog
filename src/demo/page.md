@@ -11,7 +11,7 @@ order: 3
 # 设置作者
 author: Ms.reveal
 # 设置写作时间
-# date: 2020-01-01
+date: false
 # 一个页面可以有多个分类
 category:
   - 使用指南

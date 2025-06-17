@@ -2,6 +2,7 @@
 icon: pen-to-square
 # date: 2024-12-01
 sticky: 97
+star: true
 category:
   - 前端开发
 ---
@@ -10,7 +11,6 @@ category:
 # 前端解决跨域的方法
 ```
 
-学习链接：https://www.cnblogs.com/sdcs/p/8484905.html
 
 1.什么是跨域
 跨域是指一个域下的文档或者脚本试图去请求另一个域下的资源，这里跨域是广义上的，而我们一般说的跨域是狭义的，是由浏览器同源策略限制的一种场景。

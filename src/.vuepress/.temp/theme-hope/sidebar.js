@@ -1,1 +1,1 @@
-export const sidebarData = {"/code/":["","vue3","cross-domain","website","dom","es6","api","ts_js"],"/essay/":["","silhouette"],"/demo/":["","layout","markdown","page","disable","encrypt"]};
+export const sidebarData = {"/code/":["","vue3","cross-domain","website","dom","es6","api","pinia","ts_js","vue3_defineName","vue3_commication"],"/project_sum/":["","vite_error1"],"/essay/":["","silhouette"],"/demo/":["","layout","markdown","page","disable","encrypt"]};

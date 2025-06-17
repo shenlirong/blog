@@ -2,6 +2,7 @@
 icon: pen-to-square
 # date: 2024-12-01
 sticky: 96
+star: true
 category:
   - 前端开发
 tag:

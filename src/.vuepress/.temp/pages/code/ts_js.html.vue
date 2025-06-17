@@ -6,7 +6,6 @@
 <h1 id="javascript-与-typescript-的区别" tabindex="-1"><a class="header-anchor" href="#javascript-与-typescript-的区别"><span>JavaScript 与 TypeScript 的区别</span></a></h1>
 <p>TypeScript 是 JavaScript 的超集，扩展了 JavaScript 的语法，因此现有的 JavaScript 代码可与 TypeScript 一起工作无需任何修改，TypeScript 通过类型注解提供编译时的静态类型检查。</p>
 <p>TypeScript 可处理已有的 JavaScript 代码，并只对其中的 TypeScript 代码进行编译。</p>
-<p>学习链接：<a href="https://www.runoob.com/typescript/ts-install.html" target="_blank" rel="noopener noreferrer">https://www.runoob.com/typescript/ts-install.html</a></p>
 <h1 id="typescript-安装" tabindex="-1"><a class="header-anchor" href="#typescript-安装"><span>TypeScript 安装</span></a></h1>
 <p>cnpm install -g typescript //全局安装<br>
 tsc -V 查看版本号</p>
@@ -336,7 +335,7 @@ extends， 可以实现父类，也可以调用父类初始化 this.parent()。�
 <span class="line"><span>var fruits=["Banana", "Orange", "Apple", "Mango"];</span></span>
 <span class="line"><span>document.getelementbyid('demo').innerhtml=fruits.toString(); //结果 ：Banana，Orange，Apple，Mango</span></span>
 <span class="line"><span></span></span>
-<span class="line"><span>// 学习链接：https://www.w3school.com.cn/js/js_array_methods.asp</span></span>
+<span class="line"><span></span></span>
 <span class="line"><span>2.数组方法</span></span>
 <span class="line"><span></span></span>
 <span class="line"><span>(1) slice(startIndex, endIndex) // 从已经存在的数组中返回选定的元素</span></span>
