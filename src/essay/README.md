@@ -1,6 +1,6 @@
 ---
 title: reveal随笔
-icon: laptop-code
+icon: book-open
 sticky: -1
 category:
   - reveal随笔
