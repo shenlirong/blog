@@ -18,7 +18,8 @@ export default hopeTheme({
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
   
   repo: "vuepress-theme-hope/vuepress-theme-hope",
-
+  pageInfo:['ReadingTime','Category','Tag'],
+  copyright:false,
   docsDir: "src",
   // 导航栏
   navbar,
@@ -32,8 +33,7 @@ export default hopeTheme({
 
   // 页脚
   footer: "默认页脚",
-  displayFooter: true,
-
+  displayFooter: false,
   // 博客相关
   blog: {
     description: "一个前端开发者",

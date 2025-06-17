@@ -43,5 +43,5 @@ projects:
     desc: VuePress2 Markdown 增强功能
     link: https://plugin-md-enhance.vuejs.press/zh/
 
-footer: 自定义你的页脚文字
+footer: ''
 ---
