@@ -7,7 +7,7 @@ export default navbar([
   "/essay/",
   {
     text: "V2 文档",
-    icon: "book",
+    icon: "",
     link: "https://theme-hope.vuejs.press/zh/",
   },
 ]);

@@ -49,6 +49,7 @@ export default hopeTheme({
         link: "https://theme-hope.vuejs.press",
       },
     },
+    articleInfo:['Author','ReadingTime','Category','Tag']
   },
 
   // 加密配置
