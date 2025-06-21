@@ -1,13 +1,2 @@
-export const typesMap = JSON.parse("{\"article\":{\"/\":{\"path\":\"/article/\",\"indexes\":[1,22,2,3,4,5,6,7,8,9,0,10,11,12,23,13,14,20,21,15,16,19,17,18,24,25,26]}},\"star\":{\"/\":{\"path\":\"/star/\",\"indexes\":[15,10,3,11,4,12,2,8]}},\"timeline\":{\"/\":{\"path\":\"/timeline/\",\"indexes\":[15]}}}");
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept();
-  if (__VUE_HMR_RUNTIME__.updateBlogType)
-    __VUE_HMR_RUNTIME__.updateBlogType(typesMap);
-}
-
-if (import.meta.hot)
-  import.meta.hot.accept(({ typesMap }) => {
-    __VUE_HMR_RUNTIME__.updateBlogType(typesMap);
-  });
+export const typesMap = JSON.parse("{\"article\":{\"/\":{\"path\":\"/article/\",\"indexes\":[1,23,2,3,4,5,6,7,8,9,0,10,11,12,13,24,22,21,14,15,16,17,20,18,19,25,26,27]}},\"star\":{\"/\":{\"path\":\"/star/\",\"indexes\":[10,11,12,13,2,8,3,4,16]}},\"timeline\":{\"/\":{\"path\":\"/timeline/\",\"indexes\":[10,11,5,6,7,12,13,2,8,22,24,21,3,9,4,25,0,23,26,1,27,14,19,18,20,17,15,16]}}}");
 
