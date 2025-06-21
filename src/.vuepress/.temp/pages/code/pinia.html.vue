@@ -1,6 +1,43 @@
 <template><div><!-- more -->
 <h1 id="pinia的使用" tabindex="-1"><a class="header-anchor" href="#pinia的使用"><span>pinia的使用</span></a></h1>
-<h2 id="pinia与vuex区别" tabindex="-1"><a class="header-anchor" href="#pinia与vuex区别"><span>pinia与vuex区别</span></a></h2>
+<p><strong>‌Pinia是Vue 3的专属状态管理库，用于跨组件或页面共享状态，其核心功能包括State（数据存储）、Getters（计算属性）和Actions（方法）‌。与Vuex相比，Pinia具有更简单的API设计、完整的TypeScript支持，并取消了mutations概念，更适合组合式API开发。</strong></p>
+<h2 id="‌核心概念与优势" tabindex="-1"><a class="header-anchor" href="#‌核心概念与优势"><span>‌核心概念与优势</span></a></h2>
+<p><strong>1.核心组成:</strong><br>
+<strong>‌State‌</strong>：存储应用状态数据，定义为返回初始状态的函数。‌‌<br>
+<strong>‌Getters‌</strong>：派生状态（类似计算属性），接收state作为首个参数。‌‌<br>
+<strong>‌Actions‌</strong>：同步/异步方法，直接修改state（无需mutations）</p>
+<p><strong>2.‌主要优势‌：</strong><br>
+1. 仅1KB体积，支持Vue 2/3和TypeScript。‌‌<br>
+2. 扁平化Store设计，无需模块嵌套。‌‌<br>
+3.支持插件扩展（如持久化存储插件）。‌‌</p>
+<h2 id="‌安装与基础使用" tabindex="-1"><a class="header-anchor" href="#‌安装与基础使用"><span>‌安装与基础使用</span></a></h2>
+<p>1.‌安装‌：通过npm/yarn/pnpm安装：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>pnpm install pinia</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>2.集成到Vue应用‌</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>import { createPinia } from 'pinia'</span></span>
+<span class="line"><span>app.use(createPinia())</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>3.‌定义Store‌（两种方式）</strong><br>
+<strong>Option Store‌</strong>（类似Vue选项式API）：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>defineStore('counter', {</span></span>
+<span class="line"><span>  state: () => ({ count: 0 }),</span></span>
+<span class="line"><span>  getters: { double: state => state.count * 2 },</span></span>
+<span class="line"><span>  actions: { increment() { this.count++ } }</span></span>
+<span class="line"><span>})</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>Setup Store‌</strong>（组合式API风格）：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>defineStore('counter', () => {</span></span>
+<span class="line"><span>  const count = ref(0)</span></span>
+<span class="line"><span>  const double = computed(() => count.value * 2)</span></span>
+<span class="line"><span>  function increment() { count.value++ }</span></span>
+<span class="line"><span>  return { count, double, increment }</span></span>
+<span class="line"><span>})</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>3.‌组件中使用<br>
+1.‌调用Store‌：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span> import { useCounterStore } from '@/stores/counter'</span></span>
+<span class="line"><span> const counter = useCounterStore()</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>2.访问状态与方法‌：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>  直接通过counter.count读取state。</span></span>
+<span class="line"><span>  通过counter.increment()调用action</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="pinia与vuex区别" tabindex="-1"><a class="header-anchor" href="#pinia与vuex区别"><span>pinia与vuex区别</span></a></h2>
 <p>Vuex和Pinia都是用于Vue.js应用的状态管理库，但它们在设计理念、使用方式、功能、性能等方面存在一些区别。</p>
 <p><strong>1.设计理念和使用方式</strong>：</p>
 <p>Vuex：采用全局单例模式，通过一个store对象来管理所有的状态。它的状态管理是集中的，适合大型项目和需要复杂状态管理的场景。<br>

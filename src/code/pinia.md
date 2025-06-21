@@ -10,6 +10,59 @@ category:
 <!-- more -->
 # pinia的使用
 
+**‌Pinia是Vue 3的专属状态管理库，用于跨组件或页面共享状态，其核心功能包括State（数据存储）、Getters（计算属性）和Actions（方法）‌。与Vuex相比，Pinia具有更简单的API设计、完整的TypeScript支持，并取消了mutations概念，更适合组合式API开发。**
+
+## ‌核心概念与优势
+**1.核心组成:**
+  **‌State‌**：存储应用状态数据，定义为返回初始状态的函数。‌‌
+  **‌Getters‌**：派生状态（类似计算属性），接收state作为首个参数。‌‌
+  **‌Actions‌**：同步/异步方法，直接修改state（无需mutations）
+
+**2.‌主要优势‌：**
+    1. 仅1KB体积，支持Vue 2/3和TypeScript。‌‌
+    2. 扁平化Store设计，无需模块嵌套。‌‌
+    3.支持插件扩展（如持久化存储插件）。‌‌
+
+## ‌安装与基础使用
+  1.‌安装‌：通过npm/yarn/pnpm安装：
+  ```
+  pnpm install pinia
+  ```
+  2.集成到Vue应用‌
+  ```
+  import { createPinia } from 'pinia'
+  app.use(createPinia())
+  ```
+  **3.‌定义Store‌（两种方式）**
+  **Option Store‌**（类似Vue选项式API）：
+  ```
+  defineStore('counter', {
+    state: () => ({ count: 0 }),
+    getters: { double: state => state.count * 2 },
+    actions: { increment() { this.count++ } }
+  })
+```
+  **Setup Store‌**（组合式API风格）：
+  ```
+  defineStore('counter', () => {
+    const count = ref(0)
+    const double = computed(() => count.value * 2)
+    function increment() { count.value++ }
+    return { count, double, increment }
+  })
+```
+3.‌组件中使用
+ 1.‌调用Store‌：
+ ```
+  import { useCounterStore } from '@/stores/counter'
+  const counter = useCounterStore()
+```
+2.访问状态与方法‌：
+```
+  直接通过counter.count读取state。
+  通过counter.increment()调用action
+  ```
+
 ## pinia与vuex区别
 Vuex和Pinia都是用于Vue.js应用的状态管理库，但它们在设计理念、使用方式、功能、性能等方面存在一些区别。
 

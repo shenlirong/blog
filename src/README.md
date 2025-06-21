@@ -33,10 +33,10 @@ projects:
     desc: 网站快速成型工具
     link: https://element-plus.org/zh-CN/component/overview.html
 
-  # - icon: user-group
-  #   name: 伙伴名称
-  #   desc: 伙伴详细介绍
-  #   link: https://你的伙伴链接
+  - icon: link
+    name: 牛客网
+    desc: 求职题库
+    link: https://www.nowcoder.com/?type=856_1
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg
     name: vuepress-plugin-md-enhance
