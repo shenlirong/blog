@@ -15,6 +15,7 @@ icon: pen-to-square
 2.UI:https://element-plus.org/zh-CN/component/overview.html
 3.ES6 入门教程:https://es6.ruanyifeng.com/
 4.TypeScript 教程：https://www.runoob.com/typescript/ts-install.html
+5.前端数据存储解析:https://blog.csdn.net/m0_74037439/article/details/146538639
 
 ## MarkDown 文档
 1.菜鸟：https://www.runoob.com/markdown/md-code.html
