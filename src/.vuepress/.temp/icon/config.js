@@ -1,4 +1,4 @@
-import { hasGlobalComponent } from "C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/node_modules/@vuepress/helper/lib/client/index.js";
+import { hasGlobalComponent } from "C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/node_modules/@vuepress/plugin-icon/node_modules/@vuepress/helper/lib/client/index.js";
 import { useScriptTag } from "C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/node_modules/@vueuse/core/index.mjs";
 import { h } from "vue";
 import { VPIcon } from "C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/node_modules/@vuepress/plugin-icon/lib/client/index.js"

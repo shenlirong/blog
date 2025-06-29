@@ -1,5 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
-
+// import { commentPlugin } from '@vuepress/plugin-comment'
 
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
@@ -141,17 +141,20 @@ export default hopeTheme({
     // 在启用之前安装 sandpack-vue3
     // sandpack: true,
   },
-
+  
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
-    // 启用之前需安装 @waline/client
+    // 启用之前需安装 @waline/client  https://vercel.com/press-test
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
-    // comment: {
-    //   provider: "Waline",
-    //   serverURL: "https://waline-comment.vuejs.press",
-    // },
-
+    comment: {
+      provider:'Giscus',
+      repo:`shenlirong/press-public`,
+      repoId:`R_kgDOPDvc5Q`,
+      category:'Announcements',
+      categoryId:`DIC_kwDOPDvc5c4CsMe0`
+      // serverURL: "https://vercel.com/press-test",
+    },
     components: {
       components: ["Badge", "VPCard"],
     },

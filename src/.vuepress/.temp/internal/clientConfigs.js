@@ -15,9 +15,10 @@ import * as clientConfig13 from 'C:/Users/slr/Desktop/Vue3学习资料/Vue3_test
 import * as clientConfig14 from 'C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/node_modules/@vuepress/plugin-active-header-links/lib/client/config.js'
 import * as clientConfig15 from 'C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/node_modules/@vuepress/plugin-catalog/lib/client/config.js'
 import * as clientConfig16 from 'C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
-import * as clientConfig17 from 'C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/node_modules/@vuepress/plugin-redirect/lib/client/config.js'
-import * as clientConfig18 from 'C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/src/.vuepress/.temp/theme-hope/config.js'
-import * as clientConfig19 from 'C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/src/.vuepress/client.ts'
+import * as clientConfig17 from 'C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/node_modules/@vuepress/plugin-comment/lib/client/config.js'
+import * as clientConfig18 from 'C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/node_modules/@vuepress/plugin-redirect/lib/client/config.js'
+import * as clientConfig19 from 'C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/src/.vuepress/.temp/theme-hope/config.js'
+import * as clientConfig20 from 'C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/src/.vuepress/client.ts'
 
 export const clientConfigs = [
   clientConfig0,
@@ -40,4 +41,5 @@ export const clientConfigs = [
   clientConfig17,
   clientConfig18,
   clientConfig19,
+  clientConfig20,
 ].map((m) => m.default).filter(Boolean)
