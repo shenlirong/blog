@@ -19,11 +19,11 @@ export default defineUserConfig({
   //  locales: {
   //   "/": {
   //     lang
-  //       : "en-US",
+  //       : "zh-CN",
   //   },
   //   "/zh/": {
   //     lang
-  //       : "zh-CN",
+  //       : "en-US",
   //   },
   // },
   // 和 PWA 一起启用

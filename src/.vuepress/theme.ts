@@ -23,6 +23,11 @@ export default hopeTheme({
   docsDir: "src",
   // 导航栏
   navbar,
+  // locales:{
+  //    '/':{
+  //        'jkjk'
+  //    }
+  // },
   // navbarLayout:{
   //   start:[],
   //   center:[],
@@ -162,7 +167,7 @@ export default hopeTheme({
     icon: {
       prefix: "fa6-solid:",
     },
-
+    search:true,
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
     //   favicon: "/favicon.ico",
