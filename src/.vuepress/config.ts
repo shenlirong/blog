@@ -4,7 +4,7 @@ import theme from "./theme.js";
 
 
 export default defineUserConfig({
-  base: "/test/",
+  base: "/blog/",
 
   lang: "zh-CN",
   title: "reveal",
