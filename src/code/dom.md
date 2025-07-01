@@ -3,12 +3,13 @@ icon: pen-to-square
 # date: 2024-12-01
 sticky: 94
 pageview: true
+title: 网络协议
 category:
   - 前端开发
 ---
 
 <!-- more -->
-# DOM简介
+## DOM简介
 ```
 DOM 全名称 document object model 文档对象模型；
 JS中通过DOM 来操作HTML ，只要理解dom 就可以随心所欲操作web 页面。
@@ -25,6 +26,13 @@ JS中通过DOM 来操作HTML ，只要理解dom 就可以随心所欲操作web �
 节点Node，是构成我们网页的最基本部分，网页中的每一个部分都可以成为一个节点。
 比如：属性、文本、注释、整个文档等都是一个节点，每个节点的类型不一样，有元素节点，属性节点、文本节点、文档节点等。
 ```
+# 网络协议基础
+
+<networkBasic></networkBasic>
+
+# http协议基础
+
+<httpBasic></httpBasic>
 
 ## http三次握手
 <HttpConnection />
@@ -156,6 +164,8 @@ index.htmI作用:当我们通过IP地址和端口号找到对应的服务器之�
  |减少回流|	使用transform替代top/left动画	|跳过布局阶段，直接进入合成‌‌|
 |分层控制|	为频繁变动元素添加will-change: transform |提前分配独立图层，避免临时分层计算|‌‌
  |JS优化	|避免同步布局操作（如读取offsetWidth后立即修改样式）|	防止强制布局计算阻塞渲染线程‌‌|
+
+ <browserPrinciple></browserPrinciple>
 
 
 

@@ -14,114 +14,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "布局与功能禁用",
-    "headers": [],
-    "path": "/demo/disable.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "布局",
-    "headers": [],
-    "path": "/demo/layout.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Markdown 展示",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Markdown 介绍",
-        "slug": "markdown-介绍",
-        "link": "#markdown-介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Markdown 配置",
-        "slug": "markdown-配置",
-        "link": "#markdown-配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Markdown 扩展",
-        "slug": "markdown-扩展",
-        "link": "#markdown-扩展",
-        "children": [
-          {
-            "level": 3,
-            "title": "VuePress 扩展",
-            "slug": "vuepress-扩展",
-            "link": "#vuepress-扩展",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "主题扩展",
-            "slug": "主题扩展",
-            "link": "#主题扩展",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "图片增强",
-            "slug": "图片增强",
-            "link": "#图片增强",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/demo/markdown.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "页面配置",
-    "headers": [
-      {
-        "level": 2,
-        "title": "页面标题",
-        "slug": "页面标题",
-        "link": "#页面标题",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "页面信息",
-        "slug": "页面信息",
-        "link": "#页面信息",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "页面内容",
-        "slug": "页面内容",
-        "link": "#页面内容",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "组件",
-        "slug": "组件",
-        "link": "#组件",
-        "children": []
-      }
-    ],
-    "path": "/demo/page.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "主要功能与配置演示",
-    "headers": [],
-    "path": "/demo/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Mapbox API",
     "headers": [
       {
@@ -230,8 +122,15 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "DOM简介",
+    "title": "网络协议",
     "headers": [
+      {
+        "level": 2,
+        "title": "DOM简介",
+        "slug": "dom简介",
+        "link": "#dom简介",
+        "children": []
+      },
       {
         "level": 2,
         "title": "http三次握手",
@@ -369,6 +268,13 @@ export const SEARCH_INDEX = [
     "title": "代码笔记",
     "headers": [],
     "path": "/code/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "ref需要.value为什么reactive 不需要",
+    "headers": [],
+    "path": "/code/ref-reactive.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1202,6 +1108,114 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "布局与功能禁用",
+    "headers": [],
+    "path": "/demo/disable.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "布局",
+    "headers": [],
+    "path": "/demo/layout.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Markdown 展示",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Markdown 介绍",
+        "slug": "markdown-介绍",
+        "link": "#markdown-介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Markdown 配置",
+        "slug": "markdown-配置",
+        "link": "#markdown-配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Markdown 扩展",
+        "slug": "markdown-扩展",
+        "link": "#markdown-扩展",
+        "children": [
+          {
+            "level": 3,
+            "title": "VuePress 扩展",
+            "slug": "vuepress-扩展",
+            "link": "#vuepress-扩展",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "主题扩展",
+            "slug": "主题扩展",
+            "link": "#主题扩展",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "图片增强",
+            "slug": "图片增强",
+            "link": "#图片增强",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/demo/markdown.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "页面配置",
+    "headers": [
+      {
+        "level": 2,
+        "title": "页面标题",
+        "slug": "页面标题",
+        "link": "#页面标题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "页面信息",
+        "slug": "页面信息",
+        "link": "#页面信息",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "页面内容",
+        "slug": "页面内容",
+        "link": "#页面内容",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "组件",
+        "slug": "组件",
+        "link": "#组件",
+        "children": []
+      }
+    ],
+    "path": "/demo/page.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "主要功能与配置演示",
+    "headers": [],
+    "path": "/demo/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "reveal随笔",
     "headers": [],
     "path": "/essay/",
@@ -1266,20 +1280,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "使用指南 分类",
-    "headers": [],
-    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "指南 分类",
-    "headers": [],
-    "path": "/category/%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Mapbox 分类",
     "headers": [],
     "path": "/category/mapbox/",
@@ -1301,6 +1301,20 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "使用指南 分类",
+    "headers": [],
+    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "指南 分类",
+    "headers": [],
+    "path": "/category/%E6%8C%87%E5%8D%97/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "reveal随笔 分类",
     "headers": [],
     "path": "/category/reveal%E9%9A%8F%E7%AC%94/",
@@ -1318,6 +1332,41 @@ export const SEARCH_INDEX = [
     "title": "标签",
     "headers": [],
     "path": "/tag/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签: Mapbox",
+    "headers": [],
+    "path": "/tag/mapbox/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签: 前端开发",
+    "headers": [],
+    "path": "/tag/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签: es6笔记",
+    "headers": [],
+    "path": "/tag/es6%E7%AC%94%E8%AE%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签: Vue3",
+    "headers": [],
+    "path": "/tag/vue3/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签: Vue组件通信方式",
+    "headers": [],
+    "path": "/tag/vue%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1364,41 +1413,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "标签: Mapbox",
-    "headers": [],
-    "path": "/tag/mapbox/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签: 前端开发",
-    "headers": [],
-    "path": "/tag/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签: es6笔记",
-    "headers": [],
-    "path": "/tag/es6%E7%AC%94%E8%AE%B0/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签: Vue3",
-    "headers": [],
-    "path": "/tag/vue3/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签: Vue组件通信方式",
-    "headers": [],
-    "path": "/tag/vue%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "文章",
     "headers": [],
     "path": "/article/",
@@ -1416,6 +1430,70 @@ export const SEARCH_INDEX = [
     "title": "时间轴",
     "headers": [],
     "path": "/timeline/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vue与angular以及react的区别",
+    "headers": [
+      {
+        "level": 2,
+        "title": "vue的双向绑定的原理，和angular的对比",
+        "slug": "vue的双向绑定的原理-和angular的对比",
+        "link": "#vue的双向绑定的原理-和angular的对比",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Vue的双向绑定原理",
+        "slug": "vue的双向绑定原理",
+        "link": "#vue的双向绑定原理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Angular的双向绑定原理",
+        "slug": "angular的双向绑定原理",
+        "link": "#angular的双向绑定原理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "【Angular】 指令详解",
+        "slug": "【angular】-指令详解",
+        "link": "#【angular】-指令详解",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "angular常用的生命周期",
+        "slug": "angular常用的生命周期",
+        "link": "#angular常用的生命周期",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Vue 3 中的生命周期钩子",
+        "slug": "vue-3-中的生命周期钩子",
+        "link": "#vue-3-中的生命周期钩子",
+        "children": []
+      }
+    ],
+    "path": "/code/diff-angular-vue.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "前端工程化",
+    "headers": [],
+    "path": "/code/front-end-engineer.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "nodejs主流框架",
+    "headers": [],
+    "path": "/code/node-basic.html",
     "pathLocale": "/",
     "extraFields": []
   }

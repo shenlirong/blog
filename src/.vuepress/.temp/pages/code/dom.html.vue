@@ -1,5 +1,5 @@
 <template><div><!-- more -->
-<h1 id="dom简介" tabindex="-1"><a class="header-anchor" href="#dom简介"><span>DOM简介</span></a></h1>
+<h2 id="dom简介" tabindex="-1"><a class="header-anchor" href="#dom简介"><span>DOM简介</span></a></h2>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>DOM 全名称 document object model 文档对象模型；</span></span>
 <span class="line"><span>JS中通过DOM 来操作HTML ，只要理解dom 就可以随心所欲操作web 页面。</span></span>
 <span class="line"><span>--文档</span></span>
@@ -11,7 +11,9 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h1 id="节点" tabindex="-1"><a class="header-anchor" href="#节点"><span>节点</span></a></h1>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>节点Node，是构成我们网页的最基本部分，网页中的每一个部分都可以成为一个节点。</span></span>
 <span class="line"><span>比如：属性、文本、注释、整个文档等都是一个节点，每个节点的类型不一样，有元素节点，属性节点、文本节点、文档节点等。</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="http三次握手" tabindex="-1"><a class="header-anchor" href="#http三次握手"><span>http三次握手</span></a></h2>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><h1 id="网络协议基础" tabindex="-1"><a class="header-anchor" href="#网络协议基础"><span>网络协议基础</span></a></h1>
+<networkBasic></networkBasic><h1 id="http协议基础" tabindex="-1"><a class="header-anchor" href="#http协议基础"><span>http协议基础</span></a></h1>
+<httpBasic></httpBasic><h2 id="http三次握手" tabindex="-1"><a class="header-anchor" href="#http三次握手"><span>http三次握手</span></a></h2>
 <HttpConnection /><p><strong>一句话总结:​</strong> 三次握手就是通信双方互喊 👉 ​​“在吗？”​​ → ​​“在的，你听得到吗？”​​ → ​​“听得到，开始传输吧！”​​<br>
 少一次可能“对牛弹琴”，多一次浪费资源，三次是工程最优解！</p>
 <h2 id="http-四次挥手" tabindex="-1"><a class="header-anchor" href="#http-四次挥手"><span>http 四次挥手</span></a></h2>
@@ -108,6 +110,6 @@ index.html需要访问的资源名称</p>
 </tr>
 </tbody>
 </table>
-</div></template>
+<browserPrinciple></browserPrinciple></div></template>
 
 
