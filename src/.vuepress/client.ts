@@ -12,6 +12,11 @@ import networkBasic from '../code/components/network-basic.vue'
 import frontEndEngineer from '../code/components/front-end-engineer.vue'
 import compositinModule from '../code/components/composition-module.vue'
 import nodeBasic from '../code/components/node-basic.vue'
+import newFeatures from '../code/components/Vue3-new-features.vue'
+import interfaceType from '../code/components/interface-type.vue'
+import angularService from '../code/components/angular-service.vue'
+import webpackLoader from '../code/components/webpack-loader.vue'
+
 
 export default defineClientConfig({
   //...
@@ -33,5 +38,9 @@ export default defineClientConfig({
     app.component('frontEndEngineer',frontEndEngineer)
     app.component('compositinModule',compositinModule)
     app.component('nodeBasic',nodeBasic)
+    app.component('newFeatures',newFeatures)
+    app.component('interfaceType',interfaceType)
+    app.component('angularService',angularService)
+    app.component('webpackLoader',webpackLoader)
   },
 });

@@ -122,6 +122,56 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "vue与angular以及react的区别",
+    "headers": [
+      {
+        "level": 2,
+        "title": "vue的双向绑定的原理，和angular的对比",
+        "slug": "vue的双向绑定的原理-和angular的对比",
+        "link": "#vue的双向绑定的原理-和angular的对比",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Vue的双向绑定原理",
+        "slug": "vue的双向绑定原理",
+        "link": "#vue的双向绑定原理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Angular的双向绑定原理",
+        "slug": "angular的双向绑定原理",
+        "link": "#angular的双向绑定原理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "【Angular】 指令详解",
+        "slug": "【angular】-指令详解",
+        "link": "#【angular】-指令详解",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "angular常用的生命周期",
+        "slug": "angular常用的生命周期",
+        "link": "#angular常用的生命周期",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Vue 3 中的生命周期钩子",
+        "slug": "vue-3-中的生命周期钩子",
+        "link": "#vue-3-中的生命周期钩子",
+        "children": []
+      }
+    ],
+    "path": "/code/diff-angular-vue.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "网络协议",
     "headers": [
       {
@@ -232,6 +282,20 @@ export const SEARCH_INDEX = [
     "title": "es6数组解构赋值",
     "headers": [],
     "path": "/code/es6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "前端工程化",
+    "headers": [],
+    "path": "/code/front-end-engineer.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "nodejs主流框架",
+    "headers": [],
+    "path": "/code/node-basic.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1434,66 +1498,73 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "vue与angular以及react的区别",
+    "title": "Vue3新特性",
+    "headers": [],
+    "path": "/code/vue3-new-features.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Interface和type的区别",
+    "headers": [],
+    "path": "/code/interface-type.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Angular里面的服务",
+    "headers": [],
+    "path": "/code/angular-service.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "TS数据类型",
     "headers": [
       {
-        "level": 2,
-        "title": "vue的双向绑定的原理，和angular的对比",
-        "slug": "vue的双向绑定的原理-和angular的对比",
-        "link": "#vue的双向绑定的原理-和angular的对比",
+        "level": 3,
+        "title": "🔰 一、原始类型（Primitive Types）",
+        "slug": "🔰-一、原始类型-primitive-types",
+        "link": "#🔰-一、原始类型-primitive-types",
         "children": []
       },
       {
-        "level": 2,
-        "title": "Vue的双向绑定原理",
-        "slug": "vue的双向绑定原理",
-        "link": "#vue的双向绑定原理",
+        "level": 3,
+        "title": "🧬 二、对象类型（Object Types）",
+        "slug": "🧬-二、对象类型-object-types",
+        "link": "#🧬-二、对象类型-object-types",
         "children": []
       },
       {
-        "level": 2,
-        "title": "Angular的双向绑定原理",
-        "slug": "angular的双向绑定原理",
-        "link": "#angular的双向绑定原理",
+        "level": 3,
+        "title": "🔮 三、特殊类型",
+        "slug": "🔮-三、特殊类型",
+        "link": "#🔮-三、特殊类型",
         "children": []
       },
       {
-        "level": 2,
-        "title": "【Angular】 指令详解",
-        "slug": "【angular】-指令详解",
-        "link": "#【angular】-指令详解",
+        "level": 3,
+        "title": "📊 类型关系图",
+        "slug": "📊-类型关系图",
+        "link": "#📊-类型关系图",
         "children": []
       },
       {
-        "level": 2,
-        "title": "angular常用的生命周期",
-        "slug": "angular常用的生命周期",
-        "link": "#angular常用的生命周期",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Vue 3 中的生命周期钩子",
-        "slug": "vue-3-中的生命周期钩子",
-        "link": "#vue-3-中的生命周期钩子",
+        "level": 3,
+        "title": "💡 类型操作（高级）",
+        "slug": "💡-类型操作-高级",
+        "link": "#💡-类型操作-高级",
         "children": []
       }
     ],
-    "path": "/code/diff-angular-vue.html",
+    "path": "/code/ts-type.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "前端工程化",
+    "title": "webpack Loader类型",
     "headers": [],
-    "path": "/code/front-end-engineer.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "nodejs主流框架",
-    "headers": [],
-    "path": "/code/node-basic.html",
+    "path": "/code/webpack-loader.html",
     "pathLocale": "/",
     "extraFields": []
   }
