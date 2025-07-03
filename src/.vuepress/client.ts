@@ -16,7 +16,8 @@ import newFeatures from '../code/components/Vue3-new-features.vue'
 import interfaceType from '../code/components/interface-type.vue'
 import angularService from '../code/components/angular-service.vue'
 import webpackLoader from '../code/components/webpack-loader.vue'
-
+import angularPipe from '../code/components/angular-pipe.vue'
+import webpackBundle from '../code/components/webpack-bundle.vue'
 
 export default defineClientConfig({
   //...
@@ -42,5 +43,7 @@ export default defineClientConfig({
     app.component('interfaceType',interfaceType)
     app.component('angularService',angularService)
     app.component('webpackLoader',webpackLoader)
+    app.component('angularPipe',angularPipe)
+    app.component('webpackBundle',webpackBundle)
   },
 });

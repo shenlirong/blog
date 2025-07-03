@@ -14,6 +14,20 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Angular里面的管道",
+    "headers": [],
+    "path": "/code/angular-pipe.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Angular里面的服务",
+    "headers": [],
+    "path": "/code/angular-service.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Mapbox API",
     "headers": [
       {
@@ -293,6 +307,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Interface和type的区别",
+    "headers": [],
+    "path": "/code/interface-type.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "nodejs主流框架",
     "headers": [],
     "path": "/code/node-basic.html",
@@ -343,6 +364,49 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "TS数据类型",
+    "headers": [
+      {
+        "level": 3,
+        "title": "🔰 一、原始类型（Primitive Types）",
+        "slug": "🔰-一、原始类型-primitive-types",
+        "link": "#🔰-一、原始类型-primitive-types",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "🧬 二、对象类型（Object Types）",
+        "slug": "🧬-二、对象类型-object-types",
+        "link": "#🧬-二、对象类型-object-types",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "🔮 三、特殊类型",
+        "slug": "🔮-三、特殊类型",
+        "link": "#🔮-三、特殊类型",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "📊 类型关系图",
+        "slug": "📊-类型关系图",
+        "link": "#📊-类型关系图",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "💡 类型操作（高级）",
+        "slug": "💡-类型操作-高级",
+        "link": "#💡-类型操作-高级",
+        "children": []
+      }
+    ],
+    "path": "/code/ts-type.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "TypeScript 介绍",
     "headers": [],
     "path": "/code/ts_js.html",
@@ -389,6 +453,13 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/code/vue3-fragment.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Vue3新特性",
+    "headers": [],
+    "path": "/code/vue3-new-features.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1121,6 +1192,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "webpack Loader类型",
+    "headers": [],
+    "path": "/code/webpack-loader.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "webpack与vite的区别",
     "headers": [
       {
@@ -1344,16 +1422,16 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Mapbox 分类",
+    "title": "前端开发 分类",
     "headers": [],
-    "path": "/category/mapbox/",
+    "path": "/category/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "前端开发 分类",
+    "title": "Mapbox 分类",
     "headers": [],
-    "path": "/category/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/",
+    "path": "/category/mapbox/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1498,73 +1576,9 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Vue3新特性",
+    "title": "webpack打包优化方案",
     "headers": [],
-    "path": "/code/vue3-new-features.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Interface和type的区别",
-    "headers": [],
-    "path": "/code/interface-type.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Angular里面的服务",
-    "headers": [],
-    "path": "/code/angular-service.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "TS数据类型",
-    "headers": [
-      {
-        "level": 3,
-        "title": "🔰 一、原始类型（Primitive Types）",
-        "slug": "🔰-一、原始类型-primitive-types",
-        "link": "#🔰-一、原始类型-primitive-types",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "🧬 二、对象类型（Object Types）",
-        "slug": "🧬-二、对象类型-object-types",
-        "link": "#🧬-二、对象类型-object-types",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "🔮 三、特殊类型",
-        "slug": "🔮-三、特殊类型",
-        "link": "#🔮-三、特殊类型",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "📊 类型关系图",
-        "slug": "📊-类型关系图",
-        "link": "#📊-类型关系图",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "💡 类型操作（高级）",
-        "slug": "💡-类型操作-高级",
-        "link": "#💡-类型操作-高级",
-        "children": []
-      }
-    ],
-    "path": "/code/ts-type.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "webpack Loader类型",
-    "headers": [],
-    "path": "/code/webpack-loader.html",
+    "path": "/code/webpack-bundle.html",
     "pathLocale": "/",
     "extraFields": []
   }
