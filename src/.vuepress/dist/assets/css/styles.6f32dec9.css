@@ -729,3 +729,14 @@ strong{
     background-color: white !important;
 }
 
+
+li::marker {
+    content: "";
+}
+
+
+.pre-numbering,
+.opt-box {
+    display: none;
+}
+
