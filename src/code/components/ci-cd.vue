@@ -151,6 +151,35 @@
                 </div>
             </div><!--7252-->
         </div><!--7251--><!--7293-->
+        <h3>实施价值</h3>
+        <p class="marklang-paragraph">通过自动化流水线减少人工干预，缩短开发到上线的周期，同时通过自动化测试降低风险。典型实践包括：</p>
+        <ul>
+            <li><strong>1. 代码提交后自动触发编译、单元测试</strong></li>
+            <li><strong>2. 测试通过后自动部署到预发布环境</strong></li>
+            <li><strong>3. 预发布验证无误后自动推进到生产环境 </strong>‌<span disable-audio="true" disable-copy="true"><span
+                        rl-type="stop"><!--1003--><span class="cos-tooltip cosd-citation"><!--1006--><span
+                                class="cosd-citation-citationId">1<!--1007--></span><!--1006--></span><!--1004--><!--1008--><!--1008--><!--1003--></span><span
+                        rl-type="stop"><!--1010--><span class="cos-tooltip cosd-citation"><!--1013--><span
+                                class="cosd-citation-citationId">2<!--1014--></span><!--1013--></span><!--1011--><!--1015--><!--1015--><!--1010--></span></span>
+            </li>
+        </ul>
+        <h3>与<span><span rl-type="stop"
+                    href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=DevOps&amp;rsv_pq=a883cfe1000d0df1&amp;oq=%E4%BB%80%E4%B9%88%E6%98%AFCI%2FCD&amp;rsv_t=1fd8Sv+UY77sx7lJm3sY73DHMW8bzy8WQ1r+7G6CO9FCtOZt4OOduZfNIdg&amp;tn=baidu&amp;ie=utf-8"
+                    target="_blank" class="cosd-markdown-research cos-color-text-link cos-space-mr-3xs">
+                    <span>DevOp<span style="white-space: nowrap;">s<i
+                                class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
+                    </span><!--945-->
+                </span></span>的关系</h3>
+        <p class="marklang-paragraph">CI/CD是DevOps实践的重要组成部分，通过流程自动化减少开发、运维团队间的协作成本，实现敏捷开发目标。 ‌<span disable-audio="true"
+                disable-copy="true"><span rl-type="stop"><!--1017--><span
+                        class="cos-tooltip cosd-citation"><!--1020--><span
+                            class="cosd-citation-citationId">2<!--1021--></span><!--1020--></span><!--1018--><!--1022--><!--1022--><!--1017--></span><span
+                    rl-type="stop"><!--1024--><span class="cos-tooltip cosd-citation"><!--1027--><span
+                            class="cosd-citation-citationId">3<!--1028--></span><!--1027--></span><!--1025--><!--1029--><!--1029--><!--1024--></span></span>
+        </p>
+
+
+
         <div>
             <div class="cos-space-mt-xxl" data-show="summary"
                 data-show-ext="{&quot;component_content&quot;:{&quot;component_name&quot;:&quot;markdown&quot;,&quot;component_type&quot;:&quot;abstract&quot;,&quot;reference_type&quot;:&quot;&quot;},&quot;hasCredibleRef&quot;:false}">
@@ -200,6 +229,114 @@
             </div><!--7301-->
         </div><!--7300--><!--7180-->
     </div>
+
+    <h3>CI工具有哪些</h3>
+    <div class="ai-entry cos-space-mb-xs "><!--2595-->
+        <div><!--3052-->
+            <div data-module="ai_markdown" data-show="component"
+                data-show-ext="{&quot;component_content&quot;:{&quot;component_name&quot;:&quot;markdown&quot;,&quot;component_type&quot;:&quot;abstract&quot;}}">
+                <div class="cosd-markdown"><!--3055-->
+                    <div class="cosd-markdown-content cosd-markdown-content-typingall" style="height: auto;">
+                        <div class="marklang">
+                            <p class="marklang-paragraph">持续集成（CI）工具主要分为开源和商业化两类，以下是主流选择：</p>
+                            <h3>开源工具</h3>
+                            <ol>
+                                <li>
+                                    <p class="marklang-paragraph">‌<strong><span><span rl-type="stop"
+                                                    href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=Jenkins&amp;rsv_pq=8f94178c000619b7&amp;oq=ci%E6%9C%89%E5%93%AA%E4%BA%9B%E5%B7%A5%E5%85%B7&amp;rsv_t=fb7aXXYfj6JuesyxqpSpJpA1G4//ezToHrjLr0mxadQiySHtUKQBKaOX8PA&amp;tn=baidu&amp;ie=utf-8"
+                                                    target="_blank"
+                                                    class="cosd-markdown-research cos-color-text-link cos-space-mr-3xs">
+                                                    <span>Jenkin<span style="white-space: nowrap;">s<i
+                                                                class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
+                                                    </span><!--3115-->
+                                                </span></span></strong>‌<br>
+                                        基于Java开发的开源CI/CD平台，支持插件机制扩展，覆盖版本控制、构建、测试及部署等全流程自动化。2023年数据显示全球70%的DevOps团队使用Jenkins，提供图形化界面和Pipeline脚本配置方式。
+                                        ‌<span disable-audio="true" disable-copy="true"><span><span
+                                                    class="cosd-citation" rl-type="stop"><span
+                                                        class="cosd-citation-citationId">1</span></span></span><span><span
+                                                    class="cosd-citation" rl-type="stop"><span
+                                                        class="cosd-citation-citationId">2</span></span></span></span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="marklang-paragraph">‌<strong><span><span rl-type="stop"
+                                                    href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=GitLab%20CI%2FCD&amp;rsv_pq=8f94178c000619b7&amp;oq=ci%E6%9C%89%E5%93%AA%E4%BA%9B%E5%B7%A5%E5%85%B7&amp;rsv_t=fb7aXXYfj6JuesyxqpSpJpA1G4//ezToHrjLr0mxadQiySHtUKQBKaOX8PA&amp;tn=baidu&amp;ie=utf-8"
+                                                    target="_blank"
+                                                    class="cosd-markdown-research cos-color-text-link cos-space-mr-3xs">
+                                                    <span>GitLab CI/C<span style="white-space: nowrap;">D<i
+                                                                class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
+                                                    </span><!--3117-->
+                                                </span></span></strong>‌<br>
+                                        内置于GitLab代码托管平台，通过.gitlab-ci.yml文件定义流水线，支持构建、测试、部署全流程自动化。兼容Docker、Kubernetes及多种云服务，适合敏捷开发流程。
+                                        ‌<span disable-audio="true" disable-copy="true"><span><span
+                                                    class="cosd-citation" rl-type="stop"><span
+                                                        class="cosd-citation-citationId">3</span></span></span><span><span
+                                                    class="cosd-citation" rl-type="stop"><span
+                                                        class="cosd-citation-citationId">4</span></span></span></span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="marklang-paragraph">‌<strong><span><span rl-type="stop"
+                                                    href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=CircleCI&amp;rsv_pq=8f94178c000619b7&amp;oq=ci%E6%9C%89%E5%93%AA%E4%BA%9B%E5%B7%A5%E5%85%B7&amp;rsv_t=fb7aXXYfj6JuesyxqpSpJpA1G4//ezToHrjLr0mxadQiySHtUKQBKaOX8PA&amp;tn=baidu&amp;ie=utf-8"
+                                                    target="_blank"
+                                                    class="cosd-markdown-research cos-color-text-link cos-space-mr-3xs">
+                                                    <span>CircleC<span style="white-space: nowrap;">I<i
+                                                                class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
+                                                    </span><!--3119-->
+                                                </span></span></strong>‌<br>
+                                        支持云端与本地部署，提供高性能任务并行执行和自动资源扩展能力，适用于快速交付场景（如金融科技、移动互联网）。深度整合Docker镜像缓存和流水线优化。
+                                        ‌<span disable-audio="true" disable-copy="true"><span><span
+                                                    class="cosd-citation" rl-type="stop"><span
+                                                        class="cosd-citation-citationId">3</span></span></span><span><span
+                                                    class="cosd-citation" rl-type="stop"><span
+                                                        class="cosd-citation-citationId">4</span></span></span></span>
+                                    </p>
+                                </li>
+                            </ol>
+                            <h3>商业化工具</h3>
+                            <ol>
+                                <li>
+                                    <p class="marklang-paragraph">‌<strong><span><span rl-type="stop"
+                                                    href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=GitHub%20Actions&amp;rsv_pq=8f94178c000619b7&amp;oq=ci%E6%9C%89%E5%93%AA%E4%BA%9B%E5%B7%A5%E5%85%B7&amp;rsv_t=fb7aXXYfj6JuesyxqpSpJpA1G4//ezToHrjLr0mxadQiySHtUKQBKaOX8PA&amp;tn=baidu&amp;ie=utf-8"
+                                                    target="_blank"
+                                                    class="cosd-markdown-research cos-color-text-link cos-space-mr-3xs">
+                                                    <span>GitHub Action<span style="white-space: nowrap;">s<i
+                                                                class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
+                                                    </span><!--3121-->
+                                                </span></span></strong>‌<br>
+                                        集成在GitHub平台，通过自动化工作流程实现代码审查、构建、测试及部署，支持Docker容器和Kubernetes集群。 ‌<span
+                                            disable-audio="true" disable-copy="true"><span><span class="cosd-citation"
+                                                    rl-type="stop"><span
+                                                        class="cosd-citation-citationId">3</span></span></span><span><span
+                                                    class="cosd-citation" rl-type="stop"><span
+                                                        class="cosd-citation-citationId">4</span></span></span></span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="marklang-paragraph">‌<strong><span><span rl-type="stop"
+                                                    href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=%E6%9E%81%E7%8B%90GitLab&amp;rsv_pq=8f94178c000619b7&amp;oq=ci%E6%9C%89%E5%93%AA%E4%BA%9B%E5%B7%A5%E5%85%B7&amp;rsv_t=fb7aXXYfj6JuesyxqpSpJpA1G4//ezToHrjLr0mxadQiySHtUKQBKaOX8PA&amp;tn=baidu&amp;ie=utf-8"
+                                                    target="_blank"
+                                                    class="cosd-markdown-research cos-color-text-link cos-space-mr-3xs">
+                                                    <span>极狐GitLa<span style="white-space: nowrap;">b<i
+                                                                class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
+                                                    </span><!--3123-->
+                                                </span></span></strong>‌<br>
+                                        提供代码托管、CI/CD、项目管理等一体化解决方案，支持.gitlab-ci.yml配置文件和插件生态系统，适合需要高度集成开发运维流程的企业。 ‌<span
+                                            disable-audio="true" disable-copy="true"><span><span class="cosd-citation"
+                                                    rl-type="stop"><span
+                                                        class="cosd-citation-citationId">4</span></span></span></span>
+                                    </p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div><!--3053-->
+            <!--3052--><!--2596-->
+        </div><!--2597--><!--2595--><!--2594-->
+    </div>
+
+
 
     <h2>‌CI/CD自动化部署流程</h2>
     <div class="ai-entry"><!--8249-->

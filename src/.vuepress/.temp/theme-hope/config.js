@@ -7,9 +7,9 @@ import { Blog, BloggerInfo, SocialMedias, setupBlog } from "C:/Users/slr/Desktop
 import "C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/node_modules/vuepress-theme-hope/lib/client/styles/blog/layout.scss";
 import { GlobalEncrypt, LocalEncrypt } from "C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/node_modules/vuepress-theme-hope/lib/client/exports/encrypt.js";
 
-import "C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/node_modules/@vuepress/helper/lib/client/styles/colors.css";
-import "C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/node_modules/@vuepress/helper/lib/client/styles/normalize.css";
-import "C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/node_modules/@vuepress/helper/lib/client/styles/sr-only.css";
+import "C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/node_modules/vuepress-theme-hope/node_modules/@vuepress/helper/lib/client/styles/colors.css";
+import "C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/node_modules/vuepress-theme-hope/node_modules/@vuepress/helper/lib/client/styles/normalize.css";
+import "C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/node_modules/vuepress-theme-hope/node_modules/@vuepress/helper/lib/client/styles/sr-only.css";
 import "C:/Users/slr/Desktop/Vue3学习资料/Vue3_test/11/test/node_modules/vuepress-theme-hope/lib/client/styles/index.scss";
 
 defineCatalogInfoGetter((meta) => {

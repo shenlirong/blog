@@ -58,7 +58,58 @@ export const SEARCH_INDEX = [
   },
   {
     "title": "‌CI/CD‌概念",
-    "headers": [],
+    "headers": [
+      {
+        "level": 2,
+        "title": "持续部署CD有哪些工具",
+        "slug": "持续部署cd有哪些工具",
+        "link": "#持续部署cd有哪些工具",
+        "children": [
+          {
+            "level": 3,
+            "title": "开源工具",
+            "slug": "开源工具",
+            "link": "#开源工具",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "商业云服务",
+            "slug": "商业云服务",
+            "link": "#商业云服务",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "专用工具",
+            "slug": "专用工具",
+            "link": "#专用工具",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "新兴趋势工具",
+            "slug": "新兴趋势工具",
+            "link": "#新兴趋势工具",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "选型参考维度：",
+            "slug": "选型参考维度",
+            "link": "#选型参考维度",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "示例架构：现代CD工具链组合",
+            "slug": "示例架构-现代cd工具链组合",
+            "link": "#示例架构-现代cd工具链组合",
+            "children": []
+          }
+        ]
+      }
+    ],
     "path": "/code/ci-cd.html",
     "pathLocale": "/",
     "extraFields": []
