@@ -5,7 +5,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "vuepress-webpack build src",
+    "build": "vuepress-webpack build docs",
     "docs:clean-dev": "vuepress-webpack dev src --clean-cache",
     "dev": "vuepress-webpack dev src",
     "docs:update-package": "npx vp-update"
