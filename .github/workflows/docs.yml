@@ -33,7 +33,7 @@ jobs:
 
       # 运行构建脚本
       - name: 构建 VuePress 站点
-        run: npm src:build
+        run: npm run src:build
 
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
