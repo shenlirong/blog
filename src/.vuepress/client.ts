@@ -18,6 +18,10 @@ import angularService from '../code/components/angular-service.vue'
 import webpackLoader from '../code/components/webpack-loader.vue'
 import angularPipe from '../code/components/angular-pipe.vue'
 import webpackBundle from '../code/components/webpack-bundle.vue'
+import componnetEncapsulation from '../code/components/component-encapsulation.vue'
+import angularDependencyInjection from '../code/components/angular-dependency-injection.vue'
+import computedWatch from '../code/components/computed-watch.vue'
+import cicd from '../code/components/ci-cd.vue'
 
 export default defineClientConfig({
   //...
@@ -45,5 +49,9 @@ export default defineClientConfig({
     app.component('webpackLoader',webpackLoader)
     app.component('angularPipe',angularPipe)
     app.component('webpackBundle',webpackBundle)
+    app.component('componnetEncapsulation',componnetEncapsulation)
+    app.component('angularDependencyInjection',angularDependencyInjection)
+    app.component('computedWatch',computedWatch)
+    app.component('cicd',cicd)
   },
 });
