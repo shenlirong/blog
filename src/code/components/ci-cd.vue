@@ -735,4 +735,78 @@
         </ul>
         <p>通过上述流程和工具的组合使用，可以有效地实现前端项目的CICD自动化部署，提高开发效率和产品质量。</p>
     </div>
+
+    <h3>CI、CD的区别</h3>
+    <strong>CI解决的是代码合并的质量问题，CD解决的是发布效率问题。</strong>
+    <strong>Jenkins 既可以CI,也可以CD，是一套完整的CI/CD解决方案，是全能型CI/CD引擎</strong>
+    <div class="marklang">
+        <p class="marklang-paragraph"><span><span rl-type="stop"
+                    href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90&amp;rsv_pq=f6573ff800511d2a&amp;oq=CI%E5%92%8CCD%E7%9A%84%E5%8C%BA%E5%88%AB&amp;rsv_t=aa06n2K/YAkbzLQ/SsgrlMzCW809tPhCF5Q8Sd2ApotyhFfWheMlJxZHxbg&amp;tn=baidu&amp;ie=utf-8"
+                    target="_blank" class="cosd-markdown-research cos-color-text-link cos-space-mr-3xs">
+                    <span>持续集<span style="white-space: nowrap;">成<i
+                                class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
+                    </span><!--1097-->
+                </span></span>（CI）与<span><span rl-type="stop"
+                    href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=%E6%8C%81%E7%BB%AD%E9%83%A8%E7%BD%B2&amp;rsv_pq=f6573ff800511d2a&amp;oq=CI%E5%92%8CCD%E7%9A%84%E5%8C%BA%E5%88%AB&amp;rsv_t=aa06n2K/YAkbzLQ/SsgrlMzCW809tPhCF5Q8Sd2ApotyhFfWheMlJxZHxbg&amp;tn=baidu&amp;ie=utf-8"
+                    target="_blank" class="cosd-markdown-research cos-color-text-link cos-space-mr-3xs">
+                    <span>持续部<span style="white-space: nowrap;">署<i
+                                class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
+                    </span><!--1099-->
+                </span></span>（CD）的核心区别在于自动化流程的覆盖范围和参与角色：</p>
+        <ul>
+            <li>‌<strong>CI</strong>‌：强调代码合并与基础测试自动化，确保代码质量后进入共享代码库。 ‌<span disable-audio="true"
+                    disable-copy="true"><span><span class="cosd-citation" rl-type="stop"><span
+                                class="cosd-citation-citationId">1</span></span></span><span><span class="cosd-citation"
+                            rl-type="stop"><span class="cosd-citation-citationId">2</span></span></span></span></li>
+            <li>‌<strong>CD</strong>‌：基于CI的验证结果，自动将代码部署到生产环境，涉及跨部门协作与全流程自动化。 ‌<span disable-audio="true"
+                    disable-copy="true"><span><span class="cosd-citation" rl-type="stop"><span
+                                class="cosd-citation-citationId">1</span></span></span><span><span class="cosd-citation"
+                            rl-type="stop"><span class="cosd-citation-citationId">3</span></span></span></span></li>
+        </ul>
+        <h3>具体差异</h3>
+        <p class="marklang-paragraph">‌<strong>功能目标</strong>‌<br>
+            CI聚焦代码合并与单元测试，快速定位代码冲突；CD侧重从开发到生产的自动化部署，减少人工干预。 ‌<span disable-audio="true" disable-copy="true"><span><span
+                        class="cosd-citation" rl-type="stop"><span
+                            class="cosd-citation-citationId">3</span></span></span><span><span class="cosd-citation"
+                        rl-type="stop"><span class="cosd-citation-citationId">4</span></span></span></span></p>
+        <p class="marklang-paragraph">‌<strong>工具与技术</strong>‌<br>
+            CI常用<span><span rl-type="stop"
+                    href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=Git&amp;rsv_pq=f6573ff800511d2a&amp;oq=CI%E5%92%8CCD%E7%9A%84%E5%8C%BA%E5%88%AB&amp;rsv_t=aa06n2K/YAkbzLQ/SsgrlMzCW809tPhCF5Q8Sd2ApotyhFfWheMlJxZHxbg&amp;tn=baidu&amp;ie=utf-8"
+                    target="_blank" class="cosd-markdown-research cos-color-text-link cos-space-mr-3xs">
+                    <span>Gi<span style="white-space: nowrap;">t<i
+                                class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
+                    </span><!--1101-->
+                </span></span>、<span><span rl-type="stop"
+                    href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=Jenkins&amp;rsv_pq=f6573ff800511d2a&amp;oq=CI%E5%92%8CCD%E7%9A%84%E5%8C%BA%E5%88%AB&amp;rsv_t=aa06n2K/YAkbzLQ/SsgrlMzCW809tPhCF5Q8Sd2ApotyhFfWheMlJxZHxbg&amp;tn=baidu&amp;ie=utf-8"
+                    target="_blank" class="cosd-markdown-research cos-color-text-link cos-space-mr-3xs">
+                    <span>Jenkin<span style="white-space: nowrap;">s<i
+                                class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
+                    </span><!--1103-->
+                </span></span>等版本控制及构建工具；CD常用<span><span rl-type="stop"
+                    href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=Docker&amp;rsv_pq=f6573ff800511d2a&amp;oq=CI%E5%92%8CCD%E7%9A%84%E5%8C%BA%E5%88%AB&amp;rsv_t=aa06n2K/YAkbzLQ/SsgrlMzCW809tPhCF5Q8Sd2ApotyhFfWheMlJxZHxbg&amp;tn=baidu&amp;ie=utf-8"
+                    target="_blank" class="cosd-markdown-research cos-color-text-link cos-space-mr-3xs">
+                    <span>Docke<span style="white-space: nowrap;">r<i
+                                class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
+                    </span><!--1105-->
+                </span></span>、<span><span rl-type="stop"
+                    href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=Kubernetes&amp;rsv_pq=f6573ff800511d2a&amp;oq=CI%E5%92%8CCD%E7%9A%84%E5%8C%BA%E5%88%AB&amp;rsv_t=aa06n2K/YAkbzLQ/SsgrlMzCW809tPhCF5Q8Sd2ApotyhFfWheMlJxZHxbg&amp;tn=baidu&amp;ie=utf-8"
+                    target="_blank" class="cosd-markdown-research cos-color-text-link cos-space-mr-3xs">
+                    <span>Kubernete<span style="white-space: nowrap;">s<i
+                                class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
+                    </span><!--1107-->
+                </span></span>等容器化技术实现自动化部署。 ‌<span disable-audio="true" disable-copy="true"><span><span
+                        class="cosd-citation" rl-type="stop"><span
+                            class="cosd-citation-citationId">3</span></span></span><span><span class="cosd-citation"
+                        rl-type="stop"><span class="cosd-citation-citationId">5</span></span></span></span></p>
+        <p class="marklang-paragraph">‌<strong>团队协作</strong>‌<br>
+            CI主要依赖开发人员协作（代码审查、合并请求）；CD需要开发、测试、运维团队跨部门协同。 ‌<span disable-audio="true" disable-copy="true"><span><span
+                        class="cosd-citation" rl-type="stop"><span
+                            class="cosd-citation-citationId">3</span></span></span><span><span class="cosd-citation"
+                        rl-type="stop"><span class="cosd-citation-citationId">5</span></span></span></span></p>
+        <p class="marklang-paragraph">‌<strong>自动化范围</strong>‌<br>
+            CI涵盖编译、单元测试；CD包含部署、监控及回滚机制，覆盖从开发到运维的全生命周期。 ‌<span disable-audio="true" disable-copy="true"><span><span
+                        class="cosd-citation" rl-type="stop"><span
+                            class="cosd-citation-citationId">3</span></span></span><span><span class="cosd-citation"
+                        rl-type="stop"><span class="cosd-citation-citationId">4</span></span></span></span></p>
+    </div>
 </template>

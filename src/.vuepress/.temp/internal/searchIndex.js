@@ -1573,6 +1573,20 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "reveal随笔",
+    "headers": [],
+    "path": "/essay/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "背影",
+    "headers": [],
+    "path": "/essay/silhouette.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "布局与功能禁用",
     "headers": [],
     "path": "/demo/disable.html",
@@ -1681,20 +1695,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "reveal随笔",
-    "headers": [],
-    "path": "/essay/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "背影",
-    "headers": [],
-    "path": "/essay/silhouette.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "遇到的问题记录",
     "headers": [],
     "path": "/project_sum/",
@@ -1766,6 +1766,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "reveal随笔 分类",
+    "headers": [],
+    "path": "/category/reveal%E9%9A%8F%E7%AC%94/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "使用指南 分类",
     "headers": [],
     "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
@@ -1776,13 +1783,6 @@ export const SEARCH_INDEX = [
     "title": "指南 分类",
     "headers": [],
     "path": "/category/%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "reveal随笔 分类",
-    "headers": [],
-    "path": "/category/reveal%E9%9A%8F%E7%AC%94/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1895,6 +1895,108 @@ export const SEARCH_INDEX = [
     "title": "时间轴",
     "headers": [],
     "path": "/timeline/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "防抖节流的区别",
+    "headers": [
+      {
+        "level": 2,
+        "title": "🚥 核心差异对比",
+        "slug": "🚥-核心差异对比",
+        "link": "#🚥-核心差异对比",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "🧩 技术实现与代码示例",
+        "slug": "🧩-技术实现与代码示例",
+        "link": "#🧩-技术实现与代码示例",
+        "children": [
+          {
+            "level": 3,
+            "title": "防抖实现（Debounce）",
+            "slug": "防抖实现-debounce",
+            "link": "#防抖实现-debounce",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "节流实现（Throttle）",
+            "slug": "节流实现-throttle",
+            "link": "#节流实现-throttle",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "📊 触发频率可视化分析",
+        "slug": "📊-触发频率可视化分析",
+        "link": "#📊-触发频率可视化分析",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "🏆 经典应用场景",
+        "slug": "🏆-经典应用场景",
+        "link": "#🏆-经典应用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "适合防抖的场景",
+            "slug": "适合防抖的场景",
+            "link": "#适合防抖的场景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "适合节流的场景",
+            "slug": "适合节流的场景",
+            "link": "#适合节流的场景",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "🔍 高级实现技巧",
+        "slug": "🔍-高级实现技巧",
+        "link": "#🔍-高级实现技巧",
+        "children": [
+          {
+            "level": 3,
+            "title": "带立即执行的防抖",
+            "slug": "带立即执行的防抖",
+            "link": "#带立即执行的防抖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "带尾部执行的节流",
+            "slug": "带尾部执行的节流",
+            "link": "#带尾部执行的节流",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "🧪 实战选择建议",
+        "slug": "🧪-实战选择建议",
+        "link": "#🧪-实战选择建议",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "💡 可视化决策流程",
+        "slug": "💡-可视化决策流程",
+        "link": "#💡-可视化决策流程",
+        "children": []
+      }
+    ],
+    "path": "/code/debounce-throttle.html",
     "pathLocale": "/",
     "extraFields": []
   }
