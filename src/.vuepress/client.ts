@@ -8,6 +8,7 @@ const HttpClose = defineAsyncComponent(() => import('../code/components/http-clo
 const refReactive = defineAsyncComponent(() => import('../code/components/ref-reactive.vue'))
 const diffAngularVue = defineAsyncComponent(() => import('../code/components/angular-vue.vue'))
 const angularLife = defineAsyncComponent(() => import('../code/components/angular-life.vue'))
+
 const browserPrinciple = defineAsyncComponent(() => import('../code/components/browser-principle.vue'))
 const httpBasic = defineAsyncComponent(() => import('../code/components/http-basic.vue'))
 const networkBasic = defineAsyncComponent(() => import('../code/components/network-basic.vue'))
@@ -27,6 +28,10 @@ const cicd = defineAsyncComponent(() => import('../code/components/ci-cd.vue'))
 const docker = defineAsyncComponent(() => import('../code/components/docker.vue'))
 const epang = defineAsyncComponent(() => import('../essay/components/epang.vue'))
 
+
+
+
+
 export default defineClientConfig({
   //...
 
@@ -34,32 +39,30 @@ export default defineClientConfig({
     // ...
     Blog,
   },
-  //  enhance: ({ app, router, siteData }) => {
-  // },
-  rootComponents: [
-    HttpFiled,
-    HttpConnection,
-    HttpClose,
-    refReactive,
-    diffAngularVue,
-    angularLife,
-    browserPrinciple,
-    httpBasic,
-    networkBasic,
-    frontEndEngineer,
-    compositinModule,
-    nodeBasic,
-    newFeatures,
-    interfaceType,
-    angularService,
-    webpackLoader,
-    angularPipe,
-    webpackBundle,
-    componnetEncapsulation,
-    angularDependencyInjection,
-    computedWatch,
-    cicd,
-    docker,
-    epang
-  ]
+  enhance: ({ app, router, siteData }) => {
+    app.component('HttpFiled', HttpFiled)
+    app.component('HttpConnection', HttpConnection)
+    app.component('HttpClose', HttpClose)
+    app.component('refReactive', refReactive)
+    app.component('diffAngularVue', diffAngularVue)
+    app.component('angularLife', angularLife)
+    app.component('browserPrinciple', browserPrinciple)
+    app.component('httpBasic', httpBasic)
+    app.component('networkBasic', networkBasic)
+    app.component('frontEndEngineer', frontEndEngineer)
+    app.component('compositinModule', compositinModule)
+    app.component('nodeBasic', nodeBasic)
+    app.component('newFeatures', newFeatures)
+    app.component('interfaceType', interfaceType)
+    app.component('angularService', angularService)
+    app.component('webpackLoader', webpackLoader)
+    app.component('angularPipe', angularPipe)
+    app.component('webpackBundle', webpackBundle)
+    app.component('componnetEncapsulation', componnetEncapsulation)
+    app.component('angularDependencyInjection', angularDependencyInjection)
+    app.component('computedWatch', computedWatch)
+    app.component('cicd', cicd)
+    app.component('docker', docker)
+    app.component('epang', epang)
+  }
 });

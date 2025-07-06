@@ -14,6 +14,114 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "布局与功能禁用",
+    "headers": [],
+    "path": "/demo/disable.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "布局",
+    "headers": [],
+    "path": "/demo/layout.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Markdown 展示",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Markdown 介绍",
+        "slug": "markdown-介绍",
+        "link": "#markdown-介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Markdown 配置",
+        "slug": "markdown-配置",
+        "link": "#markdown-配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Markdown 扩展",
+        "slug": "markdown-扩展",
+        "link": "#markdown-扩展",
+        "children": [
+          {
+            "level": 3,
+            "title": "VuePress 扩展",
+            "slug": "vuepress-扩展",
+            "link": "#vuepress-扩展",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "主题扩展",
+            "slug": "主题扩展",
+            "link": "#主题扩展",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "图片增强",
+            "slug": "图片增强",
+            "link": "#图片增强",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/demo/markdown.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "页面配置",
+    "headers": [
+      {
+        "level": 2,
+        "title": "页面标题",
+        "slug": "页面标题",
+        "link": "#页面标题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "页面信息",
+        "slug": "页面信息",
+        "link": "#页面信息",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "页面内容",
+        "slug": "页面内容",
+        "link": "#页面内容",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "组件",
+        "slug": "组件",
+        "link": "#组件",
+        "children": []
+      }
+    ],
+    "path": "/demo/page.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "主要功能与配置演示",
+    "headers": [],
+    "path": "/demo/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Angular依赖注入",
     "headers": [],
     "path": "/code/angular-dependency-injection.html",
@@ -735,6 +843,151 @@ export const SEARCH_INDEX = [
     "title": "Interface和type的区别",
     "headers": [],
     "path": "/code/interface-type.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Jenkins",
+    "headers": [
+      {
+        "level": 2,
+        "title": "GitLab安装使用",
+        "slug": "gitlab安装使用",
+        "link": "#gitlab安装使用",
+        "children": [
+          {
+            "level": 3,
+            "title": "在ssh下安装",
+            "slug": "在ssh下安装",
+            "link": "#在ssh下安装",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "在docker下安装",
+            "slug": "在docker下安装",
+            "link": "#在docker下安装",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Jenkins安装",
+        "slug": "jenkins安装",
+        "link": "#jenkins安装",
+        "children": [
+          {
+            "level": 3,
+            "title": "安装JDK",
+            "slug": "安装jdk",
+            "link": "#安装jdk",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Maven安装",
+            "slug": "maven安装",
+            "link": "#maven安装",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Jenkins + Git + Maven 自动化部署配置",
+        "slug": "jenkins-git-maven-自动化部署配置",
+        "link": "#jenkins-git-maven-自动化部署配置",
+        "children": [
+          {
+            "level": 3,
+            "title": "git安装",
+            "slug": "git安装",
+            "link": "#git安装",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "publish over ssh 配置",
+            "slug": "publish-over-ssh-配置",
+            "link": "#publish-over-ssh-配置",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "运行前清理",
+            "slug": "运行前清理",
+            "link": "#运行前清理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "几种构建方式",
+            "slug": "几种构建方式",
+            "link": "#几种构建方式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "测试报告邮件通知",
+            "slug": "测试报告邮件通知",
+            "link": "#测试报告邮件通知",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "",
+            "slug": "",
+            "link": "#",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "自动化部署到docker容器中",
+            "slug": "自动化部署到docker容器中",
+            "link": "#自动化部署到docker容器中",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Jenkins集群/并发构建",
+        "slug": "jenkins集群-并发构建",
+        "link": "#jenkins集群-并发构建",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "流水线 pipeline",
+        "slug": "流水线-pipeline",
+        "link": "#流水线-pipeline",
+        "children": [
+          {
+            "level": 3,
+            "title": "完整语法",
+            "slug": "完整语法",
+            "link": "#完整语法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "测试脚本",
+            "slug": "测试脚本",
+            "link": "#测试脚本",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "pipeline中执行自动化构建",
+            "slug": "pipeline中执行自动化构建",
+            "link": "#pipeline中执行自动化构建",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/code/Jenkins.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1703,114 +1956,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "布局与功能禁用",
-    "headers": [],
-    "path": "/demo/disable.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "布局",
-    "headers": [],
-    "path": "/demo/layout.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Markdown 展示",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Markdown 介绍",
-        "slug": "markdown-介绍",
-        "link": "#markdown-介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Markdown 配置",
-        "slug": "markdown-配置",
-        "link": "#markdown-配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Markdown 扩展",
-        "slug": "markdown-扩展",
-        "link": "#markdown-扩展",
-        "children": [
-          {
-            "level": 3,
-            "title": "VuePress 扩展",
-            "slug": "vuepress-扩展",
-            "link": "#vuepress-扩展",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "主题扩展",
-            "slug": "主题扩展",
-            "link": "#主题扩展",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "图片增强",
-            "slug": "图片增强",
-            "link": "#图片增强",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/demo/markdown.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "页面配置",
-    "headers": [
-      {
-        "level": 2,
-        "title": "页面标题",
-        "slug": "页面标题",
-        "link": "#页面标题",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "页面信息",
-        "slug": "页面信息",
-        "link": "#页面信息",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "页面内容",
-        "slug": "页面内容",
-        "link": "#页面内容",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "组件",
-        "slug": "组件",
-        "link": "#组件",
-        "children": []
-      }
-    ],
-    "path": "/demo/page.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "主要功能与配置演示",
-    "headers": [],
-    "path": "/demo/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "遇到的问题记录",
     "headers": [],
     "path": "/project_sum/",
@@ -1861,6 +2006,20 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "使用指南 分类",
+    "headers": [],
+    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "指南 分类",
+    "headers": [],
+    "path": "/category/%E6%8C%87%E5%8D%97/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "前端开发 分类",
     "headers": [],
     "path": "/category/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/",
@@ -1896,20 +2055,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "使用指南 分类",
-    "headers": [],
-    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "指南 分类",
-    "headers": [],
-    "path": "/category/%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "项目 分类",
     "headers": [],
     "path": "/category/%E9%A1%B9%E7%9B%AE/",
@@ -1920,41 +2065,6 @@ export const SEARCH_INDEX = [
     "title": "标签",
     "headers": [],
     "path": "/tag/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签: Mapbox",
-    "headers": [],
-    "path": "/tag/mapbox/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签: 前端开发",
-    "headers": [],
-    "path": "/tag/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签: es6笔记",
-    "headers": [],
-    "path": "/tag/es6%E7%AC%94%E8%AE%B0/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签: Vue3",
-    "headers": [],
-    "path": "/tag/vue3/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签: Vue组件通信方式",
-    "headers": [],
-    "path": "/tag/vue%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1997,6 +2107,41 @@ export const SEARCH_INDEX = [
     "title": "标签: 使用指南",
     "headers": [],
     "path": "/tag/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签: Mapbox",
+    "headers": [],
+    "path": "/tag/mapbox/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签: 前端开发",
+    "headers": [],
+    "path": "/tag/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签: es6笔记",
+    "headers": [],
+    "path": "/tag/es6%E7%AC%94%E8%AE%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签: Vue3",
+    "headers": [],
+    "path": "/tag/vue3/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签: Vue组件通信方式",
+    "headers": [],
+    "path": "/tag/vue%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F/",
     "pathLocale": "/",
     "extraFields": []
   },

@@ -90,3 +90,8 @@
         <p class="marklang-paragraph">通过上述方法，前端工程化实现了从开发到部署的全流程标准化和自动化，适应复杂项目的需求变化，并降低长期维护成本。</p>
     </div>
 </template>
+<style>
+ strong{
+    background-color: white;
+ }
+</style>
