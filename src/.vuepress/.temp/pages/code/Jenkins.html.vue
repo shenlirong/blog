@@ -1,10 +1,11 @@
 <template><div><!-- more -->
 <h1 id="jenkins" tabindex="-1"><a class="header-anchor" href="#jenkins"><span>Jenkins</span></a></h1>
-<p>Jenkins，原名 Hudson，2011 年改为现在的名字。它是一个开源的实现持续集成的软件工具。</p>
+<p>Jenkins，原名 Hudson，2011 年改为现在的名字。它是一个开源的实现持续集成的软件工具。<br>
+Jenkins是一个开源软件项目，是基于Java开发的一种持续集成工具，用于监控持续重复的工作，旨在提供一个开放易用的软件平台，使软件项目可以进行持续集成。</p>
 <p>官方网站</p>
 <p><a href="https://www.jenkins.io/" target="_blank" rel="noopener noreferrer">https://www.jenkins.io/</a></p>
 <p>视频网站：<a href="https://www.bilibili.com/video/BV1bS4y1471A/?spm_id_from=333.337.search-card.all.click&amp;vd_source=b088cb81ac4666d15efb4be22992de23" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1bS4y1471A/?spm_id_from=333.337.search-card.all.click&amp;vd_source=b088cb81ac4666d15efb4be22992de23</a></p>
-<h2 id="gitlab安装使用" tabindex="-1"><a class="header-anchor" href="#gitlab安装使用"><span>GitLab安装使用</span></a></h2>
+<jenkins></jenkins><h2 id="gitlab安装使用" tabindex="-1"><a class="header-anchor" href="#gitlab安装使用"><span>GitLab安装使用</span></a></h2>
 <p>官方网站：<a href="https://about.gitlab.com/" target="_blank" rel="noopener noreferrer">https://about.gitlab.com/</a></p>
 <p>安装所需最小配置</p>
 <p>内存至少4G</p>

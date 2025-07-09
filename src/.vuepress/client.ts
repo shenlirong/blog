@@ -1,32 +1,34 @@
 import { defineClientConfig } from "vuepress/client";
 import Blog from "./components/Blog.vue"
-import { defineAsyncComponent } from "vue";
 
-const HttpFiled = defineAsyncComponent(() => import('../code/components/http-filed.vue'))
-const HttpConnection = defineAsyncComponent(() => import('../code/components/http-connection.vue'))
-const HttpClose = defineAsyncComponent(() => import('../code/components/http-close.vue'))
-const refReactive = defineAsyncComponent(() => import('../code/components/ref-reactive.vue'))
-const diffAngularVue = defineAsyncComponent(() => import('../code/components/angular-vue.vue'))
-const angularLife = defineAsyncComponent(() => import('../code/components/angular-life.vue'))
 
-const browserPrinciple = defineAsyncComponent(() => import('../code/components/browser-principle.vue'))
-const httpBasic = defineAsyncComponent(() => import('../code/components/http-basic.vue'))
-const networkBasic = defineAsyncComponent(() => import('../code/components/network-basic.vue'))
-const frontEndEngineer = defineAsyncComponent(() => import('../code/components/front-end-engineer.vue'))
-const compositinModule = defineAsyncComponent(() => import('../code/components/composition-module.vue'))
-const nodeBasic = defineAsyncComponent(() => import('../code/components/node-basic.vue'))
-const newFeatures = defineAsyncComponent(() => import('../code/components/Vue3-new-features.vue'))
-const interfaceType = defineAsyncComponent(() => import('../code/components/interface-type.vue'))
-const angularService = defineAsyncComponent(() => import('../code/components/angular-service.vue'))
-const webpackLoader = defineAsyncComponent(() => import('../code/components/webpack-loader.vue'))
-const angularPipe = defineAsyncComponent(() => import('../code/components/angular-pipe.vue'))
-const webpackBundle = defineAsyncComponent(() => import('../code/components/webpack-bundle.vue'))
-const componnetEncapsulation = defineAsyncComponent(() => import('../code/components/component-encapsulation.vue'))
-const angularDependencyInjection = defineAsyncComponent(() => import('../code/components/angular-dependency-injection.vue'))
-const computedWatch = defineAsyncComponent(() => import('../code/components/computed-watch.vue'))
-const cicd = defineAsyncComponent(() => import('../code/components/ci-cd.vue'))
-const docker = defineAsyncComponent(() => import('../code/components/docker.vue'))
-const epang = defineAsyncComponent(() => import('../essay/components/epang.vue'))
+import jenkins from '../code/components/jenkins.vue'
+
+import HttpFiled from '../code/components/http-filed.vue'
+import HttpConnection from '../code/components/http-connection.vue'
+import HttpClose from '../code/components/http-close.vue'
+import refReactive from '../code/components/ref-reactive.vue'
+import diffAngularVue from '../code/components/angular-vue.vue'
+import angularLife from '../code/components/angular-life.vue'
+
+import browserPrinciple from '../code/components/browser-principle.vue'
+import httpBasic from '../code/components/http-basic.vue'
+import networkBasic from '../code/components/network-basic.vue'
+import frontEndEngineer from '../code/components/front-end-engineer.vue'
+import compositinModule from '../code/components/composition-module.vue'
+import nodeBasic from '../code/components/node-basic.vue'
+import newFeatures from '../code/components/Vue3-new-features.vue'
+import interfaceType from '../code/components/interface-type.vue'
+import angularService from '../code/components/angular-service.vue'
+import webpackLoader from '../code/components/webpack-loader.vue'
+import angularPipe from '../code/components/angular-pipe.vue'
+import webpackBundle from '../code/components/webpack-bundle.vue'
+import componnetEncapsulation from '../code/components/component-encapsulation.vue'
+import angularDependencyInjection from '../code/components/angular-dependency-injection.vue'
+import computedWatch from '../code/components/computed-watch.vue'
+import cicd from '../code/components/ci-cd.vue'
+import docker from '../code/components/docker.vue'
+import epang from '../essay/components/epang.vue'
 
 
 
@@ -64,5 +66,6 @@ export default defineClientConfig({
     app.component('cicd', cicd)
     app.component('docker', docker)
     app.component('epang', epang)
+    app.component('jenkins', jenkins)
   }
 });

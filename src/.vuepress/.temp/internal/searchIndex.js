@@ -14,114 +14,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "布局与功能禁用",
-    "headers": [],
-    "path": "/demo/disable.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "布局",
-    "headers": [],
-    "path": "/demo/layout.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Markdown 展示",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Markdown 介绍",
-        "slug": "markdown-介绍",
-        "link": "#markdown-介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Markdown 配置",
-        "slug": "markdown-配置",
-        "link": "#markdown-配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Markdown 扩展",
-        "slug": "markdown-扩展",
-        "link": "#markdown-扩展",
-        "children": [
-          {
-            "level": 3,
-            "title": "VuePress 扩展",
-            "slug": "vuepress-扩展",
-            "link": "#vuepress-扩展",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "主题扩展",
-            "slug": "主题扩展",
-            "link": "#主题扩展",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "图片增强",
-            "slug": "图片增强",
-            "link": "#图片增强",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/demo/markdown.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "页面配置",
-    "headers": [
-      {
-        "level": 2,
-        "title": "页面标题",
-        "slug": "页面标题",
-        "link": "#页面标题",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "页面信息",
-        "slug": "页面信息",
-        "link": "#页面信息",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "页面内容",
-        "slug": "页面内容",
-        "link": "#页面内容",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "组件",
-        "slug": "组件",
-        "link": "#组件",
-        "children": []
-      }
-    ],
-    "path": "/demo/page.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "主要功能与配置演示",
-    "headers": [],
-    "path": "/demo/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Angular依赖注入",
     "headers": [],
     "path": "/code/angular-dependency-injection.html",
@@ -719,7 +611,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "网络协议",
+    "title": "浏览器原理、网络协议",
     "headers": [
       {
         "level": 2,
@@ -1956,6 +1848,114 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "布局与功能禁用",
+    "headers": [],
+    "path": "/demo/disable.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "布局",
+    "headers": [],
+    "path": "/demo/layout.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Markdown 展示",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Markdown 介绍",
+        "slug": "markdown-介绍",
+        "link": "#markdown-介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Markdown 配置",
+        "slug": "markdown-配置",
+        "link": "#markdown-配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Markdown 扩展",
+        "slug": "markdown-扩展",
+        "link": "#markdown-扩展",
+        "children": [
+          {
+            "level": 3,
+            "title": "VuePress 扩展",
+            "slug": "vuepress-扩展",
+            "link": "#vuepress-扩展",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "主题扩展",
+            "slug": "主题扩展",
+            "link": "#主题扩展",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "图片增强",
+            "slug": "图片增强",
+            "link": "#图片增强",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/demo/markdown.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "页面配置",
+    "headers": [
+      {
+        "level": 2,
+        "title": "页面标题",
+        "slug": "页面标题",
+        "link": "#页面标题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "页面信息",
+        "slug": "页面信息",
+        "link": "#页面信息",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "页面内容",
+        "slug": "页面内容",
+        "link": "#页面内容",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "组件",
+        "slug": "组件",
+        "link": "#组件",
+        "children": []
+      }
+    ],
+    "path": "/demo/page.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "主要功能与配置演示",
+    "headers": [],
+    "path": "/demo/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "遇到的问题记录",
     "headers": [],
     "path": "/project_sum/",
@@ -2006,20 +2006,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "使用指南 分类",
-    "headers": [],
-    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "指南 分类",
-    "headers": [],
-    "path": "/category/%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "前端开发 分类",
     "headers": [],
     "path": "/category/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/",
@@ -2030,6 +2016,13 @@ export const SEARCH_INDEX = [
     "title": "Mapbox 分类",
     "headers": [],
     "path": "/category/mapbox/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "容器技术 分类",
+    "headers": [],
+    "path": "/category/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2055,6 +2048,20 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "使用指南 分类",
+    "headers": [],
+    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "指南 分类",
+    "headers": [],
+    "path": "/category/%E6%8C%87%E5%8D%97/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "项目 分类",
     "headers": [],
     "path": "/category/%E9%A1%B9%E7%9B%AE/",
@@ -2065,6 +2072,41 @@ export const SEARCH_INDEX = [
     "title": "标签",
     "headers": [],
     "path": "/tag/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签: Mapbox",
+    "headers": [],
+    "path": "/tag/mapbox/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签: 前端开发",
+    "headers": [],
+    "path": "/tag/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签: es6笔记",
+    "headers": [],
+    "path": "/tag/es6%E7%AC%94%E8%AE%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签: Vue3",
+    "headers": [],
+    "path": "/tag/vue3/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签: Vue组件通信方式",
+    "headers": [],
+    "path": "/tag/vue%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2107,41 +2149,6 @@ export const SEARCH_INDEX = [
     "title": "标签: 使用指南",
     "headers": [],
     "path": "/tag/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签: Mapbox",
-    "headers": [],
-    "path": "/tag/mapbox/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签: 前端开发",
-    "headers": [],
-    "path": "/tag/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签: es6笔记",
-    "headers": [],
-    "path": "/tag/es6%E7%AC%94%E8%AE%B0/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签: Vue3",
-    "headers": [],
-    "path": "/tag/vue3/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签: Vue组件通信方式",
-    "headers": [],
-    "path": "/tag/vue%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F/",
     "pathLocale": "/",
     "extraFields": []
   },

@@ -3,7 +3,7 @@ icon: pen-to-square
 # date: 2024-12-01
 sticky: 94
 pageview: true
-title: 网络协议
+title: 浏览器原理、网络协议
 category:
   - 前端开发
 ---
