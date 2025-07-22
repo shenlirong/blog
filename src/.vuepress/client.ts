@@ -29,8 +29,8 @@ import computedWatch from '../code/components/computed-watch.vue'
 import cicd from '../code/components/ci-cd.vue'
 import docker from '../code/components/docker.vue'
 import epang from '../essay/components/epang.vue'
-
-
+import layout from '../code/components/flex-layout.vue'
+import vIfShow from '../code/components/v-if-show.vue'
 
 
 
@@ -67,5 +67,7 @@ export default defineClientConfig({
     app.component('docker', docker)
     app.component('epang', epang)
     app.component('jenkins', jenkins)
+    app.component('layout',layout)
+    app.component('vIfShow',vIfShow)
   }
 });

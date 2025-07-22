@@ -725,6 +725,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Flex布局",
+    "headers": [],
+    "path": "/code/flex-layout.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "前端工程化",
     "headers": [],
     "path": "/code/front-end-engineer.html",
@@ -1827,27 +1834,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "阿房宫赋",
-    "headers": [],
-    "path": "/essay/epang.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "reveal随笔",
-    "headers": [],
-    "path": "/essay/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "背影",
-    "headers": [],
-    "path": "/essay/silhouette.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "布局与功能禁用",
     "headers": [],
     "path": "/demo/disable.html",
@@ -1956,6 +1942,27 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "阿房宫赋",
+    "headers": [],
+    "path": "/essay/epang.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "reveal随笔",
+    "headers": [],
+    "path": "/essay/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "背影",
+    "headers": [],
+    "path": "/essay/silhouette.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "遇到的问题记录",
     "headers": [],
     "path": "/project_sum/",
@@ -2034,20 +2041,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "诗词赏析 分类",
-    "headers": [],
-    "path": "/category/%E8%AF%97%E8%AF%8D%E8%B5%8F%E6%9E%90/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "reveal随笔 分类",
-    "headers": [],
-    "path": "/category/reveal%E9%9A%8F%E7%AC%94/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "使用指南 分类",
     "headers": [],
     "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
@@ -2058,6 +2051,20 @@ export const SEARCH_INDEX = [
     "title": "指南 分类",
     "headers": [],
     "path": "/category/%E6%8C%87%E5%8D%97/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "诗词赏析 分类",
+    "headers": [],
+    "path": "/category/%E8%AF%97%E8%AF%8D%E8%B5%8F%E6%9E%90/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "reveal随笔 分类",
+    "headers": [],
+    "path": "/category/reveal%E9%9A%8F%E7%AC%94/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2170,6 +2177,13 @@ export const SEARCH_INDEX = [
     "title": "时间轴",
     "headers": [],
     "path": "/timeline/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "v-if 和 v-show的区别",
+    "headers": [],
+    "path": "/code/v-if-show.html",
     "pathLocale": "/",
     "extraFields": []
   }
