@@ -611,62 +611,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "浏览器原理、网络协议",
+    "title": "浏览器加载原理",
     "headers": [
       {
         "level": 2,
         "title": "DOM简介",
         "slug": "dom简介",
         "link": "#dom简介",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "http三次握手",
-        "slug": "http三次握手",
-        "link": "#http三次握手",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "http 四次挥手",
-        "slug": "http-四次挥手",
-        "link": "#http-四次挥手",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "浏览器请求数据的过程",
-        "slug": "浏览器请求数据的过程",
-        "link": "#浏览器请求数据的过程",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "概括",
-        "slug": "概括",
-        "link": "#概括",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "什么是URL",
-        "slug": "什么是url",
-        "link": "#什么是url",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "什么是http协议",
-        "slug": "什么是http协议",
-        "link": "#什么是http协议",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "响应码",
-        "slug": "响应码",
-        "link": "#响应码",
         "children": [
           {
             "level": 3,
@@ -2184,6 +2135,70 @@ export const SEARCH_INDEX = [
     "title": "v-if 和 v-show的区别",
     "headers": [],
     "path": "/code/v-if-show.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "网络协议",
+    "headers": [
+      {
+        "level": 2,
+        "title": "http三次握手",
+        "slug": "http三次握手",
+        "link": "#http三次握手",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "http 四次挥手",
+        "slug": "http-四次挥手",
+        "link": "#http-四次挥手",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "浏览器请求数据的过程",
+        "slug": "浏览器请求数据的过程",
+        "link": "#浏览器请求数据的过程",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "概括",
+        "slug": "概括",
+        "link": "#概括",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "什么是URL",
+        "slug": "什么是url",
+        "link": "#什么是url",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "什么是http协议",
+        "slug": "什么是http协议",
+        "link": "#什么是http协议",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "响应码",
+        "slug": "响应码",
+        "link": "#响应码",
+        "children": []
+      }
+    ],
+    "path": "/code/network-protocol.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "web安全基础",
+    "headers": [],
+    "path": "/code/web-security.html",
     "pathLocale": "/",
     "extraFields": []
   }

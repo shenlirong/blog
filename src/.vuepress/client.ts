@@ -31,7 +31,7 @@ import docker from '../code/components/docker.vue'
 import epang from '../essay/components/epang.vue'
 import layout from '../code/components/flex-layout.vue'
 import vIfShow from '../code/components/v-if-show.vue'
-
+import webSecurity from '../code/components/web-security.vue'
 
 
 export default defineClientConfig({
@@ -69,5 +69,6 @@ export default defineClientConfig({
     app.component('jenkins', jenkins)
     app.component('layout',layout)
     app.component('vIfShow',vIfShow)
+    app.component('webSecurity',webSecurity)
   }
 });
