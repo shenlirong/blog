@@ -32,7 +32,8 @@ import epang from '../essay/components/epang.vue'
 import layout from '../code/components/flex-layout.vue'
 import vIfShow from '../code/components/v-if-show.vue'
 import webSecurity from '../code/components/web-security.vue'
-
+import jsExecuteMachisum from '../code/components/js-execution-mechanism.vue'
+import promise from '../code/components/promise.vue'
 
 export default defineClientConfig({
   //...
@@ -70,5 +71,7 @@ export default defineClientConfig({
     app.component('layout',layout)
     app.component('vIfShow',vIfShow)
     app.component('webSecurity',webSecurity)
+    app.component('jsExecuteMachisum',jsExecuteMachisum)
+    app.component('promise',promise)
   }
 });

@@ -842,6 +842,188 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "js执行机制",
+    "headers": [
+      {
+        "level": 2,
+        "title": "JavaScript 执行的核心原理",
+        "slug": "javascript-执行的核心原理",
+        "link": "#javascript-执行的核心原理",
+        "children": [
+          {
+            "level": 3,
+            "title": "核心概念解析",
+            "slug": "核心概念解析",
+            "link": "#核心概念解析",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "执行顺序规则",
+        "slug": "执行顺序规则",
+        "link": "#执行顺序规则",
+        "children": [
+          {
+            "level": 3,
+            "title": "微任务（Microtasks）与宏任务（Macrotasks）",
+            "slug": "微任务-microtasks-与宏任务-macrotasks",
+            "link": "#微任务-microtasks-与宏任务-macrotasks",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "执行流程详解",
+        "slug": "执行流程详解",
+        "link": "#执行流程详解",
+        "children": [
+          {
+            "level": 3,
+            "title": "执行步骤分析：",
+            "slug": "执行步骤分析",
+            "link": "#执行步骤分析",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "最终输出顺序：",
+            "slug": "最终输出顺序",
+            "link": "#最终输出顺序",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "关键机制详解",
+        "slug": "关键机制详解",
+        "link": "#关键机制详解",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 事件循环工作流程",
+            "slug": "_1-事件循环工作流程",
+            "link": "#_1-事件循环工作流程",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 异步操作处理流程",
+            "slug": "_2-异步操作处理流程",
+            "link": "#_2-异步操作处理流程",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 微任务优先机制",
+            "slug": "_3-微任务优先机制",
+            "link": "#_3-微任务优先机制",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "实际应用场景",
+        "slug": "实际应用场景",
+        "link": "#实际应用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Promise 与 setTimeout 执行顺序",
+            "slug": "_1-promise-与-settimeout-执行顺序",
+            "link": "#_1-promise-与-settimeout-执行顺序",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 嵌套异步操作",
+            "slug": "_2-嵌套异步操作",
+            "link": "#_2-嵌套异步操作",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "性能优化建议",
+        "slug": "性能优化建议",
+        "link": "#性能优化建议",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "浏览器与Node.js差异",
+        "slug": "浏览器与node-js差异",
+        "link": "#浏览器与node-js差异",
+        "children": []
+      }
+    ],
+    "path": "/code/js-execution-mechanism.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "网络协议",
+    "headers": [
+      {
+        "level": 2,
+        "title": "http三次握手",
+        "slug": "http三次握手",
+        "link": "#http三次握手",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "http 四次挥手",
+        "slug": "http-四次挥手",
+        "link": "#http-四次挥手",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "浏览器请求数据的过程",
+        "slug": "浏览器请求数据的过程",
+        "link": "#浏览器请求数据的过程",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "概括",
+        "slug": "概括",
+        "link": "#概括",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "什么是URL",
+        "slug": "什么是url",
+        "link": "#什么是url",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "什么是http协议",
+        "slug": "什么是http协议",
+        "link": "#什么是http协议",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "响应码",
+        "slug": "响应码",
+        "link": "#响应码",
+        "children": []
+      }
+    ],
+    "path": "/code/network-protocol.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "nodejs主流框架",
     "headers": [],
     "path": "/code/node-basic.html",
@@ -938,6 +1120,13 @@ export const SEARCH_INDEX = [
     "title": "TypeScript 介绍",
     "headers": [],
     "path": "/code/ts_js.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "v-if 和 v-show的区别",
+    "headers": [],
+    "path": "/code/v-if-show.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1720,6 +1909,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "web安全基础",
+    "headers": [],
+    "path": "/code/web-security.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "webpack打包优化方案",
     "headers": [],
     "path": "/code/webpack-bundle.html",
@@ -1985,6 +2181,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "前端技术 分类",
+    "headers": [],
+    "path": "/category/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "代码笔记 分类",
     "headers": [],
     "path": "/category/%E4%BB%A3%E7%A0%81%E7%AC%94%E8%AE%B0/",
@@ -2132,73 +2335,321 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "v-if 和 v-show的区别",
-    "headers": [],
-    "path": "/code/v-if-show.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "网络协议",
+    "title": "泛型",
     "headers": [
       {
         "level": 2,
-        "title": "http三次握手",
-        "slug": "http三次握手",
-        "link": "#http三次握手",
+        "title": "什么是泛型？",
+        "slug": "什么是泛型",
+        "link": "#什么是泛型",
         "children": []
       },
       {
         "level": 2,
-        "title": "http 四次挥手",
-        "slug": "http-四次挥手",
-        "link": "#http-四次挥手",
+        "title": "泛型的核心概念",
+        "slug": "泛型的核心概念",
+        "link": "#泛型的核心概念",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 类型参数化",
+            "slug": "_1-类型参数化",
+            "link": "#_1-类型参数化",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 类型约束",
+            "slug": "_2-类型约束",
+            "link": "#_2-类型约束",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 默认类型",
+            "slug": "_3-默认类型",
+            "link": "#_3-默认类型",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "泛型在前端开发中的应用场景",
+        "slug": "泛型在前端开发中的应用场景",
+        "link": "#泛型在前端开发中的应用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 状态管理（如 Redux）",
+            "slug": "_1-状态管理-如-redux",
+            "link": "#_1-状态管理-如-redux",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. API 请求处理",
+            "slug": "_2-api-请求处理",
+            "link": "#_2-api-请求处理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. React 组件",
+            "slug": "_3-react-组件",
+            "link": "#_3-react-组件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. 表单处理",
+            "slug": "_4-表单处理",
+            "link": "#_4-表单处理",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "泛型的高级用法",
+        "slug": "泛型的高级用法",
+        "link": "#泛型的高级用法",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 条件类型",
+            "slug": "_1-条件类型",
+            "link": "#_1-条件类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 映射类型",
+            "slug": "_2-映射类型",
+            "link": "#_2-映射类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 类型推断",
+            "slug": "_3-类型推断",
+            "link": "#_3-类型推断",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "泛型在前端开发中的优势",
+        "slug": "泛型在前端开发中的优势",
+        "link": "#泛型在前端开发中的优势",
         "children": []
       },
       {
         "level": 2,
-        "title": "浏览器请求数据的过程",
-        "slug": "浏览器请求数据的过程",
-        "link": "#浏览器请求数据的过程",
+        "title": "实际案例：泛型表单钩子",
+        "slug": "实际案例-泛型表单钩子",
+        "link": "#实际案例-泛型表单钩子",
         "children": []
       },
       {
         "level": 2,
-        "title": "概括",
-        "slug": "概括",
-        "link": "#概括",
+        "title": "泛型最佳实践",
+        "slug": "泛型最佳实践",
+        "link": "#泛型最佳实践",
         "children": []
       },
       {
         "level": 2,
-        "title": "什么是URL",
-        "slug": "什么是url",
-        "link": "#什么是url",
-        "children": []
+        "title": "常见错误与解决方案",
+        "slug": "常见错误与解决方案",
+        "link": "#常见错误与解决方案",
+        "children": [
+          {
+            "level": 3,
+            "title": "错误：类型参数过多",
+            "slug": "错误-类型参数过多",
+            "link": "#错误-类型参数过多",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "错误：忽略类型约束",
+            "slug": "错误-忽略类型约束",
+            "link": "#错误-忽略类型约束",
+            "children": []
+          }
+        ]
       },
       {
         "level": 2,
-        "title": "什么是http协议",
-        "slug": "什么是http协议",
-        "link": "#什么是http协议",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "响应码",
-        "slug": "响应码",
-        "link": "#响应码",
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
         "children": []
       }
     ],
-    "path": "/code/network-protocol.html",
+    "path": "/code/geniric.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "web安全基础",
-    "headers": [],
-    "path": "/code/web-security.html",
+    "title": "promise",
+    "headers": [
+      {
+        "level": 3,
+        "title": "重要结论",
+        "slug": "重要结论",
+        "link": "#重要结论",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "async/await 与 Promise 的核心关系",
+        "slug": "async-await-与-promise-的核心关系",
+        "link": "#async-await-与-promise-的核心关系",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "何时使用 Promise 或 async/await",
+        "slug": "何时使用-promise-或-async-await",
+        "link": "#何时使用-promise-或-async-await",
+        "children": [
+          {
+            "level": 3,
+            "title": "使用 Promise 的场景：",
+            "slug": "使用-promise-的场景",
+            "link": "#使用-promise-的场景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "使用 async/await 的场景：",
+            "slug": "使用-async-await-的场景",
+            "link": "#使用-async-await-的场景",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "关键优势对比",
+        "slug": "关键优势对比",
+        "link": "#关键优势对比",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "最佳实践建议",
+        "slug": "最佳实践建议",
+        "link": "#最佳实践建议",
+        "children": []
+      }
+    ],
+    "path": "/code/promise.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "async/await 的异步特性解析",
+    "headers": [
+      {
+        "level": 2,
+        "title": "async/await 的异步本质",
+        "slug": "async-await-的异步本质",
+        "link": "#async-await-的异步本质",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 非阻塞执行",
+            "slug": "_1-非阻塞执行",
+            "link": "#_1-非阻塞执行",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 基于 Promise 的语法糖",
+            "slug": "_2-基于-promise-的语法糖",
+            "link": "#_2-基于-promise-的语法糖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 事件循环中的位置",
+            "slug": "_3-事件循环中的位置",
+            "link": "#_3-事件循环中的位置",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "为什么 async/await 是异步的",
+        "slug": "为什么-async-await-是异步的",
+        "link": "#为什么-async-await-是异步的",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 不阻塞主线程",
+            "slug": "_1-不阻塞主线程",
+            "link": "#_1-不阻塞主线程",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 顺序执行异步操作",
+            "slug": "_2-顺序执行异步操作",
+            "link": "#_2-顺序执行异步操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 错误处理机制",
+            "slug": "_3-错误处理机制",
+            "link": "#_3-错误处理机制",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "实际应用场景",
+        "slug": "实际应用场景",
+        "link": "#实际应用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 网络请求",
+            "slug": "_1-网络请求",
+            "link": "#_1-网络请求",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 文件操作",
+            "slug": "_2-文件操作",
+            "link": "#_2-文件操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 多步操作",
+            "slug": "_3-多步操作",
+            "link": "#_3-多步操作",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "关键特性总结",
+        "slug": "关键特性总结",
+        "link": "#关键特性总结",
+        "children": []
+      }
+    ],
+    "path": "/code/async-await.html",
     "pathLocale": "/",
     "extraFields": []
   }
