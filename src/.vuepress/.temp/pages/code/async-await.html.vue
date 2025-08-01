@@ -1,4 +1,5 @@
-<template><div><h1 id="async-await-的异步特性解析" tabindex="-1"><a class="header-anchor" href="#async-await-的异步特性解析"><span>async/await 的异步特性解析</span></a></h1>
+<template><div><!-- more -->
+<h1 id="async-await-的异步特性解析" tabindex="-1"><a class="header-anchor" href="#async-await-的异步特性解析"><span>async/await 的异步特性解析</span></a></h1>
 <p>async/await 是 JavaScript 中处理异步操作的核心机制，它本质上是一种异步编程模型。让我详细解释其异步特性：</p>
 <h2 id="async-await-的异步本质" tabindex="-1"><a class="header-anchor" href="#async-await-的异步本质"><span>async/await 的异步本质</span></a></h2>
 <h3 id="_1-非阻塞执行" tabindex="-1"><a class="header-anchor" href="#_1-非阻塞执行"><span>1. 非阻塞执行</span></a></h3>

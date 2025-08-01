@@ -1,0 +1,289 @@
+<template>
+    <div class="ai-entry"><!--2409-->
+        <div>
+            <div data-show="summary"
+                data-show-ext="{&quot;component_content&quot;:{&quot;component_name&quot;:&quot;markdown&quot;,&quot;component_type&quot;:&quot;abstract&quot;,&quot;reference_type&quot;:&quot;&quot;},&quot;hasCredibleRef&quot;:false}">
+                <div class="link-wrapper_2Zcj9">
+                    <div class="cosd-markdown"><!--2414-->
+                        <div class="cosd-markdown-content "><!--2415-->
+                            <div class="marklang">
+                                <p class="marklang-paragraph">
+                                    Axios是一个基于Promise的HTTP客户端库，用于在浏览器和Node.js环境中发送异步HTTP请求（如GET、POST等），是现代前端开发中最流行的网络请求库之一。
+                                </p>
+                            </div><!--2415-->
+                        </div>
+                    </div>
+                </div>
+            </div><!--2410-->
+        </div><!--2409--><!--2416-->
+        <div>
+            <div class="cos-space-mt-xxl" data-show="summary"
+                data-show-ext="{&quot;component_content&quot;:{&quot;component_name&quot;:&quot;markdown&quot;,&quot;component_type&quot;:&quot;abstract&quot;,&quot;reference_type&quot;:&quot;&quot;},&quot;hasCredibleRef&quot;:false}">
+                <div class="link-wrapper_2Zcj9">
+                    <div class="cosd-markdown"><!--2421-->
+                        <div class="cosd-markdown-content "><!--2422-->
+                            <div class="marklang">
+                                <p class="marklang-paragraph"><mark
+                                        class="flexible-marker flexible-marker-default">‌<strong>核心定义与特性</strong>‌</mark>
+                                </p>
+                            </div><!--2422-->
+                        </div>
+                    </div>
+                </div>
+            </div><!--2417-->
+        </div><!--2416--><!--2423-->
+        <div>
+            <div class="cos-space-mt-xxl" data-show="summary"
+                data-show-ext="{&quot;component_content&quot;:{&quot;component_name&quot;:&quot;markdown&quot;,&quot;component_type&quot;:&quot;abstract&quot;,&quot;reference_type&quot;:&quot;&quot;},&quot;hasCredibleRef&quot;:false}">
+                <div class="link-wrapper_2Zcj9">
+                    <div class="cosd-markdown"><!--2428-->
+                        <div class="cosd-markdown-content "><!--2429-->
+                            <div class="marklang">
+                                <p class="marklang-paragraph">Axios是一个<mark
+                                        class="flexible-marker flexible-marker-default">‌<strong>基于Promise的HTTP客户端库</strong>‌</mark>，主要特点包括：
+                                </p>
+                                <ol>
+                                    <li><mark
+                                            class="flexible-marker flexible-marker-default">‌<strong>跨平台支持</strong>‌</mark>：同一套代码可运行于浏览器（封装XMLHttpRequest）和Node.js（使用原生http模块）。‌‌<span
+                                            disable-audio="true" disable-copy="true"><span
+                                                rl-type="stop"><!--2431--><span
+                                                    class="cos-tooltip cosd-citation"><!--2434--><span
+                                                        class="cosd-citation-citationId">1<!--2435--></span><!--2434--></span><!--2432--><!--2436--><!--2436--><!--2431--></span></span>‌‌<span
+                                            disable-audio="true" disable-copy="true"><span
+                                                rl-type="stop"><!--2438--><span
+                                                    class="cos-tooltip cosd-citation"><!--2441--><span
+                                                        class="cosd-citation-citationId">2<!--2442--></span><!--2441--></span><!--2439--><!--2443--><!--2443--><!--2438--></span></span>
+                                    </li>
+                                    <li><mark
+                                            class="flexible-marker flexible-marker-default">‌<strong>Promise驱动</strong>‌</mark>：通过Promise管理异步请求，避免传统回调地狱，符合ES规范。‌‌<span
+                                            disable-audio="true" disable-copy="true"><span
+                                                rl-type="stop"><!--2445--><span
+                                                    class="cos-tooltip cosd-citation"><!--2448--><span
+                                                        class="cosd-citation-citationId">1<!--2449--></span><!--2448--></span><!--2446--><!--2450--><!--2450--><!--2445--></span></span>‌‌<span
+                                            disable-audio="true" disable-copy="true"><span
+                                                rl-type="stop"><!--2452--><span
+                                                    class="cos-tooltip cosd-citation"><!--2455--><span
+                                                        class="cosd-citation-citationId">3<!--2456--></span><!--2455--></span><!--2453--><!--2457--><!--2457--><!--2452--></span></span>
+                                    </li>
+                                    <li><mark
+                                            class="flexible-marker flexible-marker-default">‌<strong>功能丰富</strong>‌</mark>：支持请求/响应拦截、自动JSON转换、取消请求等高级功能。‌‌<span
+                                            disable-audio="true" disable-copy="true"><span
+                                                rl-type="stop"><!--2459--><span
+                                                    class="cos-tooltip cosd-citation"><!--2462--><span
+                                                        class="cosd-citation-citationId">4<!--2463--></span><!--2462--></span><!--2460--><!--2464--><!--2464--><!--2459--></span></span>‌‌<span
+                                            disable-audio="true" disable-copy="true"><span
+                                                rl-type="stop"><!--2466--><span
+                                                    class="cos-tooltip cosd-citation"><!--2469--><span
+                                                        class="cosd-citation-citationId">5<!--2470--></span><!--2469--></span><!--2467--><!--2471--><!--2471--><!--2466--></span></span>
+                                    </li>
+                                </ol>
+                            </div><!--2429-->
+                        </div>
+                    </div>
+                </div>
+            </div><!--2424-->
+        </div><!--2423--><!--2472-->
+        <div>
+            <div class="cos-space-mt-xxl" data-show="summary"
+                data-show-ext="{&quot;component_content&quot;:{&quot;component_name&quot;:&quot;markdown&quot;,&quot;component_type&quot;:&quot;abstract&quot;,&quot;reference_type&quot;:&quot;&quot;},&quot;hasCredibleRef&quot;:false}">
+                <div class="link-wrapper_2Zcj9">
+                    <div class="cosd-markdown"><!--2477-->
+                        <div class="cosd-markdown-content "><!--2478-->
+                            <div class="marklang">
+                                <p class="marklang-paragraph"><mark
+                                        class="flexible-marker flexible-marker-default">‌<strong>技术定位</strong>‌</mark>
+                                </p>
+                            </div><!--2478-->
+                        </div>
+                    </div>
+                </div>
+            </div><!--2473-->
+        </div><!--2472--><!--2479-->
+        <div>
+            <div class="cos-space-mt-xxl" data-show="summary"
+                data-show-ext="{&quot;component_content&quot;:{&quot;component_name&quot;:&quot;markdown&quot;,&quot;component_type&quot;:&quot;abstract&quot;,&quot;reference_type&quot;:&quot;&quot;},&quot;hasCredibleRef&quot;:false}">
+                <div class="link-wrapper_2Zcj9">
+                    <div class="cosd-markdown"><!--2484-->
+                        <div class="cosd-markdown-content "><!--2485-->
+                            <div class="marklang">
+                                <ul>
+                                    <li><mark
+                                            class="flexible-marker flexible-marker-default">‌<strong>替代原生Ajax</strong>‌</mark>：简化了传统Ajax的复杂操作，提供更简洁的API。‌‌<span
+                                            disable-audio="true" disable-copy="true"><span
+                                                rl-type="stop"><!--2487--><span
+                                                    class="cos-tooltip cosd-citation"><!--2490--><span
+                                                        class="cosd-citation-citationId">3<!--2491--></span><!--2490--></span><!--2488--><!--2492--><!--2492--><!--2487--></span></span>‌‌<span
+                                            disable-audio="true" disable-copy="true"><span
+                                                rl-type="stop"><!--2494--><span
+                                                    class="cos-tooltip cosd-citation"><!--2497--><span
+                                                        class="cosd-citation-citationId">6<!--2498--></span><!--2497--></span><!--2495--><!--2499--><!--2499--><!--2494--></span></span>
+                                    </li>
+                                    <li><mark
+                                            class="flexible-marker flexible-marker-default">‌<strong>轻量高效</strong>‌</mark>：体积小且性能优化，适用于工程化项目，常与Vue.js、React等框架配合使用。‌‌<span
+                                            disable-audio="true" disable-copy="true"><span
+                                                rl-type="stop"><!--2501--><span
+                                                    class="cos-tooltip cosd-citation"><!--2504--><span
+                                                        class="cosd-citation-citationId">5<!--2505--></span><!--2504--></span><!--2502--><!--2506--><!--2506--><!--2501--></span></span>‌‌<span
+                                            disable-audio="true" disable-copy="true"><span
+                                                rl-type="stop"><!--2508--><span
+                                                    class="cos-tooltip cosd-citation"><!--2511--><span
+                                                        class="cosd-citation-citationId">7<!--2512--></span><!--2511--></span><!--2509--><!--2513--><!--2513--><!--2508--></span></span>
+                                    </li>
+                                </ul>
+                            </div><!--2485-->
+                        </div>
+                    </div>
+                </div>
+            </div><!--2480-->
+        </div><!--2479--><!--2514-->
+        <div>
+            <div class="cos-space-mt-xxl" data-show="summary"
+                data-show-ext="{&quot;component_content&quot;:{&quot;component_name&quot;:&quot;markdown&quot;,&quot;component_type&quot;:&quot;abstract&quot;,&quot;reference_type&quot;:&quot;&quot;},&quot;hasCredibleRef&quot;:false}">
+                <div class="link-wrapper_2Zcj9">
+                    <div class="cosd-markdown"><!--2519-->
+                        <div class="cosd-markdown-content "><!--2520-->
+                            <div class="marklang">
+                                <p class="marklang-paragraph"><mark
+                                        class="flexible-marker flexible-marker-default">‌<strong>主要应用场景</strong>‌</mark>
+                                </p>
+                            </div><!--2520-->
+                        </div>
+                    </div>
+                </div>
+            </div><!--2515-->
+        </div><!--2514--><!--2521-->
+        <div>
+            <div class="cos-space-mt-xxl" data-show="summary"
+                data-show-ext="{&quot;component_content&quot;:{&quot;component_name&quot;:&quot;markdown&quot;,&quot;component_type&quot;:&quot;abstract&quot;,&quot;reference_type&quot;:&quot;&quot;},&quot;hasCredibleRef&quot;:false}">
+                <div class="link-wrapper_2Zcj9">
+                    <div class="cosd-markdown"><!--2526-->
+                        <div class="cosd-markdown-content "><!--2527-->
+                            <div class="marklang">
+                                <ul>
+                                    <li>前端与后端API交互（如RESTful接口调用）。</li>
+                                    <li>文件上传/下载、身份验证等HTTP操作。</li>
+                                    <li>需要统一处理错误和超时的网络请求场景。
+                                    </li>
+                                </ul>
+                            </div><!--2527-->
+                        </div>
+                    </div>
+                </div>
+            </div><!--2522-->
+        </div><!--2521--><!--2408-->
+    </div>
+    <h3>axios封装</h3>
+    <div class="markdown_1jK8o " style="">
+
+        <!--1066--><!--1067-->
+        <p>在JavaScript中，<code class="dqa-code-span">axios</code> 是一个基于 Promise 的 HTTP 客户端，用于浏览器和 node.js 环境。它可以用来发送异步
+            HTTP 请求到 REST 端点。封装 <code class="dqa-code-span">axios</code>
+            可以让你更容易地管理请求和响应，比如在多个请求中使用相同的配置，或者在请求前添加统一的错误处理等。</p>
+        <h3>封装 Axios 的基本步骤</h3>
+        <h4>1. 安装 Axios</h4>
+        <p>如果你还没有安装 axios，你可以通过 npm 或 yarn 来安装它：</p>
+        <pre><code class="language-bash"><pre class="dqa-code-pre"><code class="dqa-code-block hljs" md-code-container=""><div disable-copy="" class="code-header"><div class="chat-lang" data-chat-lang="bash"></div><div class="code-copy" data-module="code-copy"><svg class="copy-icon" width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>复制-icon</title><g id="设计输出" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="画板" class="code-copy-svg" transform="translate(-61.000000, -29.000000)" fill="#1E1F24" fill-rule="nonzero"><g id="复制-icon" transform="translate(61.000000, 29.000000)"><path d="M13.3333333,3.25925926 C14.3151729,3.25925926 15.1111111,4.05519748 15.1111111,5.03703704 L15.1111111,13.3333333 C15.1111111,14.3151729 14.3151729,15.1111111 13.3333333,15.1111111 L5.03703704,15.1111111 C4.05519748,15.1111111 3.25925926,14.3151729 3.25925926,13.3333333 L3.25925926,5.03703704 C3.25925926,4.05519748 4.05519748,3.25925926 5.03703704,3.25925926 L13.3333333,3.25925926 Z M13.3333333,4.44444444 L5.03703704,4.44444444 C4.70975719,4.44444444 4.44444444,4.70975719 4.44444444,5.03703704 L4.44444444,13.3333333 C4.44444444,13.6606132 4.70975719,13.9259259 5.03703704,13.9259259 L13.3333333,13.9259259 C13.6606132,13.9259259 13.9259259,13.6606132 13.9259259,13.3333333 L13.9259259,5.03703704 C13.9259259,4.70975719 13.6606132,4.44444444 13.3333333,4.44444444 Z M11.8531385,0.888888889 L11.8531385,2.07407407 L3.85185185,2.07407407 C2.8700123,2.07407407 2.07407407,2.8700123 2.07407407,3.85185185 L2.07407407,12.1502118 L0.888888889,12.1502118 L0.888888889,3.85185185 C0.888888889,2.21545259 2.21545259,0.888888889 3.85185185,0.888888889 L11.8531385,0.888888889 Z" id="形状结合"></path></g></g></g></svg><span class="code-copy-text" data-code-copy-text="Copy code"></span></div></div><div class="code-wrapper"><div class="left-part"><div class="hljs-ln-line hljs-ln-numbers" data-line-number="1"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="2"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="3"></div></div><div class="right-part" md-code-content=""><div class="hljs-ln-line hljs-ln-code">npm install axios</div><div class="hljs-ln-line hljs-ln-code"><span class="hljs-comment"># 或者</span></div><div class="hljs-ln-line hljs-ln-code">yarn add axios</div></div></div></code></pre>
+        </code></pre>
+        <h4>2. 创建一个 Axios 实例</h4>
+        <p>你可以创建一个 Axios 实例，并在其中设置一些基础的配置，比如基础 URL、超时时间等。</p>
+        <pre><code class="language-javascript"><pre class="dqa-code-pre"><code class="dqa-code-block hljs" md-code-container=""><div disable-copy="" class="code-header"><div class="chat-lang" data-chat-lang="javascript"></div><div class="code-copy" data-module="code-copy"><svg class="copy-icon" width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>复制-icon</title><g id="设计输出" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="画板" class="code-copy-svg" transform="translate(-61.000000, -29.000000)" fill="#1E1F24" fill-rule="nonzero"><g id="复制-icon" transform="translate(61.000000, 29.000000)"><path d="M13.3333333,3.25925926 C14.3151729,3.25925926 15.1111111,4.05519748 15.1111111,5.03703704 L15.1111111,13.3333333 C15.1111111,14.3151729 14.3151729,15.1111111 13.3333333,15.1111111 L5.03703704,15.1111111 C4.05519748,15.1111111 3.25925926,14.3151729 3.25925926,13.3333333 L3.25925926,5.03703704 C3.25925926,4.05519748 4.05519748,3.25925926 5.03703704,3.25925926 L13.3333333,3.25925926 Z M13.3333333,4.44444444 L5.03703704,4.44444444 C4.70975719,4.44444444 4.44444444,4.70975719 4.44444444,5.03703704 L4.44444444,13.3333333 C4.44444444,13.6606132 4.70975719,13.9259259 5.03703704,13.9259259 L13.3333333,13.9259259 C13.6606132,13.9259259 13.9259259,13.6606132 13.9259259,13.3333333 L13.9259259,5.03703704 C13.9259259,4.70975719 13.6606132,4.44444444 13.3333333,4.44444444 Z M11.8531385,0.888888889 L11.8531385,2.07407407 L3.85185185,2.07407407 C2.8700123,2.07407407 2.07407407,2.8700123 2.07407407,3.85185185 L2.07407407,12.1502118 L0.888888889,12.1502118 L0.888888889,3.85185185 C0.888888889,2.21545259 2.21545259,0.888888889 3.85185185,0.888888889 L11.8531385,0.888888889 Z" id="形状结合"></path></g></g></g></svg><span class="code-copy-text" data-code-copy-text="Copy code"></span></div></div><div class="code-wrapper"><div class="left-part"><div class="hljs-ln-line hljs-ln-numbers" data-line-number="1"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="2"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="3"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="4"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="5"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="6"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="7"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="8"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="9"></div></div><div class="right-part" md-code-content=""><div class="hljs-ln-line hljs-ln-code"><span class="hljs-keyword">import</span> axios <span class="hljs-keyword">from</span> <span class="hljs-string">'axios'</span>;</div><div class="hljs-ln-line hljs-ln-code"> </div><div class="hljs-ln-line hljs-ln-code"><span class="hljs-keyword">const</span> api = axios.<span class="hljs-title function_">create</span>({</div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-attr">baseURL</span>: <span class="hljs-string">'https://api.example.com'</span>, <span class="hljs-comment">// 你的 API 基础 URL</span></div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-attr">timeout</span>: <span class="hljs-number">1000</span>, <span class="hljs-comment">// 请求超时时间</span></div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-attr">headers</span>: { <span class="hljs-string">'Content-Type'</span>: <span class="hljs-string">'application/json'</span> } <span class="hljs-comment">// 设置默认请求头</span></div><div class="hljs-ln-line hljs-ln-code">});</div><div class="hljs-ln-line hljs-ln-code"> </div><div class="hljs-ln-line hljs-ln-code"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> api;</div></div></div></code></pre>
+        </code></pre>
+        <h4>3. 添加请求拦截器</h4>
+        <p>在发送请求之前，你可以添加一个请求拦截器来统一处理请求，例如添加 token 或其他认证信息。</p>
+        <pre><code class="language-javascript"><pre class="dqa-code-pre"><code class="dqa-code-block hljs" md-code-container=""><div disable-copy="" class="code-header"><div class="chat-lang" data-chat-lang="javascript"></div><div class="code-copy" data-module="code-copy"><svg class="copy-icon" width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>复制-icon</title><g id="设计输出" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="画板" class="code-copy-svg" transform="translate(-61.000000, -29.000000)" fill="#1E1F24" fill-rule="nonzero"><g id="复制-icon" transform="translate(61.000000, 29.000000)"><path d="M13.3333333,3.25925926 C14.3151729,3.25925926 15.1111111,4.05519748 15.1111111,5.03703704 L15.1111111,13.3333333 C15.1111111,14.3151729 14.3151729,15.1111111 13.3333333,15.1111111 L5.03703704,15.1111111 C4.05519748,15.1111111 3.25925926,14.3151729 3.25925926,13.3333333 L3.25925926,5.03703704 C3.25925926,4.05519748 4.05519748,3.25925926 5.03703704,3.25925926 L13.3333333,3.25925926 Z M13.3333333,4.44444444 L5.03703704,4.44444444 C4.70975719,4.44444444 4.44444444,4.70975719 4.44444444,5.03703704 L4.44444444,13.3333333 C4.44444444,13.6606132 4.70975719,13.9259259 5.03703704,13.9259259 L13.3333333,13.9259259 C13.6606132,13.9259259 13.9259259,13.6606132 13.9259259,13.3333333 L13.9259259,5.03703704 C13.9259259,4.70975719 13.6606132,4.44444444 13.3333333,4.44444444 Z M11.8531385,0.888888889 L11.8531385,2.07407407 L3.85185185,2.07407407 C2.8700123,2.07407407 2.07407407,2.8700123 2.07407407,3.85185185 L2.07407407,12.1502118 L0.888888889,12.1502118 L0.888888889,3.85185185 C0.888888889,2.21545259 2.21545259,0.888888889 3.85185185,0.888888889 L11.8531385,0.888888889 Z" id="形状结合"></path></g></g></g></svg><span class="code-copy-text" data-code-copy-text="Copy code"></span></div></div><div class="code-wrapper"><div class="left-part"><div class="hljs-ln-line hljs-ln-numbers" data-line-number="1"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="2"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="3"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="4"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="5"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="6"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="7"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="8"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="9"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="10"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="11"></div></div><div class="right-part" md-code-content=""><div class="hljs-ln-line hljs-ln-code">api.<span class="hljs-property">interceptors</span>.<span class="hljs-property">request</span>.<span class="hljs-title function_">use</span>(<span class="hljs-function"><span class="hljs-params">config</span> =&gt;</span> {</div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-comment">// 在发送请求之前做些什么，比如添加 token</span></div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-keyword">const</span> token = <span class="hljs-title function_">getTokenFromLocalStorage</span>(); <span class="hljs-comment">// 假设你有一个函数来获取 token</span></div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-keyword">if</span> (token) {</div><div class="hljs-ln-line hljs-ln-code">    config.<span class="hljs-property">headers</span>[<span class="hljs-string">'Authorization'</span>] = <span class="hljs-string">`Bearer <span class="hljs-subst">${token}</span>`</span>;</div><div class="hljs-ln-line hljs-ln-code">  }</div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-keyword">return</span> config;</div><div class="hljs-ln-line hljs-ln-code">}, <span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> {</div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-comment">// 请求错误处理</span></div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-keyword">return</span> <span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">reject</span>(error);</div><div class="hljs-ln-line hljs-ln-code">});</div></div></div></code></pre>
+        </code></pre>
+        <h4>4. 添加响应拦截器</h4>
+        <p>在接收到响应后，你可以添加一个响应拦截器来统一处理响应，例如检查状态码或处理错误。</p>
+        <pre><code class="language-javascript"><pre class="dqa-code-pre"><code class="dqa-code-block hljs" md-code-container=""><div disable-copy="" class="code-header"><div class="chat-lang" data-chat-lang="javascript"></div><div class="code-copy" data-module="code-copy"><svg class="copy-icon" width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>复制-icon</title><g id="设计输出" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="画板" class="code-copy-svg" transform="translate(-61.000000, -29.000000)" fill="#1E1F24" fill-rule="nonzero"><g id="复制-icon" transform="translate(61.000000, 29.000000)"><path d="M13.3333333,3.25925926 C14.3151729,3.25925926 15.1111111,4.05519748 15.1111111,5.03703704 L15.1111111,13.3333333 C15.1111111,14.3151729 14.3151729,15.1111111 13.3333333,15.1111111 L5.03703704,15.1111111 C4.05519748,15.1111111 3.25925926,14.3151729 3.25925926,13.3333333 L3.25925926,5.03703704 C3.25925926,4.05519748 4.05519748,3.25925926 5.03703704,3.25925926 L13.3333333,3.25925926 Z M13.3333333,4.44444444 L5.03703704,4.44444444 C4.70975719,4.44444444 4.44444444,4.70975719 4.44444444,5.03703704 L4.44444444,13.3333333 C4.44444444,13.6606132 4.70975719,13.9259259 5.03703704,13.9259259 L13.3333333,13.9259259 C13.6606132,13.9259259 13.9259259,13.6606132 13.9259259,13.3333333 L13.9259259,5.03703704 C13.9259259,4.70975719 13.6606132,4.44444444 13.3333333,4.44444444 Z M11.8531385,0.888888889 L11.8531385,2.07407407 L3.85185185,2.07407407 C2.8700123,2.07407407 2.07407407,2.8700123 2.07407407,3.85185185 L2.07407407,12.1502118 L0.888888889,12.1502118 L0.888888889,3.85185185 C0.888888889,2.21545259 2.21545259,0.888888889 3.85185185,0.888888889 L11.8531385,0.888888889 Z" id="形状结合"></path></g></g></g></svg><span class="code-copy-text" data-code-copy-text="Copy code"></span></div></div><div class="code-wrapper"><div class="left-part"><div class="hljs-ln-line hljs-ln-numbers" data-line-number="1"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="2"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="3"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="4"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="5"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="6"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="7"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="8"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="9"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="10"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="11"></div></div><div class="right-part" md-code-content=""><div class="hljs-ln-line hljs-ln-code">api.<span class="hljs-property">interceptors</span>.<span class="hljs-property">response</span>.<span class="hljs-title function_">use</span>(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> {</div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-comment">// 对响应数据做点什么</span></div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-keyword">return</span> response;</div><div class="hljs-ln-line hljs-ln-code">}, <span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> {</div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-comment">// 对响应错误做点什么，比如统一处理错误状态码</span></div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-keyword">if</span> (error.<span class="hljs-property">response</span> &amp;&amp; error.<span class="hljs-property">response</span>.<span class="hljs-property">status</span> === <span class="hljs-number">401</span>) {</div><div class="hljs-ln-line hljs-ln-code">    <span class="hljs-comment">// 处理401错误，例如重定向到登录页面</span></div><div class="hljs-ln-line hljs-ln-code">    <span class="hljs-variable language_">window</span>.<span class="hljs-property">location</span>.<span class="hljs-property">href</span> = <span class="hljs-string">'/login'</span>; <span class="hljs-comment">// 示例：重定向到登录页面</span></div><div class="hljs-ln-line hljs-ln-code">  }</div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-keyword">return</span> <span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">reject</span>(error);</div><div class="hljs-ln-line hljs-ln-code">});</div></div></div></code></pre>
+        </code></pre>
+        <h4>5. 使用封装后的 Axios 实例</h4>
+        <p>现在你可以在你的应用中使用这个封装的 Axios 实例来发送请求了。</p>
+        <pre><code class="language-javascript"><pre class="dqa-code-pre"><code class="dqa-code-block hljs" md-code-container=""><div disable-copy="" class="code-header"><div class="chat-lang" data-chat-lang="javascript"></div><div class="code-copy" data-module="code-copy"><svg class="copy-icon" width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>复制-icon</title><g id="设计输出" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="画板" class="code-copy-svg" transform="translate(-61.000000, -29.000000)" fill="#1E1F24" fill-rule="nonzero"><g id="复制-icon" transform="translate(61.000000, 29.000000)"><path d="M13.3333333,3.25925926 C14.3151729,3.25925926 15.1111111,4.05519748 15.1111111,5.03703704 L15.1111111,13.3333333 C15.1111111,14.3151729 14.3151729,15.1111111 13.3333333,15.1111111 L5.03703704,15.1111111 C4.05519748,15.1111111 3.25925926,14.3151729 3.25925926,13.3333333 L3.25925926,5.03703704 C3.25925926,4.05519748 4.05519748,3.25925926 5.03703704,3.25925926 L13.3333333,3.25925926 Z M13.3333333,4.44444444 L5.03703704,4.44444444 C4.70975719,4.44444444 4.44444444,4.70975719 4.44444444,5.03703704 L4.44444444,13.3333333 C4.44444444,13.6606132 4.70975719,13.9259259 5.03703704,13.9259259 L13.3333333,13.9259259 C13.6606132,13.9259259 13.9259259,13.6606132 13.9259259,13.3333333 L13.9259259,5.03703704 C13.9259259,4.70975719 13.6606132,4.44444444 13.3333333,4.44444444 Z M11.8531385,0.888888889 L11.8531385,2.07407407 L3.85185185,2.07407407 C2.8700123,2.07407407 2.07407407,2.8700123 2.07407407,3.85185185 L2.07407407,12.1502118 L0.888888889,12.1502118 L0.888888889,3.85185185 C0.888888889,2.21545259 2.21545259,0.888888889 3.85185185,0.888888889 L11.8531385,0.888888889 Z" id="形状结合"></path></g></g></g></svg><span class="code-copy-text" data-code-copy-text="Copy code"></span></div></div><div class="code-wrapper"><div class="left-part"><div class="hljs-ln-line hljs-ln-numbers" data-line-number="1"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="2"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="3"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="4"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="5"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="6"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="7"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="8"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="9"></div></div><div class="right-part" md-code-content=""><div class="hljs-ln-line hljs-ln-code"><span class="hljs-keyword">import</span> api <span class="hljs-keyword">from</span> <span class="hljs-string">'./path/to/your/axiosInstance'</span>; <span class="hljs-comment">// 根据你的文件路径导入你的 axios 实例</span></div><div class="hljs-ln-line hljs-ln-code"> </div><div class="hljs-ln-line hljs-ln-code">api.<span class="hljs-title function_">get</span>(<span class="hljs-string">'/users'</span>)</div><div class="hljs-ln-line hljs-ln-code">  .<span class="hljs-title function_">then</span>(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> {</div><div class="hljs-ln-line hljs-ln-code">    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(response.<span class="hljs-property">data</span>); <span class="hljs-comment">// 处理响应数据</span></div><div class="hljs-ln-line hljs-ln-code">  })</div><div class="hljs-ln-line hljs-ln-code">  .<span class="hljs-title function_">catch</span>(<span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> {</div><div class="hljs-ln-line hljs-ln-code">    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">error</span>(<span class="hljs-string">'There was an error!'</span>, error); <span class="hljs-comment">// 处理错误</span></div><div class="hljs-ln-line hljs-ln-code">  });</div></div></div></code></pre>
+        </code></pre>
+        <p>通过以上步骤，你可以有效地封装 <code class="dqa-code-span">axios</code> 并管理你的 HTTP 请求。这样可以使你的代码更加模块化和易于维护。</p>
+    </div>
+    <h3>axios封装方法中添加自定义数据</h3>
+    <div class="markdown_1jK8o " style="">
+
+        <!--1898--><!--1899-->
+        <p>在使用axios进行HTTP请求时，有时我们需要向请求中添加自定义数据（例如用户ID、令牌等），以便于服务器能够识别请求的来源或进行特定的处理。有几种方法可以在axios封装方法中添加自定义数据：</p>
+        <h3>1. 使用拦截器（Interceptors）</h3>
+        <p>axios的拦截器功能允许你在请求或响应被then或catch处理前对它们进行拦截。通过拦截器，你可以在每个请求中添加自定义数据。</p>
+        <h4>示例：</h4>
+        <pre><code class="language-javascript"><pre class="dqa-code-pre"><code class="dqa-code-block hljs" md-code-container=""><div disable-copy="" class="code-header"><div class="chat-lang" data-chat-lang="javascript"></div><div class="code-copy" data-module="code-copy"><svg class="copy-icon" width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>复制-icon</title><g id="设计输出" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="画板" class="code-copy-svg" transform="translate(-61.000000, -29.000000)" fill="#1E1F24" fill-rule="nonzero"><g id="复制-icon" transform="translate(61.000000, 29.000000)"><path d="M13.3333333,3.25925926 C14.3151729,3.25925926 15.1111111,4.05519748 15.1111111,5.03703704 L15.1111111,13.3333333 C15.1111111,14.3151729 14.3151729,15.1111111 13.3333333,15.1111111 L5.03703704,15.1111111 C4.05519748,15.1111111 3.25925926,14.3151729 3.25925926,13.3333333 L3.25925926,5.03703704 C3.25925926,4.05519748 4.05519748,3.25925926 5.03703704,3.25925926 L13.3333333,3.25925926 Z M13.3333333,4.44444444 L5.03703704,4.44444444 C4.70975719,4.44444444 4.44444444,4.70975719 4.44444444,5.03703704 L4.44444444,13.3333333 C4.44444444,13.6606132 4.70975719,13.9259259 5.03703704,13.9259259 L13.3333333,13.9259259 C13.6606132,13.9259259 13.9259259,13.6606132 13.9259259,13.3333333 L13.9259259,5.03703704 C13.9259259,4.70975719 13.6606132,4.44444444 13.3333333,4.44444444 Z M11.8531385,0.888888889 L11.8531385,2.07407407 L3.85185185,2.07407407 C2.8700123,2.07407407 2.07407407,2.8700123 2.07407407,3.85185185 L2.07407407,12.1502118 L0.888888889,12.1502118 L0.888888889,3.85185185 C0.888888889,2.21545259 2.21545259,0.888888889 3.85185185,0.888888889 L11.8531385,0.888888889 Z" id="形状结合"></path></g></g></g></svg><span class="code-copy-text" data-code-copy-text="Copy code"></span></div></div><div class="code-wrapper"><div class="left-part"><div class="hljs-ln-line hljs-ln-numbers" data-line-number="1"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="2"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="3"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="4"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="5"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="6"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="7"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="8"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="9"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="10"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="11"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="12"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="13"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="14"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="15"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="16"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="17"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="18"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="19"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="20"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="21"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="22"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="23"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="24"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="25"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="26"></div></div><div class="right-part" md-code-content=""><div class="hljs-ln-line hljs-ln-code"><span class="hljs-comment">// 创建axios实例</span></div><div class="hljs-ln-line hljs-ln-code"><span class="hljs-keyword">const</span> axiosInstance = axios.<span class="hljs-title function_">create</span>({</div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-attr">baseURL</span>: <span class="hljs-string">'https://api.example.com'</span>,</div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-attr">timeout</span>: <span class="hljs-number">1000</span>,</div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-attr">headers</span>: {<span class="hljs-string">'X-Custom-Header'</span>: <span class="hljs-string">'foobar'</span>} <span class="hljs-comment">// 可以在这里设置一些基础头部信息</span></div><div class="hljs-ln-line hljs-ln-code">});</div><div class="hljs-ln-line hljs-ln-code"> </div><div class="hljs-ln-line hljs-ln-code"><span class="hljs-comment">// 请求拦截器</span></div><div class="hljs-ln-line hljs-ln-code">axiosInstance.<span class="hljs-property">interceptors</span>.<span class="hljs-property">request</span>.<span class="hljs-title function_">use</span>(<span class="hljs-function"><span class="hljs-params">config</span> =&gt;</span> {</div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-comment">// 在发送请求之前做些什么，例如添加自定义数据</span></div><div class="hljs-ln-line hljs-ln-code">  config.<span class="hljs-property">headers</span>[<span class="hljs-string">'Authorization'</span>] = <span class="hljs-string">'Bearer YOUR_TOKEN_HERE'</span>; <span class="hljs-comment">// 添加Token</span></div><div class="hljs-ln-line hljs-ln-code">  config.<span class="hljs-property">headers</span>[<span class="hljs-string">'X-User-ID'</span>] = <span class="hljs-string">'123456'</span>; <span class="hljs-comment">// 添加用户ID</span></div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-keyword">return</span> config;</div><div class="hljs-ln-line hljs-ln-code">}, <span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> {</div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-comment">// 对请求错误做些什么</span></div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-keyword">return</span> <span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">reject</span>(error);</div><div class="hljs-ln-line hljs-ln-code">});</div><div class="hljs-ln-line hljs-ln-code"> </div><div class="hljs-ln-line hljs-ln-code"><span class="hljs-comment">// 使用axios实例进行请求</span></div><div class="hljs-ln-line hljs-ln-code">axiosInstance.<span class="hljs-title function_">get</span>(<span class="hljs-string">'/user'</span>)</div><div class="hljs-ln-line hljs-ln-code">  .<span class="hljs-title function_">then</span>(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> {</div><div class="hljs-ln-line hljs-ln-code">    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(response.<span class="hljs-property">data</span>);</div><div class="hljs-ln-line hljs-ln-code">  })</div><div class="hljs-ln-line hljs-ln-code">  .<span class="hljs-title function_">catch</span>(<span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> {</div><div class="hljs-ln-line hljs-ln-code">    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">error</span>(error);</div><div class="hljs-ln-line hljs-ln-code">  });</div></div></div></code></pre>
+        </code></pre>
+        <h3>2. 在每个请求中直接设置头部信息或参数</h3>
+        <p>如果你不想使用拦截器，也可以在每次请求时直接在配置对象中添加自定义数据。</p>
+        <h4>示例：</h4>
+        <pre><code class="language-javascript"><pre class="dqa-code-pre"><code class="dqa-code-block hljs" md-code-container=""><div disable-copy="" class="code-header"><div class="chat-lang" data-chat-lang="javascript"></div><div class="code-copy" data-module="code-copy"><svg class="copy-icon" width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>复制-icon</title><g id="设计输出" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="画板" class="code-copy-svg" transform="translate(-61.000000, -29.000000)" fill="#1E1F24" fill-rule="nonzero"><g id="复制-icon" transform="translate(61.000000, 29.000000)"><path d="M13.3333333,3.25925926 C14.3151729,3.25925926 15.1111111,4.05519748 15.1111111,5.03703704 L15.1111111,13.3333333 C15.1111111,14.3151729 14.3151729,15.1111111 13.3333333,15.1111111 L5.03703704,15.1111111 C4.05519748,15.1111111 3.25925926,14.3151729 3.25925926,13.3333333 L3.25925926,5.03703704 C3.25925926,4.05519748 4.05519748,3.25925926 5.03703704,3.25925926 L13.3333333,3.25925926 Z M13.3333333,4.44444444 L5.03703704,4.44444444 C4.70975719,4.44444444 4.44444444,4.70975719 4.44444444,5.03703704 L4.44444444,13.3333333 C4.44444444,13.6606132 4.70975719,13.9259259 5.03703704,13.9259259 L13.3333333,13.9259259 C13.6606132,13.9259259 13.9259259,13.6606132 13.9259259,13.3333333 L13.9259259,5.03703704 C13.9259259,4.70975719 13.6606132,4.44444444 13.3333333,4.44444444 Z M11.8531385,0.888888889 L11.8531385,2.07407407 L3.85185185,2.07407407 C2.8700123,2.07407407 2.07407407,2.8700123 2.07407407,3.85185185 L2.07407407,12.1502118 L0.888888889,12.1502118 L0.888888889,3.85185185 C0.888888889,2.21545259 2.21545259,0.888888889 3.85185185,0.888888889 L11.8531385,0.888888889 Z" id="形状结合"></path></g></g></g></svg><span class="code-copy-text" data-code-copy-text="Copy code"></span></div></div><div class="code-wrapper"><div class="left-part"><div class="hljs-ln-line hljs-ln-numbers" data-line-number="1"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="2"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="3"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="4"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="5"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="6"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="7"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="8"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="9"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="10"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="11"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="12"></div></div><div class="right-part" md-code-content=""><div class="hljs-ln-line hljs-ln-code">axios.<span class="hljs-title function_">get</span>(<span class="hljs-string">'/user'</span>, {</div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-attr">headers</span>: {</div><div class="hljs-ln-line hljs-ln-code">    <span class="hljs-string">'Authorization'</span>: <span class="hljs-string">'Bearer YOUR_TOKEN_HERE'</span>, <span class="hljs-comment">// 添加Token</span></div><div class="hljs-ln-line hljs-ln-code">    <span class="hljs-string">'X-User-ID'</span>: <span class="hljs-string">'123456'</span> <span class="hljs-comment">// 添加用户ID</span></div><div class="hljs-ln-line hljs-ln-code">  }</div><div class="hljs-ln-line hljs-ln-code">})</div><div class="hljs-ln-line hljs-ln-code">.<span class="hljs-title function_">then</span>(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> {</div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(response.<span class="hljs-property">data</span>);</div><div class="hljs-ln-line hljs-ln-code">})</div><div class="hljs-ln-line hljs-ln-code">.<span class="hljs-title function_">catch</span>(<span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> {</div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">error</span>(error);</div><div class="hljs-ln-line hljs-ln-code">});</div></div></div></code></pre>
+        </code></pre>
+        <h3>3. 使用axios配置对象直接设置默认头部信息</h3>
+        <p>如果你希望某些自定义数据在所有请求中自动包含，可以在创建axios实例时设置默认的头部信息。</p>
+        <h4>示例：</h4>
+        <pre><code class="language-javascript"><pre class="dqa-code-pre"><code class="dqa-code-block hljs" md-code-container=""><div disable-copy="" class="code-header"><div class="chat-lang" data-chat-lang="javascript"></div><div class="code-copy" data-module="code-copy"><svg class="copy-icon" width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>复制-icon</title><g id="设计输出" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="画板" class="code-copy-svg" transform="translate(-61.000000, -29.000000)" fill="#1E1F24" fill-rule="nonzero"><g id="复制-icon" transform="translate(61.000000, 29.000000)"><path d="M13.3333333,3.25925926 C14.3151729,3.25925926 15.1111111,4.05519748 15.1111111,5.03703704 L15.1111111,13.3333333 C15.1111111,14.3151729 14.3151729,15.1111111 13.3333333,15.1111111 L5.03703704,15.1111111 C4.05519748,15.1111111 3.25925926,14.3151729 3.25925926,13.3333333 L3.25925926,5.03703704 C3.25925926,4.05519748 4.05519748,3.25925926 5.03703704,3.25925926 L13.3333333,3.25925926 Z M13.3333333,4.44444444 L5.03703704,4.44444444 C4.70975719,4.44444444 4.44444444,4.70975719 4.44444444,5.03703704 L4.44444444,13.3333333 C4.44444444,13.6606132 4.70975719,13.9259259 5.03703704,13.9259259 L13.3333333,13.9259259 C13.6606132,13.9259259 13.9259259,13.6606132 13.9259259,13.3333333 L13.9259259,5.03703704 C13.9259259,4.70975719 13.6606132,4.44444444 13.3333333,4.44444444 Z M11.8531385,0.888888889 L11.8531385,2.07407407 L3.85185185,2.07407407 C2.8700123,2.07407407 2.07407407,2.8700123 2.07407407,3.85185185 L2.07407407,12.1502118 L0.888888889,12.1502118 L0.888888889,3.85185185 C0.888888889,2.21545259 2.21545259,0.888888889 3.85185185,0.888888889 L11.8531385,0.888888889 Z" id="形状结合"></path></g></g></g></svg><span class="code-copy-text" data-code-copy-text="Copy code"></span></div></div><div class="code-wrapper"><div class="left-part"><div class="hljs-ln-line hljs-ln-numbers" data-line-number="1"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="2"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="3"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="4"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="5"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="6"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="7"></div><div class="hljs-ln-line hljs-ln-numbers" data-line-number="8"></div></div><div class="right-part" md-code-content=""><div class="hljs-ln-line hljs-ln-code"><span class="hljs-keyword">const</span> axiosInstance = axios.<span class="hljs-title function_">create</span>({</div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-attr">baseURL</span>: <span class="hljs-string">'https://api.example.com'</span>,</div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-attr">timeout</span>: <span class="hljs-number">1000</span>,</div><div class="hljs-ln-line hljs-ln-code">  <span class="hljs-attr">headers</span>: {</div><div class="hljs-ln-line hljs-ln-code">    <span class="hljs-string">'Authorization'</span>: <span class="hljs-string">'Bearer YOUR_TOKEN_HERE'</span>, <span class="hljs-comment">// 默认Token</span></div><div class="hljs-ln-line hljs-ln-code">    <span class="hljs-string">'X-User-ID'</span>: <span class="hljs-string">'123456'</span> <span class="hljs-comment">// 默认用户ID，可以根据需要动态设置或修改这些值</span></div><div class="hljs-ln-line hljs-ln-code">  }</div><div class="hljs-ln-line hljs-ln-code">});</div></div></div></code></pre>
+        </code></pre>
+        <p>然后，你可以使用这个<code class="dqa-code-span">axiosInstance</code>进行所有请求，而不需要在每次请求时重复设置这些头部信息。</p>
+        <h3>总结：</h3>
+        <p>选择哪种方法取决于你的具体需求。如果你希望在所有请求中自动包含某些数据，使用拦截器或创建带有默认配置的axios实例是更好的选择。如果你只需要在特定请求中包含某些数据，直接在请求配置中设置即可。</p>
+    </div>
+    <h3>axios拦截器的作用</h3>
+    <div class="cosd-markdown-content cosd-markdown-content-typingall" style="height: auto;">
+        <div class="marklang">
+            <p class="marklang-paragraph"><span><span rl-type="stop"
+                        href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=Axios&amp;rsv_pq=ea122aae0008927a&amp;oq=axios%E6%8B%A6%E6%88%AA%E5%99%A8%E7%9A%84%E4%BD%9C%E7%94%A8&amp;rsv_t=82e2dgAjoe8e6N+IUT7lvl9S1Ms7mvsyr5zq1HBSu4JuLXUcnYcvaWNWSBY&amp;tn=baidu&amp;ie=utf-8"
+                        target="_blank" class="cosd-markdown-research cos-color-text-link cos-space-mr-3xs">
+                        <span>Axio<span style="white-space: nowrap;">s<i
+                                    class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
+                        </span><!--3910-->
+                    </span></span>拦截器的作用主要包括全局配置、统一处理请求和响应、优化数据格式以及异常处理，具体分为请求拦截器和响应拦截器两类。</p>
+            <h3>请求拦截器作用</h3>
+            <ul>
+                <li>‌<strong>全局配置</strong>‌：统一设置公共请求头（如认证信息）、参数格式化、超时时间等，减少重复代码。 ‌<span disable-audio="true"
+                        disable-copy="true"><span rl-type="stop"><!--3912--><span
+                                class="cos-tooltip cosd-citation"><!--3915--><span
+                                    class="cosd-citation-citationId">1<!--3916--></span><!--3915--></span><!--3913--><!--3917--><!--3917--><!--3912--></span><span
+                            rl-type="stop"><!--3919--><span class="cos-tooltip cosd-citation"><!--3922--><span
+                                    class="cosd-citation-citationId">2<!--3923--></span><!--3922--></span><!--3920--><!--3924--><!--3924--><!--3919--></span></span>
+                </li>
+                <li>‌<strong>预处理请求</strong>‌：检查非法请求（如未登录状态）、添加必要参数（如token），或根据业务逻辑调整请求配置。 ‌<span disable-audio="true"
+                        disable-copy="true"><span rl-type="stop"><!--3926--><span
+                                class="cos-tooltip cosd-citation"><!--3929--><span
+                                    class="cosd-citation-citationId">1<!--3930--></span><!--3929--></span><!--3927--><!--3931--><!--3931--><!--3926--></span><span
+                            rl-type="stop"><!--3933--><span class="cos-tooltip cosd-citation"><!--3936--><span
+                                    class="cosd-citation-citationId">4<!--3937--></span><!--3936--></span><!--3934--><!--3938--><!--3938--><!--3933--></span></span>
+                </li>
+            </ul>
+            <h3>响应拦截器作用</h3>
+            <ul>
+                <li>‌<strong>统一处理响应</strong>‌：解析服务器返回的数据结构、过滤敏感信息或转换数据格式（如JSON转对象）。 ‌<span disable-audio="true"
+                        disable-copy="true"><span rl-type="stop"><!--3940--><span
+                                class="cos-tooltip cosd-citation"><!--3943--><span
+                                    class="cosd-citation-citationId">2<!--3944--></span><!--3943--></span><!--3941--><!--3945--><!--3945--><!--3940--></span><span
+                            rl-type="stop"><!--3947--><span class="cos-tooltip cosd-citation"><!--3950--><span
+                                    class="cosd-citation-citationId">3<!--3951--></span><!--3950--></span><!--3948--><!--3952--><!--3952--><!--3947--></span></span>
+                </li>
+                <li>‌<strong>异常处理</strong>‌：捕获401/403/500等错误，自动刷新token或重试请求；支持自定义错误处理逻辑。 ‌<span disable-audio="true"
+                        disable-copy="true"><span rl-type="stop"><!--3954--><span
+                                class="cos-tooltip cosd-citation"><!--3957--><span
+                                    class="cosd-citation-citationId">1<!--3958--></span><!--3957--></span><!--3955--><!--3959--><!--3959--><!--3954--></span><span
+                            rl-type="stop"><!--3961--><span class="cos-tooltip cosd-citation"><!--3964--><span
+                                    class="cosd-citation-citationId">4<!--3965--></span><!--3964--></span><!--3962--><!--3966--><!--3966--><!--3961--></span></span>
+                </li>
+                <li>‌<strong>优化体验</strong>‌：根据状态码跳转登录页、刷新页面等操作，提升用户交互体验。 ‌<span disable-audio="true"
+                        disable-copy="true"><span rl-type="stop"><!--3968--><span
+                                class="cos-tooltip cosd-citation"><!--3971--><span
+                                    class="cosd-citation-citationId">4<!--3972--></span><!--3971--></span><!--3969--><!--3973--><!--3973--><!--3968--></span><span
+                            rl-type="stop"><!--3975--><span class="cos-tooltip cosd-citation"><!--3978--><span
+                                    class="cosd-citation-citationId">5<!--3979--></span><!--3978--></span><!--3976--><!--3980--><!--3980--><!--3975--></span></span>
+                </li>
+            </ul>
+            <p class="marklang-paragraph">通过拦截器可避免在每个请求/响应中重复编写相同逻辑，实现标准化处理流程，同时提升代码维护性和扩展性。 ‌<span disable-audio="true"
+                    disable-copy="true"><span rl-type="stop"><!--3982--><span
+                            class="cos-tooltip cosd-citation"><!--3985--><span
+                                class="cosd-citation-citationId">2<!--3986--></span><!--3985--></span><!--3983--><!--3987--><!--3987--><!--3982--></span><span
+                        rl-type="stop"><!--3989--><span class="cos-tooltip cosd-citation"><!--3992--><span
+                                class="cosd-citation-citationId">3<!--3993--></span><!--3992--></span><!--3990--><!--3994--><!--3994--><!--3989--></span></span>
+            </p>
+        </div>
+    </div>
+</template>

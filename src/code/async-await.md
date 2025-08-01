@@ -1,3 +1,13 @@
+---
+icon: pen-to-square
+# date: 2024-12-01
+sticky: 70
+
+category:
+  - 前端开发
+---
+
+<!-- more -->
 # async/await 的异步特性解析
 async/await 是 JavaScript 中处理异步操作的核心机制，它本质上是一种异步编程模型。让我详细解释其异步特性：
 ## async/await 的异步本质

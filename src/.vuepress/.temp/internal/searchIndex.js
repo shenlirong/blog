@@ -14,6 +14,171 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "阿房宫赋",
+    "headers": [],
+    "path": "/essay/epang.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "reveal随笔",
+    "headers": [],
+    "path": "/essay/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "背影",
+    "headers": [],
+    "path": "/essay/silhouette.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "布局与功能禁用",
+    "headers": [],
+    "path": "/demo/disable.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "布局",
+    "headers": [],
+    "path": "/demo/layout.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Markdown 展示",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Markdown 介绍",
+        "slug": "markdown-介绍",
+        "link": "#markdown-介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Markdown 配置",
+        "slug": "markdown-配置",
+        "link": "#markdown-配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Markdown 扩展",
+        "slug": "markdown-扩展",
+        "link": "#markdown-扩展",
+        "children": [
+          {
+            "level": 3,
+            "title": "VuePress 扩展",
+            "slug": "vuepress-扩展",
+            "link": "#vuepress-扩展",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "主题扩展",
+            "slug": "主题扩展",
+            "link": "#主题扩展",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "图片增强",
+            "slug": "图片增强",
+            "link": "#图片增强",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/demo/markdown.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "页面配置",
+    "headers": [
+      {
+        "level": 2,
+        "title": "页面标题",
+        "slug": "页面标题",
+        "link": "#页面标题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "页面信息",
+        "slug": "页面信息",
+        "link": "#页面信息",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "页面内容",
+        "slug": "页面内容",
+        "link": "#页面内容",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "组件",
+        "slug": "组件",
+        "link": "#组件",
+        "children": []
+      }
+    ],
+    "path": "/demo/page.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "主要功能与配置演示",
+    "headers": [],
+    "path": "/demo/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "遇到的问题记录",
+    "headers": [],
+    "path": "/project_sum/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "记一次vite项目无法启动的问题",
+    "headers": [
+      {
+        "level": 2,
+        "title": "问题描述",
+        "slug": "问题描述",
+        "link": "#问题描述",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "问题分析",
+        "slug": "问题分析",
+        "link": "#问题分析",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "解决方案",
+        "slug": "解决方案",
+        "link": "#解决方案",
+        "children": []
+      }
+    ],
+    "path": "/project_sum/vite_error1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Angular依赖注入",
     "headers": [],
     "path": "/code/angular-dependency-injection.html",
@@ -53,6 +218,108 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/code/api.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "async/await 的异步特性解析",
+    "headers": [
+      {
+        "level": 2,
+        "title": "async/await 的异步本质",
+        "slug": "async-await-的异步本质",
+        "link": "#async-await-的异步本质",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 非阻塞执行",
+            "slug": "_1-非阻塞执行",
+            "link": "#_1-非阻塞执行",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 基于 Promise 的语法糖",
+            "slug": "_2-基于-promise-的语法糖",
+            "link": "#_2-基于-promise-的语法糖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 事件循环中的位置",
+            "slug": "_3-事件循环中的位置",
+            "link": "#_3-事件循环中的位置",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "为什么 async/await 是异步的",
+        "slug": "为什么-async-await-是异步的",
+        "link": "#为什么-async-await-是异步的",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 不阻塞主线程",
+            "slug": "_1-不阻塞主线程",
+            "link": "#_1-不阻塞主线程",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 顺序执行异步操作",
+            "slug": "_2-顺序执行异步操作",
+            "link": "#_2-顺序执行异步操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 错误处理机制",
+            "slug": "_3-错误处理机制",
+            "link": "#_3-错误处理机制",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "实际应用场景",
+        "slug": "实际应用场景",
+        "link": "#实际应用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 网络请求",
+            "slug": "_1-网络请求",
+            "link": "#_1-网络请求",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 文件操作",
+            "slug": "_2-文件操作",
+            "link": "#_2-文件操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 多步操作",
+            "slug": "_3-多步操作",
+            "link": "#_3-多步操作",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "关键特性总结",
+        "slug": "关键特性总结",
+        "link": "#关键特性总结",
+        "children": []
+      }
+    ],
+    "path": "/code/async-await.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -690,6 +957,165 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "泛型",
+    "headers": [
+      {
+        "level": 2,
+        "title": "什么是泛型？",
+        "slug": "什么是泛型",
+        "link": "#什么是泛型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "泛型的核心概念",
+        "slug": "泛型的核心概念",
+        "link": "#泛型的核心概念",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 类型参数化",
+            "slug": "_1-类型参数化",
+            "link": "#_1-类型参数化",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 类型约束",
+            "slug": "_2-类型约束",
+            "link": "#_2-类型约束",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 默认类型",
+            "slug": "_3-默认类型",
+            "link": "#_3-默认类型",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "泛型在前端开发中的应用场景",
+        "slug": "泛型在前端开发中的应用场景",
+        "link": "#泛型在前端开发中的应用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 状态管理（如 Redux）",
+            "slug": "_1-状态管理-如-redux",
+            "link": "#_1-状态管理-如-redux",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. API 请求处理",
+            "slug": "_2-api-请求处理",
+            "link": "#_2-api-请求处理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. React 组件",
+            "slug": "_3-react-组件",
+            "link": "#_3-react-组件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. 表单处理",
+            "slug": "_4-表单处理",
+            "link": "#_4-表单处理",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "泛型的高级用法",
+        "slug": "泛型的高级用法",
+        "link": "#泛型的高级用法",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 条件类型",
+            "slug": "_1-条件类型",
+            "link": "#_1-条件类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 映射类型",
+            "slug": "_2-映射类型",
+            "link": "#_2-映射类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 类型推断",
+            "slug": "_3-类型推断",
+            "link": "#_3-类型推断",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "泛型在前端开发中的优势",
+        "slug": "泛型在前端开发中的优势",
+        "link": "#泛型在前端开发中的优势",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "实际案例：泛型表单钩子",
+        "slug": "实际案例-泛型表单钩子",
+        "link": "#实际案例-泛型表单钩子",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "泛型最佳实践",
+        "slug": "泛型最佳实践",
+        "link": "#泛型最佳实践",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "常见错误与解决方案",
+        "slug": "常见错误与解决方案",
+        "link": "#常见错误与解决方案",
+        "children": [
+          {
+            "level": 3,
+            "title": "错误：类型参数过多",
+            "slug": "错误-类型参数过多",
+            "link": "#错误-类型参数过多",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "错误：忽略类型约束",
+            "slug": "错误-忽略类型约束",
+            "link": "#错误-忽略类型约束",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      }
+    ],
+    "path": "/code/geniric.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Interface和type的区别",
     "headers": [],
     "path": "/code/interface-type.html",
@@ -1056,6 +1482,64 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/code/pinia.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "promise",
+    "headers": [
+      {
+        "level": 3,
+        "title": "重要结论",
+        "slug": "重要结论",
+        "link": "#重要结论",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "async/await 与 Promise 的核心关系",
+        "slug": "async-await-与-promise-的核心关系",
+        "link": "#async-await-与-promise-的核心关系",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "何时使用 Promise 或 async/await",
+        "slug": "何时使用-promise-或-async-await",
+        "link": "#何时使用-promise-或-async-await",
+        "children": [
+          {
+            "level": 3,
+            "title": "使用 Promise 的场景：",
+            "slug": "使用-promise-的场景",
+            "link": "#使用-promise-的场景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "使用 async/await 的场景：",
+            "slug": "使用-async-await-的场景",
+            "link": "#使用-async-await-的场景",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "关键优势对比",
+        "slug": "关键优势对比",
+        "link": "#关键优势对比",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "最佳实践建议",
+        "slug": "最佳实践建议",
+        "link": "#最佳实践建议",
+        "children": []
+      }
+    ],
+    "path": "/code/promise.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1981,171 +2465,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "布局与功能禁用",
-    "headers": [],
-    "path": "/demo/disable.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "布局",
-    "headers": [],
-    "path": "/demo/layout.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Markdown 展示",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Markdown 介绍",
-        "slug": "markdown-介绍",
-        "link": "#markdown-介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Markdown 配置",
-        "slug": "markdown-配置",
-        "link": "#markdown-配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Markdown 扩展",
-        "slug": "markdown-扩展",
-        "link": "#markdown-扩展",
-        "children": [
-          {
-            "level": 3,
-            "title": "VuePress 扩展",
-            "slug": "vuepress-扩展",
-            "link": "#vuepress-扩展",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "主题扩展",
-            "slug": "主题扩展",
-            "link": "#主题扩展",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "图片增强",
-            "slug": "图片增强",
-            "link": "#图片增强",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/demo/markdown.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "页面配置",
-    "headers": [
-      {
-        "level": 2,
-        "title": "页面标题",
-        "slug": "页面标题",
-        "link": "#页面标题",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "页面信息",
-        "slug": "页面信息",
-        "link": "#页面信息",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "页面内容",
-        "slug": "页面内容",
-        "link": "#页面内容",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "组件",
-        "slug": "组件",
-        "link": "#组件",
-        "children": []
-      }
-    ],
-    "path": "/demo/page.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "主要功能与配置演示",
-    "headers": [],
-    "path": "/demo/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "阿房宫赋",
-    "headers": [],
-    "path": "/essay/epang.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "reveal随笔",
-    "headers": [],
-    "path": "/essay/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "背影",
-    "headers": [],
-    "path": "/essay/silhouette.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "遇到的问题记录",
-    "headers": [],
-    "path": "/project_sum/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "记一次vite项目无法启动的问题",
-    "headers": [
-      {
-        "level": 2,
-        "title": "问题描述",
-        "slug": "问题描述",
-        "link": "#问题描述",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "问题分析",
-        "slug": "问题分析",
-        "link": "#问题分析",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解决方案",
-        "slug": "解决方案",
-        "link": "#解决方案",
-        "children": []
-      }
-    ],
-    "path": "/project_sum/vite_error1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -2156,6 +2475,41 @@ export const SEARCH_INDEX = [
     "title": "分类",
     "headers": [],
     "path": "/category/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "诗词赏析 分类",
+    "headers": [],
+    "path": "/category/%E8%AF%97%E8%AF%8D%E8%B5%8F%E6%9E%90/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "reveal随笔 分类",
+    "headers": [],
+    "path": "/category/reveal%E9%9A%8F%E7%AC%94/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "使用指南 分类",
+    "headers": [],
+    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "指南 分类",
+    "headers": [],
+    "path": "/category/%E6%8C%87%E5%8D%97/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "项目 分类",
+    "headers": [],
+    "path": "/category/%E9%A1%B9%E7%9B%AE/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2195,79 +2549,9 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "使用指南 分类",
-    "headers": [],
-    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "指南 分类",
-    "headers": [],
-    "path": "/category/%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "诗词赏析 分类",
-    "headers": [],
-    "path": "/category/%E8%AF%97%E8%AF%8D%E8%B5%8F%E6%9E%90/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "reveal随笔 分类",
-    "headers": [],
-    "path": "/category/reveal%E9%9A%8F%E7%AC%94/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "项目 分类",
-    "headers": [],
-    "path": "/category/%E9%A1%B9%E7%9B%AE/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "标签",
     "headers": [],
     "path": "/tag/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签: Mapbox",
-    "headers": [],
-    "path": "/tag/mapbox/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签: 前端开发",
-    "headers": [],
-    "path": "/tag/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签: es6笔记",
-    "headers": [],
-    "path": "/tag/es6%E7%AC%94%E8%AE%B0/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签: Vue3",
-    "headers": [],
-    "path": "/tag/vue3/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签: Vue组件通信方式",
-    "headers": [],
-    "path": "/tag/vue%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2314,6 +2598,41 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "标签: Mapbox",
+    "headers": [],
+    "path": "/tag/mapbox/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签: 前端开发",
+    "headers": [],
+    "path": "/tag/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签: es6笔记",
+    "headers": [],
+    "path": "/tag/es6%E7%AC%94%E8%AE%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签: Vue3",
+    "headers": [],
+    "path": "/tag/vue3/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签: Vue组件通信方式",
+    "headers": [],
+    "path": "/tag/vue%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "文章",
     "headers": [],
     "path": "/article/",
@@ -2335,321 +2654,232 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "泛型",
+    "title": "axios是什么",
     "headers": [
       {
         "level": 2,
-        "title": "什么是泛型？",
-        "slug": "什么是泛型",
-        "link": "#什么是泛型",
+        "title": "axios封装",
+        "slug": "axios封装",
+        "link": "#axios封装",
         "children": []
       },
       {
         "level": 2,
-        "title": "泛型的核心概念",
-        "slug": "泛型的核心概念",
-        "link": "#泛型的核心概念",
+        "title": "主要功能说明",
+        "slug": "主要功能说明",
+        "link": "#主要功能说明",
         "children": [
           {
             "level": 3,
-            "title": "1. 类型参数化",
-            "slug": "_1-类型参数化",
-            "link": "#_1-类型参数化",
+            "title": "1. 基础封装",
+            "slug": "_1-基础封装",
+            "link": "#_1-基础封装",
             "children": []
           },
           {
             "level": 3,
-            "title": "2. 类型约束",
-            "slug": "_2-类型约束",
-            "link": "#_2-类型约束",
+            "title": "2. 请求管理",
+            "slug": "_2-请求管理",
+            "link": "#_2-请求管理",
             "children": []
           },
           {
             "level": 3,
-            "title": "3. 默认类型",
-            "slug": "_3-默认类型",
-            "link": "#_3-默认类型",
+            "title": "3. 拦截器",
+            "slug": "_3-拦截器",
+            "link": "#_3-拦截器",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. 错误处理",
+            "slug": "_4-错误处理",
+            "link": "#_4-错误处理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5. 简化方法",
+            "slug": "_5-简化方法",
+            "link": "#_5-简化方法",
             "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "泛型在前端开发中的应用场景",
-        "slug": "泛型在前端开发中的应用场景",
-        "link": "#泛型在前端开发中的应用场景",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. 状态管理（如 Redux）",
-            "slug": "_1-状态管理-如-redux",
-            "link": "#_1-状态管理-如-redux",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. API 请求处理",
-            "slug": "_2-api-请求处理",
-            "link": "#_2-api-请求处理",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. React 组件",
-            "slug": "_3-react-组件",
-            "link": "#_3-react-组件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4. 表单处理",
-            "slug": "_4-表单处理",
-            "link": "#_4-表单处理",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "泛型的高级用法",
-        "slug": "泛型的高级用法",
-        "link": "#泛型的高级用法",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. 条件类型",
-            "slug": "_1-条件类型",
-            "link": "#_1-条件类型",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. 映射类型",
-            "slug": "_2-映射类型",
-            "link": "#_2-映射类型",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. 类型推断",
-            "slug": "_3-类型推断",
-            "link": "#_3-类型推断",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "泛型在前端开发中的优势",
-        "slug": "泛型在前端开发中的优势",
-        "link": "#泛型在前端开发中的优势",
+        "title": "使用示例",
+        "slug": "使用示例",
+        "link": "#使用示例",
         "children": []
       },
       {
         "level": 2,
-        "title": "实际案例：泛型表单钩子",
-        "slug": "实际案例-泛型表单钩子",
-        "link": "#实际案例-泛型表单钩子",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "泛型最佳实践",
-        "slug": "泛型最佳实践",
-        "link": "#泛型最佳实践",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "常见错误与解决方案",
-        "slug": "常见错误与解决方案",
-        "link": "#常见错误与解决方案",
-        "children": [
-          {
-            "level": 3,
-            "title": "错误：类型参数过多",
-            "slug": "错误-类型参数过多",
-            "link": "#错误-类型参数过多",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "错误：忽略类型约束",
-            "slug": "错误-忽略类型约束",
-            "link": "#错误-忽略类型约束",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "总结",
-        "slug": "总结",
-        "link": "#总结",
+        "title": "特点总结",
+        "slug": "特点总结",
+        "link": "#特点总结",
         "children": []
       }
     ],
-    "path": "/code/geniric.html",
+    "path": "/code/axios.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "promise",
+    "title": "localstorage和sessionstorage和cookie",
     "headers": [
       {
-        "level": 3,
-        "title": "重要结论",
-        "slug": "重要结论",
-        "link": "#重要结论",
+        "level": 2,
+        "title": "一、核心区别",
+        "slug": "一、核心区别",
+        "link": "#一、核心区别",
         "children": []
       },
       {
         "level": 2,
-        "title": "async/await 与 Promise 的核心关系",
-        "slug": "async-await-与-promise-的核心关系",
-        "link": "#async-await-与-promise-的核心关系",
+        "title": "二、作用域差异",
+        "slug": "二、作用域差异",
+        "link": "#二、作用域差异",
         "children": []
       },
       {
         "level": 2,
-        "title": "何时使用 Promise 或 async/await",
-        "slug": "何时使用-promise-或-async-await",
-        "link": "#何时使用-promise-或-async-await",
+        "title": "三、典型应用场景",
+        "slug": "三、典型应用场景",
+        "link": "#三、典型应用场景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、技术实现要点",
+        "slug": "四、技术实现要点",
+        "link": "#四、技术实现要点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、安全注意事项",
+        "slug": "五、安全注意事项",
+        "link": "#五、安全注意事项",
         "children": [
           {
             "level": 3,
-            "title": "使用 Promise 的场景：",
-            "slug": "使用-promise-的场景",
-            "link": "#使用-promise-的场景",
+            "title": "localstorage和sessionstorage和cookie",
+            "slug": "localstorage和sessionstorage和cookie-1",
+            "link": "#localstorage和sessionstorage和cookie-1",
             "children": []
           },
           {
             "level": 3,
-            "title": "使用 async/await 的场景：",
-            "slug": "使用-async-await-的场景",
-            "link": "#使用-async-await-的场景",
+            "title": "深入解析：localStorage、sessionStorage 与 Cookie",
+            "slug": "深入解析-localstorage、sessionstorage-与-cookie",
+            "link": "#深入解析-localstorage、sessionstorage-与-cookie",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "一、详细解析",
+            "slug": "一、详细解析",
+            "link": "#一、详细解析",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、关键特性对比",
+            "slug": "二、关键特性对比",
+            "link": "#二、关键特性对比",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "三、使用场景建议",
+            "slug": "三、使用场景建议",
+            "link": "#三、使用场景建议",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "四、安全最佳实践 🔒",
+            "slug": "四、安全最佳实践-🔒",
+            "link": "#四、安全最佳实践-🔒",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "五、特殊场景处理",
+            "slug": "五、特殊场景处理",
+            "link": "#五、特殊场景处理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结选择策略",
+            "slug": "总结选择策略",
+            "link": "#总结选择策略",
             "children": []
           }
         ]
-      },
-      {
-        "level": 2,
-        "title": "关键优势对比",
-        "slug": "关键优势对比",
-        "link": "#关键优势对比",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "最佳实践建议",
-        "slug": "最佳实践建议",
-        "link": "#最佳实践建议",
-        "children": []
       }
     ],
-    "path": "/code/promise.html",
+    "path": "/code/localStorage-sessionStorage-cookies.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "async/await 的异步特性解析",
+    "title": "html换行",
     "headers": [
       {
         "level": 2,
-        "title": "async/await 的异步本质",
-        "slug": "async-await-的异步本质",
-        "link": "#async-await-的异步本质",
+        "title": "各种方法说明",
+        "slug": "各种方法说明",
+        "link": "#各种方法说明",
         "children": [
           {
             "level": 3,
-            "title": "1. 非阻塞执行",
-            "slug": "_1-非阻塞执行",
-            "link": "#_1-非阻塞执行",
+            "title": "1. 基础自动换行方法",
+            "slug": "_1-基础自动换行方法",
+            "link": "#_1-基础自动换行方法",
             "children": []
           },
           {
             "level": 3,
-            "title": "2. 基于 Promise 的语法糖",
-            "slug": "_2-基于-promise-的语法糖",
-            "link": "#_2-基于-promise-的语法糖",
+            "title": "2. 强制换行方法",
+            "slug": "_2-强制换行方法",
+            "link": "#_2-强制换行方法",
             "children": []
           },
           {
             "level": 3,
-            "title": "3. 事件循环中的位置",
-            "slug": "_3-事件循环中的位置",
-            "link": "#_3-事件循环中的位置",
+            "title": "3. 中文/日文等CJK文本处理",
+            "slug": "_3-中文-日文等cjk文本处理",
+            "link": "#_3-中文-日文等cjk文本处理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. HTML原生方法",
+            "slug": "_4-html原生方法",
+            "link": "#_4-html原生方法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5. 特殊场景解决方案",
+            "slug": "_5-特殊场景解决方案",
+            "link": "#_5-特殊场景解决方案",
             "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "为什么 async/await 是异步的",
-        "slug": "为什么-async-await-是异步的",
-        "link": "#为什么-async-await-是异步的",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. 不阻塞主线程",
-            "slug": "_1-不阻塞主线程",
-            "link": "#_1-不阻塞主线程",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. 顺序执行异步操作",
-            "slug": "_2-顺序执行异步操作",
-            "link": "#_2-顺序执行异步操作",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. 错误处理机制",
-            "slug": "_3-错误处理机制",
-            "link": "#_3-错误处理机制",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "实际应用场景",
-        "slug": "实际应用场景",
-        "link": "#实际应用场景",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. 网络请求",
-            "slug": "_1-网络请求",
-            "link": "#_1-网络请求",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. 文件操作",
-            "slug": "_2-文件操作",
-            "link": "#_2-文件操作",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. 多步操作",
-            "slug": "_3-多步操作",
-            "link": "#_3-多步操作",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "关键特性总结",
-        "slug": "关键特性总结",
-        "link": "#关键特性总结",
+        "title": "最佳实践",
+        "slug": "最佳实践",
+        "link": "#最佳实践",
         "children": []
       }
     ],
-    "path": "/code/async-await.html",
+    "path": "/code/wrap.html",
     "pathLocale": "/",
     "extraFields": []
   }
