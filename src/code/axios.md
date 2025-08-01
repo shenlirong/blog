@@ -9,7 +9,125 @@ category:
 
 <!-- more -->
 # axios是什么
+
+**在封装axios时，拦截器（interceptors）是非常强大的功能，它允许我们在请求发出之前和响应返回之后对它们进行全局处理。拦截器主要用于以下几个方面：**
+
+**​请求拦截器（Request Interceptors）​​：**
+  1.在请求发送前对请求配置进行处理，例如添加认证信息（token）、设置请求头、修改请求参数等。
+  2.可以用于显示全局的加载状态（如显示loading动画）。
+  3.可以对请求进行日志记录。
+**​响应拦截器（Response Interceptors）​​：**
+  1.在接收到响应后，对响应数据进行统一处理，例如解析响应数据、统一处理错误（如根据状态码跳转登录页面）、隐藏加载状态等。
+  2.可以对响应进行日志记录。
+
+**封装axios需要注意的事项：**
+**1.​创建axios实例​：** 通常我们会创建一个axios实例，而不是直接使用默认实例，这样可以避免全局污染。
+**2.​设置基础配置​：** 比如设置基础URL（baseURL）、超时时间（timeout）等。
+**3.​请求拦截器​：** 在请求拦截器中，我们通常做以下事情：
+  (1)从本地存储（如localStorage）中获取token，并添加到请求头中。
+  (2)对请求参数进行序列化处理（如果需要）。
+  (3)在请求发出前显示loading。
+**4.​响应拦截器​：** 在响应拦截器中，我们通常做以下事情：
+  (1)对响应数据进行处理，例如只返回data部分。
+  (2)根据状态码进行错误处理，比如401（未授权）跳转到登录页，403（禁止访问）提示权限不足等。
+  (3)隐藏loading。
+**5.​错误处理​：** 统一处理网络错误和业务错误，避免在每个请求中重复处理。
+**6.​导出封装后的请求方法​：** 通常我们会封装常用的请求方法（get、post、put、delete等）并导出，以便在项目中调用。
+
+示例代码：
+下面是一个封装axios的示例：
+```
+import axios from 'axios';
+
+// 创建axios实例
+const service = axios.create({
+  baseURL: process.env.VUE_APP_BASE_API, // 基础url
+  timeout: 5000, // 超时时间
+});
+
+// 请求拦截器
+service.interceptors.request.use(
+  config => {
+    // 在发送请求之前做些什么
+    // 例如：如果存在token，则添加到请求头中
+    const token = localStorage.getItem('token');
+    if (token) {
+      config.headers['Authorization'] = `Bearer ${token}`;
+    }
+    // 显示loading（如果有需要）
+    // showLoading();
+    return config;
+  },
+  error => {
+    // 对请求错误做些什么
+    // hideLoading();
+    return Promise.reject(error);
+  }
+);
+
+// 响应拦截器
+service.interceptors.response.use(
+  response => {
+    // 对响应数据做点什么
+    // 例如：隐藏loading
+    // hideLoading();
+    
+    // 根据后端返回的数据结构，这里假设我们只关心data字段
+    const res = response.data;
+    // 如果状态码不是200，则视为错误（这里根据实际项目调整）
+    if (res.code !== 200) {
+      // 处理业务错误，例如弹出错误提示
+      return Promise.reject(new Error(res.message || 'Error'));
+    } else {
+      return res;
+    }
+  },
+  error => {
+    // 对响应错误做点什么
+    // hideLoading();
+    // 处理HTTP状态码错误
+    if (error.response) {
+      switch (error.response.status) {
+        case 401:
+          // 未授权，跳转到登录页
+          router.replace('/login');
+          break;
+        case 403:
+          // 禁止访问
+          alert('没有权限访问');
+          break;
+        case 500:
+          // 服务器错误
+          alert('服务器错误');
+          break;
+        default:
+          alert('未知错误');
+      }
+    }
+    return Promise.reject(error);
+  }
+);
+
+// 封装请求方法
+export const get = (url, params) => {
+  return service.get(url, { params });
+};
+
+export const post = (url, data) => {
+  return service.post(url, data);
+};
+
+// 其他请求方法类似封装...
+
+// 或者直接导出实例
+export default service;
+```
+总结：
+拦截器的作用主要是为了全局处理请求和响应，避免重复代码，统一管理。在封装axios时，我们通过创建实例、配置拦截器、封装请求方法等步骤，使我们的网络请求模块更加健壮和易于维护。
+
 <Axios></Axios>
+
+
 
 ## axios封装
 1.这个封装将包含以下特性：

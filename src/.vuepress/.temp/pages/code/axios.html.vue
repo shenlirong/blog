@@ -1,5 +1,114 @@
 <template><div><!-- more -->
 <h1 id="axios是什么" tabindex="-1"><a class="header-anchor" href="#axios是什么"><span>axios是什么</span></a></h1>
+<p><strong>在封装axios时，拦截器（interceptors）是非常强大的功能，它允许我们在请求发出之前和响应返回之后对它们进行全局处理。拦截器主要用于以下几个方面：</strong></p>
+<p><strong>​请求拦截器（Request Interceptors）​​：</strong><br>
+1.在请求发送前对请求配置进行处理，例如添加认证信息（token）、设置请求头、修改请求参数等。<br>
+2.可以用于显示全局的加载状态（如显示loading动画）。<br>
+3.可以对请求进行日志记录。<br>
+<strong>​响应拦截器（Response Interceptors）​​：</strong><br>
+1.在接收到响应后，对响应数据进行统一处理，例如解析响应数据、统一处理错误（如根据状态码跳转登录页面）、隐藏加载状态等。<br>
+2.可以对响应进行日志记录。</p>
+<p><strong>封装axios需要注意的事项：</strong><br>
+<strong>1.​创建axios实例​：</strong> 通常我们会创建一个axios实例，而不是直接使用默认实例，这样可以避免全局污染。<br>
+<strong>2.​设置基础配置​：</strong> 比如设置基础URL（baseURL）、超时时间（timeout）等。<br>
+<strong>3.​请求拦截器​：</strong> 在请求拦截器中，我们通常做以下事情：<br>
+(1)从本地存储（如localStorage）中获取token，并添加到请求头中。<br>
+(2)对请求参数进行序列化处理（如果需要）。<br>
+(3)在请求发出前显示loading。<br>
+<strong>4.​响应拦截器​：</strong> 在响应拦截器中，我们通常做以下事情：<br>
+(1)对响应数据进行处理，例如只返回data部分。<br>
+(2)根据状态码进行错误处理，比如401（未授权）跳转到登录页，403（禁止访问）提示权限不足等。<br>
+(3)隐藏loading。<br>
+<strong>5.​错误处理​：</strong> 统一处理网络错误和业务错误，避免在每个请求中重复处理。<br>
+<strong>6.​导出封装后的请求方法​：</strong> 通常我们会封装常用的请求方法（get、post、put、delete等）并导出，以便在项目中调用。</p>
+<p>示例代码：<br>
+下面是一个封装axios的示例：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>import axios from 'axios';</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>// 创建axios实例</span></span>
+<span class="line"><span>const service = axios.create({</span></span>
+<span class="line"><span>  baseURL: process.env.VUE_APP_BASE_API, // 基础url</span></span>
+<span class="line"><span>  timeout: 5000, // 超时时间</span></span>
+<span class="line"><span>});</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>// 请求拦截器</span></span>
+<span class="line"><span>service.interceptors.request.use(</span></span>
+<span class="line"><span>  config => {</span></span>
+<span class="line"><span>    // 在发送请求之前做些什么</span></span>
+<span class="line"><span>    // 例如：如果存在token，则添加到请求头中</span></span>
+<span class="line"><span>    const token = localStorage.getItem('token');</span></span>
+<span class="line"><span>    if (token) {</span></span>
+<span class="line"><span>      config.headers['Authorization'] = `Bearer ${token}`;</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>    // 显示loading（如果有需要）</span></span>
+<span class="line"><span>    // showLoading();</span></span>
+<span class="line"><span>    return config;</span></span>
+<span class="line"><span>  },</span></span>
+<span class="line"><span>  error => {</span></span>
+<span class="line"><span>    // 对请求错误做些什么</span></span>
+<span class="line"><span>    // hideLoading();</span></span>
+<span class="line"><span>    return Promise.reject(error);</span></span>
+<span class="line"><span>  }</span></span>
+<span class="line"><span>);</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>// 响应拦截器</span></span>
+<span class="line"><span>service.interceptors.response.use(</span></span>
+<span class="line"><span>  response => {</span></span>
+<span class="line"><span>    // 对响应数据做点什么</span></span>
+<span class="line"><span>    // 例如：隐藏loading</span></span>
+<span class="line"><span>    // hideLoading();</span></span>
+<span class="line"><span>    </span></span>
+<span class="line"><span>    // 根据后端返回的数据结构，这里假设我们只关心data字段</span></span>
+<span class="line"><span>    const res = response.data;</span></span>
+<span class="line"><span>    // 如果状态码不是200，则视为错误（这里根据实际项目调整）</span></span>
+<span class="line"><span>    if (res.code !== 200) {</span></span>
+<span class="line"><span>      // 处理业务错误，例如弹出错误提示</span></span>
+<span class="line"><span>      return Promise.reject(new Error(res.message || 'Error'));</span></span>
+<span class="line"><span>    } else {</span></span>
+<span class="line"><span>      return res;</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>  },</span></span>
+<span class="line"><span>  error => {</span></span>
+<span class="line"><span>    // 对响应错误做点什么</span></span>
+<span class="line"><span>    // hideLoading();</span></span>
+<span class="line"><span>    // 处理HTTP状态码错误</span></span>
+<span class="line"><span>    if (error.response) {</span></span>
+<span class="line"><span>      switch (error.response.status) {</span></span>
+<span class="line"><span>        case 401:</span></span>
+<span class="line"><span>          // 未授权，跳转到登录页</span></span>
+<span class="line"><span>          router.replace('/login');</span></span>
+<span class="line"><span>          break;</span></span>
+<span class="line"><span>        case 403:</span></span>
+<span class="line"><span>          // 禁止访问</span></span>
+<span class="line"><span>          alert('没有权限访问');</span></span>
+<span class="line"><span>          break;</span></span>
+<span class="line"><span>        case 500:</span></span>
+<span class="line"><span>          // 服务器错误</span></span>
+<span class="line"><span>          alert('服务器错误');</span></span>
+<span class="line"><span>          break;</span></span>
+<span class="line"><span>        default:</span></span>
+<span class="line"><span>          alert('未知错误');</span></span>
+<span class="line"><span>      }</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>    return Promise.reject(error);</span></span>
+<span class="line"><span>  }</span></span>
+<span class="line"><span>);</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>// 封装请求方法</span></span>
+<span class="line"><span>export const get = (url, params) => {</span></span>
+<span class="line"><span>  return service.get(url, { params });</span></span>
+<span class="line"><span>};</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>export const post = (url, data) => {</span></span>
+<span class="line"><span>  return service.post(url, data);</span></span>
+<span class="line"><span>};</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>// 其他请求方法类似封装...</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>// 或者直接导出实例</span></span>
+<span class="line"><span>export default service;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>总结：<br>
+拦截器的作用主要是为了全局处理请求和响应，避免重复代码，统一管理。在封装axios时，我们通过创建实例、配置拦截器、封装请求方法等步骤，使我们的网络请求模块更加健壮和易于维护。</p>
 <Axios></Axios><h2 id="axios封装" tabindex="-1"><a class="header-anchor" href="#axios封装"><span>axios封装</span></a></h2>
 <p>1.这个封装将包含以下特性：<br>
 2.基础URL配置<br>
