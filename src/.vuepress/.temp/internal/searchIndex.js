@@ -3178,9 +3178,9 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "微前端 分类",
+    "title": "microfront 分类",
     "headers": [],
-    "path": "/category/%E5%BE%AE%E5%89%8D%E7%AB%AF/",
+    "path": "/category/microfront/",
     "pathLocale": "/",
     "extraFields": []
   },
