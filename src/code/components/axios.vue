@@ -44,37 +44,15 @@
                                 </p>
                                 <ol>
                                     <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>跨平台支持</strong>‌</mark>：同一套代码可运行于浏览器（封装XMLHttpRequest）和Node.js（使用原生http模块）。‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--2431--><span
-                                                    class="cos-tooltip cosd-citation"><!--2434--><span
-                                                        class="cosd-citation-citationId">1<!--2435--></span><!--2434--></span><!--2432--><!--2436--><!--2436--><!--2431--></span></span>‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--2438--><span
-                                                    class="cos-tooltip cosd-citation"><!--2441--><span
-                                                        class="cosd-citation-citationId">2<!--2442--></span><!--2441--></span><!--2439--><!--2443--><!--2443--><!--2438--></span></span>
+                                            class="flexible-marker flexible-marker-default">‌<strong>跨平台支持</strong>‌</mark>：同一套代码可运行于浏览器（封装XMLHttpRequest）和Node.js（使用原生http模块）。‌‌
+                                           
+                                               
                                     </li>
                                     <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>Promise驱动</strong>‌</mark>：通过Promise管理异步请求，避免传统回调地狱，符合ES规范。‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--2445--><span
-                                                    class="cos-tooltip cosd-citation"><!--2448--><span
-                                                        class="cosd-citation-citationId">1<!--2449--></span><!--2448--></span><!--2446--><!--2450--><!--2450--><!--2445--></span></span>‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--2452--><span
-                                                    class="cos-tooltip cosd-citation"><!--2455--><span
-                                                        class="cosd-citation-citationId">3<!--2456--></span><!--2455--></span><!--2453--><!--2457--><!--2457--><!--2452--></span></span>
+                                            class="flexible-marker flexible-marker-default">‌<strong>Promise驱动</strong>‌</mark>：通过Promise管理异步请求，避免传统回调地狱，符合ES规范。
                                     </li>
                                     <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>功能丰富</strong>‌</mark>：支持请求/响应拦截、自动JSON转换、取消请求等高级功能。‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--2459--><span
-                                                    class="cos-tooltip cosd-citation"><!--2462--><span
-                                                        class="cosd-citation-citationId">4<!--2463--></span><!--2462--></span><!--2460--><!--2464--><!--2464--><!--2459--></span></span>‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--2466--><span
-                                                    class="cos-tooltip cosd-citation"><!--2469--><span
-                                                        class="cosd-citation-citationId">5<!--2470--></span><!--2469--></span><!--2467--><!--2471--><!--2471--><!--2466--></span></span>
+                                            class="flexible-marker flexible-marker-default">‌<strong>功能丰富</strong>‌</mark>：支持请求/响应拦截、自动JSON转换、取消请求等高级功能。
                                     </li>
                                 </ol>
                             </div><!--2429-->
@@ -108,26 +86,11 @@
                             <div class="marklang">
                                 <ul>
                                     <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>替代原生Ajax</strong>‌</mark>：简化了传统Ajax的复杂操作，提供更简洁的API。‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--2487--><span
-                                                    class="cos-tooltip cosd-citation"><!--2490--><span
-                                                        class="cosd-citation-citationId">3<!--2491--></span><!--2490--></span><!--2488--><!--2492--><!--2492--><!--2487--></span></span>‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--2494--><span
-                                                    class="cos-tooltip cosd-citation"><!--2497--><span
-                                                        class="cosd-citation-citationId">6<!--2498--></span><!--2497--></span><!--2495--><!--2499--><!--2499--><!--2494--></span></span>
+                                            class="flexible-marker flexible-marker-default">‌<strong>替代原生Ajax</strong>‌</mark>：简化了传统Ajax的复杂操作，提供更简洁的API。‌‌
+                                          
                                     </li>
                                     <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>轻量高效</strong>‌</mark>：体积小且性能优化，适用于工程化项目，常与Vue.js、React等框架配合使用。‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--2501--><span
-                                                    class="cos-tooltip cosd-citation"><!--2504--><span
-                                                        class="cosd-citation-citationId">5<!--2505--></span><!--2504--></span><!--2502--><!--2506--><!--2506--><!--2501--></span></span>‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--2508--><span
-                                                    class="cos-tooltip cosd-citation"><!--2511--><span
-                                                        class="cosd-citation-citationId">7<!--2512--></span><!--2511--></span><!--2509--><!--2513--><!--2513--><!--2508--></span></span>
+                                            class="flexible-marker flexible-marker-default">‌<strong>轻量高效</strong>‌</mark>：体积小且性能优化，适用于工程化项目，常与Vue.js、React等框架配合使用。
                                     </li>
                                 </ul>
                             </div><!--2485-->
@@ -238,52 +201,28 @@
                     </span></span>拦截器的作用主要包括全局配置、统一处理请求和响应、优化数据格式以及异常处理，具体分为请求拦截器和响应拦截器两类。</p>
             <h3>请求拦截器作用</h3>
             <ul>
-                <li>‌<strong>全局配置</strong>‌：统一设置公共请求头（如认证信息）、参数格式化、超时时间等，减少重复代码。 ‌<span disable-audio="true"
-                        disable-copy="true"><span rl-type="stop"><!--3912--><span
-                                class="cos-tooltip cosd-citation"><!--3915--><span
-                                    class="cosd-citation-citationId">1<!--3916--></span><!--3915--></span><!--3913--><!--3917--><!--3917--><!--3912--></span><span
-                            rl-type="stop"><!--3919--><span class="cos-tooltip cosd-citation"><!--3922--><span
-                                    class="cosd-citation-citationId">2<!--3923--></span><!--3922--></span><!--3920--><!--3924--><!--3924--><!--3919--></span></span>
+                <li>‌<strong>全局配置</strong>‌：统一设置公共请求头（如认证信息）、参数格式化、超时时间等，减少重复代码。 
+                      
                 </li>
-                <li>‌<strong>预处理请求</strong>‌：检查非法请求（如未登录状态）、添加必要参数（如token），或根据业务逻辑调整请求配置。 ‌<span disable-audio="true"
-                        disable-copy="true"><span rl-type="stop"><!--3926--><span
-                                class="cos-tooltip cosd-citation"><!--3929--><span
-                                    class="cosd-citation-citationId">1<!--3930--></span><!--3929--></span><!--3927--><!--3931--><!--3931--><!--3926--></span><span
-                            rl-type="stop"><!--3933--><span class="cos-tooltip cosd-citation"><!--3936--><span
-                                    class="cosd-citation-citationId">4<!--3937--></span><!--3936--></span><!--3934--><!--3938--><!--3938--><!--3933--></span></span>
+                <li>‌<strong>预处理请求</strong>‌：检查非法请求（如未登录状态）、添加必要参数（如token），或根据业务逻辑调整请求配置。 
                 </li>
             </ul>
             <h3>响应拦截器作用</h3>
             <ul>
-                <li>‌<strong>统一处理响应</strong>‌：解析服务器返回的数据结构、过滤敏感信息或转换数据格式（如JSON转对象）。 ‌<span disable-audio="true"
-                        disable-copy="true"><span rl-type="stop"><!--3940--><span
-                                class="cos-tooltip cosd-citation"><!--3943--><span
-                                    class="cosd-citation-citationId">2<!--3944--></span><!--3943--></span><!--3941--><!--3945--><!--3945--><!--3940--></span><span
-                            rl-type="stop"><!--3947--><span class="cos-tooltip cosd-citation"><!--3950--><span
-                                    class="cosd-citation-citationId">3<!--3951--></span><!--3950--></span><!--3948--><!--3952--><!--3952--><!--3947--></span></span>
+                <li>‌<strong>统一处理响应</strong>‌：解析服务器返回的数据结构、过滤敏感信息或转换数据格式（如JSON转对象）。 
                 </li>
-                <li>‌<strong>异常处理</strong>‌：捕获401/403/500等错误，自动刷新token或重试请求；支持自定义错误处理逻辑。 ‌<span disable-audio="true"
-                        disable-copy="true"><span rl-type="stop"><!--3954--><span
-                                class="cos-tooltip cosd-citation"><!--3957--><span
-                                    class="cosd-citation-citationId">1<!--3958--></span><!--3957--></span><!--3955--><!--3959--><!--3959--><!--3954--></span><span
-                            rl-type="stop"><!--3961--><span class="cos-tooltip cosd-citation"><!--3964--><span
-                                    class="cosd-citation-citationId">4<!--3965--></span><!--3964--></span><!--3962--><!--3966--><!--3966--><!--3961--></span></span>
+                <li>‌<strong>异常处理</strong>‌：捕获401/403/500等错误，自动刷新token或重试请求；支持自定义错误处理逻辑。
                 </li>
-                <li>‌<strong>优化体验</strong>‌：根据状态码跳转登录页、刷新页面等操作，提升用户交互体验。 ‌<span disable-audio="true"
-                        disable-copy="true"><span rl-type="stop"><!--3968--><span
-                                class="cos-tooltip cosd-citation"><!--3971--><span
-                                    class="cosd-citation-citationId">4<!--3972--></span><!--3971--></span><!--3969--><!--3973--><!--3973--><!--3968--></span><span
-                            rl-type="stop"><!--3975--><span class="cos-tooltip cosd-citation"><!--3978--><span
-                                    class="cosd-citation-citationId">5<!--3979--></span><!--3978--></span><!--3976--><!--3980--><!--3980--><!--3975--></span></span>
+                <li>‌<strong>优化体验</strong>‌：根据状态码跳转登录页、刷新页面等操作，提升用户交互体验。 
                 </li>
             </ul>
-            <p class="marklang-paragraph">通过拦截器可避免在每个请求/响应中重复编写相同逻辑，实现标准化处理流程，同时提升代码维护性和扩展性。 ‌<span disable-audio="true"
-                    disable-copy="true"><span rl-type="stop"><!--3982--><span
-                            class="cos-tooltip cosd-citation"><!--3985--><span
-                                class="cosd-citation-citationId">2<!--3986--></span><!--3985--></span><!--3983--><!--3987--><!--3987--><!--3982--></span><span
-                        rl-type="stop"><!--3989--><span class="cos-tooltip cosd-citation"><!--3992--><span
-                                class="cosd-citation-citationId">3<!--3993--></span><!--3992--></span><!--3990--><!--3994--><!--3994--><!--3989--></span></span>
+            <p class="marklang-paragraph">通过拦截器可避免在每个请求/响应中重复编写相同逻辑，实现标准化处理流程，同时提升代码维护性和扩展性。 
             </p>
         </div>
     </div>
 </template>
+<style scoped>
+strong{
+    background-color: white;
+}
+</style>

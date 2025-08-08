@@ -44,15 +44,7 @@
                                     <li>
                                         <p class="marklang-paragraph"><mark
                                                 class="flexible-marker flexible-marker-default">‌<strong>持续集成（CI）</strong>‌</mark>。<br>
-                                            开发人员频繁将代码提交到共享仓库（如Git），每次提交触发自动化构建和测试流程，确保代码质量并快速发现集成问题。‌‌<span
-                                                disable-audio="true" disable-copy="true"><span
-                                                    rl-type="stop"><!--7203--><span
-                                                        class="cos-tooltip cosd-citation"><!--7206--><span
-                                                            class="cosd-citation-citationId">1<!--7207--></span><!--7206--></span><!--7204--><!--7208--><!--7208--><!--7203--></span></span>‌‌<span
-                                                disable-audio="true" disable-copy="true"><span
-                                                    rl-type="stop"><!--7210--><span
-                                                        class="cos-tooltip cosd-citation"><!--7213--><span
-                                                            class="cosd-citation-citationId">2<!--7214--></span><!--7213--></span><!--7211--><!--7215--><!--7215--><!--7210--></span></span>
+                                            开发人员频繁将代码提交到共享仓库（如Git），每次提交触发自动化构建和测试流程，确保代码质量并快速发现集成问题。
                                         </p>
                                         <ul>
                                             <li>关键工具：Jenkins、GitLab CI、Travis CI等。</li>
@@ -61,27 +53,13 @@
                                     <li>
                                         <p class="marklang-paragraph"><mark
                                                 class="flexible-marker flexible-marker-default">‌<strong>持续交付（CD）</strong>‌</mark>。<br>
-                                            在CI基础上，将通过测试的代码自动发布到预生产环境，确保软件随时可手动部署至生产环境。‌‌<span disable-audio="true"
-                                                disable-copy="true"><span rl-type="stop"><!--7217--><span
-                                                        class="cos-tooltip cosd-citation"><!--7220--><span
-                                                            class="cosd-citation-citationId">3<!--7221--></span><!--7220--></span><!--7218--><!--7222--><!--7222--><!--7217--></span></span>‌‌<span
-                                                disable-audio="true" disable-copy="true"><span
-                                                    rl-type="stop"><!--7224--><span
-                                                        class="cos-tooltip cosd-citation"><!--7227--><span
-                                                            class="cosd-citation-citationId">4<!--7228--></span><!--7227--></span><!--7225--><!--7229--><!--7229--><!--7224--></span></span>
+                                            在CI基础上，将通过测试的代码自动发布到预生产环境，确保软件随时可手动部署至生产环境。‌‌
                                         </p>
                                     </li>
                                     <li>
                                         <p class="marklang-paragraph"><mark
                                                 class="flexible-marker flexible-marker-default">‌<strong>持续部署（CD）</strong>‌</mark>。<br>
-                                            持续交付的进阶形式，代码通过测试后无需人工干预直接部署至生产环境，实现全流程自动化。‌‌<span disable-audio="true"
-                                                disable-copy="true"><span rl-type="stop"><!--7231--><span
-                                                        class="cos-tooltip cosd-citation"><!--7234--><span
-                                                            class="cosd-citation-citationId">4<!--7235--></span><!--7234--></span><!--7232--><!--7236--><!--7236--><!--7231--></span></span>‌‌<span
-                                                disable-audio="true" disable-copy="true"><span
-                                                    rl-type="stop"><!--7238--><span
-                                                        class="cos-tooltip cosd-citation"><!--7241--><span
-                                                            class="cosd-citation-citationId">5<!--7242--></span><!--7241--></span><!--7239--><!--7243--><!--7243--><!--7238--></span></span>
+                                            持续交付的进阶形式，代码通过测试后无需人工干预直接部署至生产环境，实现全流程自动化。‌‌
                                         </p>
                                     </li>
                                 </ol>
@@ -116,34 +94,14 @@
                             <div class="marklang">
                                 <ul>
                                     <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>加速交付</strong>‌</mark>：自动化缩短开发周期，支持快速迭代。‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--7259--><span
-                                                    class="cos-tooltip cosd-citation"><!--7262--><span
-                                                        class="cosd-citation-citationId">6<!--7263--></span><!--7262--></span><!--7260--><!--7264--><!--7264--><!--7259--></span></span>‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--7266--><span
-                                                    class="cos-tooltip cosd-citation"><!--7269--><span
-                                                        class="cosd-citation-citationId">7<!--7270--></span><!--7269--></span><!--7267--><!--7271--><!--7271--><!--7266--></span></span>
+                                            class="flexible-marker flexible-marker-default">‌<strong>加速交付</strong>‌</mark>：自动化缩短开发周期，支持快速迭代。‌‌
                                     </li>
                                     <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>降低风险</strong>‌</mark>：频繁测试减少大规模部署的故障率。‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--7273--><span
-                                                    class="cos-tooltip cosd-citation"><!--7276--><span
-                                                        class="cosd-citation-citationId">5<!--7277--></span><!--7276--></span><!--7274--><!--7278--><!--7278--><!--7273--></span></span>‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--7280--><span
-                                                    class="cos-tooltip cosd-citation"><!--7283--><span
-                                                        class="cosd-citation-citationId">8<!--7284--></span><!--7283--></span><!--7281--><!--7285--><!--7285--><!--7280--></span></span>
+                                            class="flexible-marker flexible-marker-default">‌<strong>降低风险</strong>‌</mark>：频繁测试减少大规模部署的故障率。‌‌
                                     </li>
                                     <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>提升协作</strong>‌</mark>：开发与运维团队通过标准化流程高效协同（DevOps理念）。‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--7287--><span
-                                                    class="cos-tooltip cosd-citation"><!--7290--><span
-                                                        class="cosd-citation-citationId">8<!--7291--></span><!--7290--></span><!--7288--><!--7292--><!--7292--><!--7287--></span></span>‌‌<span
-                                            disable-audio="true" disable-copy="true"></span></li>
+                                            class="flexible-marker flexible-marker-default">‌<strong>提升协作</strong>‌</mark>：开发与运维团队通过标准化流程高效协同（DevOps理念）。
+                                    </li>
                                 </ul>
                             </div><!--7257-->
                         </div>
@@ -156,11 +114,7 @@
         <ul>
             <li><strong>1. 代码提交后自动触发编译、单元测试</strong></li>
             <li><strong>2. 测试通过后自动部署到预发布环境</strong></li>
-            <li><strong>3. 预发布验证无误后自动推进到生产环境 </strong>‌<span disable-audio="true" disable-copy="true"><span
-                        rl-type="stop"><!--1003--><span class="cos-tooltip cosd-citation"><!--1006--><span
-                                class="cosd-citation-citationId">1<!--1007--></span><!--1006--></span><!--1004--><!--1008--><!--1008--><!--1003--></span><span
-                        rl-type="stop"><!--1010--><span class="cos-tooltip cosd-citation"><!--1013--><span
-                                class="cosd-citation-citationId">2<!--1014--></span><!--1013--></span><!--1011--><!--1015--><!--1015--><!--1010--></span></span>
+            <li><strong>3. 预发布验证无误后自动推进到生产环境 </strong>
             </li>
         </ul>
         <h3>与<span><span rl-type="stop"
@@ -170,12 +124,7 @@
                                 class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
                     </span><!--945-->
                 </span></span>的关系</h3>
-        <p class="marklang-paragraph">CI/CD是DevOps实践的重要组成部分，通过流程自动化减少开发、运维团队间的协作成本，实现敏捷开发目标。 ‌<span disable-audio="true"
-                disable-copy="true"><span rl-type="stop"><!--1017--><span
-                        class="cos-tooltip cosd-citation"><!--1020--><span
-                            class="cosd-citation-citationId">2<!--1021--></span><!--1020--></span><!--1018--><!--1022--><!--1022--><!--1017--></span><span
-                    rl-type="stop"><!--1024--><span class="cos-tooltip cosd-citation"><!--1027--><span
-                            class="cosd-citation-citationId">3<!--1028--></span><!--1027--></span><!--1025--><!--1029--><!--1029--><!--1024--></span></span>
+        <p class="marklang-paragraph">CI/CD是DevOps实践的重要组成部分，通过流程自动化减少开发、运维团队间的协作成本，实现敏捷开发目标。
         </p>
 
 
@@ -211,15 +160,7 @@
                                             class="flexible-marker flexible-marker-default">‌<strong>构建与测试</strong>‌</mark>：Maven、Gradle、Selenium。
                                     </li>
                                     <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>部署与编排</strong>‌</mark>：Docker、Kubernetes、Ansible。‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--7308--><span
-                                                    class="cos-tooltip cosd-citation"><!--7311--><span
-                                                        class="cosd-citation-citationId">2<!--7312--></span><!--7311--></span><!--7309--><!--7313--><!--7313--><!--7308--></span></span>‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--7315--><span
-                                                    class="cos-tooltip cosd-citation"><!--7318--><span
-                                                        class="cosd-citation-citationId">7<!--7319--></span><!--7318--></span><!--7316--><!--7320--><!--7320--><!--7315--></span></span>
+                                            class="flexible-marker flexible-marker-default">‌<strong>部署与编排</strong>‌</mark>：Docker、Kubernetes、Ansible。
                                     </li>
                                 </ul>
                             </div><!--7306-->
@@ -251,11 +192,7 @@
                                                     </span><!--3115-->
                                                 </span></span></strong>‌<br>
                                         基于Java开发的开源CI/CD平台，支持插件机制扩展，覆盖版本控制、构建、测试及部署等全流程自动化。2023年数据显示全球70%的DevOps团队使用Jenkins，提供图形化界面和Pipeline脚本配置方式。
-                                        ‌<span disable-audio="true" disable-copy="true"><span><span
-                                                    class="cosd-citation" rl-type="stop"><span
-                                                        class="cosd-citation-citationId">1</span></span></span><span><span
-                                                    class="cosd-citation" rl-type="stop"><span
-                                                        class="cosd-citation-citationId">2</span></span></span></span>
+
                                     </p>
                                 </li>
                                 <li>
@@ -268,11 +205,7 @@
                                                     </span><!--3117-->
                                                 </span></span></strong>‌<br>
                                         内置于GitLab代码托管平台，通过.gitlab-ci.yml文件定义流水线，支持构建、测试、部署全流程自动化。兼容Docker、Kubernetes及多种云服务，适合敏捷开发流程。
-                                        ‌<span disable-audio="true" disable-copy="true"><span><span
-                                                    class="cosd-citation" rl-type="stop"><span
-                                                        class="cosd-citation-citationId">3</span></span></span><span><span
-                                                    class="cosd-citation" rl-type="stop"><span
-                                                        class="cosd-citation-citationId">4</span></span></span></span>
+
                                     </p>
                                 </li>
                                 <li>
@@ -285,11 +218,7 @@
                                                     </span><!--3119-->
                                                 </span></span></strong>‌<br>
                                         支持云端与本地部署，提供高性能任务并行执行和自动资源扩展能力，适用于快速交付场景（如金融科技、移动互联网）。深度整合Docker镜像缓存和流水线优化。
-                                        ‌<span disable-audio="true" disable-copy="true"><span><span
-                                                    class="cosd-citation" rl-type="stop"><span
-                                                        class="cosd-citation-citationId">3</span></span></span><span><span
-                                                    class="cosd-citation" rl-type="stop"><span
-                                                        class="cosd-citation-citationId">4</span></span></span></span>
+
                                     </p>
                                 </li>
                             </ol>
@@ -304,12 +233,7 @@
                                                                 class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
                                                     </span><!--3121-->
                                                 </span></span></strong>‌<br>
-                                        集成在GitHub平台，通过自动化工作流程实现代码审查、构建、测试及部署，支持Docker容器和Kubernetes集群。 ‌<span
-                                            disable-audio="true" disable-copy="true"><span><span class="cosd-citation"
-                                                    rl-type="stop"><span
-                                                        class="cosd-citation-citationId">3</span></span></span><span><span
-                                                    class="cosd-citation" rl-type="stop"><span
-                                                        class="cosd-citation-citationId">4</span></span></span></span>
+                                        集成在GitHub平台，通过自动化工作流程实现代码审查、构建、测试及部署，支持Docker容器和Kubernetes集群。
                                     </p>
                                 </li>
                                 <li>
@@ -321,10 +245,8 @@
                                                                 class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
                                                     </span><!--3123-->
                                                 </span></span></strong>‌<br>
-                                        提供代码托管、CI/CD、项目管理等一体化解决方案，支持.gitlab-ci.yml配置文件和插件生态系统，适合需要高度集成开发运维流程的企业。 ‌<span
-                                            disable-audio="true" disable-copy="true"><span><span class="cosd-citation"
-                                                    rl-type="stop"><span
-                                                        class="cosd-citation-citationId">4</span></span></span></span>
+                                        提供代码托管、CI/CD、项目管理等一体化解决方案，支持.gitlab-ci.yml配置文件和插件生态系统，适合需要高度集成开发运维流程的企业。 ‌
+
                                     </p>
                                 </li>
                             </ol>
@@ -381,40 +303,20 @@
                             <div class="marklang">
                                 <ol>
                                     <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>代码提交与触发</strong>‌</mark>：开发人员提交代码至Git等版本控制系统，触发CI工具（如Jenkins）的构建任务。‌‌<span
-                                            disable-audio="true" disable-copy="true"></span>‌‌<span disable-audio="true"
-                                            disable-copy="true"><span rl-type="stop"><!--8271--><span
-                                                    class="cos-tooltip cosd-citation"><!--8274--><span
-                                                        class="cosd-citation-citationId">1<!--8275--></span><!--8274--></span><!--8272--><!--8276--><!--8276--><!--8271--></span></span>
+                                            class="flexible-marker flexible-marker-default">‌<strong>代码提交与触发</strong>‌</mark>：开发人员提交代码至Git等版本控制系统，触发CI工具（如Jenkins）的构建任务。
                                     </li>
                                     <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>代码构建与测试</strong>‌</mark>：CI工具拉取代码后执行编译、单元测试及静态分析，确保代码质量。‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--8278--><span
-                                                    class="cos-tooltip cosd-citation"><!--8281--><span
-                                                        class="cosd-citation-citationId">1<!--8282--></span><!--8281--></span><!--8279--><!--8283--><!--8283--><!--8278--></span></span>‌‌<span
-                                            disable-audio="true" disable-copy="true"></span></li>
-                                    <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>镜像打包与推送</strong>‌</mark>：通过Docker等容器化工具将应用打包为镜像，并推送至私有仓库（如阿里云容器服务）。‌‌<span
-                                            disable-audio="true" disable-copy="true"></span>‌‌<span disable-audio="true"
-                                            disable-copy="true"><span rl-type="stop"><!--8285--><span
-                                                    class="cos-tooltip cosd-citation"><!--8288--><span
-                                                        class="cosd-citation-citationId">2<!--8289--></span><!--8288--></span><!--8286--><!--8290--><!--8290--><!--8285--></span></span>
+                                            class="flexible-marker flexible-marker-default">‌<strong>代码构建与测试</strong>‌</mark>：CI工具拉取代码后执行编译、单元测试及静态分析，确保代码质量。
                                     </li>
                                     <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>环境部署</strong>‌</mark>：自动化脚本（如Ansible或Kubernetes）拉取镜像并部署至目标环境（测试/生产），支持灰度发布和滚动更新。‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--8292--><span
-                                                    class="cos-tooltip cosd-citation"><!--8295--><span
-                                                        class="cosd-citation-citationId">1<!--8296--></span><!--8295--></span><!--8293--><!--8297--><!--8297--><!--8292--></span></span>‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--8299--><span
-                                                    class="cos-tooltip cosd-citation"><!--8302--><span
-                                                        class="cosd-citation-citationId">2<!--8303--></span><!--8302--></span><!--8300--><!--8304--><!--8304--><!--8299--></span></span>
+                                            class="flexible-marker flexible-marker-default">‌<strong>镜像打包与推送</strong>‌</mark>：通过Docker等容器化工具将应用打包为镜像，并推送至私有仓库（如阿里云容器服务）。‌
                                     </li>
                                     <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>结果反馈</strong>‌</mark>：通过邮件或消息通知团队部署状态，形成闭环。‌‌<span
-                                            disable-audio="true" disable-copy="true"></span></li>
+                                            class="flexible-marker flexible-marker-default">‌<strong>环境部署</strong>‌</mark>：自动化脚本（如Ansible或Kubernetes）拉取镜像并部署至目标环境（测试/生产），支持灰度发布和滚动更新。
+                                    </li>
+                                    <li><mark
+                                            class="flexible-marker flexible-marker-default">‌<strong>结果反馈</strong>‌</mark>：通过邮件或消息通知团队部署状态，形成闭环。
+                                    </li>
                                 </ol>
                             </div><!--8269-->
                         </div>
@@ -451,18 +353,10 @@
                                             disable-audio="true" disable-copy="true"></span>‌‌<span disable-audio="true"
                                             disable-copy="true"></span></li>
                                     <li><mark class="flexible-marker flexible-marker-default">‌<strong>云原生方案（如AKS +
-                                                Azure DevOps）</strong>‌</mark>：集成度高，适用于Kubernetes集群的自动化部署。‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--8320--><span
-                                                    class="cos-tooltip cosd-citation"><!--8323--><span
-                                                        class="cosd-citation-citationId">2<!--8324--></span><!--8323--></span><!--8321--><!--8325--><!--8325--><!--8320--></span></span>
+                                                Azure DevOps）</strong>‌</mark>：集成度高，适用于Kubernetes集群的自动化部署。
                                     </li>
                                     <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>一站式平台（如DaoCloud）</strong>‌</mark>：提供图形化界面，简化CI/CD配置，适合快速入门。‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--8327--><span
-                                                    class="cos-tooltip cosd-citation"><!--8330--><span
-                                                        class="cosd-citation-citationId">3<!--8331--></span><!--8330--></span><!--8328--><!--8332--><!--8332--><!--8327--></span></span>
+                                            class="flexible-marker flexible-marker-default">‌<strong>一站式平台（如DaoCloud）</strong>‌</mark>：提供图形化界面，简化CI/CD配置，适合快速入门。
                                     </li>
                                 </ul>
                             </div><!--8318-->
@@ -496,25 +390,13 @@
                             <div class="marklang">
                                 <ul>
                                     <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>多环境适配</strong>‌</mark>：通过参数化构建区分开发、测试、生产环境。‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--8348--><span
-                                                    class="cos-tooltip cosd-citation"><!--8351--><span
-                                                        class="cosd-citation-citationId">1<!--8352--></span><!--8351--></span><!--8349--><!--8353--><!--8353--><!--8348--></span></span>
+                                            class="flexible-marker flexible-marker-default">‌<strong>多环境适配</strong>‌</mark>：通过参数化构建区分开发、测试、生产环境。
                                     </li>
                                     <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>安全合规</strong>‌</mark>：镜像扫描、权限控制（如阿里云仓库的访问令牌）。‌‌<span
-                                            disable-audio="true" disable-copy="true"></span>‌‌<span disable-audio="true"
-                                            disable-copy="true"><span rl-type="stop"><!--8355--><span
-                                                    class="cos-tooltip cosd-citation"><!--8358--><span
-                                                        class="cosd-citation-citationId">2<!--8359--></span><!--8358--></span><!--8356--><!--8360--><!--8360--><!--8355--></span></span>
+                                            class="flexible-marker flexible-marker-default">‌<strong>安全合规</strong>‌</mark>：镜像扫描、权限控制（如阿里云仓库的访问令牌）。‌
                                     </li>
                                     <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>弹性伸缩</strong>‌</mark>：结合Kubernetes实现自动扩缩容。‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--8362--><span
-                                                    class="cos-tooltip cosd-citation"><!--8365--><span
-                                                        class="cosd-citation-citationId">2<!--8366--></span><!--8365--></span><!--8363--><!--8367--><!--8367--><!--8362--></span></span>
+                                            class="flexible-marker flexible-marker-default">‌<strong>弹性伸缩</strong>‌</mark>：结合Kubernetes实现自动扩缩容。
                                     </li>
                                 </ul>
                             </div><!--8346-->
@@ -754,21 +636,12 @@
                     </span><!--1099-->
                 </span></span>（CD）的核心区别在于自动化流程的覆盖范围和参与角色：</p>
         <ul>
-            <li>‌<strong>CI</strong>‌：强调代码合并与基础测试自动化，确保代码质量后进入共享代码库。 ‌<span disable-audio="true"
-                    disable-copy="true"><span><span class="cosd-citation" rl-type="stop"><span
-                                class="cosd-citation-citationId">1</span></span></span><span><span class="cosd-citation"
-                            rl-type="stop"><span class="cosd-citation-citationId">2</span></span></span></span></li>
-            <li>‌<strong>CD</strong>‌：基于CI的验证结果，自动将代码部署到生产环境，涉及跨部门协作与全流程自动化。 ‌<span disable-audio="true"
-                    disable-copy="true"><span><span class="cosd-citation" rl-type="stop"><span
-                                class="cosd-citation-citationId">1</span></span></span><span><span class="cosd-citation"
-                            rl-type="stop"><span class="cosd-citation-citationId">3</span></span></span></span></li>
+            <li>‌<strong>CI</strong>‌：强调代码合并与基础测试自动化，确保代码质量后进入共享代码库。 </li>
+            <li>‌<strong>CD</strong>‌：基于CI的验证结果，自动将代码部署到生产环境，涉及跨部门协作与全流程自动化。 </li>
         </ul>
         <h3>具体差异</h3>
         <p class="marklang-paragraph">‌<strong>功能目标</strong>‌<br>
-            CI聚焦代码合并与单元测试，快速定位代码冲突；CD侧重从开发到生产的自动化部署，减少人工干预。 ‌<span disable-audio="true" disable-copy="true"><span><span
-                        class="cosd-citation" rl-type="stop"><span
-                            class="cosd-citation-citationId">3</span></span></span><span><span class="cosd-citation"
-                        rl-type="stop"><span class="cosd-citation-citationId">4</span></span></span></span></p>
+            CI聚焦代码合并与单元测试，快速定位代码冲突；CD侧重从开发到生产的自动化部署，减少人工干预。 </p>
         <p class="marklang-paragraph">‌<strong>工具与技术</strong>‌<br>
             CI常用<span><span rl-type="stop"
                     href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=Git&amp;rsv_pq=f6573ff800511d2a&amp;oq=CI%E5%92%8CCD%E7%9A%84%E5%8C%BA%E5%88%AB&amp;rsv_t=aa06n2K/YAkbzLQ/SsgrlMzCW809tPhCF5Q8Sd2ApotyhFfWheMlJxZHxbg&amp;tn=baidu&amp;ie=utf-8"
@@ -794,19 +667,15 @@
                     <span>Kubernete<span style="white-space: nowrap;">s<i
                                 class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
                     </span><!--1107-->
-                </span></span>等容器化技术实现自动化部署。 ‌<span disable-audio="true" disable-copy="true"><span><span
-                        class="cosd-citation" rl-type="stop"><span
-                            class="cosd-citation-citationId">3</span></span></span><span><span class="cosd-citation"
-                        rl-type="stop"><span class="cosd-citation-citationId">5</span></span></span></span></p>
+                </span></span>等容器化技术实现自动化部署。</p>
         <p class="marklang-paragraph">‌<strong>团队协作</strong>‌<br>
-            CI主要依赖开发人员协作（代码审查、合并请求）；CD需要开发、测试、运维团队跨部门协同。 ‌<span disable-audio="true" disable-copy="true"><span><span
-                        class="cosd-citation" rl-type="stop"><span
-                            class="cosd-citation-citationId">3</span></span></span><span><span class="cosd-citation"
-                        rl-type="stop"><span class="cosd-citation-citationId">5</span></span></span></span></p>
+            CI主要依赖开发人员协作（代码审查、合并请求）；CD需要开发、测试、运维团队跨部门协同。</p>
         <p class="marklang-paragraph">‌<strong>自动化范围</strong>‌<br>
-            CI涵盖编译、单元测试；CD包含部署、监控及回滚机制，覆盖从开发到运维的全生命周期。 ‌<span disable-audio="true" disable-copy="true"><span><span
-                        class="cosd-citation" rl-type="stop"><span
-                            class="cosd-citation-citationId">3</span></span></span><span><span class="cosd-citation"
-                        rl-type="stop"><span class="cosd-citation-citationId">4</span></span></span></span></p>
+            CI涵盖编译、单元测试；CD包含部署、监控及回滚机制，覆盖从开发到运维的全生命周期。 </p>
     </div>
 </template>
+<style scoped>
+strong {
+    background-color: white;
+}
+</style>

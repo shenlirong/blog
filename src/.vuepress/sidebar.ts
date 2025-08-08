@@ -5,30 +5,123 @@ export default sidebar({
     "",
     {
       text: "代码笔记",
-      icon: "code",
+      icon: "layer-group",
       prefix: "code/",
-      link: "code/",
+      // link: "code/",
+      collapsible: true,
+      children: [
+        {
+          text: 'Vue相关',
+          // icon: "code",
+          prefix: "vue/",
+          // link: "vue/",
+          collapsible: true,
+          children: 'structure'
+        },
+        {
+          text: 'JavaScript与TypeScript',
+          // icon: "code",
+          prefix: "JavaScript-TypeScript/",
+          // link: "JavaScript与TypeScript/",
+          collapsible: true,
+          children: 'structure'
+        },
+        {
+          text: 'css相关与布局',
+          // icon: "code",
+          prefix: "css-layout/",
+          // link: "CSS与布局/",
+          collapsible: true,
+          children: 'structure'
+        },
+        {
+          text: 'webpack与vite',
+          // icon: "code",
+          prefix: "webpack-vite/",
+          // link: "webpack与vite/",
+          collapsible: true,
+          children: 'structure'
+        },
+        {
+          text: 'angular相关',
+          // icon: "code",
+          prefix: "angular/",
+          // link: "angular相关/",
+          collapsible: true,
+          children: 'structure'
+        },
+        {
+          text: '前端工程化',
+          // icon: "code",
+          prefix: "enginer/",
+          // link: "前端相关/",
+          collapsible: true,
+          children: 'structure'
+        },
+        {
+          text: 'web安全基础',
+          // icon: "code",
+          prefix: "webSecure/",
+          // link: "web安全基础/",
+          collapsible: true,
+          children: 'structure'
+        },
+        {
+          text: 'HTML',
+          // icon: "code",
+          prefix: "HTML/",
+          // link: "HTML/",
+          collapsible: true,
+          children: 'structure'
+        },
+         {
+          text: 'Microfront',
+          // icon: "code",
+          prefix: "microfront/",
+          // link: "常见问题/",
+          collapsible: true,
+          children: 'structure'
+        },
+        {
+          text: '脑洞思考',
+          // icon: "code",
+          prefix: "genic-question/",
+          // link: "常见问题/",
+          collapsible: true,
+          children: 'structure'
+        },
+      ]
+    },
+    {
+      text: "项目",
+      icon: "tarp",
+      collapsible: true,
+      prefix: "project_sum/",
+      // link: "project_sum/",
       children: "structure",
     },
-      {
-      text: "项目",
-      icon: "eraser",
-      prefix: "project_sum/",
-      link: "project_sum/",
+    {
+      text: "相关网站",
+      icon: "diagram-project",
+      collapsible: true,
+      prefix: "website/",
+      // link: "website/",
       children: "structure",
     },
     {
       text: "reveal随笔",
       icon: "book-open",
+      collapsible: true,
       prefix: "essay/",
-      link: "essay/",
+      // link: "essay/",
       children: "structure",
     },
-     {
+    {
       text: "如何使用",
       icon: "laptop-code",
+      collapsible: true,
       prefix: "demo/",
-      link: "demo/",
+      // link: "demo/",
       children: "structure",
     },
     "intro",

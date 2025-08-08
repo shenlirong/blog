@@ -208,7 +208,7 @@ app<span class="token punctuation">.</span><span class="token function">mount</s
         </ul>
     </div>
 </template>
-<style>
+<style scoped>
 .pre-numbering,
 .opt-box {
     display: none;

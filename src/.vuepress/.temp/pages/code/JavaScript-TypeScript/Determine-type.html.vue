@@ -1,0 +1,45 @@
+<template><div><!-- more -->
+<h1 id="判断js数据类型" tabindex="-1"><a class="header-anchor" href="#判断js数据类型"><span>判断JS数据类型</span></a></h1>
+<p>判断方法收集于网络查阅</p>
+<h2 id="_1-typeof" tabindex="-1"><a class="header-anchor" href="#_1-typeof"><span>1.typeof</span></a></h2>
+<p>这个方法还是比较常用的，一般用它来判断基本数据类型，比如 String，Number，Boolean，Symbol，Object，Null，Undefined：<br>
+<img src="@source/code/image/2.png" alt="alt text" loading="lazy"></p>
+<p><strong>这里需要特别说明一下，对于对象（引用对象）类型的判断往往并不是我们想要的结果，换句话说，就是我只知道他是对象类型，但是不知道是什么对象，比如：</strong><br>
+<img src="@source/code/image/3.png" alt="alt text" loading="lazy"><br>
+<strong>可能大家还会比较奇怪，为什么 Null 的数据类型竟然是object，去查阅了一番，才知道这竟然是 “打小” 就是这样设计的，在JS中声明的变量在底层的表现形式都是二进制，而二进制前三位都为0的话就会被判断成object类型，而 Null 的所有机器码都是0，所以就会被当成对象来看了.</strong></p>
+<h2 id="_2-instanceof" tabindex="-1"><a class="header-anchor" href="#_2-instanceof"><span>2.instanceof：</span></a></h2>
+<p><strong>这个方法，相信写Java的童鞋并不陌生，这个方法主要是用来判断一些引用数据类型，比如 Function，Array，Date：</strong><br>
+<img src="@source/code/image/4.png" alt="alt text" loading="lazy"><br>
+<strong>instanceof 主要就是判断一个引用实例是否属于某种类型，简单来说就是判断儿子是否属于该父亲。但是 instanceof 不仅仅是能判断父子关系，还能判断爷孙关系，甚至更多层的关系。那么它的原理是什么呢？</strong></p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>function instanceof(left, right) {</span></span>
+<span class="line"><span>    const rightVal = right.prototype</span></span>
+<span class="line"><span>    const leftVal = left.__proto__</span></span>
+<span class="line"><span>    // 若找不到就到一直循环到父类型或祖类型</span></span>
+<span class="line"><span>    while(true) {</span></span>
+<span class="line"><span>        if (leftVal === null) {</span></span>
+<span class="line"><span>            return false</span></span>
+<span class="line"><span>        }</span></span>
+<span class="line"><span>        if (leftVal === rightVal) {</span></span>
+<span class="line"><span>            return true</span></span>
+<span class="line"><span>        }</span></span>
+<span class="line"><span>        leftVal = leftVal.__proto__ // 获取祖类型的__proto__</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>判断原理就是只要右边变量的 prototype 在左边变量的原型链上即可，在这个判断过程中会一直遍历左边变量的原型链（父组件，祖组件）直到查找结束，如果失败就返回false</strong></p>
+<h2 id="_3-prototype" tabindex="-1"><a class="header-anchor" href="#_3-prototype"><span>3.prototype：</span></a></h2>
+<p><strong>完整写法是 Object.prototype.toString.call(xxx)， 就目前来看，这个方法是最好的一个方法来检测所有的数据类型，无论是基本数据类型还是引用数据类型:</strong><br>
+<img src="@source/code/image/5.png" alt="alt text" loading="lazy"><br>
+<strong>toString方法是Object原型对象上的一个方法，默认返回调用者的具体类型，换句话说，toString运行时this指向的对象类型，返回格式为 [object xxx]，但是需要注意的是，有时候我们创建一个对象的时候可能会重写这个方法，这样就可能会导致Object的toString执行不到，所以这里需要用call方法来强制执行Object方法。</strong></p>
+<h2 id="_4-constructor" tabindex="-1"><a class="header-anchor" href="#_4-constructor"><span>4.constructor</span></a></h2>
+<p><strong>constructor 在其对应对象的原型下面，自动生成，当我们写一个构造函数的时候，会自动添加一个：</strong></p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>构造函数名.prototype.constructor = 构造函数名</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>function test(){ }</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>test.prototype.constructor = test;  // 这个是自动会生成的</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>于是就有了：</strong><br>
+<img src="@source/code/image/6.png" alt="alt text" loading="lazy"><br>
+<strong>图上可以看出来，Null 和 Undefined 是不能够被判断出来的，还会报错，因为 Null 和 Undefined 都是无效的对象，所以不存在 constructor 这一说。另外一点需要注意的是，constructor 属性是可以被修改的，可能会导致最后的结果不正确。</strong></p>
+</div></template>
+
+

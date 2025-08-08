@@ -1,14 +1,9 @@
 <template>
 
-    <div class="
-                    
-                    
-                " style="">
+    <div >
         <div data-module="head_module">
-            <div class="
-                        
-                        ">
-                <div class="ai-entry"><!--1686-->
+            <div>
+                <div class="ai-entry">
                     <div>
                         <div rl-type="stop" data-show="summary"
                             data-show-ext="{&quot;component_content&quot;:{&quot;component_name&quot;:&quot;markdown&quot;,&quot;component_type&quot;:&quot;abstract&quot;,&quot;reference_type&quot;:&quot;&quot;},&quot;hasCredibleRef&quot;:false}">
@@ -51,15 +46,7 @@
                                             <ol>
                                                 <li>
                                                     <p class="marklang-paragraph"><mark
-                                                            class="flexible-marker flexible-marker-default">‌<strong>React（库）</strong>‌</mark>。‌‌<span
-                                                            disable-audio="true" disable-copy="true"><span
-                                                                rl-type="stop"><!--1708--><span
-                                                                    class="cos-tooltip cosd-citation"><!--1711--><span
-                                                                        class="cosd-citation-citationId">1<!--1712--></span><!--1711--></span><!--1709--><!--1713--><!--1713--><!--1708--></span></span>‌‌<span
-                                                            disable-audio="true" disable-copy="true"><span
-                                                                rl-type="stop"><!--1715--><span
-                                                                    class="cos-tooltip cosd-citation"><!--1718--><span
-                                                                        class="cosd-citation-citationId">2<!--1719--></span><!--1718--></span><!--1716--><!--1720--><!--1720--><!--1715--></span></span>
+                                                            class="flexible-marker flexible-marker-default">‌<strong>React（库）</strong>‌</mark>。‌‌
                                                     </p>
                                                     <ul>
                                                         <li>定位：专注于视图层的JavaScript库，需配合其他工具构建完整应用。</li>
@@ -69,15 +56,7 @@
                                                 </li>
                                                 <li>
                                                     <p class="marklang-paragraph"><mark
-                                                            class="flexible-marker flexible-marker-default">‌<strong>Vue（框架）</strong>‌</mark>。‌‌<span
-                                                            disable-audio="true" disable-copy="true"><span
-                                                                rl-type="stop"><!--1722--><span
-                                                                    class="cos-tooltip cosd-citation"><!--1725--><span
-                                                                        class="cosd-citation-citationId">1<!--1726--></span><!--1725--></span><!--1723--><!--1727--><!--1727--><!--1722--></span></span>‌‌<span
-                                                            disable-audio="true" disable-copy="true"><span
-                                                                rl-type="stop"><!--1729--><span
-                                                                    class="cos-tooltip cosd-citation"><!--1732--><span
-                                                                        class="cosd-citation-citationId">2<!--1733--></span><!--1732--></span><!--1730--><!--1734--><!--1734--><!--1729--></span></span>
+                                                            class="flexible-marker flexible-marker-default">‌<strong>Vue（框架）</strong>‌</mark>。
                                                     </p>
                                                     <ul>
                                                         <li>定位：渐进式框架，支持从视图层到全栈方案的逐步集成。</li>
@@ -87,15 +66,7 @@
                                                 </li>
                                                 <li>
                                                     <p class="marklang-paragraph"><mark
-                                                            class="flexible-marker flexible-marker-default">‌<strong>Angular（平台）</strong>‌</mark>。‌‌<span
-                                                            disable-audio="true" disable-copy="true"><span
-                                                                rl-type="stop"><!--1736--><span
-                                                                    class="cos-tooltip cosd-citation"><!--1739--><span
-                                                                        class="cosd-citation-citationId">1<!--1740--></span><!--1739--></span><!--1737--><!--1741--><!--1741--><!--1736--></span></span>‌‌<span
-                                                            disable-audio="true" disable-copy="true"><span
-                                                                rl-type="stop"><!--1743--><span
-                                                                    class="cos-tooltip cosd-citation"><!--1746--><span
-                                                                        class="cosd-citation-citationId">2<!--1747--></span><!--1746--></span><!--1744--><!--1748--><!--1748--><!--1743--></span></span>
+                                                            class="flexible-marker flexible-marker-default">‌<strong>Angular（平台）</strong>‌</mark>
                                                     </p>
                                                     <ul>
                                                         <li>定位：企业级全栈开发平台，包含路由、依赖注入等完整工具链。</li>
@@ -231,11 +202,7 @@
                                                     </p>
                                                     <ul>
                                                         <li>React/Vue：通过虚拟DOM和精准更新策略优化渲染。</li>
-                                                        <li>Angular：依赖脏检查机制，大规模数据时需手动优化。‌‌<span disable-audio="true"
-                                                                disable-copy="true"><span
-                                                                    rl-type="stop"><!--1778--><span
-                                                                        class="cos-tooltip cosd-citation"><!--1781--><span
-                                                                            class="cosd-citation-citationId">3<!--1782--></span><!--1781--></span><!--1779--><!--1783--><!--1783--><!--1778--></span></span>
+                                                        <li>Angular：依赖脏检查机制，大规模数据时需手动优化。
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -246,11 +213,7 @@
                                                     <ul>
                                                         <li>React：拥有最丰富的第三方库（如Next.js、Ant Design）。</li>
                                                         <li>Angular：官方工具链完善但社区扩展相对受限。</li>
-                                                        <li>Vue：生态发展迅速，与Ant Design等主流方案深度整合。‌‌<span disable-audio="true"
-                                                                disable-copy="true"><span
-                                                                    rl-type="stop"><!--1785--><span
-                                                                        class="cos-tooltip cosd-citation"><!--1788--><span
-                                                                            class="cosd-citation-citationId">4<!--1789--></span><!--1788--></span><!--1786--><!--1790--><!--1790--><!--1785--></span></span>
+                                                        <li>Vue：生态发展迅速，与Ant Design等主流方案深度整合。
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -396,3 +359,8 @@
         </div>
     </div>
 </template>
+<style scoped>
+strong{
+    background-color: white;
+}
+</style>

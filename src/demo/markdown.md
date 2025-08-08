@@ -2,7 +2,7 @@
 title: Markdown 展示
 icon: fa6-brands:markdown
 order: 2
-sticky: -3
+sticky: -5
 category:
   - 使用指南
 tag:

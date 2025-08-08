@@ -39,14 +39,8 @@
                         <div class="cosd-markdown-content "><!--813-->
                             <div class="marklang">
                                 <p class="marklang-paragraph">
-                                    JavaScript采用单线程模型主要基于历史原因和DOM操作安全性考虑。该设计避免多线程并发修改DOM导致渲染冲突，但也带来了同步任务阻塞风险。为解决此矛盾，浏览器实现了事件循环机制。‌‌<span
-                                        disable-audio="true" disable-copy="true"><span rl-type="stop"><!--815--><span
-                                                class="cos-tooltip cosd-citation"><!--818--><span
-                                                    class="cosd-citation-citationId">1<!--819--></span><!--818--></span><!--816--><!--820--><!--820--><!--815--></span></span>‌‌<span
-                                        disable-audio="true" disable-copy="true"><span rl-type="stop"><!--822--><span
-                                                class="cos-tooltip cosd-citation"><!--825--><span
-                                                    class="cosd-citation-citationId">2<!--826--></span><!--825--></span><!--823--><!--827--><!--827--><!--822--></span></span>
-                                </p>
+                                    JavaScript采用单线程模型主要基于历史原因和DOM操作安全性考虑。该设计避免多线程并发修改DOM导致渲染冲突，但也带来了同步任务阻塞风险。为解决此矛盾，浏览器实现了事件循环机制。‌‌
+                                    </p>
                                 <p class="marklang-paragraph">以下是关于JavaScript执行机制的详细视频：</p>
                             </div><!--813-->
                         </div>
@@ -109,13 +103,7 @@
                                 </ol>
                                 <pre><div class="code-header"><span rl-type="stop">text</span><span class="cosd-markdown-code-copy cos-link" rl-type="stop">Copy Code</span></div><div class="code-wrapper"><div class="code-left"><div data-line-number="1" class="code-number"></div></div><div class="code-right"><code>同步任务 → 微任务 → 宏任务 → (重复)
 </code></div></div></pre>
-                                <p class="marklang-paragraph">‌‌<span disable-audio="true" disable-copy="true"><span
-                                            rl-type="stop"><!--843--><span
-                                                class="cos-tooltip cosd-citation"><!--846--><span
-                                                    class="cosd-citation-citationId">3<!--847--></span><!--846--></span><!--844--><!--848--><!--848--><!--843--></span></span>‌‌<span
-                                        disable-audio="true" disable-copy="true"><span rl-type="stop"><!--850--><span
-                                                class="cos-tooltip cosd-citation"><!--853--><span
-                                                    class="cosd-citation-citationId">4<!--854--></span><!--853--></span><!--851--><!--855--><!--855--><!--850--></span></span>
+                                <p class="marklang-paragraph">
                                 </p>
                             </div>
                         </div>
@@ -374,13 +362,7 @@
                         <div class="cosd-markdown-content "><!--2179-->
                             <div class="marklang">
                                 <p class="marklang-paragraph">
-                                    事件循环是JavaScript单线程模型下处理异步操作的关键机制，它通过持续检查调用栈和任务队列的状态，确保异步任务（如定时器、网络请求等）在不阻塞主线程的情况下有序执行。其核心目标是解决单线程语言中同步任务与异步任务的调度问题，提升程序响应效率。‌‌<span
-                                        disable-audio="true" disable-copy="true"><span rl-type="stop"><!--2181--><span
-                                                class="cos-tooltip cosd-citation"><!--2184--><span
-                                                    class="cosd-citation-citationId">1<!--2185--></span><!--2184--></span><!--2182--><!--2186--><!--2186--><!--2181--></span></span>‌‌<span
-                                        disable-audio="true" disable-copy="true"><span rl-type="stop"><!--2188--><span
-                                                class="cos-tooltip cosd-citation"><!--2191--><span
-                                                    class="cosd-citation-citationId">2<!--2192--></span><!--2191--></span><!--2189--><!--2193--><!--2193--><!--2188--></span></span>
+                                    事件循环是JavaScript单线程模型下处理异步操作的关键机制，它通过持续检查调用栈和任务队列的状态，确保异步任务（如定时器、网络请求等）在不阻塞主线程的情况下有序执行。其核心目标是解决单线程语言中同步任务与异步任务的调度问题，提升程序响应效率。‌
                                 </p>
                             </div><!--2179-->
                         </div>
@@ -413,38 +395,14 @@
                             <div class="marklang">
                                 <ol>
                                     <li><mark class="flexible-marker flexible-marker-default">‌<strong>调用栈（Call
-                                                Stack）</strong>‌</mark>：执行同步代码的后进先出（LIFO）结构，当前任务执行完毕后才会处理下一个任务。‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--2209--><span
-                                                    class="cos-tooltip cosd-citation"><!--2212--><span
-                                                        class="cosd-citation-citationId">3<!--2213--></span><!--2212--></span><!--2210--><!--2214--><!--2214--><!--2209--></span></span>‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--2216--><span
-                                                    class="cos-tooltip cosd-citation"><!--2219--><span
-                                                        class="cosd-citation-citationId">4<!--2220--></span><!--2219--></span><!--2217--><!--2221--><!--2221--><!--2216--></span></span>
+                                                Stack）</strong>‌</mark>：执行同步代码的后进先出（LIFO）结构，当前任务执行完毕后才会处理下一个任务。
                                     </li>
                                     <li><mark class="flexible-marker flexible-marker-default">‌<strong>任务队列（Task
                                                 Queue）</strong>‌</mark>：分为宏任务队列（Macrotask Queue）和微任务队列（Microtask Queue）：
                                         <ul>
-                                            <li>宏任务：包括<code>setTimeout</code>、<code>setInterval</code>、I/O操作等，每次事件循环处理一个宏任务。‌‌<span
-                                                    disable-audio="true" disable-copy="true"><span
-                                                        rl-type="stop"><!--2223--><span
-                                                            class="cos-tooltip cosd-citation"><!--2226--><span
-                                                                class="cosd-citation-citationId">4<!--2227--></span><!--2226--></span><!--2224--><!--2228--><!--2228--><!--2223--></span></span>‌‌<span
-                                                    disable-audio="true" disable-copy="true"><span
-                                                        rl-type="stop"><!--2230--><span
-                                                            class="cos-tooltip cosd-citation"><!--2233--><span
-                                                                class="cosd-citation-citationId">5<!--2234--></span><!--2233--></span><!--2231--><!--2235--><!--2235--><!--2230--></span></span>
+                                            <li>宏任务：包括<code>setTimeout</code>、<code>setInterval</code>、I/O操作等，每次事件循环处理一个宏任务。‌
                                             </li>
-                                            <li>微任务：如<code>Promise.then</code>、<code>MutationObserver</code>回调，优先级高于宏任务，需在当前宏任务执行后立即清空。‌‌<span
-                                                    disable-audio="true" disable-copy="true"><span
-                                                        rl-type="stop"><!--2237--><span
-                                                            class="cos-tooltip cosd-citation"><!--2240--><span
-                                                                class="cosd-citation-citationId">2<!--2241--></span><!--2240--></span><!--2238--><!--2242--><!--2242--><!--2237--></span></span>‌‌<span
-                                                    disable-audio="true" disable-copy="true"><span
-                                                        rl-type="stop"><!--2244--><span
-                                                            class="cos-tooltip cosd-citation"><!--2247--><span
-                                                                class="cosd-citation-citationId">4<!--2248--></span><!--2247--></span><!--2245--><!--2249--><!--2249--><!--2244--></span></span>
+                                            <li>微任务：如<code>Promise.then</code>、<code>MutationObserver</code>回调，优先级高于宏任务，需在当前宏任务执行后立即清空。
                                             </li>
                                         </ul>
                                     </li>
@@ -453,14 +411,7 @@
                                         <ul>
                                             <li>执行同步代码直至调用栈为空。</li>
                                             <li>检查并执行所有微任务队列中的任务。</li>
-                                            <li>取出一个宏任务执行，重复上述流程。‌‌<span disable-audio="true" disable-copy="true"><span
-                                                        rl-type="stop"><!--2251--><span
-                                                            class="cos-tooltip cosd-citation"><!--2254--><span
-                                                                class="cosd-citation-citationId">1<!--2255--></span><!--2254--></span><!--2252--><!--2256--><!--2256--><!--2251--></span></span>‌‌<span
-                                                    disable-audio="true" disable-copy="true"><span
-                                                        rl-type="stop"><!--2258--><span
-                                                            class="cos-tooltip cosd-citation"><!--2261--><span
-                                                                class="cosd-citation-citationId">5<!--2262--></span><!--2261--></span><!--2259--><!--2263--><!--2263--><!--2258--></span></span>
+                                            <li>取出一个宏任务执行，重复上述流程。
                                             </li>
                                         </ul>
                                     </li>
@@ -495,13 +446,8 @@
                         <div class="cosd-markdown-content "><!--2277-->
                             <div class="marklang">
                                 <p class="marklang-paragraph">
-                                    虽然事件循环机制在浏览器和Node.js中均存在，但Node.js额外引入了<code>process.nextTick</code>和<code>setImmediate</code>等特有任务类型，且任务队列的划分更复杂。‌‌<span
-                                        disable-audio="true" disable-copy="true"><span rl-type="stop"><!--2279--><span
-                                                class="cos-tooltip cosd-citation"><!--2282--><span
-                                                    class="cosd-citation-citationId">5<!--2283--></span><!--2282--></span><!--2280--><!--2284--><!--2284--><!--2279--></span></span>‌‌<span
-                                        disable-audio="true" disable-copy="true"><span rl-type="stop"><!--2286--><span
-                                                class="cos-tooltip cosd-citation"><!--2289--><span
-                                                    class="cosd-citation-citationId">6<!--2290--></span><!--2289--></span><!--2287--><!--2291--><!--2291--><!--2286--></span></span>
+                                    虽然事件循环机制在浏览器和Node.js中均存在，但Node.js额外引入了<code>process.nextTick</code>和<code>setImmediate</code>等特有任务类型，且任务队列的划分更复杂。‌
+                                      
                                 </p>
                             </div><!--2277-->
                         </div>
@@ -514,5 +460,8 @@
 <style scoped>
 .code-header {
     display: none;
+}
+strong{
+    background-color: white;
 }
 </style>

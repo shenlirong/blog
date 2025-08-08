@@ -128,7 +128,7 @@
     </div>
 
 </template>
-<style >
+<style scoped>
 li::marker {
     content: "";
 }

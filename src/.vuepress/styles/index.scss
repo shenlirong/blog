@@ -1,1 +1,63 @@
 // place your custom styles here
+
+//修改主题颜色
+.vp-navbar {
+    .auto-link.route-link-active {
+        color: var(--vp-c-accent);
+    }
+}
+
+
+
+//去掉目录无序排列
+// .vp-catalog-item {
+//     &::marker {
+//         content: '';
+//     }
+
+// }
+
+.vp-catalog-sub-title,
+.vp-catalog-child-title {
+    .vp-icon {
+        display: none;
+    }
+}
+
+//h3标题字体加粗
+.vp-catalog-item {
+    h3 {
+        a {
+            font-weight: bold;
+        }
+
+    }
+}
+
+// .vp-child-catalog {
+//     &::marker {
+//         content: '';
+//     }
+
+// }
+
+//目录索引index生成
+// .index {
+//     .vp-catalog-list {
+//         .vp-catalog-child-title {
+//             .vp-catalog-title {
+//                 &::before {
+//                     content: counter(catalog-item) '. ' !important;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+//目录去掉Icon
+// .vp-catalog-title,
+// .vp-catalog-sub-title {
+//     .vp-icon {
+//         display: none;
+//     }
+// }

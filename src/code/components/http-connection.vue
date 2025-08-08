@@ -210,7 +210,7 @@
 
 </script>
 
-<style >
+<style scoped>
 .cosd-citation-citationId{
     display: none;
 }

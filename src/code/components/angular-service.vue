@@ -57,46 +57,24 @@
                     <p class="marklang-paragraph">在Angular中，服务主要用于封装可复用的业务逻辑、数据操作或功能模块，通过依赖注入实现组件间的解耦和代码复用。以下是具体原因：</p>
                     <h3>代码复用与维护</h3>
                     <p class="marklang-paragraph">
-                        服务通过封装重复性功能（如HTTP请求、数据状态管理、认证逻辑等），避免组件间重复编写相同代码，降低维护成本。例如新闻应用中统一的数据请求服务可被多个展示组件复用。 ‌<span
-                            disable-audio="true" disable-copy="true"><span rl-type="stop"><!--9973--><span
-                                    class="cos-tooltip cosd-citation"><!--9976--><span
-                                        class="cosd-citation-citationId">1<!--9977--></span><!--9976--></span><!--9974--><!--9978--><!--9978--><!--9973--></span><span
-                                rl-type="stop"><!--9980--><span class="cos-tooltip cosd-citation"><!--9983--><span
-                                        class="cosd-citation-citationId">2<!--9984--></span><!--9983--></span><!--9981--><!--9985--><!--9985--><!--9980--></span></span>
-                    </p>
+                        服务通过封装重复性功能（如HTTP请求、数据状态管理、认证逻辑等），避免组件间重复编写相同代码，降低维护成本。例如新闻应用中统一的数据请求服务可被多个展示组件复用。
+                        </p>
                     <h3>组件职责划分</h3>
                     <p class="marklang-paragraph">
-                        服务专注于后台逻辑处理（如数据处理、资源请求），组件聚焦视图渲染。遵循单一职责原则，使代码结构更清晰。例如购物车服务处理数据逻辑，组件仅负责展示。 ‌<span
-                            disable-audio="true" disable-copy="true"><span rl-type="stop"><!--9987--><span
-                                    class="cos-tooltip cosd-citation"><!--9990--><span
-                                        class="cosd-citation-citationId">2<!--9991--></span><!--9990--></span><!--9988--><!--9992--><!--9992--><!--9987--></span><span
-                                rl-type="stop"><!--9994--><span class="cos-tooltip cosd-citation"><!--9997--><span
-                                        class="cosd-citation-citationId">4<!--9998--></span><!--9997--></span><!--9995--><!--9999--><!--9999--><!--9994--></span></span>
+                        服务专注于后台逻辑处理（如数据处理、资源请求），组件聚焦视图渲染。遵循单一职责原则，使代码结构更清晰。例如购物车服务处理数据逻辑，组件仅负责展示。 
+                         
                     </p>
                     <h3>依赖注入优势</h3>
                     <p class="marklang-paragraph">
-                        服务通过@Injectable装饰器可被注入到任何组件或服务中，无需手动创建实例。单例模式确保全局唯一实例，实现数据共享和一致性。例如用户认证信息可跨组件共享而无需重复存储。 ‌<span
-                            disable-audio="true" disable-copy="true"><span rl-type="stop"><!--10001--><span
-                                    class="cos-tooltip cosd-citation"><!--10004--><span
-                                        class="cosd-citation-citationId">2<!--10005--></span><!--10004--></span><!--10002--><!--10006--><!--10006--><!--10001--></span><span
-                                rl-type="stop"><!--10008--><span class="cos-tooltip cosd-citation"><!--10011--><span
-                                        class="cosd-citation-citationId">4<!--10012--></span><!--10011--></span><!--10009--><!--10013--><!--10013--><!--10008--></span></span>
+                        服务通过@Injectable装饰器可被注入到任何组件或服务中，无需手动创建实例。单例模式确保全局唯一实例，实现数据共享和一致性。例如用户认证信息可跨组件共享而无需重复存储。 
                     </p>
                     <h3>数据与状态管理</h3>
-                    <p class="marklang-paragraph">服务可持久化存储数据（如用户偏好设置），页面刷新时保持状态，提升用户体验。例如用户设置保存至服务而非本地存储，避免数据丢失。 ‌<span
-                            disable-audio="true" disable-copy="true"><span rl-type="stop"><!--10015--><span
-                                    class="cos-tooltip cosd-citation"><!--10018--><span
-                                        class="cosd-citation-citationId">4<!--10019--></span><!--10018--></span><!--10016--><!--10020--><!--10020--><!--10015--></span><span
-                                rl-type="stop"><!--10022--><span class="cos-tooltip cosd-citation"><!--10025--><span
-                                        class="cosd-citation-citationId">6<!--10026--></span><!--10025--></span><!--10023--><!--10027--><!--10027--><!--10022--></span></span>
+                    <p class="marklang-paragraph">服务可持久化存储数据（如用户偏好设置），页面刷新时保持状态，提升用户体验。例如用户设置保存至服务而非本地存储，避免数据丢失。
+                          
                     </p>
                     <h3>模块化开发</h3>
-                    <p class="marklang-paragraph">服务作为独立单元可被不同模块共享，促进功能复用。例如身份验证逻辑封装在服务中，不同模块的组件均可调用而无需重复开发验证逻辑。 ‌<span
-                            disable-audio="true" disable-copy="true"><span rl-type="stop"><!--10029--><span
-                                    class="cos-tooltip cosd-citation"><!--10032--><span
-                                        class="cosd-citation-citationId">2<!--10033--></span><!--10032--></span><!--10030--><!--10034--><!--10034--><!--10029--></span><span
-                                rl-type="stop"><span class="cos-tooltip cosd-citation"><!--10039--><span
-                                        class="cosd-citation-citationId">5<!--10040--></span><!--10039--></span><!--10037--><!--10041--><!--10041--><!--10036--></span></span>
+                    <p class="marklang-paragraph">服务作为独立单元可被不同模块共享，促进功能复用。例如身份验证逻辑封装在服务中，不同模块的组件均可调用而无需重复开发验证逻辑。
+                          
                     </p>
                 </div>
             </div>

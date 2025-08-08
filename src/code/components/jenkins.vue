@@ -174,7 +174,7 @@
         </div><!--1160--><!--1061-->
     </div>
 </template>
-<style>
+<style scoped>
 strong{
     background-color: white;
 }

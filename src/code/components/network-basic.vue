@@ -1,15 +1,8 @@
 <template>
-    <div class="content-container_64QCb
-                
-                "><!--11603--><!--11604-->
-        <div class="
-                    
-                    
-                " style="">
+    <div class="content-container_64QCb">
+        <div class="" style="">
             <div data-module="head_module">
-                <div class="
-                        
-                        ">
+                <div class="">
                     <div class="ai-entry"><!--11607-->
                         <div>
                             <div rl-type="stop" data-show="summary"
@@ -115,20 +108,11 @@
                                                 <ol>
                                                     <li><mark
                                                             class="flexible-marker flexible-marker-default">‌<strong>OSI七层模型</strong>‌</mark>。<br>
-                                                        从下至上包括物理层、数据链路层、网络层、传输层、会话层、表示层、应用层，强调理论划分。‌‌<span
-                                                            disable-audio="true" disable-copy="true"><span
-                                                                rl-type="stop"><!--11643--><span
-                                                                    class="cos-tooltip cosd-citation"><!--11646--><span
-                                                                        class="cosd-citation-citationId">1<!--11647--></span><!--11646--></span><!--11644--><!--11648--><!--11648--><!--11643--></span></span>
+                                                        从下至上包括物理层、数据链路层、网络层、传输层、会话层、表示层、应用层，强调理论划分。‌‌
                                                     </li>
                                                     <li><mark
                                                             class="flexible-marker flexible-marker-default">‌<strong>TCP/IP四层模型</strong>‌</mark>。<br>
-                                                        更贴近实际应用，分为网络接口层、互联网层（IP）、传输层（TCP/UDP）、应用层（HTTP/FTP等）。‌‌<span
-                                                            disable-audio="true" disable-copy="true"></span>‌‌<span
-                                                            disable-audio="true" disable-copy="true"><span
-                                                                rl-type="stop"><!--11650--><span
-                                                                    class="cos-tooltip cosd-citation"><!--11653--><span
-                                                                        class="cosd-citation-citationId">2<!--11654--></span><!--11653--></span><!--11651--><!--11655--><!--11655--><!--11650--></span></span>
+                                                        更贴近实际应用，分为网络接口层、互联网层（IP）、传输层（TCP/UDP）、应用层（HTTP/FTP等）。
                                                     </li>
                                                 </ol>
                                             </div><!--11641-->
@@ -162,18 +146,12 @@
                                             <div class="marklang">
                                                 <ul>
                                                     <li><mark
-                                                            class="flexible-marker flexible-marker-default">‌<strong>IP地址与端口号</strong>‌</mark>：IP标识设备位置（如IPv4的192.168.1.1），端口号标识具体服务（如HTTP的80端口）。‌‌<span
-                                                            disable-audio="true" disable-copy="true"><span
-                                                                rl-type="stop"><!--11671--><span
-                                                                    class="cos-tooltip cosd-citation"><!--11674--><span
-                                                                        class="cosd-citation-citationId">2<!--11675--></span><!--11674--></span><!--11672--><!--11676--><!--11676--><!--11671--></span></span>
+                                                            class="flexible-marker flexible-marker-default">‌<strong>IP地址与端口号</strong>‌</mark>：IP标识设备位置（如IPv4的192.168.1.1），端口号标识具体服务（如HTTP的80端口）。
                                                     </li>
                                                     <li><mark
-                                                            class="flexible-marker flexible-marker-default">‌<strong>DNS</strong>‌</mark>：将域名（如www.example.com）解析为IP地址。‌‌<span
-                                                            disable-audio="true" disable-copy="true"></span></li>
+                                                            class="flexible-marker flexible-marker-default">‌<strong>DNS</strong>‌</mark>：将域名（如www.example.com）解析为IP地址。‌</li>
                                                     <li><mark
-                                                            class="flexible-marker flexible-marker-default">‌<strong>NAT</strong>‌</mark>：将私有IP转换为公网IP，解决IPv4地址不足问题。‌‌<span
-                                                            disable-audio="true" disable-copy="true"></span></li>
+                                                            class="flexible-marker flexible-marker-default">‌<strong>NAT</strong>‌</mark>：将私有IP转换为公网IP，解决IPv4地址不足问题。</li>
                                                 </ul>
                                             </div><!--11669-->
                                         </div>
@@ -187,30 +165,11 @@
             <div data-module="content"><!--11679--><!--11680--></div>
         </div>
         <div>
-            <div data-module="more" data-show="more" disable-audio="true">
-                <div class="
-            cosd-fold-switch_4ktgn
-            cosd-fold-switch-unfold_4OWSQ" rl-type="stop">
-                    <!--11683-->
-                    <div>
-
-                        <!--11684--><!--11684-->
-                        <div class="cos-fold-switch cosd-fold-switch-content_3PpNT">
-
-                            <!--11687-->
-                            <div class="cos-fold-switch-context">
-
-                                <span class="cos-fold-switch-text">
-                                    收起
-                                </span><!--11688-->
-                                <i class="cos-icon cos-icon-up cos-fold-switch-icon"></i>
-                            </div>
-                        </div><!--11685-->
-
-                        <!--11690--><!--11690-->
-                    </div>
-                </div>
-            </div><!--11681--><!--11691-->
         </div><!--11603-->
     </div>
 </template>
+<style scoped>
+strong{
+    background-color: white;
+}
+</style>

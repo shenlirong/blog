@@ -1,9 +1,22 @@
 ---
 title: 代码笔记
-icon: laptop-code
-sticky: -1
+icon: layer-group
+# sticky: -1
 category:
   - 代码笔记
 ---
-
+::: info
+- 编程语言
+  - JavaScript/TypeScript
+  - java
+  - Go
+  - Python
+  - .....
+- 框架与工具
+  - Uni-app
+  - Vue
+  - Angular
+  - React
+  - ......
+:::
 <Catalog />

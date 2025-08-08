@@ -33,30 +33,17 @@
                         <span>万维<span style="white-space: nowrap;">网<i
                                     class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
                         </span><!--11165-->
-                    </span></span>（WWW）的数据通信基础，用于分布式、协作式和超媒体信息系统的应用层协议‌<span disable-audio="true"
-                    disable-copy="true"><span rl-type="stop"><!--11167--><span
-                            class="cos-tooltip cosd-citation"><!--11170--><span
-                                class="cosd-citation-citationId">1<!--11171--></span><!--11170--></span><!--11168--><!--11172--><!--11172--><!--11167--></span><span
-                        rl-type="stop"><!--11174--><span class="cos-tooltip cosd-citation"><!--11177--><span
-                                class="cosd-citation-citationId">2<!--11178--></span><!--11177--></span><!--11175--><!--11179--><!--11179--><!--11174--></span></span>。
+                    </span></span>（WWW）的数据通信基础，用于分布式、协作式和超媒体信息系统的应用层协议‌
             </p>
             <h3>HTTP的基本概念</h3>
             <p class="marklang-paragraph">
-                HTTP是一个应用层协议，支持客户端-服务器模型，具有简单、快速、灵活的特点。它通过ASCII格式的请求和响应消息进行通信，消息内容采用类似MIME的格式。HTTP支持多种类型的数据传输，包括文本、图像、音频和视频等，使得网页内容更加丰富多样‌<span
-                    disable-audio="true" disable-copy="true"><span rl-type="stop"><!--11181--><span
-                            class="cos-tooltip cosd-citation"><!--11184--><span
-                                class="cosd-citation-citationId">1<!--11185--></span><!--11184--></span><!--11182--><!--11186--><!--11186--><!--11181--></span><span
-                        rl-type="stop"><!--11188--><span class="cos-tooltip cosd-citation"><!--11191--><span
-                                class="cosd-citation-citationId">2<!--11192--></span><!--11191--></span><!--11189--><!--11193--><!--11193--><!--11188--></span></span>。
+                HTTP是一个应用层协议，支持客户端-服务器模型，具有简单、快速、灵活的特点。它通过ASCII格式的请求和响应消息进行通信，消息内容采用类似MIME的格式。HTTP支持多种类型的数据传输，包括文本、图像、音频和视频等，使得网页内容更加丰富多样
             </p>
             <h3>HTTP的报文格式</h3>
             <p class="marklang-paragraph">HTTP报文包括请求报文和响应报文：</p>
             <ul>
                 <li>‌<strong>请求报文</strong>‌：包含请求行区域（方法、请求URL、版本）、请求首部（可选）和消息体（可选）。例如，GET请求没有消息体，而POST请求有消息体。</li>
-                <li>‌<strong>响应报文</strong>‌：包含响应行区域（版本、状态码、原因短语）、响应首部（可选）和消息体（可选）‌<span disable-audio="true"
-                        disable-copy="true"><span rl-type="stop"><!--11195--><span
-                                class="cos-tooltip cosd-citation"><!--11198--><span
-                                    class="cosd-citation-citationId">4<!--11199--></span><!--11198--></span><!--11196--><!--11200--><!--11200--><!--11195--></span></span>。
+                <li>‌<strong>响应报文</strong>‌：包含响应行区域（版本、状态码、原因短语）、响应首部（可选）和消息体（可选）
                 </li>
             </ul>
             <h3>HTTP的方法</h3>
@@ -65,9 +52,7 @@
                 <li>‌<strong>GET</strong>‌：用于请求服务器发送资源，不改变服务器上的资源。</li>
                 <li>‌<strong>POST</strong>‌：用于提交要被处理的数据给服务器。</li>
                 <li>‌<strong>PUT</strong>‌：用于将资源存储在服务器上。</li>
-                <li>‌<strong>DELETE</strong>‌：用于删除服务器上的资源‌<span disable-audio="true" disable-copy="true"><span
-                            rl-type="stop"><!--11202--><span class="cos-tooltip cosd-citation"><!--11205--><span
-                                    class="cosd-citation-citationId">4<!--11206--></span><!--11205--></span><!--11203--><!--11207--><!--11207--><!--11202--></span></span>。
+                <li>‌<strong>DELETE</strong>‌：用于删除服务器上的资源
                 </li>
             </ul>
             <h3>HTTP的状态码</h3>
@@ -76,9 +61,7 @@
                 <li>‌<strong>2xx</strong>‌：成功，如200表示请求成功。</li>
                 <li>‌<strong>3xx</strong>‌：重定向，如301表示永久重定向。</li>
                 <li>‌<strong>4xx</strong>‌：客户端错误，如404表示未找到资源。</li>
-                <li>‌<strong>5xx</strong>‌：服务器错误，如500表示服务器内部错误‌<span disable-audio="true" disable-copy="true"><span
-                            rl-type="stop"><!--11209--><span class="cos-tooltip cosd-citation"><!--11212--><span
-                                    class="cosd-citation-citationId">4<!--11213--></span><!--11212--></span><!--11210--><!--11214--><!--11214--><!--11209--></span></span>。
+                <li>‌<strong>5xx</strong>‌：服务器错误，如500表示服务器内部错误
                 </li>
             </ul>
         </div>

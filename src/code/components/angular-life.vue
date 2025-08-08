@@ -25,11 +25,7 @@
                                     <span>SimpleChang<span style="white-space: nowrap;">e<i
                                                 class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
                                     </span><!--7342-->
-                                </span></span>对象，包含当前值、上一个值等信息‌<span disable-audio="true" disable-copy="true"><span
-                                    rl-type="stop"><!--7358--><span class="cos-tooltip cosd-citation"><!--7361--><span
-                                            class="cosd-citation-citationId">1<!--7362--></span><!--7361--></span><!--7359--><!--7363--><!--7363--><!--7358--></span><span
-                                    rl-type="stop"><!--7365--><span class="cos-tooltip cosd-citation"><!--7368--><span
-                                            class="cosd-citation-citationId">2<!--7369--></span><!--7368--></span><!--7366--><!--7370--><!--7370--><!--7365--></span></span>。
+                                </span></span>对象，包含当前值、上一个值等信息
                         </li>
                         <li>‌<strong><span><span rl-type="stop"
                                         href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=ngOnInit&amp;rsv_pq=8b45cefd0034e4b3&amp;oq=angular%E5%B8%B8%E7%94%A8%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F&amp;rsv_t=45ecIEOBrq51IGET+k0ewEhOfZ7TAierdR7No2EjiCPCrESyFXqX5W6jqdg&amp;tn=baidu&amp;ie=utf-8"
@@ -38,12 +34,7 @@
                                         <span>ngOnIni<span style="white-space: nowrap;">t<i
                                                     class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
                                         </span><!--7344-->
-                                    </span></span></strong>‌：在组件的输入属性初始化后调用，但此时视图尚未加载。通常用于初始化操作，如数据订阅等‌<span
-                                disable-audio="true" disable-copy="true"><span rl-type="stop"><!--7372--><span
-                                        class="cos-tooltip cosd-citation"><!--7375--><span
-                                            class="cosd-citation-citationId">1<!--7376--></span><!--7375--></span><!--7373--><!--7377--><!--7377--><!--7372--></span><span
-                                    rl-type="stop"><!--7379--><span class="cos-tooltip cosd-citation"><!--7382--><span
-                                            class="cosd-citation-citationId">2<!--7383--></span><!--7382--></span><!--7380--><!--7384--><!--7384--><!--7379--></span></span>。
+                                    </span></span></strong>‌：在组件的输入属性初始化后调用，但此时视图尚未加载。通常用于初始化操作，如数据订阅等
                         </li>
                         <li>‌<strong><span><span rl-type="stop"
                                         href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=ngDoCheck&amp;rsv_pq=8b45cefd0034e4b3&amp;oq=angular%E5%B8%B8%E7%94%A8%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F&amp;rsv_t=45ecIEOBrq51IGET+k0ewEhOfZ7TAierdR7No2EjiCPCrESyFXqX5W6jqdg&amp;tn=baidu&amp;ie=utf-8"
@@ -52,12 +43,7 @@
                                         <span>ngDoChec<span style="white-space: nowrap;">k<i
                                                     class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
                                         </span><!--7346-->
-                                    </span></span></strong>‌：在组件的属性或方法变更时调用，用于脏值检测。这个方法非常耗性能，因为它会检测所有的属性和方法变更‌<span
-                                disable-audio="true" disable-copy="true"><span rl-type="stop"><!--7386--><span
-                                        class="cos-tooltip cosd-citation"><!--7389--><span
-                                            class="cosd-citation-citationId">1<!--7390--></span><!--7389--></span><!--7387--><!--7391--><!--7391--><!--7386--></span><span
-                                    rl-type="stop"><!--7393--><span class="cos-tooltip cosd-citation"><!--7396--><span
-                                            class="cosd-citation-citationId">3<!--7397--></span><!--7396--></span><!--7394--><!--7398--><!--7398--><!--7393--></span></span>。
+                                    </span></span></strong>‌：在组件的属性或方法变更时调用，用于脏值检测。这个方法非常耗性能，因为它会检测所有的属性和方法变更
                         </li>
                         <li>‌<strong><span><span rl-type="stop"
                                         href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=ngAfterContentInit&amp;rsv_pq=8b45cefd0034e4b3&amp;oq=angular%E5%B8%B8%E7%94%A8%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F&amp;rsv_t=45ecIEOBrq51IGET+k0ewEhOfZ7TAierdR7No2EjiCPCrESyFXqX5W6jqdg&amp;tn=baidu&amp;ie=utf-8"
@@ -66,12 +52,7 @@
                                         <span>ngAfterContentIni<span style="white-space: nowrap;">t<i
                                                     class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
                                         </span><!--7348-->
-                                    </span></span></strong>‌：在组件的内容投影初始化完成后调用。适用于内容投影的初始化操作‌<span disable-audio="true"
-                                disable-copy="true"><span rl-type="stop"><!--7400--><span
-                                        class="cos-tooltip cosd-citation"><!--7403--><span
-                                            class="cosd-citation-citationId">1<!--7404--></span><!--7403--></span><!--7401--><!--7405--><!--7405--><!--7400--></span><span
-                                    rl-type="stop"><!--7407--><span class="cos-tooltip cosd-citation"><!--7410--><span
-                                            class="cosd-citation-citationId">2<!--7411--></span><!--7410--></span><!--7408--><!--7412--><!--7412--><!--7407--></span></span>。
+                                    </span></span></strong>‌：在组件的内容投影初始化完成后调用。适用于内容投影的初始化操作
                         </li>
                         <li>‌<strong><span><span rl-type="stop"
                                         href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=ngAfterContentChecked&amp;rsv_pq=8b45cefd0034e4b3&amp;oq=angular%E5%B8%B8%E7%94%A8%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F&amp;rsv_t=45ecIEOBrq51IGET+k0ewEhOfZ7TAierdR7No2EjiCPCrESyFXqX5W6jqdg&amp;tn=baidu&amp;ie=utf-8"
@@ -80,12 +61,7 @@
                                         <span>ngAfterContentChecke<span style="white-space: nowrap;">d<i
                                                     class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
                                         </span><!--7350-->
-                                    </span></span></strong>‌：在组件的内容投影检查完成后调用。适用于内容投影的检查操作‌<span disable-audio="true"
-                                disable-copy="true"><span rl-type="stop"><!--7414--><span
-                                        class="cos-tooltip cosd-citation"><!--7417--><span
-                                            class="cosd-citation-citationId">1<!--7418--></span><!--7417--></span><!--7415--><!--7419--><!--7419--><!--7414--></span><span
-                                    rl-type="stop"><!--7421--><span class="cos-tooltip cosd-citation"><!--7424--><span
-                                            class="cosd-citation-citationId">2<!--7425--></span><!--7424--></span><!--7422--><!--7426--><!--7426--><!--7421--></span></span>。
+                                    </span></span></strong>‌：在组件的内容投影检查完成后调用。适用于内容投影的检查操作
                         </li>
                         <li>‌<strong><span><span rl-type="stop"
                                         href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=ngAfterViewInit&amp;rsv_pq=8b45cefd0034e4b3&amp;oq=angular%E5%B8%B8%E7%94%A8%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F&amp;rsv_t=45ecIEOBrq51IGET+k0ewEhOfZ7TAierdR7No2EjiCPCrESyFXqX5W6jqdg&amp;tn=baidu&amp;ie=utf-8"
@@ -94,12 +70,7 @@
                                         <span>ngAfterViewIni<span style="white-space: nowrap;">t<i
                                                     class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
                                         </span><!--7352-->
-                                    </span></span></strong>‌：在组件的视图初始化完成后调用，包括子组件的视图。适用于视图初始化的操作‌<span
-                                disable-audio="true" disable-copy="true"><span rl-type="stop"><!--7428--><span
-                                        class="cos-tooltip cosd-citation"><!--7431--><span
-                                            class="cosd-citation-citationId">1<!--7432--></span><!--7431--></span><!--7429--><!--7433--><!--7433--><!--7428--></span><span
-                                    rl-type="stop"><!--7435--><span class="cos-tooltip cosd-citation"><!--7438--><span
-                                            class="cosd-citation-citationId">2<!--7439--></span><!--7438--></span><!--7436--><!--7440--><!--7440--><!--7435--></span></span>。
+                                    </span></span></strong>‌：在组件的视图初始化完成后调用，包括子组件的视图。适用于视图初始化的操作
                         </li>
                         <li>‌<strong><span><span rl-type="stop"
                                         href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=ngAfterViewChecked&amp;rsv_pq=8b45cefd0034e4b3&amp;oq=angular%E5%B8%B8%E7%94%A8%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F&amp;rsv_t=45ecIEOBrq51IGET+k0ewEhOfZ7TAierdR7No2EjiCPCrESyFXqX5W6jqdg&amp;tn=baidu&amp;ie=utf-8"
@@ -108,12 +79,7 @@
                                         <span>ngAfterViewChecke<span style="white-space: nowrap;">d<i
                                                     class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
                                         </span><!--7354-->
-                                    </span></span></strong>‌：在组件的视图检查完成后调用。适用于视图检查的操作‌<span disable-audio="true"
-                                disable-copy="true"><span rl-type="stop"><!--7442--><span
-                                        class="cos-tooltip cosd-citation"><!--7445--><span
-                                            class="cosd-citation-citationId">1<!--7446--></span><!--7445--></span><!--7443--><!--7447--><!--7447--><!--7442--></span><span
-                                    rl-type="stop"><!--7449--><span class="cos-tooltip cosd-citation"><!--7452--><span
-                                            class="cosd-citation-citationId">2<!--7453--></span><!--7452--></span><!--7450--><!--7454--><!--7454--><!--7449--></span></span>。
+                                    </span></span></strong>‌：在组件的视图检查完成后调用。适用于视图检查的操作
                         </li>
                         <li>‌<strong><span><span rl-type="stop"
                                         href="https://www.baidu.com/s?rsv_dl=re_dqa_generate&amp;sa=re_dqa_generate&amp;wd=ngOnDestroy&amp;rsv_pq=8b45cefd0034e4b3&amp;oq=angular%E5%B8%B8%E7%94%A8%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F&amp;rsv_t=45ecIEOBrq51IGET+k0ewEhOfZ7TAierdR7No2EjiCPCrESyFXqX5W6jqdg&amp;tn=baidu&amp;ie=utf-8"
@@ -122,12 +88,7 @@
                                         <span>ngOnDestro<span style="white-space: nowrap;">y<i
                                                     class="cos-icon cos-icon-research cosd-markdown-research-icon"></i></span>
                                         </span><!--7356-->
-                                    </span></span></strong>‌：在组件销毁时调用，用于清理资源，如取消订阅、移除事件处理器等，以防止内存泄漏‌<span
-                                disable-audio="true" disable-copy="true"><span rl-type="stop"><!--7456--><span
-                                        class="cos-tooltip cosd-citation"><!--7459--><span
-                                            class="cosd-citation-citationId">1<!--7460--></span><!--7459--></span><!--7457--><!--7461--><!--7461--><!--7456--></span><span
-                                    rl-type="stop"><!--7463--><span class="cos-tooltip cosd-citation"><!--7466--><span
-                                            class="cosd-citation-citationId">2<!--7467--></span><!--7466--></span><!--7464--><!--7468--><!--7468--><!--7463--></span></span>。
+                                    </span></span></strong>‌：在组件销毁时调用，用于清理资源，如取消订阅、移除事件处理器等，以防止内存泄漏‌
                         </li>
                     </ol>
                     <p class="marklang-paragraph">‌<strong>生命周期钩子的使用场景和最佳实践</strong>‌：</p>

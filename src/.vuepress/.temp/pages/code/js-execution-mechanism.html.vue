@@ -269,6 +269,7 @@
 <span class="line"><span>你可以将上述代码复制到浏览器控制台运行，查看输出顺序。</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>总结：</strong><br>
 JavaScript的执行机制依赖于事件循环和任务队列。理解调用栈、宏任务和微任务的执行顺序是掌握异步编程的关键。记住：同步代码立即执行，异步回调中微任务总是先于宏任务执行（在同一个事件循环中）。</p>
+<p><RouteLink to="/code/microtasks-macrotasks.html">微任务与宏任务</RouteLink></p>
 </div></template>
 
 

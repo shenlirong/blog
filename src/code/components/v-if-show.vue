@@ -46,24 +46,9 @@
                                                 class="flexible-marker flexible-marker-default">‌<strong>DOM
                                                     操作机制</strong>‌</mark>。</p>
                                         <ul>
-                                            <li>v-if：条件为假时完全移除 DOM 元素，销毁组件实例及事件监听。‌‌<span disable-audio="true"
-                                                    disable-copy="true"><span rl-type="stop"><!--22541--><span
-                                                            class="cos-tooltip cosd-citation"><!--22544--><span
-                                                                class="cosd-citation-citationId">1<!--22545--></span><!--22544--></span><!--22542--><!--22546--><!--22546--><!--22541--></span></span>‌‌<span
-                                                    disable-audio="true" disable-copy="true"><span
-                                                        rl-type="stop"><!--22548--><span
-                                                            class="cos-tooltip cosd-citation"><!--22551--><span
-                                                                class="cosd-citation-citationId">2<!--22552--></span><!--22551--></span><!--22549--><!--22553--><!--22553--><!--22548--></span></span>
+                                            <li>v-if：条件为假时完全移除 DOM 元素，销毁组件实例及事件监听。
                                             </li>
-                                            <li>v-show：仅修改元素的 <code>display: none</code> 样式，DOM 元素始终存在。‌‌<span
-                                                    disable-audio="true" disable-copy="true"><span
-                                                        rl-type="stop"><!--22555--><span
-                                                            class="cos-tooltip cosd-citation"><!--22558--><span
-                                                                class="cosd-citation-citationId">2<!--22559--></span><!--22558--></span><!--22556--><!--22560--><!--22560--><!--22555--></span></span>‌‌<span
-                                                    disable-audio="true" disable-copy="true"><span
-                                                        rl-type="stop"><!--22562--><span
-                                                            class="cos-tooltip cosd-citation"><!--22565--><span
-                                                                class="cosd-citation-citationId">3<!--22566--></span><!--22565--></span><!--22563--><!--22567--><!--22567--><!--22562--></span></span>
+                                            <li>v-show：仅修改元素的 <code>display: none</code> 样式，DOM 元素始终存在。‌‌
                                             </li>
                                         </ul>
                                     </li>
@@ -73,12 +58,7 @@
                                         </p>
                                         <ul>
                                             <li>v-if 切换时会触发组件的 <code>created/mounted</code> 等完整生命周期钩子。</li>
-                                            <li>v-show 初始化后不再触发生命周期变化，仅执行一次渲染。‌‌<span disable-audio="true"
-                                                    disable-copy="true"></span>‌‌<span disable-audio="true"
-                                                    disable-copy="true"><span rl-type="stop"><!--22569--><span
-                                                            class="cos-tooltip cosd-citation"><!--22572--><span
-                                                                class="cosd-citation-citationId">4<!--22573--></span><!--22572--></span><!--22570--><!--22574--><!--22574--><!--22569--></span></span>
-                                            </li>
+                                            <li>v-show 初始化后不再触发生命周期变化，仅执行一次渲染。</li>
                                         </ul>
                                     </li>
                                     <li>
@@ -87,15 +67,7 @@
                                         </p>
                                         <ul>
                                             <li>v-if 支持 <code>&lt;template&gt;</code> 标签和配套的 v-else-if/v-else 语法。</li>
-                                            <li>v-show 无法与 v-else 联用，也不支持 <code>&lt;template&gt;</code>‌‌<span
-                                                    disable-audio="true" disable-copy="true"><span
-                                                        rl-type="stop"><!--22576--><span
-                                                            class="cos-tooltip cosd-citation"><!--22579--><span
-                                                                class="cosd-citation-citationId">2<!--22580--></span><!--22579--></span><!--22577--><!--22581--><!--22581--><!--22576--></span></span>‌‌<span
-                                                    disable-audio="true" disable-copy="true"><span
-                                                        rl-type="stop"><!--22583--><span
-                                                            class="cos-tooltip cosd-citation"><!--22586--><span
-                                                                class="cosd-citation-citationId">5<!--22587--></span><!--22586--></span><!--22584--><!--22588--><!--22588--><!--22583--></span></span>
+                                            <li>v-show 无法与 v-else 联用，也不支持 <code>&lt;template&gt;</code>‌‌
                                             </li>
                                         </ul>
                                     </li>
@@ -138,14 +110,7 @@
                                     </li>
                                     <li><mark
                                             class="flexible-marker flexible-marker-default">‌<strong>需要保留组件状态</strong>‌</mark>：如表单输入内容的缓存（DOM
-                                        未被销毁）。‌‌<span disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--22604--><span
-                                                    class="cos-tooltip cosd-citation"><!--22607--><span
-                                                        class="cosd-citation-citationId">6<!--22608--></span><!--22607--></span><!--22605--><!--22609--><!--22609--><!--22604--></span></span>‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--22611--><span
-                                                    class="cos-tooltip cosd-citation"><!--22614--><span
-                                                        class="cosd-citation-citationId">7<!--22615--></span><!--22614--></span><!--22612--><!--22616--><!--22616--><!--22611--></span></span>
+                                        未被销毁）。
                                     </li>
                                 </ul>
                                 <p class="marklang-paragraph"><mark
@@ -156,22 +121,11 @@
                                             class="flexible-marker flexible-marker-default">‌<strong>初始化条件不稳定</strong>‌</mark>：如权限校验未完成时避免渲染敏感内容。
                                     </li>
                                     <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>需要触发生命周期回调</strong>‌</mark>：如组件显示时才需执行的接口请求。‌‌<span
-                                            disable-audio="true" disable-copy="true"></span>‌‌<span disable-audio="true"
-                                            disable-copy="true"><span rl-type="stop"><!--22618--><span
-                                                    class="cos-tooltip cosd-citation"><!--22621--><span
-                                                        class="cosd-citation-citationId">4<!--22622--></span><!--22621--></span><!--22619--><!--22623--><!--22623--><!--22618--></span></span>
+                                            class="flexible-marker flexible-marker-default">‌<strong>需要触发生命周期回调</strong>‌</mark>：如组件显示时才需执行的接口请求。
                                     </li>
                                     <li><mark
                                             class="flexible-marker flexible-marker-default">‌<strong>优化首屏性能</strong>‌</mark>：初始不显示的元素可减少
-                                        DOM 节点数量。‌‌<span disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--22625--><span
-                                                    class="cos-tooltip cosd-citation"><!--22628--><span
-                                                        class="cosd-citation-citationId">2<!--22629--></span><!--22628--></span><!--22626--><!--22630--><!--22630--><!--22625--></span></span>‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--22632--><span
-                                                    class="cos-tooltip cosd-citation"><!--22635--><span
-                                                        class="cosd-citation-citationId">6<!--22636--></span><!--22635--></span><!--22633--><!--22637--><!--22637--><!--22632--></span></span>
+                                        DOM 节点数量。‌‌
                                     </li>
                                 </ul>
                             </div><!--22602-->
@@ -208,11 +162,7 @@
                                             class="flexible-marker flexible-marker-default">‌<strong>组合使用策略</strong>‌</mark>：表格行渲染时，对总容器用
                                         v-if 控制显隐，行内元素用 v-show 处理局部切换。</li>
                                     <li><mark class="flexible-marker flexible-marker-default">‌<strong>SSR
-                                                场景注意</strong>‌</mark>：服务端渲染时 v-show 可能引发 hydration 错误，优先使用 v-if。‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--22653--><span
-                                                    class="cos-tooltip cosd-citation"><!--22656--><span
-                                                        class="cosd-citation-citationId">4<!--22657--></span><!--22656--></span><!--22654--><!--22658--><!--22658--><!--22653--></span></span>
+                                                场景注意</strong>‌</mark>：服务端渲染时 v-show 可能引发 hydration 错误，优先使用 v-if。
                                     </li>
                                     <li><mark
                                             class="flexible-marker flexible-marker-default">‌<strong>性能陷阱提示</strong>‌</mark>：频繁切换的复杂组件使用
@@ -227,3 +177,8 @@
         </div><!--22645--><!--22518-->
     </div>
 </template>
+<style scoped>
+strong {
+    background-color: white;
+}
+</style>

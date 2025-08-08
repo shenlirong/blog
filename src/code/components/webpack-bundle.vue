@@ -249,10 +249,7 @@
                                 <pre><div class="code-header"><span rl-type="stop">javascript</span><span class="cosd-markdown-code-copy cos-link" rl-type="stop">Copy Code</span></div><div class="code-wrapper"><div class="code-left"><div data-line-number="1" class="code-number"></div><div data-line-number="2" class="code-number"></div></div><div class="code-right"><code class="hljs language-javascript"><span class="hljs-attr">entry</span>: <span class="hljs-string">'./src/index.js'</span> <span class="hljs-comment">// 单入口</span>
 <span class="hljs-attr">entry</span>: { <span class="hljs-attr">app</span>: <span class="hljs-string">'./src/app.js'</span>, <span class="hljs-attr">vendor</span>: <span class="hljs-string">'./src/vendor.js'</span> } <span class="hljs-comment">// 多入口</span>
 </code></div></div></pre>
-                                <p class="marklang-paragraph">动态入口可通过<code>glob</code>等工具实现。‌‌<span disable-audio="true"
-                                        disable-copy="true"><span rl-type="stop"><!--5258--><span
-                                                class="cos-tooltip cosd-citation"><!--5261--><span
-                                                    class="cosd-citation-citationId">1<!--5262--></span><!--5261--></span><!--5259--><!--5263--><!--5263--><!--5258--></span></span>
+                                <p class="marklang-paragraph">动态入口可通过<code>glob</code>等工具实现。
                                 </p>
                                 <ol start="2">
                                     <li>
@@ -263,14 +260,7 @@
                                             <li><code>path</code>: 输出目录（需绝对路径）。</li>
                                             <li><code>filename</code>:
                                                 主输出文件名（支持<code>[name]</code>、<code>[hash]</code>等占位符）。</li>
-                                            <li><code>chunkFilename</code>: 非入口文件的命名规则。‌‌<span disable-audio="true"
-                                                    disable-copy="true"><span rl-type="stop"><!--5265--><span
-                                                            class="cos-tooltip cosd-citation"><!--5268--><span
-                                                                class="cosd-citation-citationId">1<!--5269--></span><!--5268--></span><!--5266--><!--5270--><!--5270--><!--5265--></span></span>‌‌<span
-                                                    disable-audio="true" disable-copy="true"><span
-                                                        rl-type="stop"><!--5272--><span
-                                                            class="cos-tooltip cosd-citation"><!--5275--><span
-                                                                class="cosd-citation-citationId">2<!--5276--></span><!--5275--></span><!--5273--><!--5277--><!--5277--><!--5272--></span></span>
+                                            <li><code>chunkFilename</code>: 非入口文件的命名规则。
                                             </li>
                                         </ul>
                                     </li>
@@ -287,11 +277,7 @@
 ]
 }
 </code></div></div></pre>
-                                <p class="marklang-paragraph">Loader执行顺序为从右到左。‌‌<span disable-audio="true"
-                                        disable-copy="true"><span rl-type="stop"><!--5279--><span
-                                                class="cos-tooltip cosd-citation"><!--5282--><span
-                                                    class="cosd-citation-citationId">2<!--5283--></span><!--5282--></span><!--5280--><!--5284--><!--5284--><!--5279--></span></span>‌‌<span
-                                        disable-audio="true" disable-copy="true"></span></p>
+                                <p class="marklang-paragraph">Loader执行顺序为从右到左。</p>
                                 <ol start="4">
                                     <li><mark
                                             class="flexible-marker flexible-marker-default">‌<strong>插件(plugins)</strong>‌</mark>。<br>
@@ -299,13 +285,7 @@
                                 </ol>
                                 <pre><div class="code-header"><span rl-type="stop">javascript</span><span class="cosd-markdown-code-copy cos-link" rl-type="stop">Copy Code</span></div><div class="code-wrapper"><div class="code-left"><div data-line-number="1" class="code-number"></div></div><div class="code-right"><code class="hljs language-javascript"><span class="hljs-attr">plugins</span>: [<span class="hljs-keyword">new</span> <span class="hljs-title class_">HtmlWebpackPlugin</span>({ <span class="hljs-attr">template</span>: <span class="hljs-string">'./src/index.html'</span> })]
 </code></div></div></pre>
-                                <p class="marklang-paragraph">。‌‌<span disable-audio="true" disable-copy="true"><span
-                                            rl-type="stop"><!--5286--><span
-                                                class="cos-tooltip cosd-citation"><!--5289--><span
-                                                    class="cosd-citation-citationId">3<!--5290--></span><!--5289--></span><!--5287--><!--5291--><!--5291--><!--5286--></span></span>‌‌<span
-                                        disable-audio="true" disable-copy="true"><span rl-type="stop"><!--5293--><span
-                                                class="cos-tooltip cosd-citation"><!--5296--><span
-                                                    class="cosd-citation-citationId">4<!--5297--></span><!--5296--></span><!--5294--><!--5298--><!--5298--><!--5293--></span></span>
+                                <p class="marklang-paragraph">。
                                 </p>
                                 <ol start="5">
                                     <li><mark
@@ -317,10 +297,7 @@
 <span class="hljs-attr">hot</span>: <span class="hljs-literal">true</span>
 }
 </code></div></div></pre>
-                                <p class="marklang-paragraph">。‌‌<span disable-audio="true" disable-copy="true"><span
-                                            rl-type="stop"><!--5300--><span
-                                                class="cos-tooltip cosd-citation"><!--5303--><span
-                                                    class="cosd-citation-citationId">4<!--5304--></span><!--5303--></span><!--5301--><!--5305--><!--5305--><!--5300--></span></span>
+                                <p class="marklang-paragraph">。
                                 </p>
                                 <ol start="6">
                                     <li><mark
@@ -332,13 +309,7 @@
 <span class="hljs-attr">minimize</span>: <span class="hljs-literal">true</span>
 }
 </code></div></div></pre>
-                                <p class="marklang-paragraph">。‌‌<span disable-audio="true" disable-copy="true"><span
-                                            rl-type="stop"><!--5307--><span
-                                                class="cos-tooltip cosd-citation"><!--5310--><span
-                                                    class="cosd-citation-citationId">3<!--5311--></span><!--5310--></span><!--5308--><!--5312--><!--5312--><!--5307--></span></span>‌‌<span
-                                        disable-audio="true" disable-copy="true"><span rl-type="stop"><!--5314--><span
-                                                class="cos-tooltip cosd-citation"><!--5317--><span
-                                                    class="cosd-citation-citationId">5<!--5318--></span><!--5317--></span><!--5315--><!--5319--><!--5319--><!--5314--></span></span>
+                                <p class="marklang-paragraph">。
                                 </p>
                             </div>
                         </div>
@@ -377,11 +348,8 @@
                                             class="flexible-marker flexible-marker-default">‌<strong>externals</strong>‌</mark>：排除某些依赖（如CDN引入的库）。‌‌<span
                                             disable-audio="true" disable-copy="true"></span></li>
                                     <li><mark
-                                            class="flexible-marker flexible-marker-default">‌<strong>resolve</strong>‌</mark>：配置模块解析规则（如别名、扩展名）。‌‌<span
-                                            disable-audio="true" disable-copy="true"><span
-                                                rl-type="stop"><!--5335--><span
-                                                    class="cos-tooltip cosd-citation"><!--5338--><span
-                                                        class="cosd-citation-citationId">3<!--5339--></span><!--5338--></span><!--5336--><!--5340--><!--5340--><!--5335--></span></span>
+                                            class="flexible-marker flexible-marker-default">‌<strong>resolve</strong>‌</mark>：配置模块解析规则（如别名、扩展名）。‌‌
+                                           
                                     </li>
                                 </ul>
                             </div><!--5333-->
@@ -481,3 +449,8 @@
         </div>
     </div>
 </template>
+<style scoped>
+ strong{
+    background-color: white;
+ }
+</style>
