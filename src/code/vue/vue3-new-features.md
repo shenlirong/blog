@@ -1,5 +1,5 @@
 ---
-# icon: pen-to-square
+icon: pen-to-square
 # date: 2024-12-01
 sticky: 94
 star: true

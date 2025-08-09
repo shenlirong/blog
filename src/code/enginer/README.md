@@ -1,6 +1,6 @@
 ---
 title: Front-end
-icon: laptop-code
+icon: id-card-clip
 sticky: -1
 category:
   - 前端相关

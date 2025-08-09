@@ -552,108 +552,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "async/await 的异步特性解析",
-    "headers": [
-      {
-        "level": 2,
-        "title": "async/await 的异步本质",
-        "slug": "async-await-的异步本质",
-        "link": "#async-await-的异步本质",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. 非阻塞执行",
-            "slug": "_1-非阻塞执行",
-            "link": "#_1-非阻塞执行",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. 基于 Promise 的语法糖",
-            "slug": "_2-基于-promise-的语法糖",
-            "link": "#_2-基于-promise-的语法糖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. 事件循环中的位置",
-            "slug": "_3-事件循环中的位置",
-            "link": "#_3-事件循环中的位置",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "为什么 async/await 是异步的",
-        "slug": "为什么-async-await-是异步的",
-        "link": "#为什么-async-await-是异步的",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. 不阻塞主线程",
-            "slug": "_1-不阻塞主线程",
-            "link": "#_1-不阻塞主线程",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. 顺序执行异步操作",
-            "slug": "_2-顺序执行异步操作",
-            "link": "#_2-顺序执行异步操作",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. 错误处理机制",
-            "slug": "_3-错误处理机制",
-            "link": "#_3-错误处理机制",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "实际应用场景",
-        "slug": "实际应用场景",
-        "link": "#实际应用场景",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. 网络请求",
-            "slug": "_1-网络请求",
-            "link": "#_1-网络请求",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. 文件操作",
-            "slug": "_2-文件操作",
-            "link": "#_2-文件操作",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. 多步操作",
-            "slug": "_3-多步操作",
-            "link": "#_3-多步操作",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "关键特性总结",
-        "slug": "关键特性总结",
-        "link": "#关键特性总结",
-        "children": []
-      }
-    ],
-    "path": "/code/enginer/async-await.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "‌CI/CD‌概念",
     "headers": [
       {
@@ -722,13 +620,6 @@ export const SEARCH_INDEX = [
     "title": "docker相关",
     "headers": [],
     "path": "/code/enginer/docker.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "es6数组解构赋值",
-    "headers": [],
-    "path": "/code/enginer/es6.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -885,350 +776,9 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "js执行机制",
-    "headers": [
-      {
-        "level": 2,
-        "title": "JavaScript 执行的核心原理",
-        "slug": "javascript-执行的核心原理",
-        "link": "#javascript-执行的核心原理",
-        "children": [
-          {
-            "level": 3,
-            "title": "核心概念解析",
-            "slug": "核心概念解析",
-            "link": "#核心概念解析",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "执行顺序规则",
-        "slug": "执行顺序规则",
-        "link": "#执行顺序规则",
-        "children": [
-          {
-            "level": 3,
-            "title": "微任务（Microtasks）与宏任务（Macrotasks）",
-            "slug": "微任务-microtasks-与宏任务-macrotasks",
-            "link": "#微任务-microtasks-与宏任务-macrotasks",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "执行流程详解",
-        "slug": "执行流程详解",
-        "link": "#执行流程详解",
-        "children": [
-          {
-            "level": 3,
-            "title": "执行步骤分析：",
-            "slug": "执行步骤分析",
-            "link": "#执行步骤分析",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "最终输出顺序：",
-            "slug": "最终输出顺序",
-            "link": "#最终输出顺序",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "关键机制详解",
-        "slug": "关键机制详解",
-        "link": "#关键机制详解",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. 事件循环工作流程",
-            "slug": "_1-事件循环工作流程",
-            "link": "#_1-事件循环工作流程",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. 异步操作处理流程",
-            "slug": "_2-异步操作处理流程",
-            "link": "#_2-异步操作处理流程",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. 微任务优先机制",
-            "slug": "_3-微任务优先机制",
-            "link": "#_3-微任务优先机制",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "实际应用场景",
-        "slug": "实际应用场景",
-        "link": "#实际应用场景",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. Promise 与 setTimeout 执行顺序",
-            "slug": "_1-promise-与-settimeout-执行顺序",
-            "link": "#_1-promise-与-settimeout-执行顺序",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. 嵌套异步操作",
-            "slug": "_2-嵌套异步操作",
-            "link": "#_2-嵌套异步操作",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "性能优化建议",
-        "slug": "性能优化建议",
-        "link": "#性能优化建议",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "浏览器与Node.js差异",
-        "slug": "浏览器与node-js差异",
-        "link": "#浏览器与node-js差异",
-        "children": []
-      }
-    ],
-    "path": "/code/enginer/js-execution-mechanism.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "微任务与宏任务",
-    "headers": [
-      {
-        "level": 3,
-        "title": "一、微任务（Microtasks）",
-        "slug": "一、微任务-microtasks",
-        "link": "#一、微任务-microtasks",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "二、宏任务（Macrotasks）",
-        "slug": "二、宏任务-macrotasks",
-        "link": "#二、宏任务-macrotasks",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "三、执行流程演示",
-        "slug": "三、执行流程演示",
-        "link": "#三、执行流程演示",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "四、事件循环中的执行模型",
-        "slug": "四、事件循环中的执行模型",
-        "link": "#四、事件循环中的执行模型",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "五、实际应用场景对比",
-        "slug": "五、实际应用场景对比",
-        "link": "#五、实际应用场景对比",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "宏任务与微任务的区别",
-        "slug": "宏任务与微任务的区别",
-        "link": "#宏任务与微任务的区别",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "宏任务（Macrotasks）与微任务（Microtasks）的区别",
-        "slug": "宏任务-macrotasks-与微任务-microtasks-的区别",
-        "link": "#宏任务-macrotasks-与微任务-microtasks-的区别",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "理解事件循环（Event Loop）机制",
-        "slug": "理解事件循环-event-loop-机制",
-        "link": "#理解事件循环-event-loop-机制",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "代码示例分析",
-        "slug": "代码示例分析",
-        "link": "#代码示例分析",
-        "children": [
-          {
-            "level": 3,
-            "title": "输出顺序分析：",
-            "slug": "输出顺序分析",
-            "link": "#输出顺序分析",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "实际应用场景",
-        "slug": "实际应用场景",
-        "link": "#实际应用场景",
-        "children": [
-          {
-            "level": 3,
-            "title": "宏任务应用场景：",
-            "slug": "宏任务应用场景",
-            "link": "#宏任务应用场景",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "微任务应用场景：",
-            "slug": "微任务应用场景",
-            "link": "#微任务应用场景",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "常见问题",
-        "slug": "常见问题",
-        "link": "#常见问题",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "最佳实践建议",
-        "slug": "最佳实践建议",
-        "link": "#最佳实践建议",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "为什么事件循环机制微任务只有一个，宏任务可以多个？",
-        "slug": "为什么事件循环机制微任务只有一个-宏任务可以多个",
-        "link": "#为什么事件循环机制微任务只有一个-宏任务可以多个",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. 微任务的设计目标：高优先级与连续性",
-            "slug": "_1-微任务的设计目标-高优先级与连续性",
-            "link": "#_1-微任务的设计目标-高优先级与连续性",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. 宏任务的设计目标：任务来源多样化",
-            "slug": "_2-宏任务的设计目标-任务来源多样化",
-            "link": "#_2-宏任务的设计目标-任务来源多样化",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. 执行流程的差异",
-            "slug": "_3-执行流程的差异",
-            "link": "#_3-执行流程的差异",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4. 简单记忆",
-            "slug": "_4-简单记忆",
-            "link": "#_4-简单记忆",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总结",
-            "slug": "总结",
-            "link": "#总结",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/code/enginer/microtasks-macrotasks.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "nodejs主流框架",
     "headers": [],
     "path": "/code/enginer/node-basic.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "promise",
-    "headers": [
-      {
-        "level": 3,
-        "title": "重要结论",
-        "slug": "重要结论",
-        "link": "#重要结论",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "async/await 与 Promise 的核心关系",
-        "slug": "async-await-与-promise-的核心关系",
-        "link": "#async-await-与-promise-的核心关系",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "何时使用 Promise 或 async/await",
-        "slug": "何时使用-promise-或-async-await",
-        "link": "#何时使用-promise-或-async-await",
-        "children": [
-          {
-            "level": 3,
-            "title": "使用 Promise 的场景：",
-            "slug": "使用-promise-的场景",
-            "link": "#使用-promise-的场景",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "使用 async/await 的场景：",
-            "slug": "使用-async-await-的场景",
-            "link": "#使用-async-await-的场景",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "关键优势对比",
-        "slug": "关键优势对比",
-        "link": "#关键优势对比",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "最佳实践建议",
-        "slug": "最佳实践建议",
-        "link": "#最佳实践建议",
-        "children": []
-      }
-    ],
-    "path": "/code/enginer/promise.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1493,6 +1043,108 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "async/await 的异步特性解析",
+    "headers": [
+      {
+        "level": 2,
+        "title": "async/await 的异步本质",
+        "slug": "async-await-的异步本质",
+        "link": "#async-await-的异步本质",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 非阻塞执行",
+            "slug": "_1-非阻塞执行",
+            "link": "#_1-非阻塞执行",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 基于 Promise 的语法糖",
+            "slug": "_2-基于-promise-的语法糖",
+            "link": "#_2-基于-promise-的语法糖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 事件循环中的位置",
+            "slug": "_3-事件循环中的位置",
+            "link": "#_3-事件循环中的位置",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "为什么 async/await 是异步的",
+        "slug": "为什么-async-await-是异步的",
+        "link": "#为什么-async-await-是异步的",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 不阻塞主线程",
+            "slug": "_1-不阻塞主线程",
+            "link": "#_1-不阻塞主线程",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 顺序执行异步操作",
+            "slug": "_2-顺序执行异步操作",
+            "link": "#_2-顺序执行异步操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 错误处理机制",
+            "slug": "_3-错误处理机制",
+            "link": "#_3-错误处理机制",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "实际应用场景",
+        "slug": "实际应用场景",
+        "link": "#实际应用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 网络请求",
+            "slug": "_1-网络请求",
+            "link": "#_1-网络请求",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 文件操作",
+            "slug": "_2-文件操作",
+            "link": "#_2-文件操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 多步操作",
+            "slug": "_3-多步操作",
+            "link": "#_3-多步操作",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "关键特性总结",
+        "slug": "关键特性总结",
+        "link": "#关键特性总结",
+        "children": []
+      }
+    ],
+    "path": "/code/JavaScript-TypeScript/async-await.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "判断JS数据类型",
     "headers": [
       {
@@ -1525,6 +1177,13 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/code/JavaScript-TypeScript/Determine-type.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "es6数组解构赋值",
+    "headers": [],
+    "path": "/code/JavaScript-TypeScript/es6.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1691,6 +1350,347 @@ export const SEARCH_INDEX = [
     "title": "Interface和type的区别",
     "headers": [],
     "path": "/code/JavaScript-TypeScript/interface-type.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "js执行机制",
+    "headers": [
+      {
+        "level": 2,
+        "title": "JavaScript 执行的核心原理",
+        "slug": "javascript-执行的核心原理",
+        "link": "#javascript-执行的核心原理",
+        "children": [
+          {
+            "level": 3,
+            "title": "核心概念解析",
+            "slug": "核心概念解析",
+            "link": "#核心概念解析",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "执行顺序规则",
+        "slug": "执行顺序规则",
+        "link": "#执行顺序规则",
+        "children": [
+          {
+            "level": 3,
+            "title": "微任务（Microtasks）与宏任务（Macrotasks）",
+            "slug": "微任务-microtasks-与宏任务-macrotasks",
+            "link": "#微任务-microtasks-与宏任务-macrotasks",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "执行流程详解",
+        "slug": "执行流程详解",
+        "link": "#执行流程详解",
+        "children": [
+          {
+            "level": 3,
+            "title": "执行步骤分析：",
+            "slug": "执行步骤分析",
+            "link": "#执行步骤分析",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "最终输出顺序：",
+            "slug": "最终输出顺序",
+            "link": "#最终输出顺序",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "关键机制详解",
+        "slug": "关键机制详解",
+        "link": "#关键机制详解",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 事件循环工作流程",
+            "slug": "_1-事件循环工作流程",
+            "link": "#_1-事件循环工作流程",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 异步操作处理流程",
+            "slug": "_2-异步操作处理流程",
+            "link": "#_2-异步操作处理流程",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 微任务优先机制",
+            "slug": "_3-微任务优先机制",
+            "link": "#_3-微任务优先机制",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "实际应用场景",
+        "slug": "实际应用场景",
+        "link": "#实际应用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Promise 与 setTimeout 执行顺序",
+            "slug": "_1-promise-与-settimeout-执行顺序",
+            "link": "#_1-promise-与-settimeout-执行顺序",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 嵌套异步操作",
+            "slug": "_2-嵌套异步操作",
+            "link": "#_2-嵌套异步操作",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "性能优化建议",
+        "slug": "性能优化建议",
+        "link": "#性能优化建议",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "浏览器与Node.js差异",
+        "slug": "浏览器与node-js差异",
+        "link": "#浏览器与node-js差异",
+        "children": []
+      }
+    ],
+    "path": "/code/JavaScript-TypeScript/js-execution-mechanism.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "微任务与宏任务",
+    "headers": [
+      {
+        "level": 3,
+        "title": "一、微任务（Microtasks）",
+        "slug": "一、微任务-microtasks",
+        "link": "#一、微任务-microtasks",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "二、宏任务（Macrotasks）",
+        "slug": "二、宏任务-macrotasks",
+        "link": "#二、宏任务-macrotasks",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "三、执行流程演示",
+        "slug": "三、执行流程演示",
+        "link": "#三、执行流程演示",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "四、事件循环中的执行模型",
+        "slug": "四、事件循环中的执行模型",
+        "link": "#四、事件循环中的执行模型",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "五、实际应用场景对比",
+        "slug": "五、实际应用场景对比",
+        "link": "#五、实际应用场景对比",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "宏任务与微任务的区别",
+        "slug": "宏任务与微任务的区别",
+        "link": "#宏任务与微任务的区别",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "宏任务（Macrotasks）与微任务（Microtasks）的区别",
+        "slug": "宏任务-macrotasks-与微任务-microtasks-的区别",
+        "link": "#宏任务-macrotasks-与微任务-microtasks-的区别",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "理解事件循环（Event Loop）机制",
+        "slug": "理解事件循环-event-loop-机制",
+        "link": "#理解事件循环-event-loop-机制",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "代码示例分析",
+        "slug": "代码示例分析",
+        "link": "#代码示例分析",
+        "children": [
+          {
+            "level": 3,
+            "title": "输出顺序分析：",
+            "slug": "输出顺序分析",
+            "link": "#输出顺序分析",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "实际应用场景",
+        "slug": "实际应用场景",
+        "link": "#实际应用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "宏任务应用场景：",
+            "slug": "宏任务应用场景",
+            "link": "#宏任务应用场景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "微任务应用场景：",
+            "slug": "微任务应用场景",
+            "link": "#微任务应用场景",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "常见问题",
+        "slug": "常见问题",
+        "link": "#常见问题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "最佳实践建议",
+        "slug": "最佳实践建议",
+        "link": "#最佳实践建议",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "为什么事件循环机制微任务只有一个，宏任务可以多个？",
+        "slug": "为什么事件循环机制微任务只有一个-宏任务可以多个",
+        "link": "#为什么事件循环机制微任务只有一个-宏任务可以多个",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 微任务的设计目标：高优先级与连续性",
+            "slug": "_1-微任务的设计目标-高优先级与连续性",
+            "link": "#_1-微任务的设计目标-高优先级与连续性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 宏任务的设计目标：任务来源多样化",
+            "slug": "_2-宏任务的设计目标-任务来源多样化",
+            "link": "#_2-宏任务的设计目标-任务来源多样化",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 执行流程的差异",
+            "slug": "_3-执行流程的差异",
+            "link": "#_3-执行流程的差异",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. 简单记忆",
+            "slug": "_4-简单记忆",
+            "link": "#_4-简单记忆",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结",
+            "slug": "总结",
+            "link": "#总结",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/code/JavaScript-TypeScript/microtasks-macrotasks.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "promise",
+    "headers": [
+      {
+        "level": 3,
+        "title": "重要结论",
+        "slug": "重要结论",
+        "link": "#重要结论",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "async/await 与 Promise 的核心关系",
+        "slug": "async-await-与-promise-的核心关系",
+        "link": "#async-await-与-promise-的核心关系",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "何时使用 Promise 或 async/await",
+        "slug": "何时使用-promise-或-async-await",
+        "link": "#何时使用-promise-或-async-await",
+        "children": [
+          {
+            "level": 3,
+            "title": "使用 Promise 的场景：",
+            "slug": "使用-promise-的场景",
+            "link": "#使用-promise-的场景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "使用 async/await 的场景：",
+            "slug": "使用-async-await-的场景",
+            "link": "#使用-async-await-的场景",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "关键优势对比",
+        "slug": "关键优势对比",
+        "link": "#关键优势对比",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "最佳实践建议",
+        "slug": "最佳实践建议",
+        "link": "#最佳实践建议",
+        "children": []
+      }
+    ],
+    "path": "/code/JavaScript-TypeScript/promise.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1902,7 +1902,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "ref需要.value为什么reactive 不需要",
+    "title": "ref与reactive",
     "headers": [],
     "path": "/code/vue/ref-reactive.html",
     "pathLocale": "/",
@@ -3136,13 +3136,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "前端技术 分类",
-    "headers": [],
-    "path": "/category/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "前端相关 分类",
     "headers": [],
     "path": "/category/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/",
@@ -3167,6 +3160,13 @@ export const SEARCH_INDEX = [
     "title": "HTML 分类",
     "headers": [],
     "path": "/category/html/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "前端技术 分类",
+    "headers": [],
+    "path": "/category/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3255,9 +3255,9 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "标签: es6笔记",
+    "title": "标签: Mapbox",
     "headers": [],
-    "path": "/tag/es6%E7%AC%94%E8%AE%B0/",
+    "path": "/tag/mapbox/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3269,9 +3269,9 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "标签: Mapbox",
+    "title": "标签: es6笔记",
     "headers": [],
-    "path": "/tag/mapbox/",
+    "path": "/tag/es6%E7%AC%94%E8%AE%B0/",
     "pathLocale": "/",
     "extraFields": []
   },

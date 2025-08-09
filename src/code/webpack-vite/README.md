@@ -1,6 +1,6 @@
 ---
 title: webpack与vite
-icon: laptop-code
+icon: folder-minus
 sticky: -1
 category:
   - webpack与vite

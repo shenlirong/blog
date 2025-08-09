@@ -17,10 +17,46 @@
 
 // }
 
-.vp-catalog-sub-title,
-.vp-catalog-child-title {
+
+// .vp-catalog-child-title {
+//     .vp-icon {
+//         display: none;
+//     }
+// }
+
+//去掉目录子列表的ICON
+.vp-catalog-list {
+    .vp-catalog-item {
+        .vp-catalog-title {
+            .vp-icon {
+                display: none;
+            }
+        }
+
+    }
+}
+
+//增加目录H3的ICON
+.vp-catalog-item {
+    h3 {
+        .vp-catalog-title {
+            .vp-icon {
+                display: inline-block !important;
+            }
+        }
+    }
+}
+
+.vp-child-catalogs {
     .vp-icon {
         display: none;
+    }
+
+}
+
+.vp-page-title {
+    h1 {
+        color: #2f845d;
     }
 }
 
@@ -28,6 +64,7 @@
 .vp-catalog-item {
     h3 {
         a {
+            color: #2f845d;
             font-weight: bold;
         }
 

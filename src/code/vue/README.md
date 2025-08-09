@@ -1,6 +1,6 @@
 ---
 title: 基础入门（vue）
-icon: laptop-code
+icon: file-lines
 # sticky: -10
 order: 1
 category:

@@ -1,6 +1,6 @@
 ---
 title: HTML
-icon: laptop-code
+icon: file-waveform
 sticky: -1
 category:
   - HTML

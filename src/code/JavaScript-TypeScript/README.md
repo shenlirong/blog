@@ -1,6 +1,6 @@
 ---
 title: JavaScript与TypeScript
-icon: laptop-code
+icon: note-sticky
 sticky: -1
 category:
   - JavaScript与TypeScript

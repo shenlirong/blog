@@ -1,6 +1,6 @@
 ---
 title: z脑洞思考
-icon: laptop-code
+icon: circle-question
 order: 9
 category:
   - 脑洞思考

@@ -1,6 +1,6 @@
 ---
 title: Micro front-end
-icon: laptop-code
+icon: file-pen
 sticky: -1
 category:
   -  microfront

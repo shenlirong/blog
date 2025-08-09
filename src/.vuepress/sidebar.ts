@@ -12,7 +12,7 @@ export default sidebar({
       children: [
         {
           text: 'Vue相关',
-          // icon: "code",
+          icon: "file-lines",
           prefix: "vue/",
           // link: "vue/",
           collapsible: true,
@@ -20,7 +20,7 @@ export default sidebar({
         },
         {
           text: 'JavaScript与TypeScript',
-          // icon: "code",
+          icon: "note-sticky",
           prefix: "JavaScript-TypeScript/",
           // link: "JavaScript与TypeScript/",
           collapsible: true,
@@ -28,7 +28,7 @@ export default sidebar({
         },
         {
           text: 'css相关与布局',
-          // icon: "code",
+          icon: "file-code",
           prefix: "css-layout/",
           // link: "CSS与布局/",
           collapsible: true,
@@ -36,7 +36,7 @@ export default sidebar({
         },
         {
           text: 'webpack与vite',
-          // icon: "code",
+          icon: "folder-minus",
           prefix: "webpack-vite/",
           // link: "webpack与vite/",
           collapsible: true,
@@ -44,7 +44,7 @@ export default sidebar({
         },
         {
           text: 'angular相关',
-          // icon: "code",
+          icon: "file-half-dashed",
           prefix: "angular/",
           // link: "angular相关/",
           collapsible: true,
@@ -52,7 +52,7 @@ export default sidebar({
         },
         {
           text: '前端工程化',
-          // icon: "code",
+          icon: "id-card-clip",
           prefix: "enginer/",
           // link: "前端相关/",
           collapsible: true,
@@ -60,7 +60,7 @@ export default sidebar({
         },
         {
           text: 'web安全基础',
-          // icon: "code",
+          icon: "file-zipper",
           prefix: "webSecure/",
           // link: "web安全基础/",
           collapsible: true,
@@ -68,7 +68,7 @@ export default sidebar({
         },
         {
           text: 'HTML',
-          // icon: "code",
+          icon: "file-waveform",
           prefix: "HTML/",
           // link: "HTML/",
           collapsible: true,
@@ -76,7 +76,7 @@ export default sidebar({
         },
          {
           text: 'Microfront',
-          // icon: "code",
+          icon: "file-pen",
           prefix: "microfront/",
           // link: "常见问题/",
           collapsible: true,
@@ -84,7 +84,7 @@ export default sidebar({
         },
         {
           text: '脑洞思考',
-          // icon: "code",
+          icon: "circle-question",
           prefix: "genic-question/",
           // link: "常见问题/",
           collapsible: true,

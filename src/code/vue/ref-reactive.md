@@ -8,5 +8,5 @@ category:
 ---
 
 <!-- more -->
-# ref需要.value为什么reactive 不需要
+# ref与reactive
 <refReactive></refReactive>

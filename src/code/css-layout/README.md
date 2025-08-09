@@ -1,6 +1,6 @@
 ---
 title: CSS与布局
-icon: laptop-code
+icon: file-code
 sticky: -1
 category:
   - CSS与布局

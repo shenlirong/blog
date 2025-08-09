@@ -1,6 +1,6 @@
 ---
 title: angular
-icon: laptop-code
+icon: file-half-dashed
 sticky: -1
 category:
   - angular
