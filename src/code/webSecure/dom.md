@@ -1,7 +1,7 @@
 ---
 icon: pen-to-square
 # date: 2024-12-01
-sticky: 94
+sticky: 43
 pageview: true
 title: 浏览器加载原理
 category:
