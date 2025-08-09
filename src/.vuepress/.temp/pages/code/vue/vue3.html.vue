@@ -1,5 +1,5 @@
 <template><div><!-- more -->
-<h1 id="vue3" tabindex="-1"><a class="header-anchor" href="#vue3"><span>Vue3</span></a></h1>
+<h1 id="vue3基础" tabindex="-1"><a class="header-anchor" href="#vue3基础"><span>Vue3基础</span></a></h1>
 <h2 id="_1-vue3简介" tabindex="-1"><a class="header-anchor" href="#_1-vue3简介"><span>1.Vue3简介</span></a></h2>
 <ul>
 <li>2020年9月18日，<code v-pre>Vue.js</code>发布版<code v-pre>3.0</code>版本，代号：<code v-pre>One Piece</code>（n</li>

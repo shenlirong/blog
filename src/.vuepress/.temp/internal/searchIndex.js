@@ -1988,7 +1988,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Vue3",
+    "title": "Vue3基础",
     "headers": [
       {
         "level": 2,
