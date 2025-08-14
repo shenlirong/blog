@@ -6,6 +6,8 @@ category:
   - 项目
 permalink: /project_sum/
 ---
+
+<!-- more -->
 ::: info
 此处存放的一些项目中的总结、报错、解决方法等。
 :::

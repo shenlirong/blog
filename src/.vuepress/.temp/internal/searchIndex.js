@@ -14,30 +14,81 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "数组相关",
+    "headers": [
+      {
+        "level": 2,
+        "title": "数组基础方法",
+        "slug": "数组基础方法",
+        "link": "#数组基础方法",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 增删元素",
+            "slug": "_1-增删元素",
+            "link": "#_1-增删元素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 截取与拼接",
+            "slug": "_2-截取与拼接",
+            "link": "#_2-截取与拼接",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 合并与转换",
+            "slug": "_3-合并与转换",
+            "link": "#_3-合并与转换",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. 遍历与查找",
+            "slug": "_4-遍历与查找",
+            "link": "#_4-遍历与查找",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5. 高阶方法",
+            "slug": "_5-高阶方法",
+            "link": "#_5-高阶方法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "⚠️ 关键注意：",
+            "slug": "⚠️-关键注意",
+            "link": "#⚠️-关键注意",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "数组遍历的方法",
+        "slug": "数组遍历的方法",
+        "link": "#数组遍历的方法",
+        "children": []
+      }
+    ],
+    "path": "/algorithm/array.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "算法篇",
+    "headers": [],
+    "path": "/algorithm/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "代码笔记",
     "headers": [],
     "path": "/code/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "阿房宫赋",
-    "headers": [],
-    "path": "/essay/epang.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "reveal随笔",
-    "headers": [],
-    "path": "/essay/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "背影",
-    "headers": [],
-    "path": "/essay/silhouette.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -146,6 +197,27 @@ export const SEARCH_INDEX = [
     "title": "主要功能与配置演示",
     "headers": [],
     "path": "/demo/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "阿房宫赋",
+    "headers": [],
+    "path": "/essay/epang.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "reveal随笔",
+    "headers": [],
+    "path": "/essay/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "背影",
+    "headers": [],
+    "path": "/essay/silhouette.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3066,23 +3138,16 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "基础算法 分类",
+    "headers": [],
+    "path": "/category/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "代码笔记 分类",
     "headers": [],
     "path": "/category/%E4%BB%A3%E7%A0%81%E7%AC%94%E8%AE%B0/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "诗词赏析 分类",
-    "headers": [],
-    "path": "/category/%E8%AF%97%E8%AF%8D%E8%B5%8F%E6%9E%90/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "reveal随笔 分类",
-    "headers": [],
-    "path": "/category/reveal%E9%9A%8F%E7%AC%94/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3097,6 +3162,20 @@ export const SEARCH_INDEX = [
     "title": "指南 分类",
     "headers": [],
     "path": "/category/%E6%8C%87%E5%8D%97/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "诗词赏析 分类",
+    "headers": [],
+    "path": "/category/%E8%AF%97%E8%AF%8D%E8%B5%8F%E6%9E%90/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "reveal随笔 分类",
+    "headers": [],
+    "path": "/category/reveal%E9%9A%8F%E7%AC%94/",
     "pathLocale": "/",
     "extraFields": []
   },

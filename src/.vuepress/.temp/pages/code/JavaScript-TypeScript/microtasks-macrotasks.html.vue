@@ -1,4 +1,5 @@
-<template><div><div class="hint-container info">
+<template><div><!-- more -->
+<div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
 <p>事件循环机制中 <strong>微任务和宏任务</strong> 的差异主要由 <strong>执行机制和设计目标</strong> 决定：</p>
 <p><strong>1.微任务设计初衷</strong><br>

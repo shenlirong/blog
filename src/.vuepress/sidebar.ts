@@ -74,7 +74,7 @@ export default sidebar({
           collapsible: true,
           children: 'structure'
         },
-         {
+        {
           text: 'Microfront',
           icon: "file-pen",
           prefix: "microfront/",
@@ -91,6 +91,13 @@ export default sidebar({
           children: 'structure'
         },
       ]
+    },
+    {
+      text: "算法篇",
+      icon: "chart-diagram",
+      collapsible: true,
+      prefix: "algorithm/",
+      children: "structure",
     },
     {
       text: "项目",

@@ -1,4 +1,5 @@
-<template><div><div class="hint-container info">
+<template><div><!-- more -->
+<div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
 <ul>
 <li>编程语言

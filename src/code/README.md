@@ -5,6 +5,8 @@ icon: layer-group
 category:
   - 代码笔记
 ---
+
+<!-- more -->
 ::: info
 - 编程语言
   - JavaScript/TypeScript

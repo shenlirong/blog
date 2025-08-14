@@ -1,4 +1,5 @@
-<template><div><h1 id="微前端是什么" tabindex="-1"><a class="header-anchor" href="#微前端是什么"><span>微前端是什么</span></a></h1>
+<template><div><!-- more -->
+<h1 id="微前端是什么" tabindex="-1"><a class="header-anchor" href="#微前端是什么"><span>微前端是什么</span></a></h1>
 <p>微前端（Micro Frontends）是一种前端架构设计模式，核心思想是将大型单体前端应用拆分为多个独立、可协作的小型应用（称为“微应用”），每个微应用可独立开发、测试、部署，最终组合成完整产品。以下是通俗易懂的解释：</p>
 <h3 id="一、-用生活比喻理解" tabindex="-1"><a class="header-anchor" href="#一、-用生活比喻理解"><span>一、 用生活比喻理解</span></a></h3>
 <p>想象建造一栋摩天大楼：</p>

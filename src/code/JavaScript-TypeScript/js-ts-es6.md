@@ -7,6 +7,7 @@ category:
   - 前端开发
 ---
 
+<!-- more -->
 ::: info
 ES6 是 ECMAScript 2015 的别名，属于 JavaScript 的标准版本。TypeScript 是 JavaScript 的超集，这意味着它包含了所有 JavaScript 的特性（包括 ES6），并添加了静态类型等额外功能。
 所以，ES6 属于 JavaScript 的一部分，TypeScript 完全支持 ES6 并扩展了它。
