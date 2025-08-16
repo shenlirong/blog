@@ -93,7 +93,7 @@ export default sidebar({
       ]
     },
     {
-      text: "算法篇",
+      text: "知识点篇",
       icon: "chart-diagram",
       collapsible: true,
       prefix: "algorithm/",

@@ -3,7 +3,7 @@ title: 数组相关
 icon: pen-to-square
 # sticky: -1
 category:
-  - 基础算法
+  - 知识点
 # permalink: /website/
 ---
 
@@ -69,8 +69,8 @@ nums.splice(1, 1, 'a', 'b'); // 从索引1删除1个元素，插入'a','b'
 ```
 #### indexOf() / includes() - 查找元素
 ```javascript
-['a', 'b'].indexOf('b'); // 1
-['a', 'b'].includes('c'); // false
+['a', 'b'].indexOf('b'); // 1 找到返回对应下标，没有返回-1
+['a', 'b'].includes('c'); // false 找到返回true,没有返回false
 ```
 #### find() - 查找首个符合条件的元素
 ```javascript
@@ -94,8 +94,8 @@ nums.splice(1, 1, 'a', 'b'); // 从索引1删除1个元素，插入'a','b'
 ---
 
 ### ⚠️ 关键注意：
-- 改变原数组的方法：push/pop/shift/unshift/splice/sort/reverse
-- 不改变原数组的方法：slice/concat/map/filter/reduce
+- **改变原数组的方法**：push/pop/shift/unshift/splice/sort/reverse
+- **不改变原数组的方法**：slice/concat/map/filter/reduce
 - 使用 find 替代 indexOf 处理对象数组
 - 优先用 includes 检查存在性（支持 NaN）
 > 示例支持 ES6+ 语法，现代浏览器均可运行。根据需求选择方法，避免不必要的副作用！
@@ -113,9 +113,11 @@ nums.splice(1, 1, 'a', 'b'); // 从索引1删除1个元素，插入'a','b'
 - 没有返回值（undefined）。
 ```
 const arr = [1, 2, 3];
-arr.forEach(item => {
+let a=arr.forEach(item => {
+  return item*2
   console.log(item * 2); // 2, 4, 6
 });
+console.log(a) //undefined(没有返回值)
 ```
 2. ​**map()**
 
@@ -267,3 +269,384 @@ for (let i = 0; i < arr.length; i++) {
 
 - 只需要遍历而不需要新数组：forEach 或 for...of
 
+<test></test>
+## 数组排序
+- reverse()数组倒序(反转)
+- sort()
+**两种方法都会改变原数组**
+
+```
+let arr = [3,5,2,5,8]
+arr.sort((a,b)=>a-b)
+console.log(arr) //[2,3,5,5,8]
+
+let arr1 = [1,2,3,4,5,6]
+arr1.sort((a,b)=>Math.random()-0.5)
+console.log(arr1) //[3,4,1,6,2,5] 打乱数组 根据返回值的大小判断是否交换a，b位置 大于0才交换 小于或者等于0不交换
+
+//根据对象某个属性排序
+let sortArr=[{id:1,age:10},{id:3,age:2},{id:4,age:70}].sort((a,b)=>{
+    return (b.id - a.id) 
+})
+console.log(sortArr) //[{"id": 4,"age": 70},{"id": 3,"age": 2},{"id": 1,"age": 10}]
+
+```
+
+## 数组求和
+reduce / reduceRight
+
+都会迭代数组的所有项，并在此基础上构建一个最终返回值，对没有值的数组元素，不执行方法,归并方法不会改变原始数组；reduce()方法从左到右遍历数组项，reduceRight()则从右到左遍历数组项。
+
+这两个函数都接收两个参数：归并函数以及可选的初始值。传给方法的函数接收4个参数：上一个归并值、当前项、当前项索引、数组本身。
+array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
+```
+var  arr = [1, 2, 3, 4];
+var sum = arr.reduce((pre,cur,index,arr)=>pre+cur)
+var mul = arr.reduce((pre,cur,index,arr)=>pre*cur)
+console.log( sum ); //求和，10
+console.log( mul ); //求乘积，24
+```
+
+**高级用法如下：**
+
+计算数组中每个元素出现的次数
+```
+let names = ['a', 'b', 'b', 'b', 'a'];
+
+let nameNum = names.reduce((pre,cur)=>{
+  //第一种写法
+   pre[cur] = (pre[cur] || 0) + 1;
+
+  //第二种写法,使用三元表达式
+   pre[cur] =  pre[cur] ?  pre[cur] + 1 : 1;
+
+  //第三种写法,使用if判断
+  if(!pre[cur]){
+      pre[cur]=1
+  }else{
+    pre[cur]+=1
+  }
+
+  if(cur in pre){
+    pre[cur]++
+  }else{
+    pre[cur] = 1 
+  }
+  return pre
+},{})
+console.log(nameNum); //{a: 2, b: 3}
+```
+**对象里面的属性求和：**
+```
+var result = [
+    {
+        subject: 'math',
+        score: 10
+    },
+    {
+        subject: 'chinese',
+        score: 20
+    },
+    {
+        subject: 'english',
+        score: 30
+    }
+];
+
+var sum = result.reduce(function(prev, cur) {
+    return cur.score + prev;
+}, 0);
+console.log(sum) //60
+```
+## 数组去重
+```
+let arr = [1,2,3,4,4,1]
+let newArr = arr.reduce((pre,cur)=>{
+    if(!pre.includes(cur)){
+      return pre.concat(cur)
+    }else{
+      return pre
+    }
+},[])
+console.log(newArr);// [1, 2, 3, 4]
+//或者 (pre, cur) => pre.includes(cur) ? acc : [...pre, cur]
+```
+数组去重是JavaScript中的常见问题，根据不同的场景和需求，可以选择多种方法。以下是一些常用的数组去重方法，每种方法都有其特点和适用场景：
+
+**1. 使用Set（ES6+）**
+**​原理​：** 利用Set数据结构中元素不可重复的特性。
+```
+const array = [1, 2, 2, 3, 4, 4, 5];
+const uniqueArray = [...new Set(array)];
+// 或 Array.from(new Set(array))
+```
+**​优点​：** 简洁高效，适合基本数据类型去重。
+**​缺点​：** 无法直接处理对象（因为对象引用不同），NaN会被保留（Set认为NaN等于自身）。
+
+**2. 使用filter + indexOf**
+**​原理​：** 通过索引位置判断元素是否首次出现。
+```
+const uniqueArray = array.filter((item, index) => array.indexOf(item) === index);
+```
+**​优点​：** 兼容性好（ES5）。
+**​缺点​：** 时间复杂度O(n²)，性能较差；无法区分NaN。
+
+**3. 使用reduce**
+**​原理​：** 迭代过程中检查结果数组是否已包含当前元素。
+```
+const uniqueArray = array.reduce((acc, cur) => 
+  acc.includes(cur) ? acc : [...acc, cur], 
+[]
+);
+```
+**​优点​：** 可读性较好。
+**​缺点​：** 每次迭代都需遍历结果数组，效率较低（尤其大数组）。
+
+**4. 使用对象键值对（适用于基本类型）**
+**​原理​：** 利用对象键的唯一性。
+```
+const obj = {};
+const uniqueArray = [];
+for (let item of array) {
+  if (!obj[item]) {
+    uniqueArray.push(item);
+    obj[item] = true;
+  }
+}
+```
+**​注意​：** 此方法会将数字1和字符串'1'视为相同，且对象无法作为键（会转为[object Object]）。
+
+**5. 使用Map（ES6+）**
+**​原理​：** 利用Map的键唯一性（可处理各种类型）。
+```
+const map = new Map();
+const uniqueArray = [];
+array.forEach(item => {
+  if (!map.has(item)) {
+    map.set(item, true);
+    uniqueArray.push(item);
+  }
+});
+```
+**​优点​：** 可处理NaN、对象等（按引用区分）。
+**​缺点​：** 代码稍长。
+
+**6. 排序后相邻比较**
+**​原理​：** 先排序，然后跳过重复相邻项。
+```
+const sorted = [...array].sort();
+const uniqueArray = sorted.filter((item, index) => 
+  index === 0 || item !== sorted[index - 1]
+);
+```
+**​优点​：** 时间复杂度O(n log n)，适合大型数值数组。
+**​缺点​：** 会改变原始顺序；无法区分1和'1'（排序后类型可能转换）。
+
+**特殊值处理说明：**
+- ​NaN​：Set和Map可正确处理（去重保留一个），其他方法需额外处理。
+- ​对象​：除Set/Map（按引用）外，其他方法无法直接去重对象数组（除非使用深度比较，但效率低）。
+- ​混合类型​：需注意类型转换问题（如数字1和字符串'1'）。
+性能对比（一般情况）：
+- ​最优​：Set（O(n)）
+- ​最差​：filter + indexOf（O(n²)）
+**终极方案建议：**
+- ​基本数据类型数组​：优先使用[...new Set(array)]
+- ​对象数组（按引用去重）​​：使用Map方案
+- ​需要深度去重​：需递归比较（如lodash的_.uniqWith）
+实际开发中推荐使用Lodash的_.uniq/_.uniqBy/_.uniqWith，已全面处理边界情况。
+
+### 1. Set 去重（ES6+ 推荐）
+```javascript
+const unique = arr => [...new Set(arr)];
+```
+原理：利用 Set 对象自动去重的特性
+优点：简洁高效（O(n) 时间复杂度）
+缺点：无法处理对象引用（不同对象视为不同值），不兼容 IE11
+适用：基本数据类型数组（数字、字符串等）
+
+
+### 2. filter + indexOf（ES5 兼容）
+```javascript
+const unique = arr => arr.filter(
+  (item, index) => arr.indexOf(item) === index
+);
+```
+原理：通过索引位置判断元素是否首次出现
+优点：兼容性好
+缺点：时间复杂度 O(n²)，性能较差；无法处理 NaN
+适用：小型基础类型数组
+
+
+### 3. reduce 去重
+```javascript
+const unique = arr => arr.reduce(
+  (acc, cur) => acc.includes(cur) ? acc : [...acc, cur], 
+  []
+);
+```
+原理：迭代过程中检查结果数组是否包含当前元素
+优点：可读性强
+缺点：每次迭代都需遍历结果数组，效率较低
+
+
+### 4. 对象键值对法（高效去重）
+```javascript
+const unique = arr => {
+  const obj = {};
+  return arr.filter(item => 
+    obj.hasOwnProperty(typeof item + item) ? 
+      false : 
+      (obj[typeof item + item] = true)
+  );
+};
+```
+原理：利用对象键名唯一性（typeof item + item 解决类型冲突）
+优点：O(n) 时间复杂度，可处理 NaN（typeof NaN === 'number'）
+缺点：对象和数组会被转为 [object Object] 导致误判
+
+
+### 5. Map 去重（ES6+ 推荐）
+```javascript
+const unique = arr => {
+  const map = new Map();
+  return arr.filter(item => 
+    !map.has(item) && map.set(item, true)
+  );
+};
+```
+原理：利用 Map 的键唯一性
+优点：O(n) 时间复杂度，可正确处理各种类型（包括对象引用）
+缺点：不兼容 IE
+
+
+### 6. 排序后相邻比较
+```javascript
+const unique = arr => {
+  const sorted = [...arr].sort();
+  return sorted.filter(
+    (item, index) => index === 0 || item !== sorted[index-1]
+  );
+};
+```
+原理：排序后相同元素相邻，只需比较相邻元素
+优点：时间复杂度 O(n log n)
+缺点：改变原始顺序；对对象无效（对象无法直接比较）
+
+
+### 7. 双重循环（原始方法）
+```javascript
+function unique(arr) {
+  const res = [];
+  for (let i = 0; i < arr.length; i++) {
+    let isDuplicate = false;
+    for (let j = 0; j < res.length; j++) {
+      if (arr[i] === res[j]) {
+        isDuplicate = true;
+        break;
+      }
+    }
+    if (!isDuplicate) res.push(arr[i]);
+  }
+  return res;
+}
+```
+原理：最基础的嵌套循环比对
+优点：兼容所有环境
+缺点：O(n²) 时间复杂度，性能最差
+
+### 8. lodash 库方法（生产环境推荐）
+```javascript
+import _ from 'lodash';
+const unique = _.uniq; // 基础去重
+const deepUnique = _.uniqWith(arr, _.isEqual); // 深度去重
+```
+原理：成熟的工具库实现
+优点：处理各种边界情况（如 NaN、对象深度比较）
+缺点：需引入外部库
+
+
+### 特殊值处理对比表
+|方法|处理 NaN|处理对象|保留顺序|时间复杂度|
+|--|--|--|--|--|
+|Set|✅|❌|✅|O(n)|
+|filter+indexOf|❌|❌|✅|O(n²)|
+|reduce|❌|❌|✅|O(n²)|
+|对象键值法|✅|❌|✅|O(n)|
+|Map|✅|✅|✅|O(n)|
+|排序相邻比较|❌|❌|❌|O(n log n)|
+|lodash.uniq|✅|❌|✅|O(n)|
+|lodash.uniqWith|✅|✅|✅|O(n²)|
+
+---
+
+### 最佳实践建议：
+1. 现代浏览器环境：优先使用 [...new Set(arr)]（简单高效）
+1. 需要处理对象：使用 Map 方法或 lodash 的 _.uniqWith
+1. 兼容旧浏览器：采用对象键值法或 filter+indexOf
+1. 生产环境：直接使用 lodash 库避免边界问题
+> 注意：所有方法中对象去重都是基于引用地址而非内容，深度去重需递归比较（如 lodash 的 _.isEqual）
+```
+ var arr = [1,2,3,4,3,5,6,2,1]
+//1.利用indexOf循环过滤       
+        var arr1 = []       
+        for(var i=0;i<arr.length;i++){
+            if( arr1.indexOf(arr[i])=== -1){
+                 arr1.push(arr[i])
+            }
+        }
+  console.log(arr1) //[1,2,3,4,5,6]
+//2.利用对象
+       var obj = {}
+        for(var i=0;i<arr.length;i++){
+            obj[arr[i]] = "随便"
+        }
+        var arr2 =[]
+        for(var i in obj){
+            arr2.push(i-0)
+        }
+        console.log(arr2)
+//3.利用set结构
+       var set1= new Set(arr)
+       var arr3 = Array.from(set1)
+       console.log(arr3)
+//4.利用数组中的filter方法
+var newArr = arr.filter(function(value,index,self){
+    return self.indexOf(value) === index;
+});
+console.log(newArr);
+//5.利用includes去重
+    var arr5= []
+    arr.forEach((item) => {
+        if (!arr5.includes(item)) {
+            arr5.push(item)
+        }
+    })
+console.log(arr5); //[1,2,3,4,,5,6]
+//6.利用map去重
+    let arr6= [];
+    let map = new Map()
+    arr.forEach((item) => {
+        if (!map.has(item)) {
+            map.set(item,ture)
+            arr6.push(item)
+        }
+    })
+console.log(arr6); //[1,2,3,4,,5,6]
+```
+
+**将二维数组转化为一维**
+```
+let arr = [[0, 1], [2, 3], [4, 5]]
+let newArr = arr.reduce((pre,cur)=>{
+    return pre.concat(cur)
+},[])
+console.log(newArr); // [0, 1, 2, 3, 4, 5]
+```
+**将多维数组转化为一维**
+```
+let arr = [[0, 1], [2, 3], [4,[5,6,7]]]
+const newArr = function(arr){
+   return arr.reduce((pre,cur)=>pre.concat(Array.isArray(cur)?newArr(cur):cur),[])
+}
+console.log(newArr(arr)); //[0, 1, 2, 3, 4, 5, 6, 7]
+```

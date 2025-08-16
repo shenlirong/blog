@@ -36,6 +36,8 @@ import jsExecuteMachisum from '../code/components/js-execution-mechanism.vue'
 import promise from '../code/components/promise.vue'
 import Axios from '../code/components/axios.vue'
 
+import test from '..//code/components/test.vue'
+
 export default defineClientConfig({
   //...
 
@@ -75,5 +77,6 @@ export default defineClientConfig({
     app.component('jsExecuteMachisum',jsExecuteMachisum)
     app.component('promise',promise)
     app.component('Axios',Axios)
+    app.component('test',test)
   }
 });

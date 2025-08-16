@@ -1,9 +1,9 @@
 ---
-title: 算法篇
+title: 知识点篇
 icon: chart-diagram
 # sticky: -1
 category:
-  - 基础算法
+  - 知识点篇
 # permalink: /website/
 ---
 

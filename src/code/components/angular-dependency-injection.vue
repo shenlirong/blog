@@ -47,49 +47,5 @@
 </template>
 
 <script setup lang="ts">
-let arr=[1,2,3,4]
-let arr2=[]
-let arr3=[{key:'cn',name:'china'},{key:"us",name:"America"}]
-arr.sort()
-let a=arr.reduce((pre,cur,index,arr)=>{
-    console.log(pre,'pre')
-    console.log(cur,'cur')
-    return pre +cur
-})
-const b=arr.includes(1,1)
-arr.unshift(0,11)
-console.log(arr,'srr')
-console.log(arr2)
-console.log(a,'a')
-console.log(b,'b')
-console.log(arr.join('-'))
 
-let sortArr=[{id:1,age:10},{id:3,age:2},{id:4,age:70}].sort((a,b)=>{
-    return (b.id - a.id) 
-})
-
-console.log(sortArr,'9090')
-let obj1={}
-arr3.forEach(item=>{
-    obj1[item.key]=item.name
-})
-console.log(obj1,'obj')
- let c=arr3.reduce((total,cur)=>{
-    total[cur.key]=cur.name
-    console.log(total,999)
-    console.log(cur)
-    return total
-},{})
-console.log(c,'c')
-
-
-
-const strings = ['apple', 'banana', 'apple', 'origin', 'banana'];
-const totals = strings.reduce((total, string) => {
-    console.log(total,'1')
-    console.log(string,'2')
-  total[string] = (total[string] || 0) + 1;
-  return total;
-}, {}); //
-console.log(totals,'totals')
 </script>

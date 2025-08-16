@@ -72,6 +72,98 @@ export const SEARCH_INDEX = [
         "slug": "数组遍历的方法",
         "link": "#数组遍历的方法",
         "children": []
+      },
+      {
+        "level": 2,
+        "title": "数组排序",
+        "slug": "数组排序",
+        "link": "#数组排序",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "数组求和",
+        "slug": "数组求和",
+        "link": "#数组求和",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "数组去重",
+        "slug": "数组去重",
+        "link": "#数组去重",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Set 去重（ES6+ 推荐）",
+            "slug": "_1-set-去重-es6-推荐",
+            "link": "#_1-set-去重-es6-推荐",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. filter + indexOf（ES5 兼容）",
+            "slug": "_2-filter-indexof-es5-兼容",
+            "link": "#_2-filter-indexof-es5-兼容",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. reduce 去重",
+            "slug": "_3-reduce-去重",
+            "link": "#_3-reduce-去重",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. 对象键值对法（高效去重）",
+            "slug": "_4-对象键值对法-高效去重",
+            "link": "#_4-对象键值对法-高效去重",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5. Map 去重（ES6+ 推荐）",
+            "slug": "_5-map-去重-es6-推荐",
+            "link": "#_5-map-去重-es6-推荐",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6. 排序后相邻比较",
+            "slug": "_6-排序后相邻比较",
+            "link": "#_6-排序后相邻比较",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7. 双重循环（原始方法）",
+            "slug": "_7-双重循环-原始方法",
+            "link": "#_7-双重循环-原始方法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "8. lodash 库方法（生产环境推荐）",
+            "slug": "_8-lodash-库方法-生产环境推荐",
+            "link": "#_8-lodash-库方法-生产环境推荐",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "特殊值处理对比表",
+            "slug": "特殊值处理对比表",
+            "link": "#特殊值处理对比表",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "最佳实践建议：",
+            "slug": "最佳实践建议",
+            "link": "#最佳实践建议",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/algorithm/array.html",
@@ -79,9 +171,16 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "算法篇",
+    "title": "知识点篇",
     "headers": [],
     "path": "/algorithm/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "知识点",
+    "headers": [],
+    "path": "/algorithm/%E7%9F%A5%E8%AF%86%E7%82%B9.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3138,9 +3237,16 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "基础算法 分类",
+    "title": "知识点 分类",
     "headers": [],
-    "path": "/category/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/",
+    "path": "/category/%E7%9F%A5%E8%AF%86%E7%82%B9/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "知识点篇 分类",
+    "headers": [],
+    "path": "/category/%E7%9F%A5%E8%AF%86%E7%82%B9%E7%AF%87/",
     "pathLocale": "/",
     "extraFields": []
   },
