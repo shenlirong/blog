@@ -95,7 +95,7 @@
 <hr>
 <h3 id="_2-选择排序-selection-sort" tabindex="-1"><a class="header-anchor" href="#_2-选择排序-selection-sort"><span>2. 选择排序 (Selection Sort)</span></a></h3>
 <ul>
-<li>思想：在未排序序列中找最小元素，与未排序首部交换</li>
+<li>思想：在未排序序列中找最小元素，与未排序首部交换。每次从未排序部分选择最小（或最大）元素，放到已排序部分的末尾。</li>
 <li>代码：</li>
 </ul>
 <div class="language-javascript line-numbers-mode" data-highlighter="shiki" data-ext="javascript" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-javascript"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">function</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> selectionSort</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">arr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) {</span></span>
@@ -116,7 +116,7 @@
 <hr>
 <h3 id="_3-插入排序-insertion-sort" tabindex="-1"><a class="header-anchor" href="#_3-插入排序-insertion-sort"><span>3. 插入排序 (Insertion Sort)</span></a></h3>
 <ul>
-<li>思想：将元素插入到前面已排序序列的合适位置</li>
+<li>思想：将元素插入到前面已排序序列的合适位置。将未排序元素逐个插入到已排序部分的适当位置。</li>
 <li>代码：</li>
 </ul>
 <div class="language-javascript line-numbers-mode" data-highlighter="shiki" data-ext="javascript" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-javascript"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">function</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> insertionSort</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">arr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) {</span></span>
@@ -143,7 +143,7 @@
 <hr>
 <h3 id="_4-希尔排序-shell-sort" tabindex="-1"><a class="header-anchor" href="#_4-希尔排序-shell-sort"><span>4. 希尔排序 (Shell Sort)</span></a></h3>
 <ul>
-<li>思想：带间隔的插入排序（缩小增量排序）</li>
+<li>思想：带间隔的插入排序（缩小增量排序）。是插入排序的改进版，通过分组插入排序逐步缩小间隔，最终完成排序。</li>
 <li>时间复杂度：O(n log n) ~ O(n²)（取决于步长序列）</li>
 <li>空间复杂度：O(1)</li>
 <li>稳定性：❌ 不稳定</li>
@@ -151,7 +151,7 @@
 <hr>
 <h3 id="_5-归并排序-merge-sort" tabindex="-1"><a class="header-anchor" href="#_5-归并排序-merge-sort"><span>5. 归并排序 (Merge Sort)</span></a></h3>
 <ul>
-<li>思想：分治法（Divide &amp; Conquer），先拆分后合并有序序列</li>
+<li>思想：分治法（Divide &amp; Conquer），先拆分后合并有序序列。采用分治法，将数组分成两半分别排序后合并。</li>
 <li>代码：</li>
 </ul>
 <div class="language-javascript line-numbers-mode" data-highlighter="shiki" data-ext="javascript" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-javascript"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">function</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> mergeSort</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">arr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) {</span></span>
@@ -179,7 +179,7 @@
 <hr>
 <h3 id="_6-快速排序-quick-sort" tabindex="-1"><a class="header-anchor" href="#_6-快速排序-quick-sort"><span>6. 快速排序 (Quick Sort)</span></a></h3>
 <ul>
-<li>思想：选定基准（pivot），将小于基准的放左边，大于的放右边，递归处理</li>
+<li>思想：选定基准（pivot），将小于基准的放左边，大于的放右边，递归处理。通过选择一个基准元素将数组分为两部分，递归排序。</li>
 <li>代码：</li>
 </ul>
 <div class="language-javascript line-numbers-mode" data-highlighter="shiki" data-ext="javascript" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-javascript"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">function</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> quickSort</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">arr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) {</span></span>
@@ -203,7 +203,7 @@
 <hr>
 <h3 id="_7-堆排序-heap-sort" tabindex="-1"><a class="header-anchor" href="#_7-堆排序-heap-sort"><span>7. 堆排序 (Heap Sort)</span></a></h3>
 <ul>
-<li>思想：建立大顶堆，重复将堆顶元素移到末尾并重建堆</li>
+<li>思想：建立大顶堆，重复将堆顶元素移到末尾并重建堆。利用堆数据结构进行排序。</li>
 <li>时间复杂度：O(n log n)（所有情况）</li>
 <li>空间复杂度：O(1)</li>
 <li>稳定性：❌ 不稳定</li>
@@ -211,7 +211,7 @@
 <hr>
 <h3 id="_8-计数排序-counting-sort" tabindex="-1"><a class="header-anchor" href="#_8-计数排序-counting-sort"><span>8. 计数排序 (Counting Sort)</span></a></h3>
 <ul>
-<li>思想：统计每个整数出现的次数，再反向填充</li>
+<li>思想：统计每个整数出现的次数，再反向填充。非比较排序，通过统计元素出现次数完成排序。</li>
 <li>代码：</li>
 </ul>
 <div class="language-javascript line-numbers-mode" data-highlighter="shiki" data-ext="javascript" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-javascript"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">function</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> countingSort</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">arr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) {</span></span>
@@ -234,7 +234,7 @@
 <hr>
 <h3 id="_9-桶排序-bucket-sort" tabindex="-1"><a class="header-anchor" href="#_9-桶排序-bucket-sort"><span>9. 桶排序 (Bucket Sort)</span></a></h3>
 <ul>
-<li>思想：将数据分到多个桶，对每个桶排序后合并</li>
+<li>思想：将数据分到多个桶，对每个桶排序后合并。将数据分到有限数量的桶中，每个桶单独排序后合并。</li>
 <li>时间复杂度：
 <ul>
 <li>平均：O(n + k)</li>
@@ -247,7 +247,7 @@
 <hr>
 <h3 id="_10-基数排序-radix-sort" tabindex="-1"><a class="header-anchor" href="#_10-基数排序-radix-sort"><span>10. 基数排序 (Radix Sort)</span></a></h3>
 <ul>
-<li>思想：按位数从低位到高位分别排序（LSD）</li>
+<li>思想：按位数从低位到高位分别排序（LSD）。按位数从低到高依次排序。</li>
 <li>代码：</li>
 </ul>
 <div class="language-javascript line-numbers-mode" data-highlighter="shiki" data-ext="javascript" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-javascript"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">function</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> radixSort</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">arr</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) {</span></span>
@@ -371,6 +371,11 @@
 - 大数组 → 快速排序/归并排序<br>
 - 在数据为整数且范围有限时，优先考虑计数排序/基数排序</p>
 </blockquote>
+<ul>
+<li>‌小规模数据‌：冒泡排序、选择排序或插入排序简单易实现。</li>
+<li>‌大规模数据‌：快速排序、归并排序或堆排序效率更高。</li>
+<li>‌特定场景‌：计数排序、桶排序和基数排序适用于特定类型的数据分布</li>
+</ul>
 </div></template>
 
 

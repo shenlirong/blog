@@ -23,4 +23,5 @@ title: 1. 前端开发
  8. Docker 教程：https://www.runoob.com/docker/docker-tutorial.html
  9. Array方法：https://blog.csdn.net/qq_43710066/article/details/130425937
               https://zhuanlan.zhihu.com/p/669329266
-
+ 10. 前端小而全的知识归纳: https://segmentfault.com/blog/lanzhsh
+ 11. 华为牛客刷题网址（刷中等以上难度题型）https://www.nowcoder.com/ta/huawei/

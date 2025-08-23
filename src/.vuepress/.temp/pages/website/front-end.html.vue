@@ -12,6 +12,8 @@
 <li>Docker 教程：<a href="https://www.runoob.com/docker/docker-tutorial.html" target="_blank" rel="noopener noreferrer">https://www.runoob.com/docker/docker-tutorial.html</a></li>
 <li>Array方法：<a href="https://blog.csdn.net/qq_43710066/article/details/130425937" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/qq_43710066/article/details/130425937</a><br>
 <a href="https://zhuanlan.zhihu.com/p/669329266" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/669329266</a></li>
+<li>前端小而全的知识归纳: <a href="https://segmentfault.com/blog/lanzhsh" target="_blank" rel="noopener noreferrer">https://segmentfault.com/blog/lanzhsh</a></li>
+<li>华为牛客刷题网址（刷中等以上难度题型）<a href="https://www.nowcoder.com/ta/huawei/" target="_blank" rel="noopener noreferrer">https://www.nowcoder.com/ta/huawei/</a></li>
 </ol>
 </div></template>
 
