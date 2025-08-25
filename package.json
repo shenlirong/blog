@@ -8,7 +8,8 @@
     "docs:build": "vuepress-webpack build src",
     "src:clean-dev": "vuepress-webpack dev src --clean-cache",
     "dev": "vuepress-webpack dev src",
-    "src:update-package": "npx vp-update"
+    "src:update-package": "npx vp-update",
+    "serve": "node --max-old-space-size=4096 ./node_modules/.bin/vue-cli-service serve"
   },
   "devDependencies": {
     "@vuepress/bundler-webpack": "2.0.0-rc.23",
