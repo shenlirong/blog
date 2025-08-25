@@ -321,6 +321,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "代码笔记",
+    "headers": [],
+    "path": "/code/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "布局与功能禁用",
     "headers": [],
     "path": "/demo/disable.html",
@@ -429,9 +436,23 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "代码笔记",
+    "title": "阿房宫赋",
     "headers": [],
-    "path": "/code/",
+    "path": "/essay/epang.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "reveal随笔",
+    "headers": [],
+    "path": "/essay/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "背影",
+    "headers": [],
+    "path": "/essay/silhouette.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -505,27 +526,6 @@ export const SEARCH_INDEX = [
     "title": "网站",
     "headers": [],
     "path": "/website/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "阿房宫赋",
-    "headers": [],
-    "path": "/essay/epang.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "reveal随笔",
-    "headers": [],
-    "path": "/essay/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "背影",
-    "headers": [],
-    "path": "/essay/silhouette.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3387,6 +3387,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "代码笔记 分类",
+    "headers": [],
+    "path": "/category/%E4%BB%A3%E7%A0%81%E7%AC%94%E8%AE%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "使用指南 分类",
     "headers": [],
     "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
@@ -3401,9 +3408,16 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "代码笔记 分类",
+    "title": "诗词赏析 分类",
     "headers": [],
-    "path": "/category/%E4%BB%A3%E7%A0%81%E7%AC%94%E8%AE%B0/",
+    "path": "/category/%E8%AF%97%E8%AF%8D%E8%B5%8F%E6%9E%90/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "reveal随笔 分类",
+    "headers": [],
+    "path": "/category/reveal%E9%9A%8F%E7%AC%94/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3418,20 +3432,6 @@ export const SEARCH_INDEX = [
     "title": "网站 分类",
     "headers": [],
     "path": "/category/%E7%BD%91%E7%AB%99/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "诗词赏析 分类",
-    "headers": [],
-    "path": "/category/%E8%AF%97%E8%AF%8D%E8%B5%8F%E6%9E%90/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "reveal随笔 分类",
-    "headers": [],
-    "path": "/category/reveal%E9%9A%8F%E7%AC%94/",
     "pathLocale": "/",
     "extraFields": []
   },
