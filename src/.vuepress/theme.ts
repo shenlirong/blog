@@ -5,21 +5,21 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  lastUpdated:false,
-  contributors:false,
-  editLink:false,
+  lastUpdated: false,
+  contributors: false,
+  editLink: false,
   hostname: "https://shenlirong.github.io/test/",
-  
+
   author: {
     name: "reveal",
     url: "https://shenlirong.github.io/test/",
   },
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
-  
+
   repo: "vuepress-theme-hope/vuepress-theme-hope",
-  pageInfo:['ReadingTime','Category','Tag'],
-  copyright:false,
+  pageInfo: ['ReadingTime', 'Category', 'Tag'],
+  copyright: false,
   docsDir: "src",
   // 导航栏
   navbar,
@@ -54,7 +54,7 @@ export default hopeTheme({
         link: "https://theme-hope.vuejs.press",
       },
     },
-    articleInfo:['Author','ReadingTime','Category','Tag']
+    articleInfo: ['Author', 'ReadingTime', 'Category', 'Tag']
   },
 
   // 加密配置
@@ -108,7 +108,10 @@ export default hopeTheme({
     tabs: true,
     tasklist: true,
     vPre: true,
-
+    highlighter: {
+      collapsedLines: true,
+      type: 'shiki'
+    },
     // 取消注释它们如果你需要 TeX 支持
     // math: {
     //   // 启用前安装 katex
@@ -146,18 +149,18 @@ export default hopeTheme({
     // 在启用之前安装 sandpack-vue3
     // sandpack: true,
   },
-  
+
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
     // 启用之前需安装 @waline/client  https://vercel.com/press-test
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
     comment: {
-      provider:'Giscus',
-      repo:`shenlirong/press-public`,
-      repoId:`R_kgDOPDvc5Q`,
-      category:'Announcements',
-      categoryId:`DIC_kwDOPDvc5c4CsMe0`
+      provider: 'Giscus',
+      repo: `shenlirong/press-public`,
+      repoId: `R_kgDOPDvc5Q`,
+      category: 'Announcements',
+      categoryId: `DIC_kwDOPDvc5c4CsMe0`
       // serverURL: "https://vercel.com/press-test",
     },
     components: {
@@ -167,7 +170,7 @@ export default hopeTheme({
     icon: {
       prefix: "fa6-solid:",
     },
-    search:true,
+    search: true,
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
     //   favicon: "/favicon.ico",
@@ -225,6 +228,6 @@ export default hopeTheme({
     //   },
     // },
   },
-},{
-  custom:true,
+}, {
+  custom: true,
 });

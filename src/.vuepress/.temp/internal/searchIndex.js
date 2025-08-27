@@ -393,6 +393,27 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "阿房宫赋",
+    "headers": [],
+    "path": "/essay/epang.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "reveal随笔",
+    "headers": [],
+    "path": "/essay/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "背影",
+    "headers": [],
+    "path": "/essay/silhouette.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "布局与功能禁用",
     "headers": [],
     "path": "/demo/disable.html",
@@ -497,27 +518,6 @@ export const SEARCH_INDEX = [
     "title": "主要功能与配置演示",
     "headers": [],
     "path": "/demo/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "阿房宫赋",
-    "headers": [],
-    "path": "/essay/epang.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "reveal随笔",
-    "headers": [],
-    "path": "/essay/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "背影",
-    "headers": [],
-    "path": "/essay/silhouette.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2245,6 +2245,56 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "webpack与vite",
+    "headers": [],
+    "path": "/code/webpack-vite/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "webpack打包优化方案",
+    "headers": [],
+    "path": "/code/webpack-vite/webpack-bundle.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "webpack Loader类型",
+    "headers": [],
+    "path": "/code/webpack-vite/webpack-loader.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "webpack与vite的区别",
+    "headers": [
+      {
+        "level": 2,
+        "title": "构建原理与性能",
+        "slug": "构建原理与性能",
+        "link": "#构建原理与性能",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "配置复杂度与生态支持",
+        "slug": "配置复杂度与生态支持",
+        "link": "#配置复杂度与生态支持",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "适用场景",
+        "slug": "适用场景",
+        "link": "#适用场景",
+        "children": []
+      }
+    ],
+    "path": "/code/webpack-vite/webpack-vite.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "pinia的使用",
     "headers": [
       {
@@ -3073,56 +3123,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "webpack与vite",
-    "headers": [],
-    "path": "/code/webpack-vite/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "webpack打包优化方案",
-    "headers": [],
-    "path": "/code/webpack-vite/webpack-bundle.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "webpack Loader类型",
-    "headers": [],
-    "path": "/code/webpack-vite/webpack-loader.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "webpack与vite的区别",
-    "headers": [
-      {
-        "level": 2,
-        "title": "构建原理与性能",
-        "slug": "构建原理与性能",
-        "link": "#构建原理与性能",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "配置复杂度与生态支持",
-        "slug": "配置复杂度与生态支持",
-        "link": "#配置复杂度与生态支持",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "适用场景",
-        "slug": "适用场景",
-        "link": "#适用场景",
-        "children": []
-      }
-    ],
-    "path": "/code/webpack-vite/webpack-vite.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "axios相关",
     "headers": [
       {
@@ -3459,20 +3459,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "使用指南 分类",
-    "headers": [],
-    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "指南 分类",
-    "headers": [],
-    "path": "/category/%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "诗词赏析 分类",
     "headers": [],
     "path": "/category/%E8%AF%97%E8%AF%8D%E8%B5%8F%E6%9E%90/",
@@ -3483,6 +3469,20 @@ export const SEARCH_INDEX = [
     "title": "reveal随笔 分类",
     "headers": [],
     "path": "/category/reveal%E9%9A%8F%E7%AC%94/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "使用指南 分类",
+    "headers": [],
+    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "指南 分类",
+    "headers": [],
+    "path": "/category/%E6%8C%87%E5%8D%97/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3578,16 +3578,16 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Vue 分类",
+    "title": "webpack与vite 分类",
     "headers": [],
-    "path": "/category/vue/",
+    "path": "/category/webpack%E4%B8%8Evite/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "webpack与vite 分类",
+    "title": "Vue 分类",
     "headers": [],
-    "path": "/category/webpack%E4%B8%8Evite/",
+    "path": "/category/vue/",
     "pathLocale": "/",
     "extraFields": []
   },

@@ -62,7 +62,7 @@ GitHub生态：首选GitHub Actions</p>
 大企业：自建Jenkins/商业方案（Harness/GitLab Ultimate）</p>
 <p>💡 ​趋势提示​：GitOps模式（如Argo CD）已成为云原生部署的主流范式，建议新项目优先评估此类工具。</p>
 <p><strong>部署流程示例（GitHub Actions）</strong></p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>name: Production Deployment</span></span>
+<div class="language- line-numbers-mode has-collapsed-lines collapsed" data-highlighter="shiki" data-ext="" style="--vp-collapsed-lines:15;--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>name: Production Deployment</span></span>
 <span class="line"><span>on:</span></span>
 <span class="line"><span>  push:</span></span>
 <span class="line"><span>    branches: [ main ]</span></span>
@@ -83,7 +83,7 @@ GitHub生态：首选GitHub Actions</p>
 <span class="line"><span>    - run: |</span></span>
 <span class="line"><span>        aws s3 sync ./dist s3://my-bucket</span></span>
 <span class="line"><span>        aws cloudfront create-invalidation --distribution-id ${{ secrets.CF_ID }} --paths "/*"</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="开源工具" tabindex="-1"><a class="header-anchor" href="#开源工具"><span>开源工具</span></a></h3>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div><div class="collapsed-lines"></div></div><h3 id="开源工具" tabindex="-1"><a class="header-anchor" href="#开源工具"><span>开源工具</span></a></h3>
 <table>
 <thead>
 <tr>
