@@ -221,6 +221,71 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "正则表达式",
+    "headers": [
+      {
+        "level": 2,
+        "title": "正则表达式",
+        "slug": "正则表达式",
+        "link": "#正则表达式",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、什么是正则表达式？",
+            "slug": "一、什么是正则表达式",
+            "link": "#一、什么是正则表达式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、正则表达式的主要用途",
+            "slug": "二、正则表达式的主要用途",
+            "link": "#二、正则表达式的主要用途",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "三、正则表达式有哪些？（核心语法元素）",
+            "slug": "三、正则表达式有哪些-核心语法元素",
+            "link": "#三、正则表达式有哪些-核心语法元素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "四、一个简单的例子",
+            "slug": "四、一个简单的例子",
+            "link": "#四、一个简单的例子",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "五、不同流派（Flavors）",
+            "slug": "五、不同流派-flavors",
+            "link": "#五、不同流派-flavors",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "学习建议",
+            "slug": "学习建议",
+            "link": "#学习建议",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "return和break的区别",
+            "slug": "return和break的区别",
+            "link": "#return和break的区别",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/algorithm/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "排序方法",
     "headers": [
       {
