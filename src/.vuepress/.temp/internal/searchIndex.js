@@ -2245,56 +2245,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "webpack与vite",
-    "headers": [],
-    "path": "/code/webpack-vite/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "webpack打包优化方案",
-    "headers": [],
-    "path": "/code/webpack-vite/webpack-bundle.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "webpack Loader类型",
-    "headers": [],
-    "path": "/code/webpack-vite/webpack-loader.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "webpack与vite的区别",
-    "headers": [
-      {
-        "level": 2,
-        "title": "构建原理与性能",
-        "slug": "构建原理与性能",
-        "link": "#构建原理与性能",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "配置复杂度与生态支持",
-        "slug": "配置复杂度与生态支持",
-        "link": "#配置复杂度与生态支持",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "适用场景",
-        "slug": "适用场景",
-        "link": "#适用场景",
-        "children": []
-      }
-    ],
-    "path": "/code/webpack-vite/webpack-vite.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "pinia的使用",
     "headers": [
       {
@@ -2846,9 +2796,9 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
-        "title": "6.6. 【$refs、$parent】",
-        "slug": "_6-6-【-refs、-parent】",
-        "link": "#_6-6-【-refs、-parent】",
+        "title": "6.6. 【parent】",
+        "slug": "_6-6-【parent】",
+        "link": "#_6-6-【parent】",
         "children": []
       },
       {
@@ -3119,6 +3069,56 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/code/vue/vue3_nothis.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "webpack与vite",
+    "headers": [],
+    "path": "/code/webpack-vite/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "webpack打包优化方案",
+    "headers": [],
+    "path": "/code/webpack-vite/webpack-bundle.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "webpack Loader类型",
+    "headers": [],
+    "path": "/code/webpack-vite/webpack-loader.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "webpack与vite的区别",
+    "headers": [
+      {
+        "level": 2,
+        "title": "构建原理与性能",
+        "slug": "构建原理与性能",
+        "link": "#构建原理与性能",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "配置复杂度与生态支持",
+        "slug": "配置复杂度与生态支持",
+        "link": "#配置复杂度与生态支持",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "适用场景",
+        "slug": "适用场景",
+        "link": "#适用场景",
+        "children": []
+      }
+    ],
+    "path": "/code/webpack-vite/webpack-vite.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3578,16 +3578,16 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "webpack与vite 分类",
+    "title": "Vue 分类",
     "headers": [],
-    "path": "/category/webpack%E4%B8%8Evite/",
+    "path": "/category/vue/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Vue 分类",
+    "title": "webpack与vite 分类",
     "headers": [],
-    "path": "/category/vue/",
+    "path": "/category/webpack%E4%B8%8Evite/",
     "pathLocale": "/",
     "extraFields": []
   },

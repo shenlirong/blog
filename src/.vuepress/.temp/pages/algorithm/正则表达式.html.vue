@@ -55,7 +55,7 @@
 <h4 id="_4-位置锚点-匹配位置-而不是字符" tabindex="-1"><a class="header-anchor" href="#_4-位置锚点-匹配位置-而不是字符"><span>4. 位置锚点（匹配位置，而不是字符）</span></a></h4>
 <ul>
 <li><sup>：匹配字符串的开始位置。例如，</sup>Hello 只会匹配以 “Hello” 开头的字符串。</li>
-<li>$：匹配字符串的结束位置。例如，world$ 只会匹配以 “world” 结尾的字符串。</li>
+<li><span v-pre class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>：匹配字符串的结束位置。例如，</mtext><mi>w</mi><mi>o</mi><mi>r</mi><mi>l</mi><mi>d</mi></mrow><annotation encoding="application/x-tex">：匹配字符串的结束位置。例如，world</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord cjk_fallback">：匹配字符串的结束位置。例如，</span><span class="mord mathnormal" style="margin-right:0.02691em;">w</span><span class="mord mathnormal" style="margin-right:0.02778em;">or</span><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="mord mathnormal">d</span></span></span></span> 只会匹配以 “world” 结尾的字符串。</li>
 <li>\b：匹配一个单词边界（即单词和空格间的位置）。例如，\bcat\b 可以匹配 “a cat” 中的 “cat”，但不会匹配 “category” 中的 “cat”。</li>
 </ul>
 <h4 id="_5-分组与捕获" tabindex="-1"><a class="header-anchor" href="#_5-分组与捕获"><span>5. 分组与捕获</span></a></h4>
