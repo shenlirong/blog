@@ -1,9 +1,9 @@
 ---
-title: 遇到的问题记录
+title: 问题溯源与解决日志
 icon: laptop-code
 sticky: -1
 category:
-  - 项目
+  - 问题溯源与解决日志
 permalink: /project_sum/
 ---
 

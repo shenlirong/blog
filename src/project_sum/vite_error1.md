@@ -1,7 +1,7 @@
 ---
 title: 记一次vite项目无法启动的问题
 icon: pen-to-square
-sticky: 90
+# sticky: 90
 # index: false
 # article: false
 ---

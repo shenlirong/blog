@@ -109,12 +109,12 @@ export default hopeTheme({
     tasklist: true,
     vPre: true,
     highlighter: {
-      collapsedLines: true,
+      // collapsedLines: true,
       type: 'shiki'
     },
-    math: {
-      type: "katex", // 或 'mathjax'
-    },
+    // math: {
+    //   type: "katex", // 或 'mathjax'
+    // },
     // 取消注释它们如果你需要 TeX 支持
     // math: {
     //   // 启用前安装 katex

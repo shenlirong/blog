@@ -393,6 +393,107 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "阿房宫赋",
+    "headers": [],
+    "path": "/essay/epang.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "reveal随笔",
+    "headers": [],
+    "path": "/essay/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "背影",
+    "headers": [],
+    "path": "/essay/silhouette.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "问题溯源与解决日志",
+    "headers": [],
+    "path": "/project_sum/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "记一次vite项目无法启动的问题",
+    "headers": [
+      {
+        "level": 2,
+        "title": "问题描述",
+        "slug": "问题描述",
+        "link": "#问题描述",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "问题分析",
+        "slug": "问题分析",
+        "link": "#问题分析",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "解决方案",
+        "slug": "解决方案",
+        "link": "#解决方案",
+        "children": []
+      }
+    ],
+    "path": "/project_sum/vite_error1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "github.com访问不了问题解决",
+    "headers": [],
+    "path": "/project_sum/vite_git.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "1. 前端开发",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录列表",
+        "slug": "目录列表",
+        "link": "#目录列表",
+        "children": []
+      }
+    ],
+    "path": "/website/front-end.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "2. MarkDown 文档",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录列表",
+        "slug": "目录列表",
+        "link": "#目录列表",
+        "children": []
+      }
+    ],
+    "path": "/website/mkd.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "网站",
+    "headers": [],
+    "path": "/website/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "布局与功能禁用",
     "headers": [],
     "path": "/demo/disable.html",
@@ -497,100 +598,6 @@ export const SEARCH_INDEX = [
     "title": "主要功能与配置演示",
     "headers": [],
     "path": "/demo/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "阿房宫赋",
-    "headers": [],
-    "path": "/essay/epang.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "reveal随笔",
-    "headers": [],
-    "path": "/essay/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "背影",
-    "headers": [],
-    "path": "/essay/silhouette.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "遇到的问题记录",
-    "headers": [],
-    "path": "/project_sum/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "记一次vite项目无法启动的问题",
-    "headers": [
-      {
-        "level": 2,
-        "title": "问题描述",
-        "slug": "问题描述",
-        "link": "#问题描述",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "问题分析",
-        "slug": "问题分析",
-        "link": "#问题分析",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解决方案",
-        "slug": "解决方案",
-        "link": "#解决方案",
-        "children": []
-      }
-    ],
-    "path": "/project_sum/vite_error1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "1. 前端开发",
-    "headers": [
-      {
-        "level": 2,
-        "title": "目录列表",
-        "slug": "目录列表",
-        "link": "#目录列表",
-        "children": []
-      }
-    ],
-    "path": "/website/front-end.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "2. MarkDown 文档",
-    "headers": [
-      {
-        "level": 2,
-        "title": "目录列表",
-        "slug": "目录列表",
-        "link": "#目录列表",
-        "children": []
-      }
-    ],
-    "path": "/website/mkd.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "网站",
-    "headers": [],
-    "path": "/website/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2796,9 +2803,9 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
-        "title": "6.6. 【parent】",
-        "slug": "_6-6-【parent】",
-        "link": "#_6-6-【parent】",
+        "title": "6.6. 【$refs、$parent】",
+        "slug": "_6-6-【-refs、-parent】",
+        "link": "#_6-6-【-refs、-parent】",
         "children": []
       },
       {
@@ -3459,20 +3466,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "使用指南 分类",
-    "headers": [],
-    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "指南 分类",
-    "headers": [],
-    "path": "/category/%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "诗词赏析 分类",
     "headers": [],
     "path": "/category/%E8%AF%97%E8%AF%8D%E8%B5%8F%E6%9E%90/",
@@ -3497,6 +3490,20 @@ export const SEARCH_INDEX = [
     "title": "网站 分类",
     "headers": [],
     "path": "/category/%E7%BD%91%E7%AB%99/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "使用指南 分类",
+    "headers": [],
+    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "指南 分类",
+    "headers": [],
+    "path": "/category/%E6%8C%87%E5%8D%97/",
     "pathLocale": "/",
     "extraFields": []
   },

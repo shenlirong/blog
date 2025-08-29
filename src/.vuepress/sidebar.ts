@@ -94,13 +94,13 @@ export default sidebar({
     },
     {
       text: "知识点篇",
-      icon: "chart-diagram",
+      icon: "folder-minus",
       collapsible: true,
       prefix: "algorithm/",
       children: "structure",
     },
     {
-      text: "项目",
+      text: "问题溯源与解决日志",
       icon: "tarp",
       collapsible: true,
       prefix: "project_sum/",

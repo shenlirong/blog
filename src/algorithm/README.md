@@ -1,6 +1,6 @@
 ---
 title: 知识点篇
-icon: chart-diagram
+icon: folder-minus
 # sticky: -1
 category:
   - 知识点篇
