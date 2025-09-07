@@ -178,6 +178,837 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "数据结构、基础算法",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、哈希",
+        "slug": "一、哈希",
+        "link": "#一、哈希",
+        "children": [
+          {
+            "level": 3,
+            "title": "核心思想：将任意数据变成唯一的“数字指纹”",
+            "slug": "核心思想-将任意数据变成唯一的-数字指纹",
+            "link": "#核心思想-将任意数据变成唯一的-数字指纹",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "一个简单的例子",
+            "slug": "一个简单的例子",
+            "link": "#一个简单的例子",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "实际应用中常见的哈希算法",
+            "slug": "实际应用中常见的哈希算法",
+            "link": "#实际应用中常见的哈希算法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "哈希的用途（为什么它如此重要？）",
+            "slug": "哈希的用途-为什么它如此重要",
+            "link": "#哈希的用途-为什么它如此重要",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结",
+            "slug": "总结",
+            "link": "#总结",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "二、动态规划（Dynamic Programming, 简称DP）",
+        "slug": "二、动态规划-dynamic-programming-简称dp",
+        "link": "#二、动态规划-dynamic-programming-简称dp",
+        "children": [
+          {
+            "level": 3,
+            "title": "核心思想：用空间换时间",
+            "slug": "核心思想-用空间换时间",
+            "link": "#核心思想-用空间换时间",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "一个经典的例子：斐波那契数列",
+            "slug": "一个经典的例子-斐波那契数列",
+            "link": "#一个经典的例子-斐波那契数列",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "动态规划问题的两个关键特征",
+            "slug": "动态规划问题的两个关键特征",
+            "link": "#动态规划问题的两个关键特征",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "解决动态规划问题的通常步骤",
+            "slug": "解决动态规划问题的通常步骤",
+            "link": "#解决动态规划问题的通常步骤",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "动态规划的典型应用场景",
+            "slug": "动态规划的典型应用场景",
+            "link": "#动态规划的典型应用场景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结",
+            "slug": "总结-1",
+            "link": "#总结-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "三、贪心算法",
+        "slug": "三、贪心算法",
+        "link": "#三、贪心算法",
+        "children": [
+          {
+            "level": 3,
+            "title": "核心思想：眼前最优，但愿全局最优",
+            "slug": "核心思想-眼前最优-但愿全局最优",
+            "link": "#核心思想-眼前最优-但愿全局最优",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "一个经典的例子：找零钱问题",
+            "slug": "一个经典的例子-找零钱问题",
+            "link": "#一个经典的例子-找零钱问题",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "贪心算法并不总是有效",
+            "slug": "贪心算法并不总是有效",
+            "link": "#贪心算法并不总是有效",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "贪心算法的适用场景",
+            "slug": "贪心算法的适用场景",
+            "link": "#贪心算法的适用场景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "贪心算法的优缺点",
+            "slug": "贪心算法的优缺点",
+            "link": "#贪心算法的优缺点",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "典型的贪心算法应用",
+            "slug": "典型的贪心算法应用",
+            "link": "#典型的贪心算法应用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结：贪心 vs. 动态规划",
+            "slug": "总结-贪心-vs-动态规划",
+            "link": "#总结-贪心-vs-动态规划",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "四、广度优先搜索（BFS）",
+        "slug": "四、广度优先搜索-bfs",
+        "link": "#四、广度优先搜索-bfs",
+        "children": [
+          {
+            "level": 3,
+            "title": "一个生动的比喻：涟漪效应",
+            "slug": "一个生动的比喻-涟漪效应",
+            "link": "#一个生动的比喻-涟漪效应",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "BFS 是如何工作的？",
+            "slug": "bfs-是如何工作的",
+            "link": "#bfs-是如何工作的",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "图解BFS流程",
+            "slug": "图解bfs流程",
+            "link": "#图解bfs流程",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "BFS 的特点和应用场景",
+            "slug": "bfs-的特点和应用场景",
+            "link": "#bfs-的特点和应用场景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "与深度优先搜索（DFS）的简单对比",
+            "slug": "与深度优先搜索-dfs-的简单对比",
+            "link": "#与深度优先搜索-dfs-的简单对比",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结",
+            "slug": "总结-2",
+            "link": "#总结-2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "五、双指针",
+        "slug": "五、双指针",
+        "link": "#五、双指针",
+        "children": [
+          {
+            "level": 3,
+            "title": "核心思想",
+            "slug": "核心思想",
+            "link": "#核心思想",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "常见的三种应用场景",
+            "slug": "常见的三种应用场景",
+            "link": "#常见的三种应用场景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结与对比",
+            "slug": "总结与对比",
+            "link": "#总结与对比",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "六、深度优先搜索（DFS）",
+        "slug": "六、深度优先搜索-dfs",
+        "link": "#六、深度优先搜索-dfs",
+        "children": [
+          {
+            "level": 3,
+            "title": "一个生动的比喻：走迷宫",
+            "slug": "一个生动的比喻-走迷宫",
+            "link": "#一个生动的比喻-走迷宫",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "DFS 是如何工作的？",
+            "slug": "dfs-是如何工作的",
+            "link": "#dfs-是如何工作的",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "图解DFS流程",
+            "slug": "图解dfs流程",
+            "link": "#图解dfs流程",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "DFS 的特点和应用场景",
+            "slug": "dfs-的特点和应用场景",
+            "link": "#dfs-的特点和应用场景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "递归实现 vs. 迭代实现（栈）",
+            "slug": "递归实现-vs-迭代实现-栈",
+            "link": "#递归实现-vs-迭代实现-栈",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "与广度优先搜索（BFS）的简单对比回顾",
+            "slug": "与广度优先搜索-bfs-的简单对比回顾",
+            "link": "#与广度优先搜索-bfs-的简单对比回顾",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结",
+            "slug": "总结-3",
+            "link": "#总结-3",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "七、栈（Stack）",
+        "slug": "七、栈-stack",
+        "link": "#七、栈-stack",
+        "children": [
+          {
+            "level": 3,
+            "title": "核心思想：一摞盘子的比喻",
+            "slug": "核心思想-一摞盘子的比喻",
+            "link": "#核心思想-一摞盘子的比喻",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "栈的官方定义和操作",
+            "slug": "栈的官方定义和操作",
+            "link": "#栈的官方定义和操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "为什么栈如此重要？它的应用场景",
+            "slug": "为什么栈如此重要-它的应用场景",
+            "link": "#为什么栈如此重要-它的应用场景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "如何实现一个栈？",
+            "slug": "如何实现一个栈",
+            "link": "#如何实现一个栈",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结",
+            "slug": "总结-4",
+            "link": "#总结-4",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "八、堆（Heap）",
+        "slug": "八、堆-heap",
+        "link": "#八、堆-heap",
+        "children": [
+          {
+            "level": 3,
+            "title": "核心：两种“堆”的含义",
+            "slug": "核心-两种-堆-的含义",
+            "link": "#核心-两种-堆-的含义",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "一、作为数据结构的“堆”",
+        "slug": "一、作为数据结构的-堆",
+        "link": "#一、作为数据结构的-堆",
+        "children": [
+          {
+            "level": 3,
+            "title": "两种基本类型",
+            "slug": "两种基本类型",
+            "link": "#两种基本类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "堆的核心操作",
+            "slug": "堆的核心操作",
+            "link": "#堆的核心操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "堆的经典应用场景",
+            "slug": "堆的经典应用场景",
+            "link": "#堆的经典应用场景",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "二、内存管理中的“堆”",
+        "slug": "二、内存管理中的-堆",
+        "link": "#二、内存管理中的-堆",
+        "children": [
+          {
+            "level": 3,
+            "title": "总结与对比",
+            "slug": "总结与对比-1",
+            "link": "#总结与对比-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "九、队列（Queue）",
+        "slug": "九、队列-queue",
+        "link": "#九、队列-queue",
+        "children": [
+          {
+            "level": 3,
+            "title": "核心思想：排队的比喻",
+            "slug": "核心思想-排队的比喻",
+            "link": "#核心思想-排队的比喻",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "队列的官方定义和操作",
+            "slug": "队列的官方定义和操作",
+            "link": "#队列的官方定义和操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "为什么队列如此重要？它的应用场景",
+            "slug": "为什么队列如此重要-它的应用场景",
+            "link": "#为什么队列如此重要-它的应用场景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "队列的变体",
+            "slug": "队列的变体",
+            "link": "#队列的变体",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "如何实现一个队列？",
+            "slug": "如何实现一个队列",
+            "link": "#如何实现一个队列",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结",
+            "slug": "总结-5",
+            "link": "#总结-5",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "十、递归（Recursion）",
+        "slug": "十、递归-recursion",
+        "link": "#十、递归-recursion",
+        "children": [
+          {
+            "level": 3,
+            "title": "核心思想：一句话概括",
+            "slug": "核心思想-一句话概括",
+            "link": "#核心思想-一句话概括",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "一个生动的比喻：查字典",
+            "slug": "一个生动的比喻-查字典",
+            "link": "#一个生动的比喻-查字典",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "递归的两个必备要素",
+            "slug": "递归的两个必备要素",
+            "link": "#递归的两个必备要素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "经典示例：计算阶乘（Factorial）",
+            "slug": "经典示例-计算阶乘-factorial",
+            "link": "#经典示例-计算阶乘-factorial",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "递归的优缺点",
+            "slug": "递归的优缺点",
+            "link": "#递归的优缺点",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "递归的常见应用场景",
+            "slug": "递归的常见应用场景",
+            "link": "#递归的常见应用场景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "重要概念：调用栈（Call Stack）",
+            "slug": "重要概念-调用栈-call-stack",
+            "link": "#重要概念-调用栈-call-stack",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结",
+            "slug": "总结-6",
+            "link": "#总结-6",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "十一、回溯算法（Backtracking）",
+        "slug": "十一、回溯算法-backtracking",
+        "link": "#十一、回溯算法-backtracking",
+        "children": [
+          {
+            "level": 3,
+            "title": "核心思想：走迷宫与试错",
+            "slug": "核心思想-走迷宫与试错",
+            "link": "#核心思想-走迷宫与试错",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "为什么需要回溯？",
+            "slug": "为什么需要回溯",
+            "link": "#为什么需要回溯",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "回溯算法的框架",
+            "slug": "回溯算法的框架",
+            "link": "#回溯算法的框架",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "经典示例：全排列问题",
+            "slug": "经典示例-全排列问题",
+            "link": "#经典示例-全排列问题",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "回溯算法的常见应用场景",
+            "slug": "回溯算法的常见应用场景",
+            "link": "#回溯算法的常见应用场景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "回溯 vs. 深度优先搜索（DFS）",
+            "slug": "回溯-vs-深度优先搜索-dfs",
+            "link": "#回溯-vs-深度优先搜索-dfs",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结",
+            "slug": "总结-7",
+            "link": "#总结-7",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "十二、链表（Linked List）",
+        "slug": "十二、链表-linked-list",
+        "link": "#十二、链表-linked-list",
+        "children": [
+          {
+            "level": 3,
+            "title": "核心思想：寻宝游戏",
+            "slug": "核心思想-寻宝游戏",
+            "link": "#核心思想-寻宝游戏",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "链表的官方定义",
+            "slug": "链表的官方定义",
+            "link": "#链表的官方定义",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "为什么需要链表？与数组的对比",
+            "slug": "为什么需要链表-与数组的对比",
+            "link": "#为什么需要链表-与数组的对比",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "链表的常见类型",
+            "slug": "链表的常见类型",
+            "link": "#链表的常见类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "链表的应用场景",
+            "slug": "链表的应用场景",
+            "link": "#链表的应用场景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结",
+            "slug": "总结-8",
+            "link": "#总结-8",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "十三、二叉树（Binary Tree）",
+        "slug": "十三、二叉树-binary-tree",
+        "link": "#十三、二叉树-binary-tree",
+        "children": [
+          {
+            "level": 3,
+            "title": "核心思想：家族谱系的比喻",
+            "slug": "核心思想-家族谱系的比喻",
+            "link": "#核心思想-家族谱系的比喻",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二叉树的官方定义",
+            "slug": "二叉树的官方定义",
+            "link": "#二叉树的官方定义",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "为什么需要二叉树？与线性结构的对比",
+            "slug": "为什么需要二叉树-与线性结构的对比",
+            "link": "#为什么需要二叉树-与线性结构的对比",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二叉树的重要特性与术语",
+            "slug": "二叉树的重要特性与术语",
+            "link": "#二叉树的重要特性与术语",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二叉树的常见类型",
+            "slug": "二叉树的常见类型",
+            "link": "#二叉树的常见类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二叉树的遍历（Traversal）",
+            "slug": "二叉树的遍历-traversal",
+            "link": "#二叉树的遍历-traversal",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二叉树的应用场景",
+            "slug": "二叉树的应用场景",
+            "link": "#二叉树的应用场景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结",
+            "slug": "总结-9",
+            "link": "#总结-9",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "十四、二分查找（Binary Search）",
+        "slug": "十四、二分查找-binary-search",
+        "link": "#十四、二分查找-binary-search",
+        "children": [
+          {
+            "level": 3,
+            "title": "核心思想：猜数字游戏",
+            "slug": "核心思想-猜数字游戏",
+            "link": "#核心思想-猜数字游戏",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "官方定义与前提条件",
+            "slug": "官方定义与前提条件",
+            "link": "#官方定义与前提条件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "算法的工作步骤（以升序数组为例）",
+            "slug": "算法的工作步骤-以升序数组为例",
+            "link": "#算法的工作步骤-以升序数组为例",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "代码实现（迭代版本）",
+            "slug": "代码实现-迭代版本",
+            "link": "#代码实现-迭代版本",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二分查找的威力：时间复杂度",
+            "slug": "二分查找的威力-时间复杂度",
+            "link": "#二分查找的威力-时间复杂度",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二分查找的应用场景",
+            "slug": "二分查找的应用场景",
+            "link": "#二分查找的应用场景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结",
+            "slug": "总结-10",
+            "link": "#总结-10",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "十五、排序（Sorting）",
+        "slug": "十五、排序-sorting",
+        "link": "#十五、排序-sorting",
+        "children": [
+          {
+            "level": 3,
+            "title": "核心思想：整理扑克牌",
+            "slug": "核心思想-整理扑克牌",
+            "link": "#核心思想-整理扑克牌",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "为什么排序如此重要？",
+            "slug": "为什么排序如此重要",
+            "link": "#为什么排序如此重要",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "常见的排序算法",
+            "slug": "常见的排序算法",
+            "link": "#常见的排序算法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "如何衡量排序算法的优劣？",
+            "slug": "如何衡量排序算法的优劣",
+            "link": "#如何衡量排序算法的优劣",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结与实践",
+            "slug": "总结与实践",
+            "link": "#总结与实践",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "十六、模拟（Simulation）",
+        "slug": "十六、模拟-simulation",
+        "link": "#十六、模拟-simulation",
+        "children": [
+          {
+            "level": 3,
+            "title": "核心思想：角色扮演",
+            "slug": "核心思想-角色扮演",
+            "link": "#核心思想-角色扮演",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "为什么需要模拟？",
+            "slug": "为什么需要模拟",
+            "link": "#为什么需要模拟",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "模拟的特点",
+            "slug": "模拟的特点",
+            "link": "#模拟的特点",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "模拟问题的分类和解决方法",
+            "slug": "模拟问题的分类和解决方法",
+            "link": "#模拟问题的分类和解决方法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "如何解决模拟题？",
+            "slug": "如何解决模拟题",
+            "link": "#如何解决模拟题",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结",
+            "slug": "总结-11",
+            "link": "#总结-11",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/algorithm/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "字符串",
     "headers": [
       {
@@ -393,6 +1224,27 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "阿房宫赋",
+    "headers": [],
+    "path": "/essay/epang.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "reveal随笔",
+    "headers": [],
+    "path": "/essay/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "背影",
+    "headers": [],
+    "path": "/essay/silhouette.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "布局与功能禁用",
     "headers": [],
     "path": "/demo/disable.html",
@@ -497,27 +1349,6 @@ export const SEARCH_INDEX = [
     "title": "主要功能与配置演示",
     "headers": [],
     "path": "/demo/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "阿房宫赋",
-    "headers": [],
-    "path": "/essay/epang.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "reveal随笔",
-    "headers": [],
-    "path": "/essay/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "背影",
-    "headers": [],
-    "path": "/essay/silhouette.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3466,20 +4297,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "使用指南 分类",
-    "headers": [],
-    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "指南 分类",
-    "headers": [],
-    "path": "/category/%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "诗词赏析 分类",
     "headers": [],
     "path": "/category/%E8%AF%97%E8%AF%8D%E8%B5%8F%E6%9E%90/",
@@ -3490,6 +4307,20 @@ export const SEARCH_INDEX = [
     "title": "reveal随笔 分类",
     "headers": [],
     "path": "/category/reveal%E9%9A%8F%E7%AC%94/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "使用指南 分类",
+    "headers": [],
+    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "指南 分类",
+    "headers": [],
+    "path": "/category/%E6%8C%87%E5%8D%97/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3707,837 +4538,6 @@ export const SEARCH_INDEX = [
     "title": "时间轴",
     "headers": [],
     "path": "/timeline/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "数据结构、基础算法",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、哈希",
-        "slug": "一、哈希",
-        "link": "#一、哈希",
-        "children": [
-          {
-            "level": 3,
-            "title": "核心思想：将任意数据变成唯一的“数字指纹”",
-            "slug": "核心思想-将任意数据变成唯一的-数字指纹",
-            "link": "#核心思想-将任意数据变成唯一的-数字指纹",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "一个简单的例子",
-            "slug": "一个简单的例子",
-            "link": "#一个简单的例子",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "实际应用中常见的哈希算法",
-            "slug": "实际应用中常见的哈希算法",
-            "link": "#实际应用中常见的哈希算法",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "哈希的用途（为什么它如此重要？）",
-            "slug": "哈希的用途-为什么它如此重要",
-            "link": "#哈希的用途-为什么它如此重要",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总结",
-            "slug": "总结",
-            "link": "#总结",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "二、动态规划",
-        "slug": "二、动态规划",
-        "link": "#二、动态规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "核心思想：用空间换时间",
-            "slug": "核心思想-用空间换时间",
-            "link": "#核心思想-用空间换时间",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "一个经典的例子：斐波那契数列",
-            "slug": "一个经典的例子-斐波那契数列",
-            "link": "#一个经典的例子-斐波那契数列",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "动态规划问题的两个关键特征",
-            "slug": "动态规划问题的两个关键特征",
-            "link": "#动态规划问题的两个关键特征",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "解决动态规划问题的通常步骤",
-            "slug": "解决动态规划问题的通常步骤",
-            "link": "#解决动态规划问题的通常步骤",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "动态规划的典型应用场景",
-            "slug": "动态规划的典型应用场景",
-            "link": "#动态规划的典型应用场景",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总结",
-            "slug": "总结-1",
-            "link": "#总结-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "三、贪心算法",
-        "slug": "三、贪心算法",
-        "link": "#三、贪心算法",
-        "children": [
-          {
-            "level": 3,
-            "title": "核心思想：眼前最优，但愿全局最优",
-            "slug": "核心思想-眼前最优-但愿全局最优",
-            "link": "#核心思想-眼前最优-但愿全局最优",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "一个经典的例子：找零钱问题",
-            "slug": "一个经典的例子-找零钱问题",
-            "link": "#一个经典的例子-找零钱问题",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "贪心算法并不总是有效",
-            "slug": "贪心算法并不总是有效",
-            "link": "#贪心算法并不总是有效",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "贪心算法的适用场景",
-            "slug": "贪心算法的适用场景",
-            "link": "#贪心算法的适用场景",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "贪心算法的优缺点",
-            "slug": "贪心算法的优缺点",
-            "link": "#贪心算法的优缺点",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "典型的贪心算法应用",
-            "slug": "典型的贪心算法应用",
-            "link": "#典型的贪心算法应用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总结：贪心 vs. 动态规划",
-            "slug": "总结-贪心-vs-动态规划",
-            "link": "#总结-贪心-vs-动态规划",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "四、广度优先搜索（BFS）",
-        "slug": "四、广度优先搜索-bfs",
-        "link": "#四、广度优先搜索-bfs",
-        "children": [
-          {
-            "level": 3,
-            "title": "一个生动的比喻：涟漪效应",
-            "slug": "一个生动的比喻-涟漪效应",
-            "link": "#一个生动的比喻-涟漪效应",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "BFS 是如何工作的？",
-            "slug": "bfs-是如何工作的",
-            "link": "#bfs-是如何工作的",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "图解BFS流程",
-            "slug": "图解bfs流程",
-            "link": "#图解bfs流程",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "BFS 的特点和应用场景",
-            "slug": "bfs-的特点和应用场景",
-            "link": "#bfs-的特点和应用场景",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "与深度优先搜索（DFS）的简单对比",
-            "slug": "与深度优先搜索-dfs-的简单对比",
-            "link": "#与深度优先搜索-dfs-的简单对比",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总结",
-            "slug": "总结-2",
-            "link": "#总结-2",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "五、双指针",
-        "slug": "五、双指针",
-        "link": "#五、双指针",
-        "children": [
-          {
-            "level": 3,
-            "title": "核心思想",
-            "slug": "核心思想",
-            "link": "#核心思想",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "常见的三种应用场景",
-            "slug": "常见的三种应用场景",
-            "link": "#常见的三种应用场景",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总结与对比",
-            "slug": "总结与对比",
-            "link": "#总结与对比",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "六、深度优先搜索（DFS）",
-        "slug": "六、深度优先搜索-dfs",
-        "link": "#六、深度优先搜索-dfs",
-        "children": [
-          {
-            "level": 3,
-            "title": "一个生动的比喻：走迷宫",
-            "slug": "一个生动的比喻-走迷宫",
-            "link": "#一个生动的比喻-走迷宫",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "DFS 是如何工作的？",
-            "slug": "dfs-是如何工作的",
-            "link": "#dfs-是如何工作的",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "图解DFS流程",
-            "slug": "图解dfs流程",
-            "link": "#图解dfs流程",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "DFS 的特点和应用场景",
-            "slug": "dfs-的特点和应用场景",
-            "link": "#dfs-的特点和应用场景",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "递归实现 vs. 迭代实现（栈）",
-            "slug": "递归实现-vs-迭代实现-栈",
-            "link": "#递归实现-vs-迭代实现-栈",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "与广度优先搜索（BFS）的简单对比回顾",
-            "slug": "与广度优先搜索-bfs-的简单对比回顾",
-            "link": "#与广度优先搜索-bfs-的简单对比回顾",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总结",
-            "slug": "总结-3",
-            "link": "#总结-3",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "七、栈（Stack）",
-        "slug": "七、栈-stack",
-        "link": "#七、栈-stack",
-        "children": [
-          {
-            "level": 3,
-            "title": "核心思想：一摞盘子的比喻",
-            "slug": "核心思想-一摞盘子的比喻",
-            "link": "#核心思想-一摞盘子的比喻",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "栈的官方定义和操作",
-            "slug": "栈的官方定义和操作",
-            "link": "#栈的官方定义和操作",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "为什么栈如此重要？它的应用场景",
-            "slug": "为什么栈如此重要-它的应用场景",
-            "link": "#为什么栈如此重要-它的应用场景",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "如何实现一个栈？",
-            "slug": "如何实现一个栈",
-            "link": "#如何实现一个栈",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总结",
-            "slug": "总结-4",
-            "link": "#总结-4",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "八、堆（Heap）",
-        "slug": "八、堆-heap",
-        "link": "#八、堆-heap",
-        "children": [
-          {
-            "level": 3,
-            "title": "核心：两种“堆”的含义",
-            "slug": "核心-两种-堆-的含义",
-            "link": "#核心-两种-堆-的含义",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "一、作为数据结构的“堆”",
-        "slug": "一、作为数据结构的-堆",
-        "link": "#一、作为数据结构的-堆",
-        "children": [
-          {
-            "level": 3,
-            "title": "两种基本类型",
-            "slug": "两种基本类型",
-            "link": "#两种基本类型",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "堆的核心操作",
-            "slug": "堆的核心操作",
-            "link": "#堆的核心操作",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "堆的经典应用场景",
-            "slug": "堆的经典应用场景",
-            "link": "#堆的经典应用场景",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "二、内存管理中的“堆”",
-        "slug": "二、内存管理中的-堆",
-        "link": "#二、内存管理中的-堆",
-        "children": [
-          {
-            "level": 3,
-            "title": "总结与对比",
-            "slug": "总结与对比-1",
-            "link": "#总结与对比-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "九、队列（Queue）",
-        "slug": "九、队列-queue",
-        "link": "#九、队列-queue",
-        "children": [
-          {
-            "level": 3,
-            "title": "核心思想：排队的比喻",
-            "slug": "核心思想-排队的比喻",
-            "link": "#核心思想-排队的比喻",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "队列的官方定义和操作",
-            "slug": "队列的官方定义和操作",
-            "link": "#队列的官方定义和操作",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "为什么队列如此重要？它的应用场景",
-            "slug": "为什么队列如此重要-它的应用场景",
-            "link": "#为什么队列如此重要-它的应用场景",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "队列的变体",
-            "slug": "队列的变体",
-            "link": "#队列的变体",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "如何实现一个队列？",
-            "slug": "如何实现一个队列",
-            "link": "#如何实现一个队列",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总结",
-            "slug": "总结-5",
-            "link": "#总结-5",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "十、递归（Recursion）",
-        "slug": "十、递归-recursion",
-        "link": "#十、递归-recursion",
-        "children": [
-          {
-            "level": 3,
-            "title": "核心思想：一句话概括",
-            "slug": "核心思想-一句话概括",
-            "link": "#核心思想-一句话概括",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "一个生动的比喻：查字典",
-            "slug": "一个生动的比喻-查字典",
-            "link": "#一个生动的比喻-查字典",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "递归的两个必备要素",
-            "slug": "递归的两个必备要素",
-            "link": "#递归的两个必备要素",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "经典示例：计算阶乘（Factorial）",
-            "slug": "经典示例-计算阶乘-factorial",
-            "link": "#经典示例-计算阶乘-factorial",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "递归的优缺点",
-            "slug": "递归的优缺点",
-            "link": "#递归的优缺点",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "递归的常见应用场景",
-            "slug": "递归的常见应用场景",
-            "link": "#递归的常见应用场景",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "重要概念：调用栈（Call Stack）",
-            "slug": "重要概念-调用栈-call-stack",
-            "link": "#重要概念-调用栈-call-stack",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总结",
-            "slug": "总结-6",
-            "link": "#总结-6",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "十一、回溯算法（Backtracking）",
-        "slug": "十一、回溯算法-backtracking",
-        "link": "#十一、回溯算法-backtracking",
-        "children": [
-          {
-            "level": 3,
-            "title": "核心思想：走迷宫与试错",
-            "slug": "核心思想-走迷宫与试错",
-            "link": "#核心思想-走迷宫与试错",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "为什么需要回溯？",
-            "slug": "为什么需要回溯",
-            "link": "#为什么需要回溯",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "回溯算法的框架",
-            "slug": "回溯算法的框架",
-            "link": "#回溯算法的框架",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "经典示例：全排列问题",
-            "slug": "经典示例-全排列问题",
-            "link": "#经典示例-全排列问题",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "回溯算法的常见应用场景",
-            "slug": "回溯算法的常见应用场景",
-            "link": "#回溯算法的常见应用场景",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "回溯 vs. 深度优先搜索（DFS）",
-            "slug": "回溯-vs-深度优先搜索-dfs",
-            "link": "#回溯-vs-深度优先搜索-dfs",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总结",
-            "slug": "总结-7",
-            "link": "#总结-7",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "十二、链表（Linked List）",
-        "slug": "十二、链表-linked-list",
-        "link": "#十二、链表-linked-list",
-        "children": [
-          {
-            "level": 3,
-            "title": "核心思想：寻宝游戏",
-            "slug": "核心思想-寻宝游戏",
-            "link": "#核心思想-寻宝游戏",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "链表的官方定义",
-            "slug": "链表的官方定义",
-            "link": "#链表的官方定义",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "为什么需要链表？与数组的对比",
-            "slug": "为什么需要链表-与数组的对比",
-            "link": "#为什么需要链表-与数组的对比",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "链表的常见类型",
-            "slug": "链表的常见类型",
-            "link": "#链表的常见类型",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "链表的应用场景",
-            "slug": "链表的应用场景",
-            "link": "#链表的应用场景",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总结",
-            "slug": "总结-8",
-            "link": "#总结-8",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "十三、二叉树（Binary Tree）",
-        "slug": "十三、二叉树-binary-tree",
-        "link": "#十三、二叉树-binary-tree",
-        "children": [
-          {
-            "level": 3,
-            "title": "核心思想：家族谱系的比喻",
-            "slug": "核心思想-家族谱系的比喻",
-            "link": "#核心思想-家族谱系的比喻",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二叉树的官方定义",
-            "slug": "二叉树的官方定义",
-            "link": "#二叉树的官方定义",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "为什么需要二叉树？与线性结构的对比",
-            "slug": "为什么需要二叉树-与线性结构的对比",
-            "link": "#为什么需要二叉树-与线性结构的对比",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二叉树的重要特性与术语",
-            "slug": "二叉树的重要特性与术语",
-            "link": "#二叉树的重要特性与术语",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二叉树的常见类型",
-            "slug": "二叉树的常见类型",
-            "link": "#二叉树的常见类型",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二叉树的遍历（Traversal）",
-            "slug": "二叉树的遍历-traversal",
-            "link": "#二叉树的遍历-traversal",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二叉树的应用场景",
-            "slug": "二叉树的应用场景",
-            "link": "#二叉树的应用场景",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总结",
-            "slug": "总结-9",
-            "link": "#总结-9",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "十四、二分查找（Binary Search）",
-        "slug": "十四、二分查找-binary-search",
-        "link": "#十四、二分查找-binary-search",
-        "children": [
-          {
-            "level": 3,
-            "title": "核心思想：猜数字游戏",
-            "slug": "核心思想-猜数字游戏",
-            "link": "#核心思想-猜数字游戏",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "官方定义与前提条件",
-            "slug": "官方定义与前提条件",
-            "link": "#官方定义与前提条件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "算法的工作步骤（以升序数组为例）",
-            "slug": "算法的工作步骤-以升序数组为例",
-            "link": "#算法的工作步骤-以升序数组为例",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "代码实现（迭代版本）",
-            "slug": "代码实现-迭代版本",
-            "link": "#代码实现-迭代版本",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二分查找的威力：时间复杂度",
-            "slug": "二分查找的威力-时间复杂度",
-            "link": "#二分查找的威力-时间复杂度",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二分查找的应用场景",
-            "slug": "二分查找的应用场景",
-            "link": "#二分查找的应用场景",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总结",
-            "slug": "总结-10",
-            "link": "#总结-10",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "十五、排序（Sorting）",
-        "slug": "十五、排序-sorting",
-        "link": "#十五、排序-sorting",
-        "children": [
-          {
-            "level": 3,
-            "title": "核心思想：整理扑克牌",
-            "slug": "核心思想-整理扑克牌",
-            "link": "#核心思想-整理扑克牌",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "为什么排序如此重要？",
-            "slug": "为什么排序如此重要",
-            "link": "#为什么排序如此重要",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "常见的排序算法",
-            "slug": "常见的排序算法",
-            "link": "#常见的排序算法",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "如何衡量排序算法的优劣？",
-            "slug": "如何衡量排序算法的优劣",
-            "link": "#如何衡量排序算法的优劣",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总结与实践",
-            "slug": "总结与实践",
-            "link": "#总结与实践",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "十六、模拟（Simulation）",
-        "slug": "十六、模拟-simulation",
-        "link": "#十六、模拟-simulation",
-        "children": [
-          {
-            "level": 3,
-            "title": "核心思想：角色扮演",
-            "slug": "核心思想-角色扮演",
-            "link": "#核心思想-角色扮演",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "为什么需要模拟？",
-            "slug": "为什么需要模拟",
-            "link": "#为什么需要模拟",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "模拟的特点",
-            "slug": "模拟的特点",
-            "link": "#模拟的特点",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "模拟问题的分类和解决方法",
-            "slug": "模拟问题的分类和解决方法",
-            "link": "#模拟问题的分类和解决方法",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "如何解决模拟题？",
-            "slug": "如何解决模拟题",
-            "link": "#如何解决模拟题",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总结",
-            "slug": "总结-11",
-            "link": "#总结-11",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/algorithm/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95.html",
     "pathLocale": "/",
     "extraFields": []
   }

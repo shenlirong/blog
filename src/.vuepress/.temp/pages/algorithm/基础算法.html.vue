@@ -73,10 +73,10 @@
 <li>完整性：确保数据没有被篡改或损坏。</li>
 <li>高效性：为数据结构提供快速的查找能力。</li>
 </ul>
-<h2 id="二、动态规划" tabindex="-1"><a class="header-anchor" href="#二、动态规划"><span>二、动态规划</span></a></h2>
+<h2 id="二、动态规划-dynamic-programming-简称dp" tabindex="-1"><a class="header-anchor" href="#二、动态规划-dynamic-programming-简称dp"><span>二、动态规划（Dynamic Programming, 简称DP）</span></a></h2>
 <h3 id="核心思想-用空间换时间" tabindex="-1"><a class="header-anchor" href="#核心思想-用空间换时间"><span>核心思想：用空间换时间</span></a></h3>
 <p>动态规划的本质是一种优化技术，它通过巧妙地“记住”已经解决过的子问题的答案，来避免重复计算，从而大幅提高算法效率。<br>
-它主要用来解决一类特定问题：具有重叠子问题和最优子结构的问题。<br>
+它主要用来解决一类特定问题：<strong>具有重叠子问题和最优子结构的问题。</strong><br>
 别怕，这两个术语我们马上就会解释清楚。</p>
 <h3 id="一个经典的例子-斐波那契数列" tabindex="-1"><a class="header-anchor" href="#一个经典的例子-斐波那契数列"><span>一个经典的例子：斐波那契数列</span></a></h3>
 <p>斐波那契数列的定义是：</p>
@@ -489,7 +489,7 @@ BFS 就是这样“涟漪式”的搜索过程。它保证你总是先找到离�
 <h3 id="bfs-的特点和应用场景" tabindex="-1"><a class="header-anchor" href="#bfs-的特点和应用场景"><span>BFS 的特点和应用场景</span></a></h3>
 <h4 id="特点" tabindex="-1"><a class="header-anchor" href="#特点"><span>特点：</span></a></h4>
 <ul>
-<li>** completeness（完备性）**：如果目标存在，BFS 一定能找到它。</li>
+<li>completeness（完备性）：如果目标存在，BFS 一定能找到它。</li>
 <li>最优性：当图中的边没有权重（或权重相等）时，BFS 找到的路径一定是从起点到目标的最短路径（因为按层遍历，第一次遇到目标时经过的边数肯定最少）。这是它的核心优势！</li>
 <li>空间复杂度高：因为需要用一个队列来存储每一层的所有节点。对于分支因子（每个节点的平均子节点数）很高的树/图，可能会消耗大量内存。</li>
 </ul>
@@ -705,7 +705,7 @@ DFS 就是这种“钻牛角尖”式的搜索过程。它优先探索一条路�
 <h3 id="dfs-的特点和应用场景" tabindex="-1"><a class="header-anchor" href="#dfs-的特点和应用场景"><span>DFS 的特点和应用场景</span></a></h3>
 <h4 id="特点-1" tabindex="-1"><a class="header-anchor" href="#特点-1"><span>特点：</span></a></h4>
 <ul>
-<li>** completeness（完备性）**：如果目标存在，且图是有限的，DFS 一定能找到它（但路径可能不是最优的）。</li>
+<li>completeness（完备性）：如果目标存在，且图是有限的，DFS 一定能找到它（但路径可能不是最优的）。</li>
 <li>非最优解：DFS 找到的路径不一定是最短路径。因为它可能在一个很深的分支上找到目标，而实际上存在一个更近的解。</li>
 <li>空间复杂度相对较低：在最坏情况下（如一条线性的链），空间复杂度为 O(h)，其中 h 是图的最大深度。这通常比 BFS 的 O(n) 要好。</li>
 </ul>
