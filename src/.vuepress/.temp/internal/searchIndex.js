@@ -14,6 +14,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "代码笔记",
+    "headers": [],
+    "path": "/code/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "数组相关",
     "headers": [
       {
@@ -1217,34 +1224,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "代码笔记",
-    "headers": [],
-    "path": "/code/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "阿房宫赋",
-    "headers": [],
-    "path": "/essay/epang.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "reveal随笔",
-    "headers": [],
-    "path": "/essay/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "背影",
-    "headers": [],
-    "path": "/essay/silhouette.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "布局与功能禁用",
     "headers": [],
     "path": "/demo/disable.html",
@@ -1349,6 +1328,27 @@ export const SEARCH_INDEX = [
     "title": "主要功能与配置演示",
     "headers": [],
     "path": "/demo/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "阿房宫赋",
+    "headers": [],
+    "path": "/essay/epang.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "reveal随笔",
+    "headers": [],
+    "path": "/essay/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "背影",
+    "headers": [],
+    "path": "/essay/silhouette.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1762,244 +1762,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "‌CI/CD‌概念",
-    "headers": [
-      {
-        "level": 2,
-        "title": "持续部署CD有哪些工具",
-        "slug": "持续部署cd有哪些工具",
-        "link": "#持续部署cd有哪些工具",
-        "children": [
-          {
-            "level": 3,
-            "title": "开源工具",
-            "slug": "开源工具",
-            "link": "#开源工具",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "商业云服务",
-            "slug": "商业云服务",
-            "link": "#商业云服务",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "专用工具",
-            "slug": "专用工具",
-            "link": "#专用工具",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "新兴趋势工具",
-            "slug": "新兴趋势工具",
-            "link": "#新兴趋势工具",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "选型参考维度：",
-            "slug": "选型参考维度",
-            "link": "#选型参考维度",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "示例架构：现代CD工具链组合",
-            "slug": "示例架构-现代cd工具链组合",
-            "link": "#示例架构-现代cd工具链组合",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/code/enginer/ci-cd.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "封装一个组件需要考虑什么",
-    "headers": [],
-    "path": "/code/enginer/component-encapsulation.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "docker相关",
-    "headers": [],
-    "path": "/code/enginer/docker.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "前端工程化",
-    "headers": [],
-    "path": "/code/enginer/front-end-engineer.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Jenkins",
-    "headers": [
-      {
-        "level": 2,
-        "title": "GitLab安装使用",
-        "slug": "gitlab安装使用",
-        "link": "#gitlab安装使用",
-        "children": [
-          {
-            "level": 3,
-            "title": "在ssh下安装",
-            "slug": "在ssh下安装",
-            "link": "#在ssh下安装",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "在docker下安装",
-            "slug": "在docker下安装",
-            "link": "#在docker下安装",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Jenkins安装",
-        "slug": "jenkins安装",
-        "link": "#jenkins安装",
-        "children": [
-          {
-            "level": 3,
-            "title": "安装JDK",
-            "slug": "安装jdk",
-            "link": "#安装jdk",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Maven安装",
-            "slug": "maven安装",
-            "link": "#maven安装",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Jenkins + Git + Maven 自动化部署配置",
-        "slug": "jenkins-git-maven-自动化部署配置",
-        "link": "#jenkins-git-maven-自动化部署配置",
-        "children": [
-          {
-            "level": 3,
-            "title": "git安装",
-            "slug": "git安装",
-            "link": "#git安装",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "publish over ssh 配置",
-            "slug": "publish-over-ssh-配置",
-            "link": "#publish-over-ssh-配置",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "运行前清理",
-            "slug": "运行前清理",
-            "link": "#运行前清理",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "几种构建方式",
-            "slug": "几种构建方式",
-            "link": "#几种构建方式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "测试报告邮件通知",
-            "slug": "测试报告邮件通知",
-            "link": "#测试报告邮件通知",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "",
-            "slug": "",
-            "link": "#",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "自动化部署到docker容器中",
-            "slug": "自动化部署到docker容器中",
-            "link": "#自动化部署到docker容器中",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Jenkins集群/并发构建",
-        "slug": "jenkins集群-并发构建",
-        "link": "#jenkins集群-并发构建",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "流水线 pipeline",
-        "slug": "流水线-pipeline",
-        "link": "#流水线-pipeline",
-        "children": [
-          {
-            "level": 3,
-            "title": "完整语法",
-            "slug": "完整语法",
-            "link": "#完整语法",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "测试脚本",
-            "slug": "测试脚本",
-            "link": "#测试脚本",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "pipeline中执行自动化构建",
-            "slug": "pipeline中执行自动化构建",
-            "link": "#pipeline中执行自动化构建",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/code/enginer/Jenkins.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "nodejs主流框架",
-    "headers": [],
-    "path": "/code/enginer/node-basic.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Front-end",
-    "headers": [],
-    "path": "/code/enginer/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Mapbox API",
     "headers": [
       {
@@ -2249,6 +2011,358 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/code/HTML/wrap.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "‌CI/CD‌概念",
+    "headers": [
+      {
+        "level": 2,
+        "title": "持续部署CD有哪些工具",
+        "slug": "持续部署cd有哪些工具",
+        "link": "#持续部署cd有哪些工具",
+        "children": [
+          {
+            "level": 3,
+            "title": "开源工具",
+            "slug": "开源工具",
+            "link": "#开源工具",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "商业云服务",
+            "slug": "商业云服务",
+            "link": "#商业云服务",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "专用工具",
+            "slug": "专用工具",
+            "link": "#专用工具",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "新兴趋势工具",
+            "slug": "新兴趋势工具",
+            "link": "#新兴趋势工具",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "选型参考维度：",
+            "slug": "选型参考维度",
+            "link": "#选型参考维度",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "示例架构：现代CD工具链组合",
+            "slug": "示例架构-现代cd工具链组合",
+            "link": "#示例架构-现代cd工具链组合",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/code/enginer/ci-cd.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "封装一个组件需要考虑什么",
+    "headers": [],
+    "path": "/code/enginer/component-encapsulation.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "docker相关",
+    "headers": [],
+    "path": "/code/enginer/docker.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "前端工程化",
+    "headers": [],
+    "path": "/code/enginer/front-end-engineer.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Jenkins",
+    "headers": [
+      {
+        "level": 2,
+        "title": "GitLab安装使用",
+        "slug": "gitlab安装使用",
+        "link": "#gitlab安装使用",
+        "children": [
+          {
+            "level": 3,
+            "title": "在ssh下安装",
+            "slug": "在ssh下安装",
+            "link": "#在ssh下安装",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "在docker下安装",
+            "slug": "在docker下安装",
+            "link": "#在docker下安装",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Jenkins安装",
+        "slug": "jenkins安装",
+        "link": "#jenkins安装",
+        "children": [
+          {
+            "level": 3,
+            "title": "安装JDK",
+            "slug": "安装jdk",
+            "link": "#安装jdk",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Maven安装",
+            "slug": "maven安装",
+            "link": "#maven安装",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Jenkins + Git + Maven 自动化部署配置",
+        "slug": "jenkins-git-maven-自动化部署配置",
+        "link": "#jenkins-git-maven-自动化部署配置",
+        "children": [
+          {
+            "level": 3,
+            "title": "git安装",
+            "slug": "git安装",
+            "link": "#git安装",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "publish over ssh 配置",
+            "slug": "publish-over-ssh-配置",
+            "link": "#publish-over-ssh-配置",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "运行前清理",
+            "slug": "运行前清理",
+            "link": "#运行前清理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "几种构建方式",
+            "slug": "几种构建方式",
+            "link": "#几种构建方式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "测试报告邮件通知",
+            "slug": "测试报告邮件通知",
+            "link": "#测试报告邮件通知",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "",
+            "slug": "",
+            "link": "#",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "自动化部署到docker容器中",
+            "slug": "自动化部署到docker容器中",
+            "link": "#自动化部署到docker容器中",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Jenkins集群/并发构建",
+        "slug": "jenkins集群-并发构建",
+        "link": "#jenkins集群-并发构建",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "流水线 pipeline",
+        "slug": "流水线-pipeline",
+        "link": "#流水线-pipeline",
+        "children": [
+          {
+            "level": 3,
+            "title": "完整语法",
+            "slug": "完整语法",
+            "link": "#完整语法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "测试脚本",
+            "slug": "测试脚本",
+            "link": "#测试脚本",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "pipeline中执行自动化构建",
+            "slug": "pipeline中执行自动化构建",
+            "link": "#pipeline中执行自动化构建",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/code/enginer/Jenkins.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "nodejs主流框架",
+    "headers": [],
+    "path": "/code/enginer/node-basic.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Front-end",
+    "headers": [],
+    "path": "/code/enginer/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Micro front-end",
+    "headers": [],
+    "path": "/code/microfront/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "microfront",
+    "headers": [
+      {
+        "level": 3,
+        "title": "一、 用生活比喻理解",
+        "slug": "一、-用生活比喻理解",
+        "link": "#一、-用生活比喻理解",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "二、 微前端的核心构成",
+        "slug": "二、-微前端的核心构成",
+        "link": "#二、-微前端的核心构成",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "三、 关键技术实现方式",
+        "slug": "三、-关键技术实现方式",
+        "link": "#三、-关键技术实现方式",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "四、 典型应用场景",
+        "slug": "四、-典型应用场景",
+        "link": "#四、-典型应用场景",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "五、 与传统开发的对比",
+        "slug": "五、-与传统开发的对比",
+        "link": "#五、-与传统开发的对比",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "六、 必须注意的挑战",
+        "slug": "六、-必须注意的挑战",
+        "link": "#六、-必须注意的挑战",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "七、 一句话总结",
+        "slug": "七、-一句话总结",
+        "link": "#七、-一句话总结",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "八、 作用",
+        "slug": "八、-作用",
+        "link": "#八、-作用",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "一、 核心价值：解决大型项目痛点",
+        "slug": "一、-核心价值-解决大型项目痛点",
+        "link": "#一、-核心价值-解决大型项目痛点",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "二、 技术实现优势",
+        "slug": "二、-技术实现优势",
+        "link": "#二、-技术实现优势",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "三、 隐藏价值：组织效能提升",
+        "slug": "三、-隐藏价值-组织效能提升",
+        "link": "#三、-隐藏价值-组织效能提升",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "⚠️ 注意：不是银弹！",
+        "slug": "⚠️-注意-不是银弹",
+        "link": "#⚠️-注意-不是银弹",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "适用场景：✅ 100+页面的企业级应用✅ 5+团队协作项目✅ 需兼容多技术栈（如收购系统整合）规避场景：❌ 小型项目（反而增加复杂度）❌ 缺乏标准化基建（需统一监控/部署/设计系统）",
+        "slug": "适用场景-✅-100-页面的企业级应用✅-5-团队协作项目✅-需兼容多技术栈-如收购系统整合-规避场景-❌-小型项目-反而增加复杂度-❌-缺乏标准化基建-需统一监控-部署-设计系统",
+        "link": "#适用场景-✅-100-页面的企业级应用✅-5-团队协作项目✅-需兼容多技术栈-如收购系统整合-规避场景-❌-小型项目-反而增加复杂度-❌-缺乏标准化基建-需统一监控-部署-设计系统",
+        "children": [
+          {
+            "level": 3,
+            "title": "技术方案对比（主流实现）",
+            "slug": "技术方案对比-主流实现",
+            "link": "#技术方案对比-主流实现",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/code/microfront/%E5%BE%AE%E5%89%8D%E7%AB%AF.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2965,120 +3079,6 @@ export const SEARCH_INDEX = [
     "title": "TypeScript 介绍",
     "headers": [],
     "path": "/code/JavaScript-TypeScript/ts_js.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Micro front-end",
-    "headers": [],
-    "path": "/code/microfront/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "microfront",
-    "headers": [
-      {
-        "level": 3,
-        "title": "一、 用生活比喻理解",
-        "slug": "一、-用生活比喻理解",
-        "link": "#一、-用生活比喻理解",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "二、 微前端的核心构成",
-        "slug": "二、-微前端的核心构成",
-        "link": "#二、-微前端的核心构成",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "三、 关键技术实现方式",
-        "slug": "三、-关键技术实现方式",
-        "link": "#三、-关键技术实现方式",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "四、 典型应用场景",
-        "slug": "四、-典型应用场景",
-        "link": "#四、-典型应用场景",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "五、 与传统开发的对比",
-        "slug": "五、-与传统开发的对比",
-        "link": "#五、-与传统开发的对比",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "六、 必须注意的挑战",
-        "slug": "六、-必须注意的挑战",
-        "link": "#六、-必须注意的挑战",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "七、 一句话总结",
-        "slug": "七、-一句话总结",
-        "link": "#七、-一句话总结",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "八、 作用",
-        "slug": "八、-作用",
-        "link": "#八、-作用",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "一、 核心价值：解决大型项目痛点",
-        "slug": "一、-核心价值-解决大型项目痛点",
-        "link": "#一、-核心价值-解决大型项目痛点",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "二、 技术实现优势",
-        "slug": "二、-技术实现优势",
-        "link": "#二、-技术实现优势",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "三、 隐藏价值：组织效能提升",
-        "slug": "三、-隐藏价值-组织效能提升",
-        "link": "#三、-隐藏价值-组织效能提升",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "⚠️ 注意：不是银弹！",
-        "slug": "⚠️-注意-不是银弹",
-        "link": "#⚠️-注意-不是银弹",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "适用场景：✅ 100+页面的企业级应用✅ 5+团队协作项目✅ 需兼容多技术栈（如收购系统整合）规避场景：❌ 小型项目（反而增加复杂度）❌ 缺乏标准化基建（需统一监控/部署/设计系统）",
-        "slug": "适用场景-✅-100-页面的企业级应用✅-5-团队协作项目✅-需兼容多技术栈-如收购系统整合-规避场景-❌-小型项目-反而增加复杂度-❌-缺乏标准化基建-需统一监控-部署-设计系统",
-        "link": "#适用场景-✅-100-页面的企业级应用✅-5-团队协作项目✅-需兼容多技术栈-如收购系统整合-规避场景-❌-小型项目-反而增加复杂度-❌-缺乏标准化基建-需统一监控-部署-设计系统",
-        "children": [
-          {
-            "level": 3,
-            "title": "技术方案对比（主流实现）",
-            "slug": "技术方案对比-主流实现",
-            "link": "#技术方案对比-主流实现",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/code/microfront/%E5%BE%AE%E5%89%8D%E7%AB%AF.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -4276,6 +4276,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "代码笔记 分类",
+    "headers": [],
+    "path": "/category/%E4%BB%A3%E7%A0%81%E7%AC%94%E8%AE%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "知识点 分类",
     "headers": [],
     "path": "/category/%E7%9F%A5%E8%AF%86%E7%82%B9/",
@@ -4290,9 +4297,16 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "代码笔记 分类",
+    "title": "使用指南 分类",
     "headers": [],
-    "path": "/category/%E4%BB%A3%E7%A0%81%E7%AC%94%E8%AE%B0/",
+    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "指南 分类",
+    "headers": [],
+    "path": "/category/%E6%8C%87%E5%8D%97/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -4307,20 +4321,6 @@ export const SEARCH_INDEX = [
     "title": "reveal随笔 分类",
     "headers": [],
     "path": "/category/reveal%E9%9A%8F%E7%AC%94/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "使用指南 分类",
-    "headers": [],
-    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "指南 分类",
-    "headers": [],
-    "path": "/category/%E6%8C%87%E5%8D%97/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -4360,20 +4360,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "容器技术 分类",
-    "headers": [],
-    "path": "/category/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "前端相关 分类",
-    "headers": [],
-    "path": "/category/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Mapbox 分类",
     "headers": [],
     "path": "/category/mapbox/",
@@ -4395,6 +4381,27 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "容器技术 分类",
+    "headers": [],
+    "path": "/category/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "前端相关 分类",
+    "headers": [],
+    "path": "/category/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "microfront 分类",
+    "headers": [],
+    "path": "/category/microfront/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "前端技术 分类",
     "headers": [],
     "path": "/category/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/",
@@ -4405,13 +4412,6 @@ export const SEARCH_INDEX = [
     "title": "JavaScript与TypeScript 分类",
     "headers": [],
     "path": "/category/javascript%E4%B8%8Etypescript/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "microfront 分类",
-    "headers": [],
-    "path": "/category/microfront/",
     "pathLocale": "/",
     "extraFields": []
   },

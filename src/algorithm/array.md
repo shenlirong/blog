@@ -34,7 +34,33 @@ fruits.unshift('orange'); // ['orange', 'apple']
 ```javascript
 fruits.shift(); // 返回 'orange'，数组变为 ['apple']
 ```
----
+
+#### 数组扁平化
+```javascript
+let list=[1,2,[3,4],5,[8,9]]
+//对于二位数组可以直接用扩展运算符....,加concat
+[].concat(...list)
+//对于更深度,利用flat扁平化
+list.flat(Infinity)
+//使用reduce，加concat
+const flatWithReduce=(arr)=>{
+  return arr.reduce((cur,next)=>{
+    return cur.concat(Array.isArray(next)?flatWithReduce(next):next)
+  },[])
+}
+```
+
+#### 排序
+```javascript
+   let list = line.split(' ').reduce((cur, next) => {
+    let indexSort = 0;
+    while (indexSort < cur.length && cur[indexSort] < next) {
+        indexSort++
+    }
+    cur.splice(indexSort, 0, next)
+    return cur
+}, [])
+```
 
 ### 2. 截取与拼接
 #### slice() - 截取子数组（不改变原数组）
@@ -100,6 +126,24 @@ nums.splice(1, 1, 'a', 'b'); // 从索引1删除1个元素，插入'a','b'
 - 使用 find 替代 indexOf 处理对象数组
 - 优先用 includes 检查存在性（支持 NaN）
 > 示例支持 ES6+ 语法，现代浏览器均可运行。根据需求选择方法，避免不必要的副作用！
+
+Math.floor() 是 JavaScript 中的一个标准数学函数，用于对数字进行向下取整。它的作用是返回一个小于或等于给定数值的最大整数。
+为了更直观地理解它与其他取整方法的区别，请看下表：
+|方法|功能描述|示例 (输入 4.7)|示例 (输入 -4.7)|
+|--|---|--|--|
+|Math.floor()|向下取整|返回 4|返回 -5|
+|Math.ceil()|向上取整|返回 5|返回 -4|
+|Math.round()|四舍五入|返回 5|返回 -5|
+|parseInt()|解析字符串，返回整数|返回 4|返回 -4|
+
+🧮 简单示例
+```javascript
+console.log(Math.floor(4.7));   // 输出：4
+console.log(Math.floor(8.1));   // 输出：8
+console.log(Math.floor(5));      // 输出：5 (整数输入返回原值)
+console.log(Math.floor(-3.2));  // 输出：-4 (向下取整到更小的整数)
+console.log(Math.floor(-0.9));  // 输出：-1
+```
 
 
 ## 数组遍历的方法
@@ -270,7 +314,7 @@ for (let i = 0; i < arr.length; i++) {
 
 - 只需要遍历而不需要新数组：forEach 或 for...of
 
-<test></test>
+
 ## 数组排序
 - reverse()数组倒序(反转)
 - sort()
