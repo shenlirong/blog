@@ -109,7 +109,7 @@ export default hopeTheme({
     tasklist: true,
     vPre: true,
     highlighter: {
-      // collapsedLines: true,
+      collapsedLines: true,
       type: 'shiki'
     },
     // math: {
