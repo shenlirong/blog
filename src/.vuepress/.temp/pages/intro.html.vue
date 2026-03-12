@@ -9,7 +9,10 @@
 5.所有命运馈赠的&quot;舒适&quot;，早在筹码堆里标好了售价。<br>
 6.提升自己比仰望别人更有意义。<br>
 7.生活从来不会因为你不接受就变好，我们唯一能做的，就是把碎掉的日子一片片捡起来，用体温焐干了，重新拼成像样的生活。<br>
-8.不断出错、不断遇到挫折，这是生活常态。</p>
+8.不断出错、不断遇到挫折，这是生活常态。<br>
+9.自律才是高级的快乐。<br>
+10.佛教智慧提醒：​执着于爱情如执取水中月影，看似真实却终不可得。<br>
+11.能用愚蠢的方式解决，就不要用恶意。</p>
 </div>
 <figure><img src="@source/intro.jpg" alt="" width="500" height="500" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <div class="hint-container tip">

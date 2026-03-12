@@ -8,14 +8,14 @@ export default hopeTheme({
   lastUpdated: false,
   contributors: false,
   editLink: false,
-  hostname: "https://shenlirong.github.io/test/",
+  hostname: "https://shenlirong.github.io/blog/",
 
   author: {
     name: "reveal",
-    url: "https://shenlirong.github.io/test/",
+    url: "https://shenlirong.github.io/blog/",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/image_logo.png",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
   pageInfo: ['ReadingTime', 'Category', 'Tag'],
@@ -41,7 +41,7 @@ export default hopeTheme({
   displayFooter: false,
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "软件工程师",
     intro: "/intro.html",
     medias: {
       Baidu: "https://www.baidu.com",
@@ -49,10 +49,10 @@ export default hopeTheme({
       Gitee: "https://gitee.com",
       GitHub: "https://github.com",
       Zhihu: "https://zhihu.com",
-      VuePressThemeHope: {
-        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-        link: "https://theme-hope.vuejs.press",
-      },
+      // VuePressThemeHope: {
+      //   icon: "https://theme-hope-assets.vuejs.press/logo.svg",
+      //   link: "https://theme-hope.vuejs.press",
+      // },
     },
     articleInfo: ['Author', 'ReadingTime', 'Category', 'Tag']
   },

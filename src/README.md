@@ -5,7 +5,7 @@ icon: house
 title: 主页
 # heroText: 我的项目
 # tagline: 一个强大的项目
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: ''
 # heroImageStyle:
 #   width: 100px
 #   height: 100px
@@ -15,7 +15,7 @@ tagline: 人生没有白走的路，每一步都算数
 projects:
   - icon: folder-open
     name: 运营平台
-    desc: 跟着课程练习，完成后台管理系统
+    desc: 后台管理系统
     link: http://124.221.38.6/acl/permission
 
   - icon: link
@@ -35,7 +35,7 @@ projects:
 
   - icon: link
     name: 牛客网
-    desc: 求职题库
+    desc: 牛客网
     link: https://www.nowcoder.com/?type=856_1
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg

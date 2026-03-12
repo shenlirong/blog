@@ -5,7 +5,7 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   base: "/blog/",
-
+  
   lang: "zh-CN",
   title: "reveal",
   description: "vuepress-theme-hope 的博客演示",
