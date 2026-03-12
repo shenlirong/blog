@@ -1217,6 +1217,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "代码笔记",
+    "headers": [],
+    "path": "/code/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "布局与功能禁用",
     "headers": [],
     "path": "/demo/disable.html",
@@ -1321,13 +1328,6 @@ export const SEARCH_INDEX = [
     "title": "主要功能与配置演示",
     "headers": [],
     "path": "/demo/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "代码笔记",
-    "headers": [],
-    "path": "/code/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -4290,6 +4290,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "代码笔记 分类",
+    "headers": [],
+    "path": "/category/%E4%BB%A3%E7%A0%81%E7%AC%94%E8%AE%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "使用指南 分类",
     "headers": [],
     "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
@@ -4300,13 +4307,6 @@ export const SEARCH_INDEX = [
     "title": "指南 分类",
     "headers": [],
     "path": "/category/%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "代码笔记 分类",
-    "headers": [],
-    "path": "/category/%E4%BB%A3%E7%A0%81%E7%AC%94%E8%AE%B0/",
     "pathLocale": "/",
     "extraFields": []
   },
