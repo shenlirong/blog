@@ -5,6 +5,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
+  fullscreen: true,
   lastUpdated: false,
   contributors: false,
   editLink: false,

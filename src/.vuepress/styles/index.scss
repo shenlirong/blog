@@ -59,17 +59,17 @@
 
 }
 
-.vp-page-title {
-    h1 {
-        color: #2f845d;
-    }
-}
+// .vp-page-title {
+//     h1 {
+//         color: #2f845d;
+//     }
+// }
 
 //h3标题字体加粗
 .vp-catalog-item {
     h3 {
         a {
-            color: #2f845d;
+            color: var(--vp-c-accent);
             font-weight: bold;
         }
 
@@ -78,7 +78,7 @@
 
 //navar下拉
 .vp-dropdown-subtitle {
-    color: #2f845d !important;
+    color: var(--vp-c-accent) !important;
 }
 
 .vp-dropdown-wrapper .auto-link {

@@ -1,0 +1,30 @@
+# --- VuePress 特定忽略 ---
+# 忽略构建缓存（这就是导致你报错的元凶）
+src/.vuepress/.cache
+.vuepress/.cache
+.cache
+
+# 忽略构建输出目录（通常不需要提交）
+src/.vuepress/dist
+.vuepress/dist
+dist
+
+# --- 通用前端/Node.js 忽略 ---
+# 依赖包（体积巨大，绝对不要提交）
+node_modules
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
