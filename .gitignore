@@ -4,6 +4,10 @@ src/.vuepress/.cache
 .vuepress/.cache
 .cache
 
+# 忽略整个 .temp 目录
+.vuepress/.temp
+src/.vuepress/.temp
+
 # 忽略构建输出目录（通常不需要提交）
 src/.vuepress/dist
 .vuepress/dist
