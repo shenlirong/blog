@@ -6,7 +6,7 @@ export default navbar([
   "/code/",
   "/essay/",
   {
-    text: "工具",
+    text: "工具收藏",
     icon: "toolbox",
     children: [
       {
@@ -14,17 +14,6 @@ export default navbar([
         icon: "screwdriver-wrench",
         link: 'https://tool.oschina.net/encode?type=4'
       },
-      // {
-      //   text: 'HTTP状态查询',
-      //   icon: "bars-progress",
-      //   link: 'https://tool.chinaz.com/pagestatus/'
-      // },
-      // {
-      //   text: 'Fetch API',
-      //   icon: "file-lines",
-      //   link: 'https://www.w3cschool.cn/fetch_api/fetch_api-s1a72m0k.html'
-      // },
-
       {
         text: 'Regex在线生成工具',
         icon: "screwdriver-wrench",
@@ -35,11 +24,6 @@ export default navbar([
         icon: "image",
         link: 'https://www.iloveimg.com/crop-image'
       },
-      // {
-      //   text: '在线编码转换',
-      //   icon: "screwdriver-wrench",
-      //   link: 'https://tool.oschina.net/encode?type=4'
-      // },
     ]
   },
   {

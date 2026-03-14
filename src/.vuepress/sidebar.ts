@@ -132,6 +132,7 @@ export default sidebar({
     //   children: "structure",
     // },
     "intro",
+    "comments",
     // {
     //   text: "幻灯片",
     //   icon: "person-chalkboard",

@@ -9,6 +9,7 @@ export default hopeTheme({
   lastUpdated: false,
   contributors: false,
   editLink: false,
+  darkmode: "toggle",
   hostname: "https://shenlirong.github.io/blog/",
 
   author: {
