@@ -123,19 +123,19 @@ export default sidebar({
       // link: "essay/",
       children: "structure",
     },
-    {
-      text: "如何使用",
-      icon: "laptop-code",
-      collapsible: true,
-      prefix: "demo/",
-      // link: "demo/",
-      children: "structure",
-    },
+    // {
+    //   text: "如何使用",
+    //   icon: "laptop-code",
+    //   collapsible: true,
+    //   prefix: "demo/",
+    //   // link: "demo/",
+    //   children: "structure",
+    // },
     "intro",
-    {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
-    },
+    // {
+    //   text: "幻灯片",
+    //   icon: "person-chalkboard",
+    //   link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
+    // },
   ]
 });
